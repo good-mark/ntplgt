@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<document reference="105.txt">
+	<feature name="plagiarism" obfuscation="ADD" source_language="ru" source_length="45" source_offset="2120" source_reference="4850569.txt" this_language="ru" this_length="53" this_offset="4635" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="DEL" source_language="ru" source_length="122" source_offset="2166" source_reference="4850569.txt" this_language="ru" this_length="99" this_offset="4800" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="SSP" source_language="ru" source_length="140" source_offset="2289" source_reference="4850569.txt" this_language="ru" this_length="144" this_offset="4900" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="DEL" source_language="ru" source_length="90" source_offset="2431" source_reference="4850569.txt" this_language="ru" this_length="79" this_offset="5045" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="SSP" source_language="ru" source_length="176" source_offset="2522" source_reference="4850569.txt" this_language="ru" this_length="179" this_offset="5125" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="DEL" source_language="ru" source_length="98" source_offset="2699" source_reference="4850569.txt" this_language="ru" this_length="79" this_offset="5305" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="LPR" source_language="ru" source_length="35" source_offset="3221" source_reference="4850569.txt" this_language="ru" this_length="84" this_offset="5741" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="LPR" source_language="ru" source_length="51" source_offset="3257" source_reference="4850569.txt" this_language="ru" this_length="84" this_offset="5741" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="DEL" source_language="ru" source_length="94" source_offset="3309" source_reference="4850569.txt" this_language="ru" this_length="78" this_offset="5958" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="SSP" source_language="ru" source_length="145" source_offset="3405" source_reference="4850569.txt" this_language="ru" this_length="155" this_offset="6037" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="SSP" source_language="ru" source_length="142" source_offset="3693" source_reference="4850569.txt" this_language="ru" this_length="152" this_offset="7182" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="CPY" source_language="ru" source_length="81" source_offset="3836" source_reference="4850569.txt" this_language="ru" this_length="81" this_offset="7335" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="DEL" source_language="ru" source_length="99" source_offset="4417" source_reference="4850569.txt" this_language="ru" this_length="70" this_offset="8395" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="DEL" source_language="ru" source_length="92" source_offset="4517" source_reference="4850569.txt" this_language="ru" this_length="81" this_offset="8466" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="CPY" source_language="ru" source_length="137" source_offset="6669" source_reference="4850569.txt" this_language="ru" this_length="138" this_offset="8947" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="DEL" source_language="ru" source_length="123" source_offset="6807" source_reference="4850569.txt" this_language="ru" this_length="98" this_offset="9179" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="SSP" source_language="ru" source_length="105" source_offset="7251" source_reference="4850569.txt" this_language="ru" this_length="108" this_offset="9436" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="ADD" source_language="ru" source_length="57" source_offset="8279" source_reference="4850569.txt" this_language="ru" this_length="70" this_offset="9545" txt_extraction_err="0" type="manual"/>
+</document>

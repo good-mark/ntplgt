@@ -1,0 +1,191 @@
+
+
+	 III. READING. Part 1
+	 
+
+ 
+×èòàéòå òàêæå:Ñèíõðîíèçàöèÿ ñ èñïîëüçîâàíèåì òèïà System.Threading.Interlocked
+
+
+
+
+
+
+I. WARM UP
+					React to the following statements (discuss in your group). 
+ Interesting facts about America:
+ a) One in every 4 Americans has appeared on television.
+ b) In Los Angeles, there are fewer people than there are automobiles.
+ c) 52% of Americans drink coffee.
+ d) A Californian doctor has set the record of eating 17 bananas in two minutes.
+ e) Approximately 35 million Americans are linked by blood to one (or more) of the 102 pilgrims who came to America on the Mayflower in 1620.
+ f) Alaska is the state with the highest percentage of people who walk to work. 
+ 
+					II. BEFORE YOU READ
+					A. Practice your pronunciation:
+ Genoese [ˌʤenəu'iːz]
+ Atlantic [ət'læntɪk]
+ Pacific [pə'sɪfɪk]
+ Canada ['kænədə]
+ Alaska [æ'læskə]
+ Chicago [ʃɪ'kɑːgəu]
+ New York ['njuː'jɔːk]
+ Los Angeles [lɔs'ænʤɪliːz]
+ Houston ['huːst(ə)n]
+ Christopher Columbus ['krɪstəfə kə'lʌmbəs]
+ Vespucci [ves'pu:tʃɪ]
+ the Mississippi [ˌmɪsɪ'sɪpɪ]
+ Spanish ['spænɪʃ]
+ legislative ['leʤɪslətɪv]
+ judicial [ʤuː'dɪʃ(ə)l]
+ Senate ['senɪt]
+ executive [ɪg'zekjutɪv]
+ the Gulf of Mexico ['gʌlfəv'meksɪkəu]
+ the Bering Strait ['bering streɪt]
+ Piedmont ['piːdmənt]
+ Juan Ponce de León ['hwɑːn'pɔns də 'liən]
+ parochial [pə'rəukɪəl]
+ soccer ['sɔkə]
+ B.Match the following English words and phrases with their Russian equivalents:
+  1. nuclear weapons
+ 2. ethnically diverse
+ 3. Western Hemisphere
+ 4. Genoese explorer
+ 5. indigenous people
+ 6. to overturn law
+ 7. to enforce law
+ 8. mammal
+ 9. deciduous forest
+ 10. constitutional amendment
+ 11. parochial school
+ 12. denomination
+ 13. international rankings
+ 14. to homeschool
+ 15. life expectancy
+ 16. to commute
+ 17. well-developed
+ 18. abundant
+   a) ãåíóýçñêèé èññëåäîâàòåëü
+ b) ïðèõîäñêàÿ øêîëà
+ c) âûñîêîðàçâèòûé
+ d) âñåìèðíûå ðåéòèíãè
+ e) âåðîèñïîâåäàíèå
+ f) êîðåííîå íàñåëåíèå
+ g) ÿäåðíîå îðóæèå
+ h) ëèñòâåííûé ëåñ
+ i) óïðàçäíèòü çàêîí
+ j) ìëåêîïèòàþùåå
+ k) áîãàòûé, èçîáèëóþùèé
+ l) ïîëó÷àòü äîìàøíåå îáðàçîâàíèå
+ m) ñðåäíÿÿ ïðîäîëæèòåëüíîñòü æèçíè
+ n) ïîïðàâêà ê êîíñòèòóöèè
+ o) ñëåäèòü çà ñîáëþäåíèåì çàêîíà
+ p) çàïàäíîå ïîëóøàðèå
+ q) ìíîãîíàöèîíàëüíûé
+ r) åçäèòü íà ðàáîòó â ãîðîä
+  C. Look at the table. Compare two educational systems.
+	
+  Great Britain
+   The USA
+   form
+   school
+   age
+   grade
+   school
+   age
+    
+   pre-school
+   nursery school; kindergarten
+   3-4
+    
+   pre-school
+   nursery school; day-care-center
+   3-5
+   
+ 2-6
+   primary school
+   infant school
+ junior school
+   5-6
+ 7-11
+   1-6
+   elementary school
+   public/private
+   6-11
+   5-11
+   secondary school
+   Comprehensive – state;
+ Grammar and Modern – public
+   12-16
+   7-12
+   high school
+   junior high school
+   12-14
+   senior high school
+   15-17
+    
+   higher school
+   University; college
+   17-22
+   freshman
+ sophomore
+ junior
+ senior
+   university
+   technical school
+ vocational school
+ college
+   18-20
+  
+ 18-22
+  
+ 18-24
+  III. READING. Part 1
+							Read the text and make sure you know the translation of the highlighted words and phrases.
+ The USA.History and government
+ 1. The United States of America (commonly called the United States, the U.S., the USA, America, and the States) is a federal constitutional republic comprisingfifty states and a federal district. The country is situated mostly in central North America, where its forty-eight contiguous states and Washington, D.C., the capital district, lie between the Pacific and Atlantic Oceans, bordered by Canada to the north and Mexico to the south. The state of Alaska is in the northwest of the continent, with Canada to the east and Russia to the west across the Bering Strait. The state of Hawaii is an archipelago in the mid-Pacific. The country also possesses several territories in the Pacific and Caribbean.
+ 2. At 3.79 million square miles (9.83 million km2) and with over 309 million people (including an estimated11.2 million illegal immigrants) the United States is the world's third or fourth largest nation by total area (land and water) and four global cities had populations over 2 million (New York City, Los Angeles, Chicago, and Houston), rankingbehind Russia and Canada and just above or below China. It is, by far, one of the world's most ethnically diverse (White – 63.7%, Black/African American - 12.3%, Hispanic/Latino (of any race) – 16.4%, Asian – 4.7%, other – 2.9%) and multicultural nations, the product of large-scale immigration from many countries. The largest cities are New York, Los Angeles and Chicago.çàãðóçêà...
+3. In 1492, Genoese explorerChristopher Columbus, under contract to the Spanish crown, reached several Caribbean islands, making first contact with the indigenouspeople. On April 2, 1513, Spanish conquistador Juan Ponce de León landed on what he called "La Florida"—the first documented European arrival on what would become the U.S. mainland. In 1507, German cartographer Martin Waldseemüller produced a world map on which he named the lands of the Western Hemisphere "America" after Italian explorer and cartographer Amerigo Vespucci.
+ 4. Indigenous peoples descended from forebears who migrated from Asia have inhabited what is now the mainland United States for many thousands of years. This Native American population was greatly reduced by disease and warfare after European contact. The United States was founded by thirteen British colonies located along the Atlantic seaboard. On July 4, 1776, they issued the Declaration of Independence, which proclaimed their right to self-determination and their establishment of a cooperative union. The rebellious states defeated the British Empire in the American Revolution, the first successful colonial war of independence. The current United States Constitution was adopted on September 17, 1787; its ratification the following year made the states part of a single republic with a stronger central government. The Bill of Rights, comprising ten constitutional amendments guaranteeing many fundamental civil rights and freedoms, was ratified in 1791.
+ 5. The Spanish–American War and World War I confirmedthe country's status as a military power. It emergedfrom World War II as the first country with nuclear weapons and a permanentmember of the United Nations Security Council. The end of the Cold War and the dissolution of the Soviet Union left the United States as the sole superpower. The country accounts for 41% of global military spending, and is a leading economic, political, and cultural force in the world.
+ 6. The coastal plain of the Atlantic seaboard gives way further inland to deciduous forests and the rolling hills of the Piedmont. The United States, with its large size and geographic variety, includes most climate types. To the east of the 100th meridian, the climate ranges from humid continental in the north to humid subtropical in the south. Most of Alaska is subarctic or polar. Extreme weather is not uncommon—the states bordering the Gulf of Mexico are prone to hurricanes, and most of the world's tornadoes occur within the country, mainly in the Midwest's Tornado Alley. The greatest rivers of the USA are the Colorado and the Columbia flowing into the Pacific Ocean, the Mississippi with its tributaries the Missouri and the Ohio flowing into the Gulf of Mexico, and the St. Lawrence river and the Hudson river, which flow into the Atlantic Ocean.
+ 7. The United States is home to more than 400 mammal, 750 bird, and 500 reptile and amphibian species. About 91,000 insect species have been described. There are fifty-eight national parks and hundreds of other federally managed parks, forests, and wilderness areas.
+ 8. The United States is a federal union of fifty states. The states do not have the right to secede from the union. The federal government is composed of three branches:
+ · Legislative: The bicameral Congress, made up of the Senate and the House of Representatives, makes federal law, declares war, approves treaties, has the power of the purse, and has the power of impeachment, by which it can remove sitting members of the government. The House of Representatives has 435 voting members, each representing a congressional district for a two-year term. The Senate has 100 members with each state having two senators, elected at-large to six-year terms.
+ · Executive: The president is the commander-in-chief of the military, can veto legislative bills before they become law, and appoints the members of the Cabinet (subject to Senate approval) and other officers, who administer and enforce federal laws and policies. The president serves a four-year term and may be elected to the office no more than twice. Home and workplace of the U.S. president is the White House. The winner of the 2008 presidential election, Democrat Barack Obama, is the 44th U.S. president.
+ · Judicial: The Supreme Court and lower federal courts, whose judges are appointed by the president with Senate approval, interpret laws and overturn those they find unconstitutional. The Supreme Court, led by the Chief Justice of the United States, has nine members, who serve for life.
+ 9. The United States has operated under a two-party system for most of its history. Since the general election of 1856, the major parties have been the Democratic Party, founded in 1824, and the Republican Party, founded in 1854.
+ 10. Within American political culture, the Republican Party is considered center-right or conservative and the Democratic Party is considered center-left or liberal.
+ 11. The United States exercises global economic, political, and military influence. It is a permanent member of the United Nations Security Council and New York City hosts the United Nations Headquarters
+  
+ ÑØÀ. Èñòîðèÿ è ïðàâèòåëüñòâî
+ 1. Ñîåäèíåííûå Øòàòû Àìåðèêè (êàê ïðàâèëî, ïîä íàçâàíèåì Ñîåäèíåííûå Øòàòû Àìåðèêè, ÑØ, ÑØÀ, Àìåðèêà è øòàòû) ÿâëÿåòñÿ ôåäåðàëüíîé êîíñòèòóöèîííîé ðåñïóáëèêîé, ñîäåðæàùåé ïÿòüäåñÿò øòàòîâ è ôåäåðàëüíûõ îêðóãîâ. Ñòðàíà ðàñïîëîæåíà â îñíîâíîì â öåíòðàëüíîé-Ñåâåðíîé Àìåðèêå, ãäå åå ñîðîê âîñåìü ñìåæíûõ øòàòîâ è ​​â Âàøèíãòîíå, îêðóã Êîëóìáèÿ, ñòîëèöà ðàéîíà, ëåæàò ìåæäó Òèõîãî è Àòëàíòè÷åñêîãî îêåàíîâ, ãðàíè÷èò ñ Êàíàäîé íà ñåâåðå è Ìåêñèêîé íà þãå. Øòàò Àëÿñêà íàõîäèòñÿ â ñåâåðî-çàïàäíîé ÷àñòè êîíòèíåíòà, ñ Êàíàäîé íà âîñòîêå Ðîññèè è íà çàïàä ÷åðåç Áåðèíãîâ ïðîëèâ. Øòàò Ãàâàéè ïðåäñòàâëÿåò ñîáîé àðõèïåëàã â ñåðåäèíå Òèõîãî îêåàíà. Ñòðàíà òàêæå îáëàäàåò íåñêîëüêèìè òåððèòîðèÿìè â Òèõîì îêåàíå è Êàðèáñêîì ìîðå.
+ 2. Â 3790000 êâàäðàòíûõ ìèëü (9830000 êì2) è ñ áîëåå ÷åì 309 ìèëëèîíîâ ÷åëîâåê (â òîì ÷èñëå ïî îöåíêàì 11200000 íåëåãàëüíûõ èììèãðàíòîâ) Ñîåäèíåííûå Øòàòû ÿâëÿåòñÿ òðåòüåé èëè ÷åòâåðòîé ïî âåëè÷èíå ñòðàíîé â ìèðå ïî ïëîùàäè (çåìëÿ è âîäà) è ÷åòûðå êðóïíûõ ãîðîäîâ ñ íàñåëåíèåì áîëåå 2000000 (Íüþ-Éîðê, Ëîñ-Àíäæåëåñ, ×èêàãî, Õüþñòîí), ñòîÿò ïåðåä Ðîññèåé è Êàíàäîé è ÷óòü âûøå èëè íèæå Êèòàÿ. Àìåðèêà, áåçóñëîâíî, íàèáîëåå ýòíè÷åñêè ðàçíîîáðàçíà â ìèðå (áåëûõ - 63,7%, ÷åðíûõ / àôðîàìåðèêàíåö - 12,3%, Èñïàíöåâ / âûõîäöåâ èç Ëàòèíñêîé Àìåðèêè (ëþáîé ãîíêè) - 16,4%, Àçèè - 4,7%, äðóãèå - 2,9%) è ìíîãîíàöèîíàëüíûõ ñòðàí, ïðîäóêò êðóïíîìàñøòàáíîé èììèãðàöèè èç ìíîãèõ ñòðàí. Íàèáîëåå êðóïíûå ãîðîäà Íüþ-Éîðê, Ëîñ-Àíäæåëåñ è ×èêàãî.
+ 3. Â 1492 ãîäó ãåíóýçöû èññëåäîâàòåëü Õðèñòîôîð Êîëóìá, ïî êîíòðàêòó ñ èñïàíñêèì êîðîëåì, äîñòèã íåñêîëüêèõ îñòðîâîâ Êàðèáñêîãî áàññåéíà, äåëàÿ ïåðâûé êîíòàêò ñ êîðåííûìè æèòåëÿìè. 2 àïðåëÿ 1513 èñïàíñêèé êîíêèñòàäîð Õóàí Ïîíñå äå Ëåîí âûñàäèëñÿ íà òî, ÷òî îí íàçâàë "La Florida" -Ïåðâûé äîêóìåíòåðîâàííîå åâðîïåéñêîå ïðèáûòèå íà òî, ÷òî ñòàíåò êîíòèíåíòàëüíîé ÷àñòüþ ÑØÀ. Â 1507 ãîäó, íåìåöêèé êàðòîãðàô Ìàðòèí Waldseemüller ïðîèçâîäèò êàðòó ìèðà, íà êîòîðîé îí íàçâàë çåìëè Çàïàäíîãî ïîëóøàðèÿ "Àìåðèêà" â ÷åñòü èòàëüÿíñêîãî ìîðåïëàâàòåëÿ è êàðòîãðàôà Àìåðèãî Âåñïó÷÷è.
+ 4. Êîðåííûå íàðîäû ïðîèçîøëè îò ïðåäêîâ, êîòîðûå ìèãðèðîâàëè èç Àçèè, îíè íàñåëÿëè òî, ÷òî ñåé÷àñ êîíòèíåíòàëüíîé ÷àñòüþ Ñîåäèíåííûõ Øòàòîâ â òå÷åíèå ìíîãèõ òûñÿ÷ ëåò. Ýòî êîðåííîãî àìåðèêàíñêîãî íàñåëåíèÿ áûëî çíà÷èòåëüíî ñîêðàùåíî îò áîëåçíåé è âîéíû ïîñëå êîíòàêòà ñ åâðîïåéöàìè. Ñîåäèíåííûå Øòàòû áûëè îñíîâàíû íà òðèíàäöàòè áðèòàíñêèõ êîëîíèé, ðàñïîëîæåííûõ âäîëü ïîáåðåæüÿ Àòëàíòè÷åñêîãî îêåàíà. 4 èþëÿ 1776 ãîäà îíè âûïóñòèëè äåêëàðàöèþ î íåçàâèñèìîñòè, ïðîâîçãëàñèâøèå ñâîå ïðàâî íà ñàìîîïðåäåëåíèå è èõ ñîçäàíèå êîîïåðàòèâíîãî ñîþçà. Ìÿòåæíûå ãîñóäàðñòâà ïîáåäèë Áðèòàíñêóþ èìïåðèþ â Àìåðèêàíñêîé ðåâîëþöèè, ïåðâàÿ óñïåøíàÿ êîëîíèàëüíàÿ âîéíà çà íåçàâèñèìîñòü. Êîíñòèòóöèÿ ÑØÀ ïî òåêóùåìó áûë ïðèíÿò 17 ñåíòÿáðÿ 1787; åå ðàòèôèêàöèÿ â ñëåäóþùåì ãîäó ñîâåðøèë ãîñóäàðñòâ ÷àñòüþ åäèíîé ðåñïóáëèêè ñ ñèëüíîé öåíòðàëüíîé âëàñòüþ. Áèëëü î ïðàâàõ, âêëþ÷àþùèé äåñÿòü ïîïðàâîê ê êîíñòèòóöèè ãàðàíòèðóåò ìíîãèå ôóíäàìåíòàëüíûå ãðàæäàíñêèå ïðàâà è ñâîáîäû, áûëà ðàòèôèöèðîâàíà â 1791.
+ 5. Èñïàíî-àìåðèêàíñêàÿ âîéíà è Ïåðâàÿ ìèðîâàÿ âîéíà ïîäòâåðäèëà ñòàòóñ ñòðàíû â êà÷åñòâå âîåííîé ñèëû. Îíà âûøëà èç Âòîðîé ìèðîâîé âîéíû â êà÷åñòâå ïåðâîé ñòðàíû ñ ÿäåðíûì îðóæèåì è ïîñòîÿííûì ÷ëåíîì Ñîâåòà Áåçîïàñíîñòè Îðãàíèçàöèè Îáúåäèíåííûõ Íàöèé. Îêîí÷àíèå õîëîäíîé âîéíû è ðàñïàä Ñîâåòñêîãî Ñîþçà ïîêèíóë Ñîåäèíåííûå Øòàòû â êà÷åñòâå åäèíñòâåííîé ñâåðõäåðæàâû. Ñòðàíå ïðèõîäèòñÿ 41% ìèðîâûõ âîåííûõ ðàñõîäîâ, è âåäóùèå ýêîíîìè÷åñêèå, ïîëèòè÷åñêèå è êóëüòóðíûå ñèëû â ìèðå.
+ 6. ïðèáðåæíàÿ ðàâíèíà Àòëàíòè÷åñêîãî ïîáåðåæüÿ ñìåíÿåòñÿ âãëóáü, ÷òîáû ëèñòâåííûõ ëåñîâ è õîëìîâ Ïüåìîíòà. Ñîåäèíåííûå Øòàòû ñ èõ áîëüøèìè ðàçìåðàìè è ãåîãðàôè÷åñêîé ðàçíîâèäíîñòè, âêëþ÷àåò â ñåáÿ áîëüøèíñòâî òèïîâ êëèìàòà. Ê âîñòîêó îò 100 ìåðèäèàíà, êëèìàò âàðüèðóåòñÿ îò âëàæíîãî êîíòèíåíòàëüíîãî íà ñåâåðå äî âëàæíîãî ñóáòðîïè÷åñêîãî íà þãå. Áîëüøàÿ ÷àñòü Àëÿñêè ñóáàðêòè÷åñêèé èëè ïîëÿðíûé. Ýêñòðåìàëüíûå ïîãîäíûå óñëîâèÿ íå ðåäêîñòü-ãîñóäàðñòâ, ãðàíè÷àùèõ ñ Ìåêñèêàíñêèì çàëèâîì ñêëîííû ê óðàãàíàì, è áîëüøèíñòâî èç òîðíàäî â ìèðå ïðîèñõîäèò â ñòðàíå, â îñíîâíîì â Ñðåäíåì Çàïàäå Tornado Alley. Íàèáîëüøèå ðåêè ÑØÀ ÿâëÿþòñÿ Êîëîðàäî è Êîëóìáèÿ, âïàäàþùèõ â Òèõèé îêåàí, Ìèññèñèïè ñ ïðèòîêàìè Ìèññóðè è Îãàéî, âïàäàþùèõ â Ìåêñèêàíñêèé çàëèâ, è ðåêó Ñâÿòîãî Ëàâðåíòèÿ è ðåêà Ãóäçîí, êîòîðûå âïàäàþò â Àòëàíòè÷åñêèé îêåàí.
+ 7. Ñîåäèíåííûå Øòàòû ÿâëÿåòñÿ äîìîì äëÿ áîëåå ÷åì 400 ìëåêîïèòàþùèõ, 750 ïòèö è 500 ðåïòèëèé è çåìíîâîäíûõ. Î 91000 âèäîâ íàñåêîìûõ áûëè îïèñàíû. Åñòü ïÿòüäåñÿò âîñåìü íàöèîíàëüíûõ ïàðêîâ è ñîòíè äðóãèõ ôåäåðàëüíî óïðàâëÿåìûõ ïàðêîâ, ëåñîâ è îõðàíÿåìûõ òåððèòîðèé.
+ 8. Ñîåäèíåííûå Øòàòû Ôåäåðàëüíûé ñîþç ïÿòèäåñÿòè ãîñóäàðñòâ. Ãîñóäàðñòâà íå èìåþò ïðàâà âûõîäà èç ñîñòàâà Ñîþçà. Ôåäåðàëüíîå ïðàâèòåëüñòâî ñîñòîèò èç òðåõ âåòâåé:
+ • Çàêîíîäàòåëüíàÿ âëàñòü: äâóõïàëàòíûé Êîíãðåññ, ñîñòîÿùèé èç Ñåíàòà è Ïàëàòû ïðåäñòàâèòåëåé, äåëàåò ôåäåðàëüíûé çàêîí, îáúÿâëÿåò âîéíó, óòâåðæäàåò äîãîâîðû, èìååò âëàñòü êîøåëüêà, è èìååò ïðàâî èìïè÷ìåíòà, â êîòîðîé îíà ìîæåò óäàëèòü ñèäÿùèõ ÷ëåíîâ Ïðàâèòåëüñòâî. Ïàëàòà ïðåäñòàâèòåëåé ñîñòîèò èç 435 ÷ëåíîâ ñ ïðàâîì ãîëîñà, êàæäûé èç êîòîðûõ ïðåäñòàâëÿåò îêðóãà ñðîêîì íà äâà ãîäà. Ñåíàò ñîñòîèò èç 100 ÷ëåíîâ ñ êàæäîãî øòàòà èìååò äâóõ ñåíàòîðîâ, èçáèðàåìûõ íà ñâîáîäå äî øåñòèëåòíèé ñðîê.
+ • Èñïîëíèòåëüíûé: Ïðåçèäåíò ÿâëÿåòñÿ Âåðõîâíûì ãëàâíîêîìàíäóþùèì âîîðóæåííûìè ñèëàìè, ìîæåò íàëîæèòü âåòî íà çàêîíîïðîåêòû, ïðåæäå ÷åì îíè ñòàíîâÿòñÿ çàêîíîì, íàçíà÷àåò ÷ëåíîâ Êàáèíåòà (ïî ñîãëàñîâàíèþ Ñåíàòà) è äðóãèõ äîëæíîñòíûõ ëèö, êîòîðûå àäìèíèñòðèðîâàíèÿ è èñïîëíåíèÿ ôåäåðàëüíûõ çàêîíîâ è ïîëèòèêè , Ïðåçèäåíò ÿâëÿåòñÿ â òå÷åíèå ÷åòûðåõ ëåò è íå ìîæåò áûòü èçáðàíî íà äîëæíîñòü íå áîëåå ÷åì â äâà ðàçà. Äîì è ðàáî÷åå ìåñòî ïðåçèäåíòà ÑØÀ Áåëûé äîì. Ïîáåäèòåëü ïðåçèäåíòñêèõ âûáîðîâ 2008 ãîäà, äåìîêðàò Áàðàê Îáàìà, ÿâëÿåòñÿ 44-é ïðåçèäåíò ÑØÀ.
+ • Ñóäåáíàÿ: Âåðõîâíûé ñóä è íèæåñòîÿùèå ôåäåðàëüíûå ñóäû, ñóäüè íàçíà÷àþòñÿ ïðåçèäåíòîì ñ îäîáðåíèÿ Ñåíàòà, òîëêîâàòü çàêîíû è îòìåíèòü òå, êîòîðûå îíè íàõîäÿò íåêîíñòèòóöèîííûì. Âåðõîâíûé ñóä âî ãëàâå ñ ãëàâíûì ñóäüåé Ñîåäèíåííûõ Øòàòîâ, ñîñòîèò èç äåâÿòè ÷ëåíîâ, êîòîðûå ñëóæàò äëÿ æèçíè.
+ 9. Ñîåäèíåííûå Øòàòû ðàáîòàþò ïîä äâóõïàðòèéíîé ñèñòåìû â òå÷åíèå áîëüøåé ÷àñòè ñâîåé èñòîðèè. Ñ âñåîáùèõ âûáîðîâ 1856 ãîäà, îñíîâíûå ïàðòèè áûëè Äåìîêðàòè÷åñêàÿ ïàðòèÿ, îñíîâàííàÿ â 1824 ãîäó, è Ðåñïóáëèêàíñêàÿ ïàðòèÿ, îñíîâàííàÿ â 1854 ãîäó.
+ 10. Â àìåðèêàíñêîé ïîëèòè÷åñêîé êóëüòóðå, Ðåñïóáëèêàíñêàÿ ïàðòèÿ ñ÷èòàåòñÿ ïðàâîöåíòðèñòñêîé èëè êîíñåðâàòèâíîé è Äåìîêðàòè÷åñêàÿ ïàðòèÿ ñ÷èòàåòñÿ ëåâîöåíòðèñòñêîé èëè ëèáåðàëüíûì.
+ 11. Ñîåäèíåííûå Øòàòû îñóùåñòâëÿåò ãëîáàëüíóþ ýêîíîìè÷åñêóþ, ïîëèòè÷åñêóþ è âîåííóþ âëèÿíèå. Ýòî ïîñòîÿííûé ÷ëåí Ñîâåòà Áåçîïàñíîñòè Îðãàíèçàöèè Îáúåäèíåííûõ Íàöèé è Íüþ-Éîðêå ïðîõîäèò â øòàá-êâàðòèðó Îðãàíèçàöèè Îáúåäèíåííûõ Íàöèé.
+
+
+
+Ïðèìåð âûïîëíåíèÿ ðàñ÷åòíî-àíàëèòè÷åñêîãî çàäàíèÿ 3  | ñëåäóþùàÿ ==> VII. UNDERSTANDING THE MAIN POINTS
+Äàòà äîáàâëåíèÿ: 2015-05-12; ïðîñìîòðîâ: 60; Îïóáëèêîâàííûé ìàòåðèàë íàðóøàåò àâòîðñêèå ïðàâà?.
+
+Íå íàøëè òî, ÷òî èñêàëè? Âîñïîëüçóéòåñü ïîèñêîì:
+Íå õîòèòå "ïàðèòüñÿ"? çàêàæèòå ïëàòíóþ ðàáîòó!
+	     
+   form
+   school
+   age
+   grade
+   school
+   age
+  

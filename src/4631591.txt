@@ -1,0 +1,278 @@
+MOBA Материал из Википедии — свободной энциклопедии
+
+Текущая версия страницы пока не проверялась опытными участниками и может значительно отличаться от версии (https://ru.wikipedia.org/w/index.php?title=MOBA&stable=1), проверенной 8 сентября 2015; проверки требуют 7 правок (https://ru.wikipedia.org/w/index.php? title=MOBA&oldid=73220821&diff=cur&diffonly=0).
+MOBA — (Multiplayer Online Battle Arena, буквально «многопользовательская онлайновая боевая арена») — жанр компьютерных и мобильных игр, сочетающий в себе элементы стратегий в реальном времени и компьютерных ролевых игр и выделяющийся схожестью с DotA — пользовательской картой (модификацией) Warcraft III Frozen Throne[1].
+В играх жанра MOBA две команды игроков сражаются друг с другом на карте особого вида.
+Каждый игрок управляет одним персонажем из определенного списка доступных героев, отличающихся способностями.
+В течение матча персонажи могут становиться сильнее, получать новые способности и снаряжение, подобно компьютерным ролевым играм.
+Конечной целью в ходе матча является уничтожение главного здания вражеской команды с помощью как героев, управляемых игроками, так и юнитов, управляемых компьютером.
+Несмотря на объединяющее сходство игр жанра с DotA, его границы размыты, и само название жанра является спорным[2]: ранние игры жанра описывались просто как «игры, похожие на DotA» (англ.
+DotA-like)[3], использовался также термин «экшн-стратегия в реальном времени» (Action Real-time strategy game, ARTS)[4].
+
+Содержание 1 История 2 Игровой процесс 3 Структура игры 3.1 Концепция героев 3.2 Крипы 3.3 Башни
+
+Типичное поле боя MOBA-игры.
+Жёлтым выделены «линии», на которых происходит основное действие игры; фиолетовыми и розовыми точками обозначены «башни», охраняющие линии.
+В углах фиолетовым и розовым показаны базы двух команд, области закрашенные более насыщенным цветом по углам — ключевые здания, уничтожение которых означает победу одной из сторон.
+
+3.4 Главное здание 4 Примечания
+
+История Жанр берёт свое начало с карты под названием Aeon of Strife для StarCraft[5][6], но окончательно сформировала этот жанр в том виде, в котором он сейчас есть, пользовательская карта для Warcraft III — Defense of the Ancients[7][8].
+Первой коммерческой независимой игрой в этом жанре — не модификацией другой игры — стала Demigod, которая была разработана Gas Powered Games[9][10].
+В октябре 2009 года вышла игра League of Legends от Riot Games[11][12].
+Riot Games попытались избавиться от ассоциации их игры с DotA путём популяризации их собственного термина для обозначения игр в этом жанре — «Multiplayer Online Battle Arena» (MOBA).
+В июне 2010 года S2 Games выпустили игру Heroes of Newerth[13][14].
+В октябре 2010 года Aeria Games выпустили игру Realm of the Titans[15][16].
+13 октября 2010 года компания Valve Corporation анонсировала свой дебютный проект в этом жанре — сиквел к DotA под названием Dota 2[17][18].
+9 июля 2013 года состоялся официальный релиз игры[19][20].
+На BlizzCon 2010 компания Blizzard официально анонсировала свою игру в жанре Dota — Blizzard DOTA[21][22][23][24].
+Крис Сигати, главный продюсер StarCraft II, в интервью заявил, что Blizzard DOTA «игра в жанре Dota, которая даёт вам возможность увидеть некоторых из сделанных нами героев, в том числе и из других игр.
+Там будут не только герои из SC2, мы работаем над героями из Diablo, Warcraft и StarCraft, и все они будут сражаться друг с другом»[25].
+11 мая 2012 года Blizzard объявили, что карта будет называться «Blizzard All-Stars», так как права на название «Dota» принадлежат Valve[26].
+17 октября 2013 года появился промо- сайт игры, которая будет называться Heroes of the Storm.
+С 13 января 2015 года и по апрель 2015 года находилась на стадии закрытого бета тестирования.
+С 20-го мая[27] по 1 июня 2015 года игра находилась на стадии открытого бета-тестирования.
+2 июня 2015 года состоялся официальный выпуск игры.
+В феврале 2011 года Petroglyph Games анонсировали free-to-play игру Rise of Immortals (Battle for Graxia), которая стала доступна для игры в Steam 29 сентября 2011[28].
+4 октября 2011 года российская компания Nival начала альфа-тест своей игры Prime World, открытый бета-тест начался 30 марта 2012 года[29].
+31 мая 2012 года Hi-Rez Studios выпустили SMITE, который отличается от всех вышеперечисленных игр видом от 3 лица[30].
+Хотя большинство аналогичных игр используют изометрическую проекцию, мод Uber Entertainment’s Crossfire к игре Monday Night Combat сделан в жанре шутера от третьего лица[31].
+
+Компьютерная игра Awesomenauts, несмотря на геймплей и внешность двухмерного action- платформера в основе своей так же несёт все элементы жанра.
+
+Игровой процесс В игре участвуют две команды, главная задача которых заключается в уничтожении базы противника.
+Игрок контролирует героя и подконтрольных герою юнитов.
+Герой может получать опыт для повышения своего уровня, зарабатывать золото, покупать и собирать предметы, которые усиливают его.
+Каждый игрок постоянно получает небольшое количество золота от своей базы, а также зарабатывает небольшие порции золота за убийство вражеских существ и большие — за убийство героев.
+Команды рассредотачиваются по линиям, на которых происходит борьба с вражескими героями и волнами юнитов (крипов) под управлением компьютера, которые регулярно появляются на базах команд[32].
+Стандартные элементы стратегий в реальном времени по типу развития базы, добычи ресурсов и найма войск в игре отсутствуют[33].
+
+Структура игры MOBA-игры отличаются следующими элементами: две враждующие стороны, цель которых заключается в уничтожении главного здания противника.
+несколько линий, на которых периодически появляются войска под управлением компьютера, и расположены оборонительные башни, сдерживающие наступление противника.
+герои под управлением игроков, которые становятся сильнее за счет накопления опыта и покупки полезных предметов на добытые за убийство вражеских войск деньги.
+
+Концепция героев Игрок управляет одним сильным юнитом, который называется героем.
+Когда возле героя умирает вражеский юнит, он получает очки опыта.
+Накопив определенное количество опыта, герой получает повышение уровня, что улучшает его боевые характеристики и позволяет изучить или улучшить умения.
+Когда герой умирает, он некоторое время находится в режиме возрождения, время нахождения в котором увеличивается с уровнем героя, после чего появляется на своей базе с полным здоровьем.
+Герои зарабатывают деньги за убийство вражеских войск, героев и уничтожение вражеских зданий.
+На заработанные деньги герой может купить предметы, которые усиливают его[34].
+
+Крипы Крипы (англ. creeps) — это боевые единицы, которыми управляет компьютер.
+Крипы появляются на базах игроков через определенные промежутки времени и двигаются по специальным линиям к базе противника, сражаясь со всеми встречными врагами.
+При уничтожении определенных зданий на вражеской базе союзные крипы становятся сильнее[35].
+
+Башни Специальные защитные сооружения, которые ведут сильный дистанционный огонь по вражеским войскам, которые оказались вблизи.
+На каждой линии расположено по несколько башен.
+Игрокам для дальнейшего продвижения по линии необходимо последовательно уничтожать эти башни, чтобы иметь возможность атаковать строения на вражеской базе.[36]
+
+чтобы иметь возможность атаковать строения на вражеской базе.[36]
+
+Главное здание На базе каждой из враждующих сторон расположено главное здание.
+Цель игры каждой из команд заключается в уничтожении вражеского главного здания, что приводит к окончанию игры.
+Помимо главного здания на базе расположены другие строения, уничтожение которых делает сильнее союзных крипов[37].
+
+Примечания 1.
+ ↑ Fahey, Mike.
+Savage Take On Defense Of The Ancients Enters Open Beta (http://kotaku.com/5507382/savage-take-on-defense-of-the-ancients-enters-open-beta).
+Kotaku (1 апреля 2010).
+Проверено 16 августа 2011.
+Архивировано из первоисточника 25 августа 2012 (http://www.webcitation.org/6AB2QijDX).
+
+2. ↑ Funk, John MOBA, DOTA, ARTS: A brief introduction to gaming's biggest, most impenetrable genre (http://www.polygon.com/2013/9/2/4672920/moba-dota-arts-a-brief-introduction-to-gamings-biggest- most) (англ.).
+Polygon (2 September 2013).
+Проверено 16 сентября 2014.
+3. ↑ Nguyen, Thierry.
+Clash of The DOTAs (http://www.1up.com/do/feature?cId=3175835).
+1UP.com (1 сентября 2009).
+Проверено 16 августа 2011.
+Архивировано из первоисточника 18 апреля 2012 (http://www.webcitation.org/670gRd2xh).
+
+4. ↑ Nutt, Christian.
+The Valve Way: Gabe Newell And Erik Johnson Speak (http://www.gamasutra.com/view/feature/6471/the_valve_way_gabe_newell_and_.php?page=3).
+Gamasutra (29 августа 2011).
+Проверено 12 октября 2011.
+Архивировано из первоисточника 25 августа 2012 (http://www.webcitation.org/6AB2ScwHB).
+
+5. ↑ Tok, Kevin.
+Defense of the Ancients 101 (http://www.gotfrag.com/war/story/31052/) (англ.).
+gotfrag.com (25 января 2006).
+Проверено 16 августа 2011.
+Архивировано из первоисточника 25 августа 2012 (http://www.webcitation.org/6AB2TnnZH).
+
+6. ↑ Frequently Asked Questions (http://www.getdota.com/faq).
+GetDota.com.
+Проверено 16 августа 2011.
+Архивировано из первоисточника 25 августа 2012 (http://www.webcitation.org/6AB2S3Cv3).
+
+7. ↑ Sharkey, Mike.
+Evidence Mounting for a Valve Defense of the Ancients Game (http://pc.gamespy.com/articles/111/1111696p1.html).
+Gamespy.com (11 августа 2010).
+Проверено 16 августа 2011.
+ Архивировано из первоисточника 25 августа 2012 (http://www.webcitation.org/6AB2UVKVA).
+8. ↑ Khoo, Nicholas Aaron.
+Heroes of Newerth to replace Defense of the Ancients (http://asia.cnet.com/blogs/geekonomics/post.htm?id=63018571).
+Cnet.com (3 марта 2010).
+Проверено 16 августа 2011.
+ Архивировано из первоисточника 25 августа 2012 (http://www.webcitation.org/6AB2VUXJl).
+9. ↑ Miguel Lopez.
+Demigod (http://pc.gamespy.com/pc/gas-powered-games-project/854109p1.html).
+Gamespy.com (21 февраля 2008).
+Проверено 16 августа 2011.
+Архивировано из первоисточника 25 августа 2012 (http://www.webcitation.org/6AB2ZlV8e).
+
+10. ↑ Nemikan.
+DOTA reborn: Three games inspired by the legendary WC3 mod (http://gaming.icrontic.com/reviews/dota-reborn-three-games-inspired-by-the-legendary-wc3-mod/).
+Icrontic.com (21 сентября 2009).
+Проверено 16 августа 2011.
+Архивировано из первоисточника 25 августа 2012 (http://www.webcitation.org/6AB2adp1e).
+
+11. ↑ Perez, Daniel.
+League of Legends Interview (http://www.1up.com/do/previewPage?cId=3172308&p=1).
+1UP.com (16 января 2009).
+Проверено 16 августа 2011.
+Архивировано из первоисточника 25 августа 2012 (http://www.webcitation.org/6AB2biv5U).
+
+12. ↑ Arirang.
+A Look at the Future of Dota and the AoS Genre (http://wowriot.gameriot.com/blogs/The- Ohcee/DOTA-A-Look-at-the-Future-of-Dota-and-the-AoS-Genre).
+GameRiot.com (3 октября 2009).
+Проверено 16 августа 2011.
+ Архивировано из первоисточника 25 августа 2012 (http://www.webcitation.org/6AB2cSHdN).
+13. ↑ Leah Jackson.
+Looking Back at 2010: The Year in PC Games (http://g4tv.com/thefeed/blog/post/709363/Looking-Back-at-2010-The-Year-in-PC-Games-.html).
+g4tv.com (23 декабря 2010).
+Проверено 16 августа 2011.
+Архивировано из первоисточника 25 августа 2012 (http://www.webcitation.org/6AB2cvfdE).
+
+14. ↑ Mark Wedel.
+Kalamazoo-made 'Heroes of Newerth' drawing huge online gaming crowd (http://www.mlive.com/entertainment/kalamazoo/index.ssf/2010/06/kalamazoo-made_heroes_of_newer.html).
+
+Kalamazoo Gazette (24 июня 2010).
+Проверено 16 августа 2011.
+Архивировано из первоисточника 25 августа 2012 (http://www.webcitation.org/6AB2hQ87p).
+
+15. ↑ Tian Online joins the North American Dota Genre Market (http://www.neutralcreeps.com/2010/10/tian- online-joins-north-american-dota.html).
+NeutralCreeps.com.
+Проверено 16 августа 2011.
+Архивировано из первоисточника 25 августа 2012 (http://www.webcitation.org/6AB2iYy6K).
+
+16. ↑ Esther Wu.
+Tianyijue Chinese Dota Genre Trailer Released (http://blog.wirebot.com/2010/10/29/tianyijue- chinese-dota-genre-trailer-released).
+Wirebot.com (29 октября 2010).
+Проверено 16 августа 2011.
+Архивировано из первоисточника 25 августа 2012 (http://www.webcitation.org/6AB2jG1vR).
+
+17. ↑ Valve Announces Dota 2 (http://store.steampowered.com/news/4487/).
+Valve Corporation (October 19, 2010).
+Проверено 16 августа 2011.
+Архивировано из первоисточника 25 августа 2012 (http://www.webcitation.org/6AB2kM1t8).
+
+18. ↑ Totillo, Stephen.
+Valve’s New Game Is Dota 2 (http://kotaku.com/5663018/valves-new-game-is-dota2/).
+Kotaku (13 октября 2010).
+Проверено 16 августа 2011.
+Архивировано из первоисточника 25 августа 2012 (http://www.webcitation.org/6AB2l1bOu).
+
+19. ↑ The Beta Is Over (http://blog.dota2.com/2013/07/the-beta-is-over/) (англ.).
+dota2.com (9 July 2013).
+Проверено 10 июля 2013.
+ Архивировано из первоисточника 24 июля 2013 (http://www.webcitation.org/6ILVgr1FD).
+20. ↑ Valve официально запустила DotA 2 (http://lenta.ru/news/2013/07/10/dota/), Lenta.ru (10 июля 2013).
+Проверено 10 июля 2013.
+
+21. ↑ All-New Blizzard Custom Maps Featured at Blizzcon 2010 (http://us.battle.net/sc2/en/blog/994843).
+Blizzard Entertainment (22 октября 2010).
+Проверено 16 августа 2011.
+Архивировано из первоисточника 25 августа 2012 (http://www.webcitation.org/6AB2X1JWs).
+
+22. ↑ Augustine, Josh.
+The first heroes in SC2’s DOTA map (http://www.pcgamer.com/2010/10/23/the-first- heroes-in-sc2s-dota-map/).
+PCGamer (23 октября 2010).
+Проверено 16 августа 2011.
+Архивировано из первоисточника 25 августа 2012 (http://www.webcitation.org/6AB2Y7aOS).
+
+23. ↑ Giancarlo Varanini.
+Starcraft II: Blizzard DOTA Hands-On (http://www.gamespot.com/events/blizzcon2010/story.html?sid=6282914&pid=939643).
+Gamespot.com (23 октября 2010).
+Проверено 16 августа 2011.
+24. ↑ Tim Colwill.
+Stratagems: Dustin Browder on StarCraft II (http://games.on.net/article/11645/Stratagems_Dustin_Browder_on_StarCraft_II) (недоступная ссылка — история (https://web.archive.org/web/*/http://games.on.net/article/11645/Stratagems_Dustin_Browder_on_StarCraft_II)).
+Games.On.net (18 февраля 2011).
+Проверено 16 августа 2011.
+Архивировано из первоисточника 21 февраля 2011 (http://web.archive.org/20110221090619/games.on.net/article/11645/Stratagems_Dustin_Browder_on_StarCraft_II).
+
+25. ↑ Iuliani, Joe.
+Starcraft II: Chris Sigaty Interview (http://www.mmorpg.com/showFeature.cfm/loadFeature/4670/Starcraft-II-Chris-Sigaty-Interview.html).
+MMORPG.com (5 ноября 2010).
+Проверено 16 августа 2011.
+Архивировано из первоисточника 25 августа 2012 (http://www.webcitation.org/6AB2Z20n3).
+
+26. ↑ Reilly, Jim Valve, Blizzard Reach DOTA Trademark Agreement (http://www.gameinformer.com/b/news/archive/2012/05/11/valve-blizzard-reach-dota-trademark- agreement.aspx).
+Game Informer (11 мая 2012).
+Архивировано из первоисточника 31 августа 2013 (http://www.webcitation.org/6JGl9uHk3).
+
+27. ↑ видео с официального канала Blizzard, в комментариях сказано: Мы запланировали начало открытого бета-тестирования на 20 мая.
+(https://www.youtube.com/watch? v=GddNAwLXREM&feature=youtu.be) . 28. ↑ Tito, Greg.
+Petroglyph Announces MMO-DOTA Hybrid Rise of Immortals (http://www.escapistmagazine.com/news/view/107954-Petroglyph-Announces-MMO-DOTA-Hybrid-Rise-of- Immortals).
+EscapistMagazine.com (23 февраля 2011).
+Проверено 16 августа 2011.
+Архивировано из первоисточника 25 августа 2012 (http://www.webcitation.org/6AB2lfX16).
+
+29. ↑ Prime World выходит в открытый альфа-тест!
+(http://www.nival.com/ru/news/newsline/2011/prime- world-vyhodit-v-otkrytyj-alfa-test.1530.html#!/ru/news/newsline/2011/prime-world-vyhodit-v-otkrytyj-alfa- test.1530.html/).
+Nival (19 июля 2013).
+Архивировано из первоисточника 31 августа 2013 (http://www.webcitation.org/6JGlAtn7B).
+
+30. ↑ Jim Rossignol.
+Might Fight Right?
+SMITE Is… Announced (http://www.rockpapershotgun.com/2011/04/21/might-fight-right-smite-is-announced/).
+Rock Paper Shotgun (21 апреля 2011).
+Проверено 16 августа 2011.
+Архивировано из первоисточника 25 августа 2012 (http://www.webcitation.org/6AB2mtf5Q).
+
+31. ↑ Brad Simons.
+Monday Night Combat is not the Team Fortress 2 clone you think it is (http://4playerpodcast.com/2010/07/30/monday-night-combat-is-not-the-team-fortress-2-clone-you-think-it- is/).
+4playerpodcast.com (30 июля 2010).
+Проверено 16 августа 2011.
+Архивировано из первоисточника 25 августа 2012 (http://www.webcitation.org/6AB2oliFY).
+
+32. ↑ Adam Biessener.
+Valve’s New Game Announced, Detailed: Dota 2 (http://gameinformer.com/b/features/archive/2010/10/13/dota-2-announced-details.aspx).
+Game Informer (13 октября 2010).
+Проверено 16 августа 2011.
+Архивировано из первоисточника 2 июля 2012 (http://www.webcitation.org/68qKNrWxl).
+
+33. ↑ Game Overview (http://hon.garena.com/intro.html) (недоступная ссылка — история (https://web.archive.org/web/*/http://hon.garena.com/intro.html)).
+Garena.
+ Проверено 16 августа 2011.
+ Архивировано из первоисточника 24 июля 2010 (http://web.archive.org/20100724120552/hon.garena.com/intro.html).
+
+34. ↑ Basic Survival — Learn Dota (http://www.playdota.com/learn/survival).
+PlayDota.com.
+Проверено 16 августа 2011.
+ Архивировано из первоисточника 25 августа 2012 (http://www.webcitation.org/6AB2qAxoi).
+35. ↑ Brian Leahy.
+Dota Explained and How You Can Play it Now (http://www.shacknews.com/onearticle.x/66007).
+Shacknews.com (13 октября 2010).
+Проверено 16 августа 2011.
+ Архивировано из первоисточника 25 августа 2012 (http://www.webcitation.org/6AB2rc7Q4).
+36. ↑ Tom Fronczak.
+Destructoid Interview: Riot Games on DotA trademark & LoL (http://www.destructoid.com/destructoid-interview-riot-games-on-dota-trademark-lol-184689.phtml).
+Destructoid.com (24 сентября 2010).
+Проверено 16 августа 2011.
+Архивировано из первоисточника 25 августа 2012 (http://www.webcitation.org/6AB2sgkt5).
+
+37. ↑ Heroes of Newerth — Charge!
+(http://www.dedoimedo.com/games/hon.html).
+Dedoimedo.com.
+Проверено 16 августа 2011.
+ Архивировано из первоисточника 25 августа 2012 (http://www.webcitation.org/6AB2uCLoh).
+
+Источник — «https://ru.wikipedia.org/w/index.php?title=MOBA&oldid=74964420»
+
+Последнее изменение этой страницы: 11:02, 7 декабря 2015.
+Текст доступен по лицензии Creative Commons Attribution-ShareAlike; в отдельных случаях могут действовать дополнительные условия. 
+Wikipedia® — зарегистрированный товарный знак некоммерческой организации Wikimedia Foundation, Inc.
+
+
+

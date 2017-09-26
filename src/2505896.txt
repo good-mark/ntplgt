@@ -1,0 +1,409 @@
+
+
+ 
+
+
+
+<noindex>
+
+
+
+
+</noindex> Править | Обсудить | История
+
+
+
+
+
+ 
+
+
+ 
+ Groovy
+
+ 
+
+
+
+ Дата создания: август 2003 Создан под влиянием: Java Perl Python Ruby Smalltalk
+
+ 
+ 
+ Повлиял на: Vala
+
+ 
+ 
+ Парадигма: объектно-ориентированная
+
+
+ 
+ Типизация: динамическая неявная строгая типизированная
+
+
+ 
+ Реализации и версии (свернуть все | развернуть все): Groovy Groovy 1.7
+
+ 
+ 
+ 
+
+ 
+ 
+
+
+ 
+ Язык программирования Groovy — объектно-ориентированный язык программирования, разработанный для платформы Java.
+Язык призван дополнить возможности Java элементами, позаимствованными из Python, Perl, Ruby и Smalltalk. 
+
+
+Многие программы, написанные на Java, являются корректными программами на Groovy.
+В целом же последний обладает более лаконичным синтаксисом и большими выразительными способностями.
+
+
+Язык Groovy зародился в августе 2003 года; к этому времени относятся первые упоминания в блоге James Strachan.
+Стандартизация языка Java Community Process началась значительно позднее, и первая стандартизированная версия языка 1.0 была выпущена 2 января 2007 года (версии до этой в единую нумерацию не вошли).
+
+
+ 
+
+ 
+
+ 
+ 
+ 
+ Элементы синтаксиса:
+
+ 
+ Комментарий до конца строки //
+
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ Логотип Groovy Ссылки: Официальный сайт Groovy
+
+
+ 
+
+ 
+ 
+ 
+
+
+ 
+
+ 
+ 
+
+ 
+ 
+ Примеры:
+
+ 
+ Квадратное уравнение:
+
+ Пример для версий Groovy 1.7, Sun Java 6, gcj 3.4.5 В Java нет типа данных для работы с комплексными числами, поэтому вычисления производятся в дробных числах и выполняется отдельная проверка на знак дискриминанта.
+Реализация позволяет решать квадратные уравнения не только с целыми, но и с дробными коэффициентами. 
+
+
+Коэффициенты читаются из потока System.in.
+Напрямую из него можно читать только отдельные байты, поэтому для повышения комфортности чтения используются классы InputStreamReader и BufferedReader.
+Строки, прочитанные из System.in, преобразуются в числа типа double с помощью метода Double.parseDouble().
+Все операции ввода в Java должны находиться внутри блоков try ...
+catch, чтобы гарантированно обрабатывать IOException — класс исключений, порождаемых функциями чтения.
+
+
+ 
+
+ 
+ import java.util.*; import java.io.*;
+
+public class Quadratic { static String print(double real, double imag) { if (Math.abs(imag)<1E-6) return ""+real; else return "("+real+","+imag+")"; } public static void main(String[] args) { double A,B,C,D; try { BufferedReader br = new BufferedReader(new InputStreamReader(System.in)); System.out.print("A = "); A = Double.parseDouble(br.readLine()); if (Math.abs(A)<1E-3) { System.out.println("Not a quadratic equation."); return; } System.out.print("B = "); B = Double.parseDouble(br.readLine()); System.out.print("C = "); C = Double.parseDouble(br.readLine()); } catch (Exception e) { System.err.println("An error occured while reading input parameters."); return; } A = 2*A; D = B*B-2*A*C; if (Math.abs(D)<1E-3) { System.out.println("x = "+(-B/A)); return; } if (D>0) System.out.println("x1 = "+print((-B+Math.sqrt(D))/A, 0)+"\nx2 = "+print((-B-Math.sqrt(D))/A, 0)); else System.out.println("x1 = "+print(-B/A,Math.sqrt(-D)/A)+"\nx2 = "+print(-B/A,-Math.sqrt(-D)/A)); } }
+
+
+
+ 
+
+ 
+
+ 
+ Hello, World!:
+
+ Пример для версий Groovy 1.7, Sun Java 6, gcj 3.4.5 Для Java приведенный код должен находиться в файле HelloWorld.java.
+
+
+ 
+
+ 
+ public class HelloWorld { public static void main(String[] args) { System.out.println("Hello, World!"); } }
+
+
+
+ 
+
+ 
+
+ 
+ Факториал:
+
+ Пример для версий Groovy 1.7, Sun Java 6, gcj 3.4.5 Используется рекурсивное определение факториала.
+Для хранения больших чисел использован элементарный тип данных long, позволяющий хранить числа от -263 до 263-1.
+
+
+ 
+
+ 
+ public class Factorial { static long factorial(int n) { return ( n==0 ? 1 : n*factorial(n-1) ); } public static void main(String[] args) { for (int n=0; n<=16; n++) System.out.println(n+"! = "+factorial(n)); } }
+
+
+
+ 
+
+ 
+
+ 
+ Числа Фибоначчи:
+
+ Пример для версий Groovy 1.7, Sun Java 6, gcj 3.4.5 Используется рекурсивное определение чисел Фибоначчи.
+
+
+ 
+
+ 
+ public class Fibonacci { static int fibonacci(int n) { return (n<=2 ? 1 : fibonacci(n-1) + fibonacci(n-2)); } public static void main(String[] args) { for (int n=1; n<=16; n++) System.out.print(fibonacci(n)+", "); System.out.println("..."); } }
+
+
+
+ 
+
+ 
+
+ 
+ Факториал:
+
+ Пример для версий Groovy 1.7, Sun Java 6, gcj 3.4.5 Используется итеративное вычисление факториала.
+Для хранения больших чисел используется встроенный класс BigInteger, позволяющий обрабатывать сколь угодно большие числа ценой увеличения времени обработки.
+
+
+ 
+
+ 
+ import java.math.BigInteger;
+
+public class Factorial { public static void main(String[] args) { BigInteger f = new BigInteger("1"); System.out.println("0!
+= " + f.toString()); for (int n=1; n<=16; n++) { f = f.multiply(new BigInteger(""+n)); System.out.println( n + "!
+= " + f.toString()); } } }
+
+
+
+ 
+
+ 
+
+ 
+ CamelCase:
+
+ Пример для версий Groovy 1.7, Sun Java 6 В этом примере используются регулярные выражения Java.
+Регулярное выражение [a-zA-Z]+ описывает последовательность букв латинского алфавита в любом регистре, идущих подряд, окруженную другими символами или концами строки.
+Пара классов Pattern и Matcher позволяют создать это регулярное выражение и извлечь из строки все фрагменты, соответствующие ему.
+Для каждого такого фрагмента его первый символ переводится в верхний регистр, а последующие — в нижний, с использованием стандартных методов класса String.
+Наконец, результаты обработки фрагмента записываются в переменную типа StringBuffer, накапливающую результат.
+
+
+ 
+
+ 
+ import java.util.regex.*; import java.io.*;
+
+public class CamelCase { public static void main(String[] args) { try { BufferedReader br = new BufferedReader(new InputStreamReader(System.in)); Pattern p = Pattern.compile("[a-zA-Z]+"); Matcher m = p.matcher(br.readLine()); StringBuffer result = new StringBuffer(); String word; while (m.find()) { word = m.group(); result.append(word.substring(0, 1).toUpperCase() + word.substring(1).toLowerCase()); } System.out.println(result.toString()); } catch (Exception e) { System.err.println("An error occured while reading input string."); } } } Hello, World!:
+
+ Пример для версий Groovy 1.7 println "Hello, World!"
+
+
+
+ 
+
+ 
+
+ 
+ Факториал:
+
+ Пример для версий Groovy 1.7 Используется итеративное определение факториала: для вычисления факториала числа единица умножается последовательно на все числа от 1 до этого числа.
+
+
+ 
+
+ 
+ def fact = {n -> BigInteger factorial = 1 (1..n).each { factorial *= it } return factorial }
+
+(0..16).each { println "${it}!
+= ${fact(it)}" }
+
+
+
+ 
+
+ 
+
+ 
+ Факториал:
+
+ Пример для версий Groovy 1.7 Используется рекурсивное определение факториала.
+Для того, чтобы функция могла рекурсивно обращаться сама к себе, она должна иметь отдельное объявление перед реализацией.
+Если тип значения, возвращаемого функцией, не задан, по умолчанию используется целочисленный, и при вычислении 13!
+возникает переполнение целого.
+
+
+ 
+
+ 
+ def fact fact = { n -> (n == 0 ? 1 : n * fact(n-1) ) }
+
+(0..16).each { println "${it}!
+= ${fact(it)}" }
+
+
+
+ 
+
+ 
+
+ 
+ Числа Фибоначчи:
+
+ Пример для версий Groovy 1.7 Используется простейшее рекурсивное определение чисел Фибоначчи.
+
+
+ 
+
+ 
+ def fib fib = { n -> (n <= 2 ? 1 : fib(n-1) + fib(n-2) ) }
+
+(1..16).each { print "${fib(it)}, " } println "..."
+
+
+
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+
+
+
+ 
+ Комментарии
+
+ <noindex>
+
+
+Please enable JavaScript to view the comments powered by Disqus.
+
+blog comments powered by Disqus </noindex>
+
+
+
+
+
+
+ 
+
+
+
+ 
+ Progopedia alpha Главная О сайте
+
+
+ Парадигмы Типизации
+
+
+ Новые статьи Свежие правки
+
+
+ Блог
+
+
+
+ Progopedia in English
+
+
+
+ <noindex> Google-группа
+
+
+ </noindex> Редакторский раздел Top 10 пользователей:
+
+ kit Nickolas WellRus holmuk helions8 octagram kemiisto Antoni euginekosenko 218
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+ Работа программистам Все тексты доступны на условиях лицензии GNU Free Documentation License <noindex>
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+
+ </noindex>
+ 
+
+
+ 
+ 
+ 
+ 
+
+
+
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+

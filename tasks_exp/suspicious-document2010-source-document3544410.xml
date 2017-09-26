@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<document reference="2010.txt">
+	<feature name="plagiarism" obfuscation="CCT,DEL" source_language="ru" source_length="80" source_offset="8238" source_reference="3544410.txt" this_language="ru" this_length="131" this_offset="9867" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="CCT,DEL" source_language="ru" source_length="320" source_offset="8493" source_reference="3544410.txt" this_language="ru" this_length="131" this_offset="9867" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="SYN,DEL" source_language="ru" source_length="214" source_offset="9112" source_reference="3544410.txt" this_language="ru" this_length="147" this_offset="9999" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="DEL" source_language="ru" source_length="138" source_offset="9327" source_reference="3544410.txt" this_language="ru" this_length="94" this_offset="10147" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="LPR,DEL" source_language="ru" source_length="197" source_offset="9466" source_reference="3544410.txt" this_language="ru" this_length="89" this_offset="10242" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="DEL,SYN" source_language="ru" source_length="175" source_offset="9666" source_reference="3544410.txt" this_language="ru" this_length="67" this_offset="10332" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="SYN,SHF" source_language="ru" source_length="185" source_offset="9842" source_reference="3544410.txt" this_language="ru" this_length="80" this_offset="10400" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="HPR" source_language="ru" source_length="290" source_offset="10028" source_reference="3544410.txt" this_language="ru" this_length="207" this_offset="10481" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="CCT,SYN,SHF" source_language="ru" source_length="157" source_offset="10321" source_reference="3544410.txt" this_language="ru" this_length="148" this_offset="10689" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="CCT,SYN,SHF" source_language="ru" source_length="78" source_offset="10479" source_reference="3544410.txt" this_language="ru" this_length="148" this_offset="10689" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="SHF,SYN" source_language="ru" source_length="204" source_offset="10558" source_reference="3544410.txt" this_language="ru" this_length="139" this_offset="10838" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="SYN" source_language="ru" source_length="145" source_offset="10765" source_reference="3544410.txt" this_language="ru" this_length="112" this_offset="10978" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="DEL" source_language="ru" source_length="253" source_offset="10977" source_reference="3544410.txt" this_language="ru" this_length="208" this_offset="11091" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="DEL" source_language="ru" source_length="212" source_offset="11453" source_reference="3544410.txt" this_language="ru" this_length="126" this_offset="11300" txt_extraction_err="0" type="manual"/>
+</document>

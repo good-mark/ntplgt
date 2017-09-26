@@ -1,0 +1,80 @@
+Pixabay
+
+
+
+Pixabay.com — это международный вебсайт, на котором в качестве общественного достояния (по лицензии Creative Commons CC0) выложены фотографии, векторные графики и короткие видеоролики. К марту 2016 года на сайте насчитывалось боле 570 000 бесплатных изображений и векторов и, примерно, 1 300 видеороликов.
+
+История
+
+Данное объединение было создано в ноябре 2010 года в городе Ульм, Германия. Основателями были Ганс Браксмайер и Симон Штайнбергер. В марте 2012 года Pixabay был реорганизован из личной коллекции изображений в интерактивное онлайн сообщество, поддерживающее 20 языков. В мае того же года был внедрен Интерфейс Прикладного Программирования (API), с помощью которого стал возможен поиск изображений в базе Pixabay для пользователей. В июне 2012 года, наряду с Flickr, YouTube и Викискладом, Pixabay был также включен в официальный поиск СС (Creative Commons) сайта. Также на регулярной основе Pixabay получил признание международных печатных и интернет-журналов. В 2014 году был добавлен перевод сайта на шесть новых языков (тайский, вьетнамский, греческий, словакский, болгарский и датский). В 2015 году на сайте, кроме изображений, появились и короткие видеоролики, которые также предоставляются по лицензии Creative Commons CC0.
+
+Описание
+
+На Pixabay пользователи могут не только скачивать изображения и видео бесплатно, но и оценивать и контролировать их качество. Для того чтобы загружать файлы на сайт или скачивать изображения в полноразмерном качестве, необходима регистрация. При загрузке файлов авторы отказываются от авторского и смежных прав на изображения согласно лицензии Creative Commons CC0. В соответствии с этим документом любой человек имеет право использовать, модифицировать и распространять все изображения с сайта Pixabay свободно как в личных, так и в коммерческих целях. Для этого не требуется запрашивать у авторов дополнительные разрешения.
+
+Но следует иметь в виду, что представленные изображения и видео могут быть защищены правами на использование товарных знаков, релизом модели или релизом собственности. Во избежание возникновения правовых проблем и соблюдения высокого стандарта качества все загружаемые изображения проверяются вручную сотрудниками Pixabay.
+
+Стандарты качества для загружаемого контента
+
+Авторы загружаемых изображений должны соблюдать установленные стандарты качества: файл должен быть представлен в форматах JPG, PNG, PSD, AI или SVG, а размер не должен превышать 40 Мб. Все изображения также должны быть не менее 1920 пикселей по одной стороне, сюжет должен быть четко определяемым и само изображение должно быть без видимых дефектов.
+
+Видеоролики можно загружать в форматах MPEG, MOV и AVI, а размер не должен превышать 30 Мб. Минимальное разрешение должно составлять 1280х720 пикселей (HD), а длительность не должна превышать 60 секунд.
+
+Фотографы
+
+На момент 1 января 2016 года на сайте было зарегистрировано около 33 200 активных авторов избражений. Только один из авторов проекта, Ганс Бранксмайер, загрузил порядка 20 000 изображений, которые за время существования проекта были скачаны более двух миллионов раз. Вторым по активности автором оказался фотограф Geralt, который загрузил более 10 000 изображений (были скачаны более 4,5 миллионов раз).
+
+Персонал
+
+Ганс Браксмайер — основатель и генеральный директор Pixabay. Изучал компьютерную науку в городе Ульм, Германия. Первые веб-проекты начал вести еще во время учебы. Симон Штайнбергер — соучредитель и генеральный директор Pixabay. Изучал химические науки в городе Ульм, Германия, в 2011 году получил докторскую степень. Работает в IT-секторе и занимается несколькими веб-проектами. Аким Цимерманн отвечает за маркетинг в социальных медиа. Ольга Фома отвечает за контроль качества загружаемых изображений.
+
+Популярность
+
+По данным на 9 января 2016 года Pixabay занял 1 409 место в ранге Alexa. Google в области PageRank присвоил сайту рейтинг шесть.
+
+Посетители и пользователи
+
+Примерно 27% пользователей сайта являются англоязычными, около 20% говорят по-испански, 11% по-португальски, 7% по-немецки и 5% по-французски. Основными пользователями являются блогеры, графические дизайнеры, редакторы, журналисты и производители рекламы.
+
+Ссылки
+
+Библиография
+
+Мир живописи Татьяны Казаковой, 02.03.2016, http://www.tatyana-kazakova-art.ru/%D0%B3%D0%BE%D1%81%D1%82%D0%B5%D0%B2%D0%BE%D0%B9-%D0%B4%D0%BE%D0%BC%D0%B8%D0%BA/%D0%BC%D0%BE%D0%B8-%D0%B4%D1%80%D1%83%D0%B7%D1%8C%D1%8F/pixabay-com/
+
+Cnet, Radu Capan, Pixabay: altă resursă de imagini gratuite, 11.12.2012, http://www.cnet.ro/2012/12/11/pixabay-alta-resursa-de-imagini-gratuite/
+
+http://edutech4teachers.edublogs.org/2014/08/27/pixabay/
+
+Media and learning, Pixabay - public domain images, http://www.media-and-learning.eu/resource/pixabay-public-domain-images
+
+O. Peter, Pixabay, another great place for your free images, 2 februarie 2015, http://www.royaltyfreelinks.com/pixabay-more-than-300-000-free-images/
+
+http://andrasi.ro/pixabay-poti-utiliza-mii-de-fotografii-libere-de-drepturi-de-autor/
+
+http://stepanadrian.ro/cel-mai-bun-site-de-imagini-royalty-free-cu-drepturi-comerciale/
+
+Dieter Petereit, Pixabay: More Than 40,000 Completely Free Photos And Illustrations, 31 Octombrie, 2012, http://www.noupe.com/essentials/freebies-tools-templates/pixabay-more-than-40-000-completely-free-photos-and-illustrations-73034.html
+
+Webtechster, Pixabay.com Website Analysis, http://www.webtechster.com/pixabay.com
+
+Seobility.net, Pixabay.com Website Analysis, https://www.seobility.net/en/seocheck/pixabay.com
+
+Web.appstorm.net, Mihir Patkar, The 12 Best Places to Find Free Stock Photos, 14 august 2013, http://web.appstorm.net/roundups/media-roundups/the-12-best-places-to-find-free-stock-photos/
+
+Creative Shrimp.com, 7 Cool Websites with Free Images and Textures, 2015 http://www.creativeshrimp.com/7-cool-websites-with-free-images-and-textures.html
+
+Design instruct.com, Jacob Gube- 17 Sites for Finding Free Public Domain Images, 4 iunie 2014. http://designinstruct.com/roundups/sites-public-domain-images/
+
+Freetech4teachers.com, Richard Bryne, How To Use Pixabay to Find Free Images, 6 martie 2013 http://www.freetech4teachers.com/2013/03/how-to-use-pixabay-to-find-free-images.html#.VpZGP1LdZJF
+
+Doitwithwp.com, Dave Clements, Pixabay, Free Quality Images for Your Wordpress Site, 2 December 2014, https://www.doitwithwp.com/pixabay-cc0-free-images-wordpress/
+
+Electric Dialogue, Melissa Potts, Mellissa’s Top Tool: Pixabay, http://www.electricdialogue.com/12-days-of-top-tools-day-7-pixabay/
+
+Takien.com, Pixabay Provides High Quality Professional Photo Stocks for Free, With No Hassle, ianuarie 2014, http://takien.com/blog/2014/01/14/pixabay-provides-high-quality-professional-photo-stocks-for-free-with-no-hassle/
+
+Technical details https://pixabay.com/de/blog/posts/pixabay-powered-by-new-server-15/
+
+Внешние ссылки
+

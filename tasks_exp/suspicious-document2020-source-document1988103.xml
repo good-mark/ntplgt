@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<document reference="2020.txt">
+	<feature name="plagiarism" obfuscation="ADD,DEL,HPR,CCT,SYN,SHF" source_language="ru" source_length="65" source_offset="3072" source_reference="1988103.txt" this_language="ru" this_length="152" this_offset="12335" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="ADD,DEL,HPR,CCT,SYN,SHF" source_language="ru" source_length="84" source_offset="3224" source_reference="1988103.txt" this_language="ru" this_length="152" this_offset="12335" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="ADD,DEL,HPR,CCT,SYN,SHF" source_language="ru" source_length="113" source_offset="3385" source_reference="1988103.txt" this_language="ru" this_length="177" this_offset="12488" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="ADD,DEL,HPR,CCT,SYN,SHF" source_language="ru" source_length="71" source_offset="3499" source_reference="1988103.txt" this_language="ru" this_length="177" this_offset="12488" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="ADD,DEL,HPR,CCT,SYN,SHF" source_language="ru" source_length="44" source_offset="3850" source_reference="1988103.txt" this_language="ru" this_length="177" this_offset="12488" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="ADD,DEL,HPR,CCT,SYN,SHF" source_language="ru" source_length="111" source_offset="3571" source_reference="1988103.txt" this_language="ru" this_length="225" this_offset="12666" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="ADD,DEL,HPR,CCT,SYN,SHF" source_language="ru" source_length="47" source_offset="3683" source_reference="1988103.txt" this_language="ru" this_length="225" this_offset="12666" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="ADD,DEL,HPR,CCT,SYN,SHF" source_language="ru" source_length="118" source_offset="3731" source_reference="1988103.txt" this_language="ru" this_length="225" this_offset="12666" txt_extraction_err="0" type="manual"/>
+</document>

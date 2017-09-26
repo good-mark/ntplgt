@@ -1,0 +1,168 @@
+Падение темпов роста производительности труда - международное явление, вызванное, в частности, расширением сектора услуг, который менее способен к рационализации. В определенной степени неблагоприятное развитие в Швеции объясняется большим государственным сектором, который, по определению, не дает роста производительности. Таким образом, инфляция и относительно скромный экономический рост являются определенной ценой, уплаченной за полную занятость и политику равенства. Наиболее слабым местом модели оказалась сложность сочетания полной занятости и стабильности цен. Но до 80-х годов эти трудности не проявлялись в виде серьезной угрозы модели в целом. RSA enkripciona še-ma je determinističaka što znači da se osnovni tekst uvek enkriptuje u isti šifrovani tekst za unapred zadati javni ključ. Da bi se izbegao ovaj problem, praktična implementacija RSA algoritma obično koristi neke strukture, kao što je dodavanje slučajnog teksta u samu poruku pre enkripcije. Ovo dodavanje obezbeđuje da osnovna poruka bude sigurna i da se može enkriptovati u veliki broj različitih šifrovanih poruka. Stan-dardi, kao što je PKCS #1, pažljivo su dizajnirani tako da dodaju tekst u osnovnu poruku pre RSA same enkripcije.
+Ključne reči: kriptografija, enkripcija, dekripcija, RSA, PKCS, OAEP, SAEP.
+Uvod
+Kriptografija je poznavanje „tajnog pisanja", odnosno poznavanje č uvanja informacija tako da one budu čitljive samo onima kojima su namenjene. Reč kriptografija potiče od grčkih reči kriptos (Kpimoa) -tajna i grafien (Ypa9i£v) - pisati.
+Kriptografija je doživela najznačajniji razvoj 1976. godine kada su Di-fie (Whitfield Diffie) i Helman (Martin Hellman) izdali [2]. U ovoj knjizi je uveden revolucionarni koncept kriptografije sa javnim ključem. Takođe, prikazan je i novi, genijalni metod za razmenu ključa, čija je sigurnost ba-zirana na nerešivosti problema diskretnog logaritma. Mada autori u to vreme nisu imali praktičnu realizaciju šeme enkripcije javnim ključem, ideja je bila jasna i dovela je do velike zainteresovanosti u svetu kriptografije. Rivest (Ron Rivest), Šamir (Adi Shamir) i Adleman (Len Adleman) 1978. godine otkrili su prvu praktičnu šemu za enkripciju sa javnim klju-čem, sada poznatu kao RSA šema.
+Kriptografija se ujedno smatra i granom matematike i granom teorij-skog računarstva. Enkriptovanje i digitalni potpis su kriptografske tehnike koje se koriste da bi se implementirali bezbednosni servisi. Osnovni ele-
+sonjakuljanski@gmail.com
+Kuljanski, S., RSA algoritam i njegova praktična primena, str. 65-77
+VOJNOTEHNIČKI GLASNIK 3 / 10
+ment koji se koristi naziva se enkripcijski sistem ili algoritam enkripcije. Svaki enkripcijski sistem obuhvata par transformacija podataka koje se nazivaju enkripcija i dekripcija. U asimetričnim algoritmima, odnosno al-goritmima sa javnim ključem, ključ za enkripciju se razlikuje od ključa za dekripciju. Štaviše, ključ za dekripciju se ne može (u razumnom vreme-nu) izračunati na osnovu ključa za enkripciju. Ključ za enkripciju naziva se „javni ključ" i samim tim svako može uputiti šifrovanu poruku primao-cu, ali je samo primalac može dešifrovati. Ključ za dekripciju se naziva „tajni ključ".
+Deterministička enkripciona šema je kriptosistem koji uvek produku-je isti šifrovani tekst za dati osnovni tekst i unapred zadati ključ, čak i pored nezavisnog izvršavanja enkripcionog algoritma. Zato deterministička enkripcija može odati informacije napadaču, koji može prepoznati od ra-nije poznati šifrovani tekst.
+Verovatnosna enkripcija koristi slučajnost u algoritmima enkripcije, pa se dobija različita šifrovana poruka kada se više puta enkriptuje ista osnovna poruka. Da bi semantički bio siguran, odnosno da bi sakrio deli-mične informacije o osnovnoj poruci, enkripcioni algoritam mora biti vero-vatnosni. Verovatnosna enkripcija ima veoma značajnu ulogu u enkripciji sa javnim ključem. Pretpostavimo da napadač posmatra šifrovani tekst i pretpostavlja da je osnovna poruka DA ili NE. Kada se koristi determini-stički enkripcioni algoritam napadač može jednostavno da pokuša da enkriptuje svako od njegovih nagađanja pomoću javnog ključa i da uporedi rezultat sa ranije posmatranim šifrovanim tekstom. Da bi se odbranili od ove vrste napada, enkripcione šeme sa javnim ključem moraju koristiti elemente slučajnosti i tako osigurati da će se jedna osnovna poruka en-kriptovati u veliki broj mogućih šifrovanih poruka.
+Deterministička enkripciona šema može se konvertovati u verovat-nosnu dodavanjem slučajnog stringa u osnovnu poruku pre enkripcije ne-kim determinističkim algoritmom. U tom slučaju dekripcija zahteva prime-nu determinističkog algoritma i ignorisanje slučajnog stringa koji je dodat. Ranije šeme koje su primenjivale ovaj pristup bile su razotkrivene na osnovu ograničenja u determinističkim enkripcionim šemama. OAEP in-tegriše slučajan umetak tako da je sigurno korišćenje bilo koje trapdoor permutacije.
+Osnovni RSA algoritam
+Pre dvadeset godina Difie i Helman su izjavili: "We stand today on the bank of revolution in cryptography”. Danas se nalazimo na sredini te revolucije. U poslednje dve decenije došlo je do prave eksplozije istraži-vanja u oblasti kriptologije. Mnogi kriptosistemi bili su predlagani, a
+<бГ)
+mnogi od njih bili su razbijeni. Povezanost između kriptologije, teorije kompleksnosti i teorije brojeva postepeno je otkrila i obogatila sve tri grane istraživanja. U radu [3], kao i u radu [6], navedeni su osnovni koncepti kriptografije i kriptografski algoritmi.
+Rivest, Šamir i Adleman su 1978. godine objavili kriptosistem sa javnim ključem koji zadovoljava sva tri zahteva koja su postavili Difie i Helman. U toj enkripcijskoj šemi svaki korisnik ima uređeni par celih brojeva (e,n), što predstavlja javni ključ, pri čemu je n proizvod dva velika prosta broja p i i važi NZD(e,p(n)) = 1. Broj p(n) predstavlja red multiplikativne grupe Zn. Algoritam za enkripciju je:
+c = me (mod n)	(1)
+Odgovarajući tajni ključ je d, pri čemu je d ■ e = 1(mod p(n)) i algoritam za dekripciju je:
+m = cd (mod n)	(2)
+RSA pretpostavka je pretpostavka da je RSA problem težak kada je modul n dovoljno velik i slučajno izabran i kada je osnovna poruka m (a samim tim i šifrovana poruka c) slučajno izabran ceo broj između 0 i n -1. Pretpostavka, u stvari, kaže da je RSA funkcija trapdoor jedno-smerna funkcija (pri čemu je privatni ključ trapdoor).
+Jasno je da RSA problem nije teži od problema faktorisanja celog broja, tako da napadač koji uspe da faktoriše modul n može da izračuna tajni ključ d ako mu je poznat javni ključ (e, n). Još uvek se ne zna da li važi i obrnuto, odnosno da li algoritam za faktorisanje celih brojeva može biti efikasno konstruisan iz algoritma za rešavanje RSA problema. Detalj-no objašnjenje problema faktorizacije i RSA problema dato je u [4, pogla-vlja 3.2 i 3.3].
+Algoritam 1 (Generisanje ključeva za RSA enkripciju javnim ključem)
+Sažetak: svaki entitet kreira RSA javni ključ i odgovarajući privatni.
+1.	Generisati dva velika slučajna (i različita) prosta broja p i q, ot-prilike iste veličine.
+2.	Izračunati n = pq i p = (p - 1)(q -1).
+3.	Izabrati slučajan ceo broj e, 1 < d < p, takav da NZD(e,p) = 1.
+4.	Koristiti prošireni Euklidov algoritam za računanje jedinstvenog celog broja d, 1 < d < p, takvog da ed = 1(modp).
+5.	Javni ključ je (e, n), privatni ključ je d.
+Definicija 1. Celi brojevi e i d u RSA generatoru ključa nazivaju se enkripcioni eksponent i dekripcioni eksponent, respektivno, dok se n na-ziva modul.
+Kuljanski, S., RSA algoritam i njegova praktična primena, str. 65-77
+VOJNOTEHNIČKI GLASNIK 3 / 10
+Algoritam 2 (RSA enkripcija javnim ključem)
+Sažetak: entitet B enkriptuje poruku m za entitet A, koju će entitet A da dekriptuje.
+Enkripcija: entitet B treba da:
+1. Dobije od entiteta A autentičan javni ključ (e, n).
+2.	Predstavi poruku koju želi da enkriptuje kao ceo broj m u interva-lu [0, n -1].
+3.	Izračuna c = me (modn).
+4.	Pošalje šifrovani tekst c entitetu A.
+Dekripcija: za dešifrovanje teksta m iz šifrovanog teksta c entitet A treba da:
+1.	Koristi tajni ključ dza dešifrovanje m = cd (modn).
+RSA enkripcija u praksi
+Enkripcioni RSA algoritam je deterministički enkripcioni algoritam (nema slučajnih komponenata) i napadač uspešno može izvršiti chosen plaintext napad na kriptosistem, enkriptujući mogući osnovni tekst, ko-rišćenjem javnog ključa, i proveravajući da li je jednak šifrovanom tek-stu koji želi da dekriptuje. Kriptosistem se naziva „semantički siguran" ako napadač ne može razlikovati dva enkriptovana teksta, čak i ako mu je poznat odgovarajući osnovni tekst. RSA bez padding šeme nije se-mantički siguran.
+Da bi se izbegao ovaj problem praktična RSA implementacija obično ubacuje neki dodatak (padding) u osnovnu poruku pre nego što se izvrši enkripcija. Ovaj dodatak omogućava da osnovna poruka ne upadne u op-seg nesigurnog osnovnog teksta i da se data poruka enkriptuje u jednu od brojnih, različitih šifrovanih poruka.
+Pravilno enkriptovanje RSA algoritmom
+Belar (Mihir Bellare) i Rodevej (Phillip Rogaway) 1993. godine for-malizovali su koncept random orakla, što predstavlja veoma važan deo teorije kompleksnosti u kriptografiji. Taj novi alat im je omogućio da pred-stave nekoliko asimetričnih enkripcionih šema koje su efikasne i dokaza-no sigurne (u random orakl modelu). The Optimal Asymmetric Encryption Padding (OAEP) najznačajnija je šema tog modela.
+Određeno vreme naučnici su pokušavali da dođu do dokaza o sigurno-sti kriptografskih protokola u redukcionom smislu. Da bi to postigli, predsta-vljali su algoritme koji koriste efektivan napad kao potprogram da bi razotkrili početnu tešku pretpostavku (kao što je RSA pretpostavka ili nemogućnost
+<бТ)
+faktorizacije celih brojeva). Takvi algoritmi nazivaju se „redukcioni" i mogu biti uspešni, grubo govoreći, ako ne zahtevaju previše poziva potprograma.
+Pre nekoliko godina započeo je novi pravac u istraživanjima koji je kombinovao dokazivanje sigurnosti i efikasnosti. Da bi postigli cilj Belar i Rodževej su formalizovali heuristiku koju su predložili Fiat (Amos Fiat) i Šamir. Ona se sastojala u izradi idealne pretpostavke o nekom objektu, kao što je heš funkcija, prema kojoj je moguće simulirati ponašanje zaista slučajne funkcije. Ova pretpostavka, poznata kao „random orakl model", može izgledati strogo i bez mogućnosti praktične primene.
+U random orakl modelu se pretpostavlja da napadač ne može da ko-risti bilo koji specifičan nedostatak heš funkcije koja se koristi u praksi.
+Potrebno je naglasiti da čak i formalna analiza u random orakl modelu nije jak dokaz sigurnosti, jer je zasnovana na idealnoj pretpostavci. Medutim, ovaj model može obezbediti dovoljno sigurnosti i može se kori-stiti kao osnova za veoma efikasne šeme, videti [5, poglavlje 3.1].
+Random orakl, RSA-PKCS1 i OAEP šema
+Random orakl u kriptografiji je orakl (crna kutija) koji na svaki upit odgovara slučajnim odgovorom, izabranim uniformno iz izlaznog dome-na. Sa druge strane, random orakl je matematička funkcija koja slika sva-ki mogući upit na slučajan odgovor iz izlaznog domena.
+Random orakl predstavlja matematičku apstrakciju koja se koristi u kriptografskim dokazima, a koristi se kada nije poznata matematička funkcija koja dovodi do osobina traženih u dokazu. Sistem za koji je dokazano da je siguran, korišćenjem ovog načina dokazivanja, smatra se sigurnim u random orakl modelu, za razliku od sigurnosti u standardnom modelu 1. U praksi se random orakl obično koristi za modeliranje kriptografske heš funkcije u šemama u kojima je potrebna pretpostavka o strogoj slučajnosti. Ova-kvi dokazi obično pokazuju da je sistem siguran, ukazujući na činjenicu da napadač mora da zahteva nemoguće ponašanje orakla ili da reši neki mate-matički problem za koji se veruje da je težak u cilju razotkrivanja sistema.
+Ne postoji realna funkcija koja predstavlja random orakl. U suštini, od-ređene enkripcione šeme su dokazano sigurne u random orakl modelu, ali su trivijalno nesigurne kada bilo koja realna funkcija zameni random orakl. Bez obzira na to, dokaz o sigurnosti u random orakl modelu obično daje veoma jak dokaz da napad koji ne razbije druge pretpostavke dokaza (kao što je faktorizacija celih brojeva) mora otkriti neke nepoznate osobine heš funkcije koja se koristi. Например, предполагаются таковыми отношения врача и пациента, юриста и клиента, родителя и ребенка, опекуна и подопечного, духовного наставника и ученика. В настоящее время существуют два варианта данной доктрины. В вышеописанном виде она применяется английскими судами, а в Австралии действует в несколько ином варианте. Защита от недолжного влияния в наследственном праве имеет значительную специфику. Вообще, наследственное право развивалось отдельно от права справедливости. Институт недолжного влияния имеется и в наследственном праве, однако с одноименной доктриной права справедливости у него нет ничего общего. Для того чтобы признать завещание недействительным по мотиву недолжного влияния на завещателя, надо доказать, что на него было оказано давление, деформировавшее его волю, а это уже аналог доктрины принуждения, как она применяется в отношении дарения inter vivos. Примеров удовлетворения исков о недействительности завещания по мотиву недолжного влияния в англо-австралийском праве почти нет. Однако это не означает, что у лиц, недовольных завещанием, совсем отсутствуют какие-либо основания для иска о его признании недействительным.
+1	Public-Key Cryptography Standards.
+Kuljanski, S., RSA algoritam i njegova praktična primena, str. 65-77
+VOJNOTEHNIČKI GLASNIK 3 / 10
+Posle Blaihenbaherovog (Daniel Bleichenbacher) razarajućeg napa-da na RSA-PKCS #1 v1.5 1998. godine, RSA-OAEP (RSA-PKCS #1 v2.0) postao je naslednik standarda 2, a samim tim i internacionalni standard. Interesantno je da je “ Soup (Victor Shoup) nedavno pokazao da originalni dokaz sigurnosti OAEP-a nije korektan. Srećom, ubrzo posle toga otkrio je formalan i kompletan dokaz koji garantuje visok nivo sigurnosti RSA-OAEP šeme. Međutim, ovaj novi dokaz sigurnosti još uvek ne garantuje sigurnost za veličinu ključa koji se koristi u praksi. Alternative OAEP šeme, kao što su OAEP+ i SAEP+ omogućavaju efikasnije dokazi-vanje i zbog toga obezbeđuju adekvatan nivo sigurnosti za veličinu ključa koja se koristi u praksi. Sve tri šeme su navedene u [5, poglavlje 3].
+RSA-PKCS #1 v1.5 enkripcija
+Široko rasprostranjen padding za RSA enkripciju definisan je u PKCS #1 v1.5 standardu: za bilo koji modul 28(k-1) < n < 28k, kako bi se enkriptovala l bitova dugačka poruka m (l < k -11) potrebno je slučajno izabrati string r dužine k - 3 -1 bitova. Tada se definiše k bitova duga poruka M = 02 || * || 0 || * . Ako je šifrovana poruka ovog formata, dekrip-tor dešifruje osnovni tekst, a ako nije onda se šifrovani tekst odbacuje.
+Tabela 1 Table 1
+I 0 I 2 I ne nula bitovi (više od 8 bitova)	| 0	| m |
+Intuitivno, ovaj padding izgleda dovoljan da otkloni nedostatke obič-ne RSA enkripcije, ali ne postoji formalan dokaz koji to i garantuje. Blai-henbaher je neočekivano pokazao da jednostavan aktivan napad može kompletno slomiti PKCS #1. Taj napad je primenjen na realan sistem kao što je Web server koji koristi sSl v3.03. Ovi serveri često produkuju spe-cifičnu poruku o grešci ako šifrovani tekst nije korektan. Ta osobina ser-vera omogućava napadaču da testira da li su dva najznačajnija bajta ši-frovanog teksta c baš 02. Ako jesu, napadač saznaje sledeće ograniče-nje za dekriptovanje šifrovanog teksta c:
+2 • 28(k-2) < cd modn < 3 • 28(k-2)	(3)
+Zahvaljujući samoreducibilnosti RSA permutacije, naročito homo-morfizmu cse = mese = (ms)e modn, kompletna dekripcija šifrovanog teksta c može biti razotkrivena posle relativno malog broja upita. Samo nekoliko miliona upita potrebno je za 1024-bitni modul.
+Blaihenbaherov napad imao je uticaj na mnoge praktične sisteme i odjednom je postalo jasno koliko je veliki značaj formalnog dokaza sigur-nosti, videti [5, poglavlje 2.2].
+OAEPšema
+U vreme kada je Blaihenbaher objavio svoj napad na RSA-PKCS #1 v1.5 jedina efikasna i „dokazano sigurna" enkripciona šema, zasnovana na RSA problemu, bila je OAEP šema, koju su predložili Belar i Rodže-vej. OAEP se može koristiti sa bilo kojom trapdoor permutacijom f.
+Belar i Rodževej su dokazali da OAEP padding korišćen bilo kojom trapdoor - jednosmernom permutacijom f semantički obezbeđuje sigur-nost enkripcionoj šemi. Dopunjavanjem osnovne poruke oni su, pored si-gurnosti, dokazali i da je OAEP padding slabo svestan osnovne poruke. Kriptosistem je slabo svestan osnovne poruke ako bilo koji algoritam teš-ko može da dode do šifrovanog teksta kad mu nije poznat odgovarajući osnovni tekst. Nažalost, adaptive chosen-ciphertext napad dozvoljava napadaču da proizvoljno dugo pristupa dekripcionom oraklu, čak i posle primanja spornog šifrovanog teksta o kojem napadač želi da dobije neke informacije. Zbog toga, semantička sigurnost, zajedno sa slabom svešću o osnovnom tekstu, samo implicira semantičku sigurnost na non-adaptive chosen-ciphertext napad (lunchtime napad ili indiferentanchosen-cipher-text napad), gde je pristup dekripcionom oraklu ograničen, dok napadač ne primi testirani šifrovani tekst.
+Činjenica je da je jedini formalan dokaz sigurnosti OAEP šeme do-kaz da je ona semantički sigurna na lunchtime attacks, pod pretpostav-kom da je osnovna permutacija jednosmerna. Međutim, veruje se da je OAEP takođe semantički sigurna šema na chosen-ciphertext napad.
+OAEP šema je vrsta Feistelove mreže koja koristi par random orakla G i H da bi obradila osnovni tekst asimetričnom enkripcijom. Kada se kombinuje sa bilo kojom jednosmernom trapdoor permutacijom f ova ob-rada će dokazano, u smislu random orakl modela, rezultirati kombinova-nom šemom koja je semantički sigurna na chosen plaintext napad (IND-CPA). Kada je implementirana sa pouzdanom trapdooor permutacijom (na primer rSa), OAEP će biti dokazano siguran i na chosen ciphertext napad (IND-CCA).
+OAEP šema zadovoljava sledeća dva uslova:
+-	dodaje elemente slučajnosti koji mogu biti korišćeni za konvertova-nje determinističke enkripcione šeme (kakva je RSA šema) u verovatno-snu šemu,
+-	štiti delimičnu dekripciju šifrovanog teksta, onemogućavajući napa-dača da otkrije bilo koji deo osnovnog teksta ako nije u mogućnosti da in-vertuje trapdoor jednosmernu permutaciju f.
+71
+Kuljanski, S., RSA algoritam i njegova praktična primena, str. 65-77
+VOJNOTEHNIČKI GLASNIK 3 / 10
+Dijagram OAEP šeme
+Na prikazanom dijagramu:
+•	n predstavlja broj bitova RSA modula;
+•	к0 i к1 su celi brojevi određeni protokolom;
+•	message je osnovna poruka, čija je dužina n - к0 - к1 bitova;
+•	G i H su heš funkcije utvrđene protokolom.
+Enkripcija se vrši na sledeći način:
+1. osnovna poruka se proširi sa к1 nula i na taj način se dobija poruka dužine n - к0 bitova;
+2.	r je proizvoljan string dužine к0 bitova;
+3. G je heš funkcija koja konvertuje к0 bitova stringa r u n - к0 bitova;
+4.	X = messageOк1 Ф G (r);
+5. H je heš funkcija koja konvertuje n - к0 bitova od X u к0 bitova;
+6.	Y = r Ф H(X);
+7.	Izlaz je X || Y.
+Dekripcija se vrši na sledeći način:
+1.	izračunava se proizvoljan string r = Y Ф H(X);
+2.	izračunava se osnovna poruka messageOк1 = X Ф G(r).
+2	Slika preuzeta iz [5].
+CjD
+Sigurnosna redukcija RSA inversa u napad je neefikasna u praktič-noj primeni. Samim tim, redukcija je besmislena ako se neće koristiti do-voljno veliki modul, pri čemu bi RSA invers (ili faktorizacija) zahtevao mnogo više od 2150 poziva. Koristeći postojeće tehnike faktorizacije po-trebno je koristiti modul veći od 4096 bitova kako bi redukcija imala smi-sla. Sa druge strane, redukcija pokazuje da 1024-bitni modul obezbeđuje dokazani nivo sigurnosti od 240, što je neadekvatna zaštita, imajući u vi-du trenutnu kompjutersku moć.
+Осенне-зимний этап
+ На каждой стадии этого этапа технические тренировки проводятся преимущественно на лыжероллерах, а с ноября - на лыжах (на лыжном сборе на севере страны или в среднегорье). Базовая подготовка (октябрь - середина ноября)
+ Тренировки на местности: длительные тренировки на лыжероллерах с картой в наиболее насыщенных дорогами районах последних летних соревнований, а также в районах, где соревнования не проводились несколько лет; тренировки в переменном темпе с чтением различных карт (с выбором путей на них) при ускорениях; длительные тренировки на лыжероллерах и лыжах в незнакомой местности без карты, с зарисовкой пройденного пути (сети дорог) после тренировки по памяти; прохождение длинных тренировочных трасс по дорогам (с картами или схемами-зарисовками) в районе лыжного сбора. Домашние тренировки. Те же, что и на предыдущей стадии подготовительного периода, но с упором на планировку трасс на различных картах, в том числе и на картах с дорисованными дополнительными лыжнями. Специальная подготовка (середина ноября - середина декабря)
+ Тренировки на местности, в основном индивидуальные: переменные тренировки на лыжах с картой местности в районах массового катания - с большим количеством лыжней; повторное прохождение коротких трасс (2-4 км) в высоком темпе с изменением на каждой трассе числа и точек КП; тренировочные соревнования на трассах длиной 6-10 км; тренировка с различными картами на тренировочной лыжной трассе. Домашние тренировки. Те же, что и на предыдущих стадиях, а также анализ трасс и выбранных путей первых тренировочных стартов. Соревновательный период (декабрь - март)
+ Технические тренировки в этот период предназначены для подготовки непосредственно к основным соревнованиям сезона. С этой целью следует анализировать свои подводящие и контрольные соревнования, а также трассы и результаты других соревнований заданного, которые проводились в районах, аналогичных району предстоящих основных соревновании. Međutim, mnogi na-učnici veruju da je RSA trapdoor permutacija sa eksponentom e = 3 sla-bija od permutacije sa većim eksponentom. Zato je predložio modifikova-nu verziju OAEP šeme, koja se naziva OAEP+. Ova šema koristi redun-dantnost promenljivih R(message,r) umesto konstantnog broja 0 (kkl), pa je samim tim OAEP+ šema malo kompleksnija od OAEP šeme, [5, po-glavlje 4.1]. Fujisaki je u [4] pokazao da isto važi za RSA permutaciju sa bilo kojim javnim eksponentom e.
+3	Slika preuzeta iz [5].
+Slika 2 - OAEP+ šema3 Figure 2 - OAEP+ diagram
+Kuljanski, S., RSA algoritam i njegova praktična primena, str. 65-77
+VOJNOTEHNIČKI GLASNIK 3 / 10
+SAEP+ Padding
+Bonei je nedavno objavio novu padding šemu, SAEP+. Ona je jedno-stavnija od OAEP šeme, pa je nazvana Simplified Asymmetric Encryption Padding. Dok je OAEP šema dvostruka Feistelova mreža, SAEP+ je jed-nostruka. Međutim, za velike eksponente (e > 2), SAEP+ ne garantuje si-gurnost u praktičnoj primeni [5, poglavlje 4.2].
+Zaključak
+Među algoritmima sa javnim ključem postoji ogroman jaz izmađu praktičnih šema i šema za koje je dokazano da su sigurne: praktični meto-di su efikasni, ali nemaju dovoljan nivo dokazane sigurnosti, dok su dokazano sigurne šeme sigurne, ali ni blizu toliko efikasne. U ovom radu prika-zane su šeme koje su dokazano sigurne, ali i zadovoljavajuće efikasne.
+Pri dokazivanju sigurnosti OAEP šeme zahteva se da G i H budu random funkcije, međutim, prilikom konkretne implementacije koriste se kriptografske heš funkcije. Paradigma [1] tvrdi da rezultati koji se zasni-vaju na idealnoj heš funkciju i koji dokazuju sigurnost imaju veći značaj od protokola koji su dizajnirani ad. hoc.
+Pri dokazivanju da je OAEP sistem siguran ga rantuje se da napadač, koji poseduje šifrovani tekst, mora otkriti messageOkl Ф G(r) ako želi da ot-krije bilo šta smisleno o osnovnoj poruci message. Pokazano je da postoji
+4	Slika preuzeta iz [5].
+74
+jednostavnija padding šema za konvertovanje RSA enkripcione šeme u ve-rovatnosnu, koja je, takođe, sigurna u random orakl modelu. To je takozva-na SAEP+. Primećeno je da jednostavnija padding šema čini sistem lakšim za opisivanje i lakšim za implementaciju, a samim tim mnogo elegantnijim. Pojednostavljenje padding šeme ima malo uticaja na performanse, jer je vreme za njeno izvršavanje zanemarljivo u odnosu na samu enkripciju.
+Mada je SAEP+ padding šema jednostavnija od OAEP šeme, ona je i restriktivnija. Korišćenjem OAEP i OAEP+ šeme može se enkriptovati poruka koja je dugačka skoro kao I modul. Na primer, za 1024-ro bitni modul bezbedno je enkriptovati poruku koja je dugačka 768 bitova. Na-suprot tome, korišćenjem modula iste veličine, SAEP+ šema može enkriptovati poruku od najviše 384 bita. Ova razlika je nije toliko bitna u sva-kodnevnoj upotrebi (za transport ključa), ali je ipak vredna pomena.
+Literatura
+[1]	Bellare, M. and Rogaway, P., Random oracles are practical: a paradigm for designing efficient protocols," Proceedings of the First Annual Conference on Computer and Communications Security, ACM, 1993.
+[2]	Diffie, W. and Hellman, M., New Directions in Cryptography, IEEE Transactions on Information Theory, IT-22, no. 6, November 1976, pages 644-654.
+[3]	Menezes, A., Oorschot, P. and Vanstone, S., Handbook of Applied Cryptography, CRC Press, Boca Raton, October 1996.
+[4]	Menezes, A., Evaluation of Security Level of Cryptography: RSA-OAEP, RSAPSS, RSA Signature, CRYPTREC, December 2001.
+[5]	Pointcheval, P., How to Encrypt Properly with RSA, RSA Laboratories’ CryptoBytes. Volume 5, No. 1 - Winter/Spring 2002, pages 9-19.
+[6]	Rivest, R., Cryptology, MIT Laboratory for Computer Science, 1990.
+КАПЛУНОВ
+КАЛЕНДАРНОЕ ПЛАНИРОВАНИЕ ДЛЯ УНИФИЦИРОВАННОЙ МОДЕЛИ ОБЪЕКТА УПРАВЛЕНИЯ ДИСКРЕТНОГО ПРОИЗВОДСТВА
+1. Введение
+Календарное планирование при управлении реализацией производственного плана (производственного заказа, изделия, узла, детали) является важнейшей компонентой любой производственной системы. Несмотря на кажущуюся очевидность задачи, реализация календарного планирования наталкивается на множество проблем. Достаточно сказать, что ни одна из находящихся на рынке отечественных программных продуктов ERP-систем (или систем, приближенных к этой планке) не имеет в своем составе компоненты Shop Flow Control (диспетчирование/управление производством). Выпущенная в сентябре 2002 года корпорацией «Галактика» (нашими соседями из ближнего зарубежья, один из лидеров-производителей ERP-систем) коммерческая версия системы "Галактика-Производство" так и не имеет в своем составе модулей календарного планирования производства и контроллинга за ходом выполнения производственного процесса. План производства, производственный заказ и, как частный случай производственного заказа, производственная партия изделий являются объектами управления в системе управления производственными процессами. It is the first algorithm known to be suitable for encryption as well as digital signing.
+The RSA encryption scheme is deterministic in the sense that under a fixed public key, a particular plaintext is always encrypted to the same ciphertext. A deterministic encryption scheme (as opposed to a probabilistic encryption scheme) is a cryptosystem which always produces the same ciphertext for a given plaintext and key, even over separate executions of the encryption algorithm. Probabilistic encryption uses randomness in an encryption algorithm, so that when encrypting the same message several times it will, in general, yield different ciphertexts.
+75
+Kuljanski, S., RSA algoritam i njegova praktična primena, str. 65-77
+VOJNOTEHNIČKI GLASNIK 3 / 10
+Basic RSA algorithm
+The RSA algorithm involves three steps: key generation, encryption and decryption.
+The key generation algorithm:
+1.	Generate two large random primes, p and q.
+2.	Compute n = pq and ф = (p-1)(q-1).
+3.	Choose an integer e, 1 < e < ф, such that gcd(e, phi) = 1.
+4.	Compute the secret exponent d, 1 < d < ф, such that ed = 1 (mod ф).
+5.	The public key is (n, e) and the private key is (n, d). Keep all the values d, p, q and ф secret.
+•	n is known as the modulus.
+•	e is known as the public exponent or encryption exponent or just the exponent.
+•	d is known as the secret exponent or decryption exponent.
+Encryption:
+Sender A does the following:
+1.	Obtains the recipient B’s public key (n, e).
+2.	Represents the plaintext message as a positive integer m
+3.	Computes the ciphertext c = me mod n.
+4.	Sends the ciphertext c to B.
+Decryption:
+Recipient B does the following:
+1. Uses his private key (n, d) to compute m = cd mod n.
+RSA encryption in practice
+To solve a deterministic problem, practical RSA implementations typically embed some form of structured, randomized padding into the plaintext before encrypting it. This padding ensures that the plaintext does not fall into the range of insecure plaintexts, and that a given message, once padded, will encrypt to one of a large number of different possible ciphertexts. Standards, such as PKCS #1, have been carefully designed to securely pad messages prior to RSA encryption.
+How regularly encrypt RSA algorithm
+A few years ago, a new line of research started with the goal of combining provable security with efficiency. To achieve this goal, Bella-re and Rogaway formalized a heuristic suggested by Fiat and Shamir. This heuristic consisted in making an idealized assumption about some objects, such as hash functions, according to which they were assumed to behave like truly random functions. This assumption, known as the „random oracle model“, may seem strong, and lacking in practical embodiments.
+Random oracle, RSA-PKCS and OAEP scheme
+No real function can implement a true random oracle. In fact, certain encryption schemes are proven secure in the random oracle model, but are trivially insecure when any real function is substituted for the random oracle. Nonetheless, a proof of security in the random oracle model gives very strong evidence that an attack which does not break the other assumptions of the proof, if any (such as the hardness of integer factorization) must discover some unknown and undesirable property of the hash function used in the protocol to work. Many schemes have been proven secure in the random oracle model, for example the OAEP scheme.
+Shoup also proposed a formal security proof of RSA-OAEP with a much more efficient security reduction, but in the particular case where the encryption exponent e is equal to 3. However, many people believe that the RSA trapdoor permutation with exponent 3 may be weaker than with greater exponents. Therefore, he also proposed a slightly modified version of OAEP, called OAEP+.
+Boneh recently proposed a new padding scheme, SAEP+, to be used with RSA. It is simpler than OAEP, hence the name Simplified Asymmetric Encryption Padding: whereas OAEP is a two-round Feistel network, SAEP+ is a single round.
+Key words: cryptography, encryption, decryption, RSA, PKCS, OAEP, SAEP
+Datum prijema članka: 16. 01.2010.
+Datum dostavljanja ispravki rukopisa: 01.02. 2010.
+Datum konačnog prihvatanja članka za objavljivanje: 02. 02. 2010.
+77
+Kuljanski, S., RSA algoritam i njegova praktična primena, str. 65-77

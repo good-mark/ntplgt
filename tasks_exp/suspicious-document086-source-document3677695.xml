@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<document reference="086.txt">
+	<feature name="plagiarism" obfuscation="ADD" source_language="ru" source_length="185" source_offset="1476" source_reference="3677695.txt" this_language="ru" this_length="196" this_offset="20535" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="DEL" source_language="ru" source_length="178" source_offset="1662" source_reference="3677695.txt" this_language="ru" this_length="167" this_offset="20732" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="DEL" source_language="ru" source_length="10" source_offset="1841" source_reference="3677695.txt" this_language="ru" this_length="167" this_offset="20732" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="LPR" source_language="ru" source_length="103" source_offset="1852" source_reference="3677695.txt" this_language="ru" this_length="101" this_offset="20900" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="HPR" source_language="ru" source_length="203" source_offset="4939" source_reference="3677695.txt" this_language="ru" this_length="184" this_offset="21628" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="DEL" source_language="ru" source_length="112" source_offset="5142" source_reference="3677695.txt" this_language="ru" this_length="80" this_offset="21813" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="ADD" source_language="ru" source_length="257" source_offset="6273" source_reference="3677695.txt" this_language="ru" this_length="286" this_offset="21894" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="DEL" source_language="ru" source_length="180" source_offset="6532" source_reference="3677695.txt" this_language="ru" this_length="139" this_offset="22181" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="DEL" source_language="ru" source_length="150" source_offset="6713" source_reference="3677695.txt" this_language="ru" this_length="136" this_offset="22321" txt_extraction_err="1" type="manual"/>
+	<feature name="plagiarism" obfuscation="LPR" source_language="ru" source_length="150" source_offset="6864" source_reference="3677695.txt" this_language="ru" this_length="144" this_offset="22458" txt_extraction_err="0" type="manual"/>
+</document>

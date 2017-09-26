@@ -1,0 +1,196 @@
+
+ 
+ Навигация FLEXible блог Балькина Руслана Почему Groovy один из лучших языков программирования
+
+ 
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ Моё первое знакомство с Groovy было не вполне удачным.
+Так, обнаружилась достаточно невысокая производительность, тормоза при использовании статической типизации, и отсутствие масштабных плюсов по сравнению с Java.
+В тот момент единственное, что я был готов отдать на откуп Groovy, была отладочная консоль сервера.
+Например, у нас в сервере используется JavaScript от Mozilla (Rhino), ещё с тех пор, когда его не было в JRE.
+ Однако позднее пришлось «допиливать» проект, написанный на Groovy с использованием фреймворка Grails, и тогда в этот язык я влюбился.
+ Я могу часами (ну ладно, не часами — минутами) придумывать, как сделать рефакторинг Java кода, чтобы он стал более читаемым, более производительным, более грамотно организованным.
+Но на Groovy можно зайти ещё дальше.
+В сети есть интересный пример, как программу на Java (конечно же, являющуюся и валидной программой на Groovy), можно переписать.
+ Кстати, самое первое и очень важное преимущество Groovy заключается в том, что программа на Java — это программа на Groovy.
+Вовсе необязательно переписывать код!
+То, что все библиотеки Java, написанные за последние ≈15 лет, можно использовать и в Groovy — и так понятно.
+Но этот факт тоже не стоит недооценивать.
+Ну да ладно, вернёмся к рефакторингу: import java.util.List; import java.util.ArrayList; class Erase { private List filterLongerThan(List strings, int length) { List result = new ArrayList(); for (int i = 0; i < strings.size(); i++) { String s = (String) strings.get(i); if (s.length() <= length) { result.add(s); } } return result; } public static void main(String[] args) { List names = new ArrayList(); names.add("Ted"); names.add("Fred"); names.add("Jed"); names.add("Ned"); System.out.println(names); Erase e = new Erase(); List shortNames = e.filterLongerThan(names, 3); System.out.println(shortNames.size()); for (int i = 0; i < shortNames.size(); i++) { String s = (String) shortNames.get(i); System.out.println(s); } } } Для сравнения: та же программа, переписанная на Groovy: names = ["Ted", "Fred", "Jed", "Ned"] println names shortNames = names.findAll{ it.size() <= 3 } println shortNames.size() shortNames.each{ println it } Без сомнения, явская программа могла бы быть покороче и почётче, уже за счёт использования дженериков из 1.5 Java (да-да, сейчас на дворе уже Java 1.7, их правда можно юзать).
+Но Groovy даёт больше простора, больше возможностей.
+Добавляя инъекции в существующие классы, можно добиться значительного сокращения времени, затраченного на разработку.
+Некоторых конструкций, например, очень не хватает в самой Java: new File("hello.world").eachLine { println it.trim() } Например, такой eachLine — это круто.
+Или регэкспы, регэкспы!
+if (a = ~/privet/) {} Это почти так же удобно, как if ($a =~ /privet/) {} в Perl :)
+
+
+Category: Разработка
+
+
+
+ 
+
+
+ 
+ 
+ 
+ Добавить комментарий
+
+ Log in with Loginza
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Ваше имя Тема Comment * Более подробная информация о текстовых форматах
+
+
+ Формат текста Filtered HTML Plain text
+
+
+
+
+Filtered HTML Адреса страниц и электронной почты автоматически преобразуются в ссылки.
+ You can use the <go> tags just like the <a> for nicer urls.
+ Twitter-style #hashtags в ссылках для https://twitter.com.
+ Twitter message links are opened in new windows and rel="nofollow" is added.
+ Twitter-style @usernames are linked to their Twitter account pages.
+ Разрешённые HTML-теги: <a> <em> <strong> <cite> <blockquote> <code> <ul> <ol> <li> <dl> <dt> <dd> <br> <p> <go> <tt> <s> <strike> <pre> Строки и параграфы переносятся автоматически.
+
+
+Plain text HTML-теги не обрабатываются и показываются как обычный текст Адреса страниц и электронной почты автоматически преобразуются в ссылки.
+ Строки и параграфы переносятся автоматически.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Главная страница By submitting this form, you accept the Mollom privacy policy.
+
+
+
+ 
+
+
+ 
+
+
+ 
+
+ 
+ 
+ 
+
+ Блог
+
+ 
+ Домой Дняфка Саранск В езду!
+ Мифы и легенды Починяю примус Linux
+
+
+
+
+ 
+
+
+ 
+
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+ В Google В Twitter В Контакте
+
+
+
+
+
+
+
+
+ Полезное
+
+ 
+ 
+
+ 
+
+
+
+
+
+ Кэшбэк
+
+ 
+ Покупай с Монеткой!
+Ну просто очень хороший кэшбэк.
+
+
+ 
+ 
+ 
+ 
+
+
+ 
+
+
+
+ 
+ 
+
+ Счётчики
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 

@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<document reference="027.txt">
+	<feature name="plagiarism" obfuscation="DEL" source_language="ru" source_length="297" source_offset="4197" source_reference="3327161.txt" this_language="ru" this_length="168" this_offset="3384" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="HPR" source_language="ru" source_length="71" source_offset="4495" source_reference="3327161.txt" this_language="ru" this_length="70" this_offset="3553" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="LPR" source_language="ru" source_length="99" source_offset="4567" source_reference="3327161.txt" this_language="ru" this_length="109" this_offset="3624" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="HPR" source_language="ru" source_length="99" source_offset="4667" source_reference="3327161.txt" this_language="ru" this_length="88" this_offset="3734" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="ADD" source_language="ru" source_length="116" source_offset="4767" source_reference="3327161.txt" this_language="ru" this_length="144" this_offset="3823" txt_extraction_err="0" type="manual"/>
+</document>

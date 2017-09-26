@@ -1,0 +1,99 @@
+
+
+	 NUCLEAR ACCIDENT
+	 
+
+ 
+×èòàéòå òàêæå:Accident analysisAccident auditingAccident investigation and recordingAccident PreventionACCIDENT THEORIESCauses and Common Types of Aviation AccidentsCHEMICAL ACCIDENTFaculty of Nuclear Sciences and Physics EngineeringI didn't know that there had been an accidentNuclear powerPrinciples of accident prevention
+
+
+
+
+
+
+ 
+ Nuclear blast hazards:
+ - Shockwave
+ - Fireball
+ - Penetrating radiation
+ - Radiation pollution
+ The nuclear blast hit site margin is assumed the imaginary line at the landscape in which superatmospheric pressure in front of the shockwave  = 10 kPa. Such pressure is supposed to be safe.
+ Shockwave is a region across which there is a rapid pressure, temperature, and density rise caused by a body moving supersonically in a gas or by a detonation.
+ To assign necessary rescue and assistance forces nuclear blast hit site is conventionally divided into 4 areas.
+ Damage zones (fig. 7):
+ 1. fatal damage (radius R1): fatality rate – 90%; fatal damage of buildings and power supply systems; 25% damage of emergency shelter;
+ 2. major damage (radius R2): fatality rate – 50%; fatal damage of civil buildings, and major damage of industrial buildings;
+ 3. medium damage (radius R3): fatality rate – 40%; major and minor damage of civil buildings;
+ 4. minor damage (radius R4): fatality rate – 15%; minor and negligible damage of civil buildings.
+ 
+ Fig. 7 Damage zones in nuclear hit site
+  
+ Fireball appears in the moment of blast and consists of hot products of the blast and air. Light flash (I) is brief bright light emitted by blast and defined as luminous intensity: the average time rate of flow of light through perpendicular area. Measuring units are kJ/m2.
+ Light flash duration  (sec), where q – blast power measured in kilo tons.
+ Burns caused by light flash are classified as:
+ first-degree burn: skin surface painful and red; I = 100-200 kJ/m2;
+ second-degree burn: blisters appear on the skin; I = 200-400 kJ/m2;
+ third-degree burn: destruction of both epidermis and dermis I = 400-600 kJ/m2;
+ fourth-degree burn: chair; I > 600 kJ/m2.
+  
+ Eyes affection:
+ - temporary blinding may last for 30 min;
+ - burn of fundus of the eye caused by staring at fireball even from the safe distance;
+ - burns of cornea and eyelid occur at the same distances as skin burns.
+  
+ Fire site is divided into 3 zones:
+ 1. overwhelms fire zone: smoldering hazard (burning slowly without flame, usually emitting smoke) survivals and rescue unit are exposured to;
+
+	
+ 2. extensive fire zone: about 50% buildings on fire, after 2 hours fire spreads to the rest;
+ 3. several fire zone: only several buildings are on fire.
+ Radius of fire zone:  , where K – factor which depends on blast type.
+ Radiation exposure is the emission or transfer of radiant energy emitted in nuclear blast only within 10-15 sec.
+ Read more detailed information about radiation exposure in points 20, 21.
+ Radiation pollution usually has shape of the ellipse, which spreads in wind direction covering part of hit site and great territory out of hit site (fig. 8).
+ 
+ Fig. 8 Radiation contamination
+  
+ Depending on radiation level the contaminated territory is broken into 4 zones:
+ 1. A zone of minor pollution;
+ 2. B zone of strong pollution;
+ 3. C zone of dangerous pollution;
+ 4. D zone of extremely dangerous pollution.
+  
+ In zones’ margins radiation levels at first hour after blast are: 8 (A), 80 (B), 240 (C), 800 (D) Rph.
+ Radiation decay lowers radiation level in time. Radiation level time rate is expressed by formula:
+ Ðt = Ð1 × Êt = Ð1 × t-1,2(14)
+ where Ðt – current radiation level at some time; Ð1 – first hour radiation level; Êt - time rate factor; t – time, which passed after blast.
+ In zone A: exposure dose till full radioactive decay makes from 40 to 400 R at external and internal margins correspondently. People have to stay in radiation protective shelters no longer than 24 hrs. After what they may leave shelters for dwellings. During next 24 hrs they may go outside only for 4 hrs. It’s recommended to wear protective clothing in windy and dry weather.
+ In zone B: exposure dose till full radioactive decay makes from 400 to 1200 R at external and internal margins correspondently. People have to stay in radiation protective shelters from 1 to 3 days. Then they are strongly recommended to stay inside their houses at least for next 4 days. To leave house is allowed only for 3-4 hrs a day and wearing protective clothing.
+ In zone C: exposure dose till full radioactive decay exceeds 1200 R. People have to stay in radiation protective shelters 3 days or longer. Then they are strongly recommended to stay inside their houses at least for next 4 days. To leave house is allowed only for 3-4 hrs a day and wearing protective clothing.
+ If there was no radio transmission about how long to stay in the shelter people have to follow instructions given for zone C. Evacuation from zone C is possible only 3 day later radiation pollution.
+ Only food kept in air-tight wrap, refrigerator, or cellar is clear from radioactive substances. However before use the wrap should be cleaned with washer. Radioactive substances penetrate into food at different depth; the deepest layer which can be polluted makes about 3 cm. To deactivate polluted food one should remove upper unguarded and hence polluted layer. Water is potable only from central water-supply system.çàãðóçêà...
+Radiation dose that people can get during their stay in the open territory polluted with radioactive substances is expressed by formula:
+ Dopen = Pmean × Ò, (15)
+ where Pmean - average radiation level within exposure time; T – duration of exposure (that long people stayed in the polluted territory and were exposed to radiation).
+ If people stayed in radiation protective shelters, houses or transport radiation dose should be found with consideration of protection effect. Protection effect is evaluated with reduction coefficient, which can be calculated by formula:
+   , (16)
+ where h – thickness of protective material (walls, roofs); d – width of the half reducing radiation layer (thickness of the wall that twice reduces external level of radiation).
+ Half reducing radiation layer is expressed by formula:
+  , (17)
+ where r - density of protective material (gm/cm3).
+ Reduction coefficient of multilayer shelters is found by multiplying coefficients of every protective layer:
+   . (18)
+ Radiation dose that people can get during their stay in radiation protective shelter is calculated by formula:
+  . (19)
+ Normally people can visit various places during the day, thus total radiation dose is the sum of many doses:
+ Dtotal=D1 + D2 + D3 + ... + Dn. (20)
+ Problem:
+ After nuclear accident territory was polluted with radioactive substances, pollution occurred at 1 hour after the accident, radiation level at first hour after the blast was P1 = 200 rad/hrs.
+ Find radiation dose and possible fatality if right after accident people stayed in the shelter during T1 = 4 hrs and then worked at the open territory for another T2 = 12 hrs. The shelter is two-layer construction made form concrete and brick. Concrete (r1 = 2.3) layer makes 20 cm, brick (r2 = 1.6) layer makes 115 cm.
+
+
+
+FIRE AND EXPLOSION RISK AREA CATEGORIES  | ñëåäóþùàÿ ==> CHEMICAL ACCIDENT
+Äàòà äîáàâëåíèÿ: 2015-08-21; ïðîñìîòðîâ: 28; Îïóáëèêîâàííûé ìàòåðèàë íàðóøàåò àâòîðñêèå ïðàâà?.
+
+Íå íàøëè òî, ÷òî èñêàëè? Âîñïîëüçóéòåñü ïîèñêîì:
+Íå õîòèòå "ïàðèòüñÿ"? çàêàæèòå ïëàòíóþ ðàáîòó!
+	     
+  

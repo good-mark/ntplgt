@@ -1,0 +1,103 @@
+
+            ﻿MEASUREMENT METHODS AND INTERPRETATION ALGORITHMS FOR THE DETERMINATION OF THE REMAINING LIFETIME OF THE ELECTRICAL
+INSULATION
+Filip ENGSTER
+Abstract
+The paper presents a set of on-line and off-line measuring methods for the dielectric parameters of the electric insulation as well as the method of results interpretation aimed to determine the occurence of a damage and to set up the its speed of evolution. These results lead finally to the determination of the life time under certain imposed safety conditions.
+The interpretation of the measurement results is done based on analytical algorithms allowing also the calculation of the index of correlation between the real results and the mathematical interpolation.
+It is performed a comparative analysis between different measuring and interpretation methods.
+There are considered certain events occurred during the measurement performance including their causes.
+The working-out of the analytical methods has been improved during the during the dielectric measurements performance for about 25 years at a number of 140 turbo and hydro power plants.
+Finally it is proposed a measurement program to be applied and which will allow the correlation of the on-line and off-line dielectric measurement obtaining thus a reliable technology of high accuracy level for the estimation of the available lifetime of electrical insulation.
+МЕТОДЫ ИЗМЕРЕНИЯ И АЛГОРИТМЫ ИНЕТПРЕТАЦИИ РЕЗУЛЬТАТОВ ДЛЯ ОПРЕДЕЛЕНИЯ
+ОСТАТОЧНОГО РУСУРСА ЭЛЕКТРИЧЕСКОЙ ИЗОЛЯЦИИ
+Аннотация
+В работе представлен ряд методов для измерения диэлектрических параметров электрической изоляции при отключенном оборудовании и на работающем под нагрузку, а также метод интерпретации результатов измерения по скорости развития дефекта. Эти результаты позволяют определить срок службы исходя из ограничений по обеспечению надежности функционирования. Интерпретация результатов измерений выполнена на базе аналитических алгоритмов оценки, позволяющих вычислить индекс корреляции реальных данных и их математической интерпретацией. Выполнен сравнительный анализ между различным измерением и методами интерпретации. Предполагается, что некоторые события произошли при выполнение измерения.
+Разработка аналитических методов базируется на результаты полученные при длительном наблюдением за состоянием изоляции около 140 турбо и гидрогенераторов в течение 25 лет. Предложена программа измерений, которая будет применена и которая позволит оценить по данным измерений в режиме off-line и on-line остаточный ресурс изоляции.
+METODE DE MASURARE §I ALGORITMIDE INTERPRETARE A DURATEIDE VIATA RAMASE A
+IZOLA TIEIELECTRICE
+Rezumat
+In lucrare se prezinta o serie de metode pentru a masura parametrii dielectrici a izolatiei in regim off-line §i in regim on-line, precum §i metoda de interpretare a a rezultatelor masurarilor dupa viteza de evolutie a valorilor parametrilor. Aceste rezultate permit determinarea duratei de viata reie§ind din limitarile prescrise de fiabilitatea de functionare.
+Interpretarea rezultatelor masurarilor se bazeaza pe utilizarea unor algoritmi cu caracter analitic de evaluare permit calcularea indicelui de corelare a datelor obtinute prin masuratori §i interpretarea lor matematica. Se considera, ca unele evenimente depistate au avut loc chiar in timpul masurarilor.
+Elaborarea metodelor analitice se bazeaza pe experienta de peste 25 ani de masurari a parametrilor a 140 de generatoare turbo §i hidro in conditii de centrala.
+Se propune un program de efectuare a masurarilor, care se va utiliza §i care va permite evaluarea starii tehnice §i a duratei de viata a izolatiei dupa rezultatele masurarilor in regimurile off-line §i on line.
+1.	Introduction
+The increase of the electric generators power led also to the increase of the requirements related to the generator subassembly reliability. The stator insulation is one of the most important subassemblies; its damaging might lead to long periods of unavailability and to high costs for the recomissioning.
+Under these conditions, the periodic dielectric measurements (off-line measurements) proved to be insufficient and it became necessary to be monitored the state
+of the electric insulation during operation that is to perform dielectric measurements without stopping the equipment (on-line measurements).
+For the first stage it has been considered that it is easier to measure on-line the parameters of the partial discharges (PD) and based on them to draw conclusions related to the state of the stator insulation. Later on, it was proved that the information supplied by these on-line measurements are not enough and subsequently the measurements were periodically performed.
+Actually, none of the programs for the electric generators predictive maintenance present firm conclusions based only on on-line measurements.
+This paper emphasises especially the methods for the interpretation of the results of the off-line and on-line measurements considering the measuring diagrams and the pertaining devices (except the partial discharge analysers) which have not been significantly changed in time. At the same time, it tries to offer an answer based on original analyses to the main question raised by those who operate the electric generators, namely: how long can a stator insulation be used under safety conditions?
+2.	Direct current (D.C.) measurements
+Usually, in D.C. there are measured:
+-	the insulation resistance (Rix)
+-	the absorption coefficient (Kabs)
+-	polarisation index (Ipol)
+The information obtained allow the estimation of the electric insulation state during measurement performance. Due to the evolution of the parameters measured during a short time period it is difficult to work-out some criteria as to provide information on the electric insulation ageing level.
+We had performed a calculation method for the stabilized leakage current (If) and of the stabilizing time (ts) [5].
+The first levels (Riz, Kabs, Ipol) offer generally information on the humidity level, the stabilized leakage current (If) and the stabilized time (ts) offers additional information on the electric insulation quality.
+The low values of the last two parameters show an electric insulation of good qualities. The surveillance of the evolution in time of these indices allows the estimation of the insulation ageing level.
+3.	Alternative current (A.C.) measurements
+There have been measured in A.C. partial discharge measurements (DP), the tangent of the dielectric losses angle (tgS) and the electric capacity (Cx) of the analyzed insulation volume.
+3.1.	Measuring of partial discharges (PD)
+The technical condition analysis of an electrical insulation based on PD measuring outputs has been widely developed for the last period aiming at substituting the methods used until now.
+PD off-line line measuring are performed by means of well-known conventional diagrams.
+The discrepancies resulting between the various practical methods refer to the measured values and especially to their interpreting with the view to obtain simple and accurate answers to the questions raised by the operating staff.
+We took into consideration some characteristics concerning the measurements results of the PD that influences the results of the experimental measurements:
+The phase of the stator wrapping for the impulses generated by the DP in the insulation presents a long line partial homogeneous. In passing in-out section of the frontal portion in the stators cut the long line parameters of the phase is changing through jump and these section are zones with a high homogeneity.
+At the same time the connection to the coupling circuit phase for the DP impulses selection at the measuring for the alternative electric power, also it presents like a placed unhomogenity.
+It is known that in the zones with a high rate of unhomogenity takes place the reflection and refraction phenomenon of the incidental waves.
+The analysis of the zones influence which presents a high rate of long line parameters deviation of the spreading of DP impulses had been done based on the mathematical simulation results [4]. The simulation of the impulses spreading is allowed in this method. The impulses have different shapes: rectangular, needle shape.
+The survey of the total power in the examined circuit is a criterion for the evaluation of the exactness process modelation - the achievement of the power theorem.
+At the phenomenon changing it had been modified the number of lines having the same parameters, the DP values changing into connection sections. The length of the line is constant.
+The simulation results analysis presents us the conclusion that the DP impulses measured at the insulated terminals are generated by the waves reflection phenomenon in the zones with a high a rate of long line parameters deviation - the insulation bar passes from one cut to another.
+That’s why the analysis of DP impulses trains appears the impulses separation problem which are results of insulation microstabing and those which are a multiplied product of the incident waves reflection phenomenon.
+3.2.	tg 8 measuring
+A proper analytical processing of the tgS and Cx measuring outputs allowed us to draw up an algorithm for the estimation of the residual lifetime to operate under safety conditions imposed to the stator insulation.
+The method consists of the calculation of the estimated breakdown voltage by means of measuring performed at a given moment and of the variation in time of this voltage. The algorithm has been fully presented within the previous items [2] and .[5].
+Identically, like on the off-line measuring, it is used a Schering bridge with a reversed branches assembly.
+For the bridge balancing it is used a voltage reducer, on each phase, parallel connected with the voltage reducers within the protection and measuring diagram, that an electric generator is endowed with. The connection at the measuring bridge of mass terminals of the reduction high voltage windings is made through a terminal box that contains the diagram protection system, too.
+The coupling condensers are mounted within the generator box by means of rigid galvanic contact on the outlet bars of the stator windings. The connection to the bridge is made up through a terminal box, similar to the one at the voltage reducers. The assembly do
+not affect the generator protection and the measuring system and allows the PD on line measuring.
+The on-line measuring of another stator insulation parameter will allow a more accurate estimation of the stator insulation stage.
+Cx - Stator Windings VT - Voltage Transformers
+Fig.l. tg5 on-line measuring diagram
+4.	Concluzion
+For the electric insulation control are used in absolute values parameters ( leakage current and D.C. insulation resistance, the capacity or PD parameters in A.C.) as well as in relative values ( D.C. absorption coefficient and tg5 or the variation of some parameters depending on the voltage, time, temperature, etc).
+The absolute values, obtained as a result of the measuring have a wide variety, fact that leads to serious failures during the measuring performance as well as to the analysis of the results.
+Because at the voltage increasing, the test finishes with the insulation breakdown, with the relevant decreasing of the tested circuit resistance, respectively it’s normally to presume that the parameters defined as insulation will have the same evolution and thus can be evaluated the breakdown voltage, for the electric insulation by the extrapolation of the nondestructive measuring results.
+The following parameters can be defined:
+D.C. insulation resistance:
+where:
+Uo - test voltage If - leakage current
+1
+-	loss determined by the time variation of the electric field at the to frequency:
+I,
+where:
+C - capacity of the tested insulation volume
+2
+During the tests, the values If, tg5, C are measured depending on the voltage and thus are calculated the parameters Ri and Rp.
+The specialists that performed and improved the method, included in the present report, have a vast experience as they performed up to now about 350 measuring sets at about 140 electric generators within 60 turbo and hydroelectric power plants.
+Most of the measuring have been off-line performed and since 1998 we have also begun the on-line measuring.
+During the tests the insulation was destrupted at 6 hydrogenerators and the main causes were the following:
+-factory failures (2 generators);
+-unproper dielectric measuring during the commissioning and the recommissioning after the intervention upon the stator winding (3 generators);
+-over 10 year no dielectric measuring were performed.
+At the generators where the insulation failed, during the tests, the repairing period was of 36 hours.
+It must be pointed out that at the generators at which constantly (2-3 years) dielectric tests were performed, there were not recorded any events that could lead to machines out of operation.
+A test programme and an algorithm of the basic results interpretation , available for all electric generators type, is practically impossible to be p
+erformed. The opinions regarding the performance way and the used methods, to get as confidence as possible results, are divided in two categories:
+-	a small number of measuring and a simple algorithm of interpretation so that to be accessible for the medium training level personnel;
+-	a large and various set of measuring with a complex algorithm of interpretation able to lead to results with high degree of credibility.
+At the performance of an electric insulation status it is important to have in view certain aspects regarding the measured parameters and the measuring possibilities, the electrophysic phenomena that they emphasise as well as their way of correlation.
+In order to respond the owner requirements, taking into consideration the real possibilities for the getting of correct results, we selected the following alternative that includes three stages:
+1.	The performance of the on-line measuring by means of common device endowed with signalling levels that are accessible to a medium level training staff;
+2.	The periodically performance, in case of over-running of a certain level of present signalling level by the complex on-line measuring, with complex analysers by special trained personnel.
+3.	To get the higher confidence coefficient conclusions, off-line complex measures have to be taken ( in D.C. and A.C.) for supplementing the on-line measuring.
+Bibliography
+[1]	F. Engster, H. Spinoche, V.Berzan. Methods of diagnosis of the electrical machinery stator insulation conditions (The Energetica Magazine, no.l, Series B, 1996)
+[2]	D. Zlatanovici, S. Velicu, F. Engster, D. Mihailescu, A. Moraru. Technologies pour le diagnostic, gestion de donnees et prediction en temp reel aux turboalternateurs. (CIGRE, 1996, rap,. 11-204)
+[3]	D. Zlatanovici, F. Engster. Method for the assestment of residual life time for stator winding insulation . (Proceedings CIGRE/IEE Japan Joint Colloquium on Rotating Electrical Machinery, 1997, rap 1-9)
+[4]	V. Berzan, V. Rimski. Changeable processes in anhomogenous electrical circuit Techmical Combine, Chisinau 1998, Fascicle 412.
+[5]	F. Engster, O. Pop, E. Buleziuc. Measurement procedures and interpretation algoritms to state the residual lifetime of the stator winding insulation (CIGRE, 2000, rap,. 11-302)
+Filip Engster. Ing.-matematician la S.C. ELECTRICA Muntenia Sud S.A , Bucure§ti , Romania. Domeniul de cercetare: diagnoza cu metode indistructive de control a izolatiei echipamentului de tensiune inalta, inclusiv a generatoarelor de mare putere. Autor a peste 40 publicatii §tiintifice; inclusiv 1 brevet de inventie inregistrat in R.Moldova. e-mail: engster@sdb.ro

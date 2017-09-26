@@ -1,0 +1,5 @@
+<?xml version="1.0" ?>
+<document reference="2030.txt">
+	<feature name="plagiarism" obfuscation="HPR" source_language="ru" source_length="101" source_offset="479" source_reference="3145121.txt" this_language="ru" this_length="89" this_offset="3975" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="ADD,DEL,SYN,HPR" source_language="ru" source_length="96" source_offset="581" source_reference="3145121.txt" this_language="ru" this_length="100" this_offset="4065" txt_extraction_err="0" type="manual"/>
+</document>

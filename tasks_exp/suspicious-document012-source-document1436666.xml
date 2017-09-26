@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<document reference="012.txt">
+	<feature name="plagiarism" obfuscation="SSP" source_language="ru" source_length="310" source_offset="19" source_reference="1436666.txt" this_language="ru" this_length="149" this_offset="632" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="SSP" source_language="ru" source_length="310" source_offset="19" source_reference="1436666.txt" this_language="ru" this_length="160" this_offset="782" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="SSP" source_language="ru" source_length="275" source_offset="5264" source_reference="1436666.txt" this_language="ru" this_length="130" this_offset="13300" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="SSP" source_language="ru" source_length="275" source_offset="5264" source_reference="1436666.txt" this_language="ru" this_length="144" this_offset="13431" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="CCT" source_language="ru" source_length="113" source_offset="19156" source_reference="1436666.txt" this_language="ru" this_length="230" this_offset="18409" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="CCT" source_language="ru" source_length="111" source_offset="19270" source_reference="1436666.txt" this_language="ru" this_length="230" this_offset="18409" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="HPR" source_language="ru" source_length="284" source_offset="19382" source_reference="1436666.txt" this_language="ru" this_length="260" this_offset="18640" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="ADD" source_language="ru" source_length="94" source_offset="19667" source_reference="1436666.txt" this_language="ru" this_length="108" this_offset="18901" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="ADD" source_language="ru" source_length="127" source_offset="19762" source_reference="1436666.txt" this_language="ru" this_length="139" this_offset="19010" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="DEL" source_language="ru" source_length="163" source_offset="19890" source_reference="1436666.txt" this_language="ru" this_length="109" this_offset="19150" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="HPR" source_language="ru" source_length="136" source_offset="20054" source_reference="1436666.txt" this_language="ru" this_length="216" this_offset="19260" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="LPR" source_language="ru" source_length="208" source_offset="20191" source_reference="1436666.txt" this_language="ru" this_length="206" this_offset="19477" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="LPR" source_language="ru" source_length="167" source_offset="20400" source_reference="1436666.txt" this_language="ru" this_length="176" this_offset="19684" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="HPR" source_language="ru" source_length="231" source_offset="21193" source_reference="1436666.txt" this_language="ru" this_length="164" this_offset="19861" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="ADD" source_language="ru" source_length="93" source_offset="21425" source_reference="1436666.txt" this_language="ru" this_length="107" this_offset="20026" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="SSP" source_language="ru" source_length="232" source_offset="21879" source_reference="1436666.txt" this_language="ru" this_length="75" this_offset="20134" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="SSP" source_language="ru" source_length="232" source_offset="21879" source_reference="1436666.txt" this_language="ru" this_length="157" this_offset="20210" txt_extraction_err="0" type="manual"/>
+</document>

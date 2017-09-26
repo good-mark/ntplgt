@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<document reference="2030.txt">
+	<feature name="plagiarism" obfuscation="ADD,DEL,LPR,CCT,HPR" source_language="ru" source_length="169" source_offset="565" source_reference="2691949.txt" this_language="ru" this_length="279" this_offset="891" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="ADD,DEL,LPR,CCT,HPR" source_language="ru" source_length="36" source_offset="735" source_reference="2691949.txt" this_language="ru" this_length="279" this_offset="891" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="SYN,HPR,CCT,LPR,ADD,DEL" source_language="ru" source_length="126" source_offset="772" source_reference="2691949.txt" this_language="ru" this_length="208" this_offset="1171" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="SYN,HPR,CCT,LPR,ADD,DEL" source_language="ru" source_length="48" source_offset="899" source_reference="2691949.txt" this_language="ru" this_length="208" this_offset="1171" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="DEL,ADD,SHF,LPR,SYN,HPR" source_language="ru" source_length="112" source_offset="1103" source_reference="2691949.txt" this_language="ru" this_length="99" this_offset="1380" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="ADD,LPR,SHF,SEP,SYN,HPR" source_language="ru" source_length="150" source_offset="1216" source_reference="2691949.txt" this_language="ru" this_length="164" this_offset="1480" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="SYN" source_language="ru" source_length="130" source_offset="1367" source_reference="2691949.txt" this_language="ru" this_length="109" this_offset="1645" txt_extraction_err="0" type="manual"/>
+</document>

@@ -1,0 +1,745 @@
+
+          ﻿Mr Goran Tadić,
+pukovnik, dipl. in'.
+Uprava za kadrove MO SCG, 1. Regionalni centar za prekvalifikaciju, Beograd
+OCENA FUNKCIJA SAOBRAĆAJNE PODRŠKE PRIMENOM METODE PROCESNIH FUNKCIJA
+UDC: 65.012.122 : 355.69
+Rezime:
+U naucnoj organizaciji rada razvijeno je vise metoda za ocenu postojećeg organizacio-nog nivoa. Organizovanost se mole analizirati na razlicitim nivoima, kao sto su: poslovne funkcije, organizacijske jedinice, podrucja rada u okviru pojedinih funkcija ili organizacij-skih jedinica, kao i elemenata poslovanja. Analiticki postupak, koji daje metoda procesnih funkcija, omogućuje kvantitativno ocenjivanje organizacionog nivoa funkcija i, polazeći od toga, preciziranje i programiranje mera za dalje organizacijsko delovanje. U radu je prika-zana primena metode procesnih funkcija u ocenjivanju funkcija saobraćajne podrske korpu-sa kopnene vojske.
+Kljucne reci: organizacija, sistem, organizacioni nivo, saobraćaj, transport, funkcije.
+EVALUATION OF THE TRAFFIC SUPPORT FUNCTIONS USING THE PROCESSING FUNCTION METHOD
+Summary:
+To appraise the existing organizational solutions within the scientific organization of work, there are several methods. Organization could be analyzed at different levels such as: functionality, organizational units, working areas included in some functions or organizational units and also into work elements. Analytical order, given by the method of processing function, permits us to evaluate the level of organizational functions and starting from this point, precising and programming orders for further organizational work could be done. In this paper, the methods of processing functions in evaluation of the functions of traffic support for army corps could be read.
+Key words: organization, system, organizational level, traffic, transport, functions.
+Uvod
+Saobra}ajna podr{ka (SbPo) norma-tivno je regulisana kao delatnost koman-di, {tabova, uprava Vojske i jedinica sao-bra}ajne službe (SbSl) kojima se, u sa-radnji sa organima za saobra}aj na terito-riji i saobra}ajnim preduze}ima, obezbe-đuje plansko i uredno odvijanje saobra-}aja i ekonomicno kori{}enje transport-nih sredstava. Ona predstavlja skup de-
+latnosti u pogledu odnosa, nadležnosti i postupaka ucesnika u saobra}aju, kori-snika transportnih kapaciteta, organa i jedinica koje se bave upravljanjem, organi-zovanjem i planiranjem, kao i regulisa-njem saobra}aja.
+Na osnovu pristupa i stavova iz teo-rije sistema može se konstatovati da SbPo pripada grupi organizacionih siste-ma. U okviru organizacionog sistema, s obzirom na to da je „skup mera i postu-
+VOJNOTEHNICKI GLASNIK 3-4/2005.
+287
+paka“, SbPo pripada podsistemu funkci-ja. Definisanje funkcije bilo kog sistema, pa i sistema SbPo, jedan je od osnovnih uslova njegovog postavljanja i organizo-vanja. Funkcije su podsistem organizova-nja za ostvarenja ciljeva sistema. Pod pojmom funkcija podrazumeva se skup aktivnosti koje imaju me|usobnu vezu, a ~ijim se rezultatima ostvaruju ciljevi si-stema.
+Kada se razmatra funkcija sistema neizostavno se mora razjasniti i pojam njegovog funkcionisanja, koje predsta-vlja zbir svih aktivnosti njegovih eleme-nata. To zna~i da se pojedina~nim funk-cionisanjem elemenata ostvaruje funkci-onisanje sistema u celini radi postizanja zajedni~kog cilja [1]. Prakti~no, sistem svojim funkcionisanjem ostvaruje zadat-ke koji su mu postavljeni ili ciljeve koje je sam postavio. Kako će se ostvariti ti zadaci ili ciljevi umnogome zavisi od od-relivanja funkcija za njihovo ostvarenje. Funkcijama se definise kako i sta treba da se radi.
+Sistem SbPo svojim funkcionisanjem ostvaruje zadatke koji su pred njega postavljeni. Oni su definisani važećim pravilima u Vojsci, a nameće ih i sama priroda sistema. Osnovni zadaci sistema SbPo po svojoj prirodi su podeljeni u dve grupe, i to: organizovanje i upravljanje saobraćajem i organizovanje i upravlja-nje transportom.
+Prva grupa zadataka obuhvata: pla-niranje korisćenja komunikacija, planira-nje kretanja (marsa) i regulisanje i kon-trolu saobraćaja (RKSb).
+Druga grupa zadataka obuhvata: planiranje korisćenja transportnih kapaci-teta i izvrsenje transporta.
+Aktivnosti koje se u sistemu SbPo preduzimaju radi izvrsavanja postavljenih zadataka, shodno njihovoj prirodi, logi~no je svrstati u dve grupe. Te grupe aktivno-sti ~ine funkcije sistema SbPo. Osnovne funkcije sistema saobraćajne podrske u Vojsci realizuju se preko: saobraćajno--operativne (saobraćajne) i transportno-lo-gisti~ke (transportne) funkcije [2].
+Posto postoji stalna težnja ka po-boljsanju funkcija sistema, u teoriji orga-nizacionih nauka razvijene su metode za ocenu organizovanosti postojećih organi-zacionih resenja. Ocenjivanje se može vrsiti korisćenjem metoda analize u orga-nizacionim teorijama drustva, organiza-cionih analiza u vojsci i izborom metoda primerenih konkretnim zahtevima. Orga-nizavanost se može ocenjivati na razli~i-tim nivoima, kao sto su: celokupna orga-nizacija, pojedine organizacijske jedini-ce, podrucja delatnosti, funkcije i dr. Za ocenu funkcija najpogodnija je metoda procesnih funkcija.
+U radu je, korisćenjem metode pro-cesnih funkcija, izvrseno ocenjivanje funkcija SbPo korpusa kopnene vojske (korpus) u napadnoj operaciji. Funkcije SbPo (saobraćajno-operativna, transport-no-logisti~ka) razmatrane su kao proiz-vodne funkcije, a stabne kao prateće pro-cesne funkcije. Podaci za primenu meto-de procesnih funkcija obezbe|eni su pri-menom anketne metode [5].
+Primena metode procesnih
+funkcija u saobraćajnoj podršci
+Metoda procesnih funkcija može se upotrebiti za ocenjivanje organizacijskog nivoa celokupne organizacije, ili samo
+288
+VOJNOTEHNIČKI GLASNIK 3-4/2005.
+pojedinih organizacijskih jedinica, pod-rucja delatnosti, funkcija i dr. Analiticki postupak, koji daje metoda procesnih funkcija, omogućuje kvantitativno oce-njivanje organizacionog nivoa i, polazeći od toga, preciziranje i programiranje me-ra za dalje organizacijsko delovanje. U postojećim organizacionim teorijama de-taljno je opisan postupak primene meto-de procesnih funkcija po koracima.
+Da bi se metoda procesnih funkcija mogla adekvatno primeniti, potrebno je izvrsiti određena prilagođavanja napad-noj operaciji korpusa. Prilagođavanja se ogledaju, pre svega, u izboru procesnih funkcija, a zatim kroz izbor proizvodnih funkcija i kriterijuma za utvrđivanje pondera i ocenjivanja zadataka.
+Kao faze primene metode procesnih funkcija izabrane su:
+-	izbor procesnih (stabnih) i proizvodnih funkcija (funkcija SbPo),
+-	određivanje zadataka (podrucja za ocenu) saobraćajne i transportne funkcije,
+-	utvrđivanje kriterijuma za izbor pondera uticaja, zadataka i procesnih funkcija,
+-	istraživanje stanja i uticaja funkcija SbPo i procesnih funkcija korpusa u napadnoj operaciji,
+-	analiza rezultata funkcija SbPo i procesnih funkcija.
+Izbor procesnih i poslovnih
+funkcija
+Uzimajući u obzir devet karakteri-sticnih procesnih funkcija, a koje su pri-lagođene radu organa SbSl, javlja se jos jedna, koja je svojstvena vojnoj organi-zaciji, a to je komandovanje. Zbog toga se rad organa SbSl analizira kroz deset procesnih (stabnih) funkcija (njihov pre-gled dat je u tabeli 1).
+Shodno navedenom, kao poslovne (proizvodne) funkcije razmatraće se, kako je to i propisano pravilima, saobraćajno--operativna i transportno-logisticka funkcija.
+Određivanje zadataka funkcija
+saobraćajne podr{ke
+U teoriji ratne vestine operacije se po-smatraju i izucavaju kroz dve faze, a to su: priprema operacije i izvođenje operacije [3].
+Pregled procesnih funkcija s oznakama i znacenjima
+Tabela 1
+Naziv procesne funkcije		Oznaka	Znacenje
+1.	evidentiranje	Ev	Obezbeđenje podataka za sve stabne funkcije
+2.	obavestavanje	Ob	Dostavljanje podataka i informacija na radna mesta organa SbSl i organa pozadine
+3.	kontrolisanje	Kt	Upoređivanje obavljenih aktivnosti s unapred postavljenim merilima, standardima i smernicama
+4.	analiziranje	An	Rastavljanje i upoređivanje i zakljucivanje o uzrocima odstupanja
+5.	odlucivanje	Odl	Ponovno intervenisanje na zbivanja u postojećim procesima i oblikovanje budućih procesa operacije korpusa
+6.	planiranje	Pl	Osiguravanje potrebnih mera i elemenata za izvrsavanje odluka
+7.	usklađivanje (koordinacija)	Us	Kombinovanje i usmeravanje pojedinacnih napora u ukupan napor
+8.	organizovanje	Org	Traženje i oblikovanje odgovarajućih organizacijskih postupaka i izvrsavanje radnih zadataka
+9.	izvođenje	Izv	Konkretno izvrsenje zadataka na radnim mestima organa SbSl
+10.	komandovanje	Kom	Dodeljivanje zadataka potcinjenim jedinicama i organima. Izdavanjem naređenja ostvaruju se planovi, odnosno odluke
+VOJNOTEHNIČKI GLASNIK 3-4/2005.
+289
+Priprema operacije obuhvata plan-ske i organizovane mere i aktivnosti ko-mandi i jedinica kojima se stvaraju opti-malni uslovi za izvr{enje borbenih i dru-gih zadataka u operaciji. Ova faza po~i-nje odmah po prijemu prethodnog nare-lenja, intenzivira se nakon prijema za-datka, a neke aktivnosti se nastavljaju i u toku izvo|enja operacije. Priprema sadr-ži: rad komande na praćenju i proceni si-tuacije i pripremanju odluke; organizova-nje sadejstva i saradnje; planiranje operacije; pripremu komandi i jedinica za predstojeća borbena dejstva; pripremu i ure|enje teritorije; dovo|enje i operativ-ni razvoj snaga. Za uspe{no dovolenje i operativni razvoj u napadnoj operaciji poseban zna~aj ima saobraćajna podr{ka.
+Izvolenje napadne operacije u poje-dinim etapama i u celini opredeljeno je odlukom komandanta i planom operacije. Za po~etak se uzima vreme kada osnov-ne snage otpo~nu borbena dejstva prema planu operacije. Obezbelenje manevra, dotura i evakuacije, i utvrlenih prioriteta i potreba - osnovni su zadaci SbPo.
+U radu će biti analizirane saobraćaj-na i transportna funkcija i zadaci po na-vedenim fazama pripreme i izvo|enja operacije. Radni zadaci koji se analizira-ju po proizvodnim funkcijama su:
+U pripremi operacije:
+Saobraćajno-operativna funkcija:
+-	planiranje kretanja jedinica (mar-{a) u dovolenju,
+-	planiranje kori{ćenja komunikacija,
+-	podno{enje prijava - najava za ko-ri{ćenje puteva,
+-	planiranje, organizovanje i reali-zovanje RKSb, i usklalivanje sa organi-ma saobraćajne policije,
+-	planiranje, organizacija i realizaci-ja saobraćajnog izvo|enja,
+-	izrada dokumenata SbPo,
+-	kontrola izvr{enja izdatih narele-nja i realizacije planova za saobraćaj,
+-	saradnja sa operativnim organom,
+-	saradnja sa organima rodova,
+-	saradnja sa organima za saobraćaj na teritoriji,
+-	saradnja sa upravnim organom SbSl pretpostavljene komande,
+-	saradnja sa upravnim organom SbSl pot~injenih jedinica,
+-	volenje evidencije,
+-	popuna ljudstvom i materijalno--tehni~kim sredstvima organa SbSl.
+Transportno-logisti~ka funkcija:
+-	podno{enje prijava za prevoženje,
+-	prijem i analiza prijava za prevo-ženje,
+-	planiranje prevoženja jedinica (u dovo|enju),
+-	koordiniranje prevoženja materijal-nih sredstava od pozadinskih baza do ZTJ,
+-	saradnja sa operativno-logisti~kim organom,
+-	saradnja sa organima logisti~kih službi.
+U izvođenju operacije:
+Saobraćajno-operativna funkcija:
+-	praćenje situacije i predlaganje me-ra u skladu sa novonastalom situacijom,
+-	prikupljanje dopunskih podataka (po potrebi organizacija dopunskog sao-braćajnog izvi|anja),
+-	razmene informacija i održavanje veze sa organima za saobraćaj na teritoriji,
+-	rukovolenje ~etom saobraćajne vojne policije (SbVP),
+-	saradnja sa organom bezbednosti,
+290
+VOJNOTEHNICKI GLASNIK 3-4/2005.
+-	saradnja sa operativnim organom,
+-	saradnja sa organima rodova,
+-	obezbeđenje utvrđenih prioriteta,
+-	izvestavanje PKLo,
+-	izvestavanje upravnog organa SbSl pretpostavljene komande,
+-	obavestavanje upravnog organa SbSl brigada i suseda,
+-	planiranje kretanja neplaniranih kolona,
+-	sprovođenje režima saobraćaja.
+Transportno-logisticka funkcija:
+-	obezbeđenje korisćenja puteva za dotur i evakuaciju,
+-	planiranje angažovanja vazduho-plovnih transportnih sredstava (po potrebi),
+-	izvrsenje prevoženja po utvrđenim planovima,
+-	prijem i analiza prijava za prevo-ženje,
+-	izrada planova za prevoženje,
+-	saradnja sa operativno-logistickim organom.
+Zbog obima, primena metode proce-snih funkcija biće prikazana samo za oce-nu funkcija SbPo u pripremi operacije. Za ocenu funkcija SbPo u izvođenju operacije primenjivala bi se ista metodologija.
+Utvrđivanje kriterijuma za izbor pondera uticaja zadataka i procesnih funkcija
+Pojedini zadaci imaju razlicit znacaj za saobraćajnu i transportnu funkciju -jedni su vise, a drugi manje „teski“. Ta težina određuje se ponderisanjem. Za taj postupak uzeti su kriterijumi teorije orga-nizacije rada prilagođeni zahtevima ope-racije korpusa prema SbPo, a izabrani ponderi za pojedine zadatke, rezultat su sprovedene ankete i uporedne analize po-dataka iz tabele 2.
+U metodi procesnih funkcija ponde-risu se i procesne funkcije, jer sve one nemaju jednak znacaj u obavljanju rada. Osnovni kriterijum za određivanje pondera jeste složenost u obavljanju zadataka, odnosno stepen specijalizacije i tipi-zacije pojedinih procesnih funkcija. Usvojene vrednosti date su u tabeli 3, na osnovu prilaza naucne organizacije rada i anketiranja.
+Interesantno je da su ponderi nauc-ne organizacije rada i eksperata veoma slicni, sem donekle kod funkcije evi-dentiranja.
+Tabela 2
+Pregled kriterijuma za izbor pondera uticaja na izvrsenje zadataka
+Ponder	Kriterijum
+5	Izvrsavanje poslova je neophodno, jer se dovodi u pitanje SbPo korpusa u napadu
+4	Izvrsavanje zadataka vrlo utice na celokupno odvijanje SbPo operacije
+3	Izvrsavanje zadataka utice na ekonomicnost i racionalnost izvrsenja SbPo operacije
+2	Neizvrsavanje zadataka uzrokuje manjkavost, ali je uprkos tome moguće odvijanje SbPo operacije
+1	Izvrsavanje zadataka ne utice bitno na celovitost realizacije SbPo operacije
+0	Izvrsavanje zadataka nije potrebno
+VOJNOTEHNIČKI GLASNIK 3-4/2005.
+291
+Pregled pondera procesnih funkcija
+Tabela 3
+Procesna funkcija		Ponderi		
+		Prema organizaciji rada	Prema anketi	Usvojeni ponderi
+1.	evidentiranje	1	2,04	1,52
+2.	obavestavanje	2	2,82	2,41
+3.	kontrolisanje	3	3,00	3,00
+4.	analiziranje	3	3,00	3,00
+5.	odlucivanje	5	4,28	4,64
+6.	planiranje	5	4,38	4,69
+7.	usklalivanje	4	4,11	4,06
+8.	organizovanje	4	4,25	4,13
+9.	izvolenje	2	3,14	2,57
+10.	komandovanje	5	4,82	4,91
+Istraživanje veza, stanja i uticaja funkcija saobraćajnog obezbeđenja i procesnih funkcija u pripremi napadne operacije korpusa
+Da bi se doslo do potrebnih podata-ka za analizu funkcija SbPo preko procesnih funkcija potrebno je: utvrditi pove-zanost ove dve grupe funkcija, odrediti njihovu teoretsku znacajnost (potrebne pondere) i stvarne (mogu}e) pondere po fazama korpusne operacije u napadu.
+Povezanost zadataka funkcija saobraćajne podr{ke i procesnih funkcija
+Radni zadaci se obavljaju u okviru aktivnosti saobra}ajne i transportne funkci-je SbPo po procesnim funkcijama. Poveza-nost funkcija SbPo po zadacima u pripremi operacije korpusa prikazana je u tabeli 4.
+Ako se analizira povezanost po fa-zama operacije, zakljucuje se da je ona znatno ve}a u pripremi u odnosu na izvo-|enje operacije, kod saobra}ajno-opera-tivne funkcije taj odnos je 137/114 a transportno-logisticke 70/51, da je ujed-nacenija povezanost kod procesnih funk-
+cija, posebno kod transportno-logisticke funkcije. Kod komandovanja je ona naj-manja, sto je logicno jer se ova aktivnost vezuje za dobijanje zadataka i izdavanje nare|enja.
+Povezanost zadataka u izvo|enju operacije sa procesnim funkcijama, odre-lena je analogno postupku za pripremu operacije.
+Teoretski (potrebni) ponderi
+saobraćajne podr{ke
+Analiza funkcija SbPo sagledava se kroz zadatke i faze operacija korpusa u napadu. Definisanje i odre|ivanje pondera zadataka SbPo dobijeni su preko krite-rijuma za izbor pondera (tabela 2) i usvo-jeni nakon anketiranja. Vrednosti pondera zadataka funkcija SbPo prikazane su u tabeli 5 za fazu pripreme operacije.
+Ponderi zadataka funkcija SbPo u izvo|enju operacije odre|eni su analog-no postupku za pripremu operacije.
+Potrebni ili teoretski ponderi funkcija SbPo (Pp) dobijaju se množenjem pondera zadataka (tabela 5) i pondera proce-snih funkcija (tabela 3), a matrica rezul-tata prikazana je u tabeli 6.
+292
+VOJNOTEHNIČKI GLASNIK 3-4/2005.
+Teoretski (potrebni - Pp) ponderi za-dataka u izvođenju operacije određeni su analogno postupku za pripremu operacije.
+Stvarni ponderi saobraćajne podrske
+U drugoj fazi utvrđuju se stvarni po-kazatelji - ponderi saobraćajne i tran-sportne funkcije SbPo, i procesnih (stap-skih) funkcija, pa su time stvoreni uslovi
+da se na osnovu njih dobiju vrednosti prosecnih ocena za analizu.
+Zadaci saobraćajno-operativne i transportno-logisticke funkcije ocenjuju se po procesnim funkcijama od 1 do 5. Ocene se dodeljuju prema usvojenim kri-terijumima za određivanje ocena na osnovu uocenog stvarnog organizacij-skog stanja SbPo u operaciji korpusa, po-lazeći od vrednosti skale koju preporucu-ju organizacione nauke [4].
+Tabela 4
+Povezanost zadataka u pripremi operacije sa procesnim funkcijama
+		Procesne funkcije										
+a) Zadaci saobraćajno-operativne funkcije		Ev	Obv	Kt	An	Odl	Pl	Us	Org	Izv	Kom	F
+1.	Planiranje kretanja jedinica (marsa) u dovođenju	+	-	-	+	+	+	+	+	+	-	7
+2.	Planiranje korišćenia komunikacija	+	-	-	+	+	+	+	+	+	-	7
+3.	Podnosenje prijava - najava za korisćenje puteva	+	+	-	+	+	+	+	+	+	-	8
+4.	Planiranje, organizovanje i realizovanje RKSb, i usklađivanje sa organima saobraćajne policije	+	+	+	+	+	+	+	+	+	+	10
+5.	Planiranje, organizacija i realizacija saobraćajnog izviđanja	+	+	+	+	+	+	+	+	+	+	10
+6.	Izrada dokumenata SbPo	+	-	+	+	+	+	-	+	+	+	8
+7.	Kontrola izvrsenja izdatih naređenja i realizacije planova za saobraćaj	+	+	+	+	+	+	+	+	+	+	10
+8.	Saradnja sa operativnim organom	+	+	-	+	+	+	+	+	+	-	8
+9.	Saradnja sa organima rodova	+	+	-	+	+	+	+	+	+	-	8
+10.	Saradnja sa organima za saobraćaj na teritoriji	+	+	-	+	+	+	+	+	+	-	8
+11.	Saradnja sa upravnim organom SbSl pretpostavljene komande	+	+	-	+	+	+	+	+	+	-	8
+12.	Saradnja sa upravnim organom SbSl potcinjenih jedinica	+	+	+	+	+	+	+	+	+	+	10
+13.	Vođenje evidencije	+	+	+	+	-	+	-	+	+	-	7
+14.	Popuna ljudstvom i MTS organa SbSl	+	+	+	+	+	+	+	+	+	+	10
+15.	Procena borbenih uslova	+	-	-	+	-	+	+	+	+	-	6
+16.	Procena prostornih uslova	+	-	-	+	-	+	+	+	+	-	6
+17.	Procena vremenskih uslova	+	-	-	+	-	+	+	+	+	-	6
+Suma frekvencija		17	11	7	17	13	17	15	17	17	6	137
+b) Zadaci transportno-logisticke funkcije												
+1.	Podnosenje prijava za prevoženje	+	+	+	+	+	+	+	+	+	-	9
+2.	Prijem i analiza prijava za prevoženje	+	+	+	+	+	+	+	+	+	-	9
+3.	Planiranje prevoženja jedinica (u dovođenju)	+	-	-	+	+	+	+	+	+	-	7
+4.	Koordiniranje prevoženja materijalnih sredstava od pozadinskih baza do ZTJ	+	+	+	+	+	+	+	+	+	+	10
+5.	Saradnja sa operativno-logistickim organom	+	+	-	+	+	+	+	+	+	+	9
+6.	Saradnja sa organima logistickih službi	+	+	-	+	+	+	+	+	+	-	8
+7.	Procena borbenih uslova	+	-	-	+	-	+	+	+	+	-	6
+8.	Procena prostornih uslova	+	-	-	+	-	+	+	+	+	-	6
+9.	Procena vremenskih uslova	+	-	-	+	-	+	+	+	+	-	6
+Suma frekvencija		9	5	3	9	6	9	9	9	9	2	70
+VOJNOTEHNIČKI GLASNIK 3-4/2005.
+293
+Ponderi zadataka funkcija SbPo u pripremi operacije
+Tabela 5
+a) Zadaci saobraćajno-operativne funkcije		Usvojeni ponderi dobijeni anketom
+1.	Planiranje kretanja jedinica (marsa) u dovolenju	4,80
+2.	Planiranje korišćenja komunikacija	4,03
+3.	Podnosenje prijava - najava za korisćenje puteva	2,65
+4.	Planiranje, organizovanje i realizovanje RKSb, i usklalivanje sa organima saobraćajne policije	3,98
+5.	Planiranje, organizacija i realizacija saobraćajnog izvilanja	3,19
+6.	Izrada dokumenata SbPo	3,15
+7.	Kontrola izvrsenja izdatih narelenja i realizacije planova za saobraćaj	3,69
+8.	Saradnja sa operativnim organom	4,44
+9.	Saradnja sa organima rodova	2,92
+10.	Saradnja sa organima za saobraćaj na teritoriji	3,23
+11.	Saradnja sa upravnim organom SbSl pretpostavljene komande	2,48
+12.	Saradnja sa upravnim organom SbSl potcinjenih jedinica	3,84
+13.	Volenje evidencije	3,10
+14.	Popuna ljudstvom i MTS organa SbSl	4,08
+15.	Procena borbenih uslova	3,68
+16.	Procena prostornih uslova	3,53
+17.	Procena vremenskih uslova	3,51
+b) Zadaci transportno-logisticke funkcije		
+1.	Podnosenje prijava za prevoženje	3,08
+2.	Prijem i analiza prijava za prevoženje	3,38
+3.	Planiranje prevoženja jedinica (u dovolenju)	4,73
+4.	Koordiniranje prevoženja materijalnih sredstava od pozadinskih baza do ZTJ	3,65
+5.	Saradnja sa operativno-logistickim organom	3,44
+6.	Saradnja sa organima logistickih službi	3,50
+7.	Procena borbenih uslova	3,96
+8.	Procena prostornih uslova	3,58
+9.	Procena vremenskih uslova	3,58
+Ocene stvamog stanja zadataka SbPo po procesnim funkcijama (O) za pripremu i izvo|enje operacija korpusa dobijene su anketiranjem. U tabeli 7 date su ocene stvarnog stanja u pripremi operacije. Ocene stvarnog stanja funkcija SbPo u izvo-|enju operacije odre|ene su analogno po-stupku za pripremu operacije.
+Potrebni ponderi iz tabele 6 i ocene zadataka iz tabele 7 služe za izracunava-nje stvarnih pondera (Ps) zadataka pomo-ću izraza:
+Pp • O
+Ps =-------
+s	So
+(1)
+gde je:
+Pp - potreban (teoretski) ponder zadataka,
+O - ocena zadataka po procesnim funkcijama,
+So - skala ocene (5).
+Vrednosti stvarnih pondera zadataka SbPo po procesnim funkcijama u fazi pri-preme operacije prikazane su u tabeli 8.
+Stvarni ponderi (Ps) zadataka SbPo u izvolenju operacije odreleni su ana-logno postupku za pripremu operacije.
+Utvrđivanje prosecnih ocena zadataka saobraćajne podrške
+Polaze}i od nivoa (So) utvr|enih po-trebnih vrednosti (Pp) zadataka SbPo i stvarnog stanja (Ps), u pripremi i izvole-
+294
+VOJNOTEHNIČKI GLASNIK 3-4/2005.
+nju napadne operacije korpusa, radi ana-lize mogu se dobiti prosecne ocene ( O ): — YP
+о	= =P- • so	(2)
+YPp	0
+Prosecne ocene zadataka funkcija SbPo u pripremi operacije korpusa date su u tabeli 9.
+Po istoj metodologiji utvrđene su prosecne ocene zadataka funkcija SbPo u izvođenju operacije. Na osno-vu podataka iz tabele 9 i prosecnih ocena funkcija SbPo u izvođenju ope-racije [5] izvrseno je rangiranje funkcija SbPo prema ukupnim prosecnim ocenama.
+Teoretski (potrebni — Pp) ponderi zadataka u pripremi operacije
+Tabela 6
+	~* Procesne funkcije		Ev	Obv	Kt	An	Odl	Pl	Us	Org	Izv	Kom	о
+a) Zadaci saobraćajno-operativne funkcije		Ponderi	1,52	2,41	3,00	3,00	4,64	4,69	4,06	4,13	2,57	4,91	Ukupi
+1.	Planiranje kretanja jedinica (marsa) u dovođenju	4,80	7,30	-	-	14,40	22,27	22,51	19,49	19,82	12,34	-	118,13
+2.	Planiranje korisćenja komunikacija	4,03	6,13	-	-	12,09	18,70	18,90	16,36	16,64	10,36	-	99,18
+3.	Podnosenje - najava za korisćenje puteva	2,65	4,03	6,39	-	7,95	12,30	12,43	10,76	10,94	6,81	-	71,60
+4.	Planiranje, organizovanje i realizovanje RKSb, i usklađivanje sa organima saobraćajne policije	3,98	6,05	9,59	11,94	11,94	18,47	18,67	16,16	16,44	10,23	19,54	139,02
+5.	Planiranje, organizacija i realizacija saobraćajnoa izviđanja	3,19	4,85	7,69	9,57	9,57	14,80	14,96	12,95	13,17	8,20	15,66	111,43
+6.	Izrada dokumenata SbPo	3,15	4,79	-	9,45	9,45	14,62	14,77	-	13,01	8,10	15,47	89,65
+7.	Kontrola izvrsenja izdatih naređenja i realizacije planova za saobraćaj	3,69	5,61	8,89	11,07	11,07	17,12	17,31	14,98	15,24	9,48	18,12	128,89
+8.	Saradnja sa operativnim organom	4,44	6,75	10,70	-	13,32	20,60	20,82	18,03	18,34	11,41	-	119,97
+9.	Saradnja sa organima rodova	2,92	4,44	7,04		8,76	13,55	13,69	11,86	12,06	7,50	-	78,90
+10.	Saradnja sa organima za saobraćaj na teritoriji	3,23	4,91	7,78	-	9,69	14,99	15,15	13,11	13,34	8,30	-	87,27
+11.	Saradnja sa upravnim organom SbSl pretpostavljene komande	2,48	3,77	5,98	-	7,44	11,51	11,63	10,07	10,24	6,37	-	67,01
+12.	Saradnja sa upravnim organom SbSl potcinjenih jedinica	3,84	5,84	9,25	11,52	11,52	17,82	18,01	15,59	15,86	9,87	18,85	134,13
+13.	Vođenje evidencije	3,10	4,71	7,47	9,30	9,30	-	14,54	-	12,80	7,97	-	66,09
+14.	Popuna ljudstvom i MTS organa SbSl	4,08	6,20	9,83	12,24	12,24	18,93	19,14	16,56	16,85	10,49	20,03	142,51
+15.	Procena borbenih uslova	3,68	5,59	-	-	11,04	-	17,26	14,94	15,20	9,46	-	73,49
+15.	Procena prostornih uslova	3,53	5,37	-	-	10,59	-	16,56	14,33	14,58	9,07	-	70,49
+17.	Procena vremenskih uslova	3,51	5,34	-	-	10,53	-	16,46	14,25	14,50	9,02	-	70,09
+Ukupno			91,66	90,62	75,09	180,90	215,67	282,81	219,44	249,04	154,97	107,68	1667,87
+b) Zadaci transportno-logisticke funkcije													
+1.	Podnosenje prijava za prevoženje	3,08	4,68	7,42	9,24	9,24	14,29	14,45	12,50	12,72	7,92	-	92,46
+2.	Prijem i analiza prijava za prevoženje	3,38	5,14	8,15	10,14	10,14	15,68	15,85	13,72	13,96	8,69	-	101,47
+3.	Planiranje prevoženja jedinica (u dovođenju)	4,73	7,19	-	-	14,19	21,95	22,18	19,20	19,53	12,16	-	116,41
+4.	Koordiniranje prevoženja materijalnih sredstava od pozadinskih baza do ZTJ	3,65	5,55	8,80	10,95	10,95	16,94	17,12	14,2	15,07	9,38	17,92	127,49
+5.	Saradnja sa operativno-logistickim orsanom	3,44	5,23	8,29	-	10,32	15,96	16,13	13,97	14,21	8,84	16,89	109,84
+6.	Saradnja sa organima logistickih službi	3,5	5,32	8,44	-	10,50	16,24	16,42	14,21	14,46	9,00	-	94,57
+7.	Procena borbenih uslova	3,96	6,02	-	-	11,88	-	18,57	16,08	16,35	10,18	-	79,08
+8.	Procena prostornih uslova	3,58	5,44	-	-	10,74	-	16,79	14,53	14,79	9,20	-	71,49
+9.	Procena vremenskih uslova	3,58	5,44	-	-	10,74	-	16,79	14,53	14,79	9,20	-	71,49
+Ukupno			50,01	41,09	30,33	98,70	101,06	154,30	133,57	135,88	84,55	34,81	864,30
+VOJNOTEHNICKI GLASNIK 3-4/2005.
+295
+Ocene stvarnog stanja funkcija SbPo u pripremi operacije
+Tabela 7
+a) Zadaci saobraćajno-operativne funkcije		Procesne funkcije									
+			Obv		1	*3 О	eu		Of) l-i О		Kom
+		Ocene zadataka po procesnim funkcijama									
+1.	Planiranje kretanja jedinica (marsa) u dovođenju	4,39	-	-	4,13	4,12	4,26	3,79	4,12	4,23	-
+2.	Planiranje korisćenja komunikacija	4,27	-	-	4,09	4,10	4,22	4,06	3,97	4,15	-
+3.	Podnosenje prijava - najava za korisćenje puteva	4,31	3,14	-	4,21	4,19	3,72	3,26	3,42	4,11	-
+4.	Planiranje, organizovanje i realizovanje RKSb, i usklađivanje sa organima saobraćajne policije	3,08	2,42	3,11	3,05	3,56	3,46	2,77	3,78	3,63	3,29
+5.	Planiranje, organizacija i realizacija saobraćajnog izviđanja	2,76	3,22	3,14	3,31	2,86	2,86	2,86	3,21	3,61	3,78
+6.	Izrada dokumenata SbPo	3,69	-	4,04	4,04	4,21	4,36	-	4,15	4,24	4,32
+7.	Kontrola izvrsenja izdatih naređenja i realizacije planova za saobraćaj	3,21	2,42	3,31	4,13	3,08	4,01	3,17	3,29	4,09	4,26
+8.	Saradnja sa operativnim organom	3,04	2,63	-	2,81	3,05	3,11	2,57	2,62	2,95	-
+9.	Saradnja sa organima rodova	2,88	2,14	-	2,16	2,14	2,54	2,12	2,39	2,29	-
+10.	Saradnja sa organima za saobraćaj na teritoriji	2,76	2,01	-	2,01	2,02	2,13	2,09	2,16	2,14	-
+11.	Saradnja sa upravnim organom SbSl pretpostavljene komande	3,28	3,18	-	3,21	3,31	3,51	3,09	3,10	3,16	-
+12.	Saradnja sa upravnim organom SbSl potcinjenih jedinica	3,36	3,31	4,03	3,48	3,81	3,62	3,20	3,24	3,34	4,13
+13.	Vođenje evidencije	3,42	3,19	3,14	3,16	-	4,17	-	3,27	3,75	-
+14.	Popuna ljudstvom i MTS organa SbSl	4,45	4,14	4,01	3,82	4,04	4,29	4,18	4,12	3,48	4,25
+15.	Procena borbenih uslova	3,52	-	-	3,01	-	3,12	3,38	3,23	3,16	-
+16.	Procena prostornih uslova	3,62	-	-	3,25	-	3,49	3,67	3,55	3,34	-
+17.	Procena vremenskih uslova	3,46	-	-	2,86	-	3,29	3,49	3,10	3,07	-
+b) Zadaci transportno-logisticke funkcije											
+1.	Podnosenje prijava za prevoženje	4,51	3,64	4,18	4,08	4,46	4,16	4,04	4,22	4,38	-
+2.	Prijem i analiza prijava za prevoženje	4,21	4,01	4,26	4,27	4,36	4,13	4,16	4,18	4,27	-
+3.	Planiranje prevoženja jedinica (u dovođenju)	4,32	-	-	4,42	4,44	4,65	4,46	4,26	4,31	-
+4.	Koordiniranje prevoženja materijalnih sredstava od pozadinskih baza do ZTJ	4,27	4,12	3,82	4,24	4,66	4,56	4,13	4,07	4,22	4,62
+5.	Saradnja sa operativno-logistickim organom	4,20	4,16	-	4,17	4,22	4,36	4,04	4,12	4,06	4,75
+6.	Saradnja sa organima logistickih službi	3,91	3,86	-	3,74	3,79	4,12	3,66	3,74	3,92	-
+7.	Procena borbenih uslova	3,19	-	-	3,33	-	3,44	3,76	3,52	3,66	-
+8.	Procena prostornih uslova	3,46	-	-	3,63	-	3,61	3,94	3,63	3,72	-
+9.	Procena vremenskih uslova	3,28	-	-	3,26	-	3,36	3,37	3,46	3,43	-
+Utvrđivanje prosecnih ocena procesnih funkcija
+Prosecne ocene procesnih funkcija (Opf) mogu se izracunati na osnovu utvr-đenih stvarnih i potrebnih pondera:
+(3)
+rp
+gde je:
+Ps - stvarni ponder procesne funkcije,
+Pp - potrebni ponder procesne funkcije,
+So - skala ocena.
+Prosecne ocene procesnih funkcija, na osnovu vrednosti potrebnih i stvarnih pondera po funkcijama SbPo i fazama operacije korpusa, date su u tabeli 11, a rangirane u tabeli 12.
+296
+VOJNOTEHNIČKI GLASNIK 3-4/2005.
+Analiza rezultata primene metode procesnih funkcija
+Analizirajući vrednosti pondera i prosecnih ocena, datih u tabelama od 9 do 12, može se zakljuciti sledeće:
+1.	Od poslovnih funkcija najnižu prosecnu ocenu (3,14) ima saobraćaj-no-operativna funkcija u izvođenju operacije. To predstavlja njen organiza-cijski nivo i znacaj u funkcionisanju sa-obraćajne podrske korpusa u napadu, koji je, u svakom slucaju, vrlo nizak. Znaci da se zadaci realizuju povrsno i
+na vlastitu inicijativu. To za posledicu ima neadekvatno obezbeđenje njenih sadržaja, kao sto su: plansko korisćenje komunikacija i uredan saobraćaj pri uvođenju drugog eselona, rezervi, go-nećih odreda i kolona, premestanje je-dinica i sredstava podrske, kretanje transportnih kolona za dotur i evakua-ciju, premestanje i privlacenje logistic-kih jedinica borbenom poretku, kao i regulisanje i kontrola saobraćaja. Ova-kvo stanje navedene funkcije dovodi u pitanje uspesnost realizacije celokup-nog SbPo, a time i napadne operacije.
+Stvarni ponderi (Pj zadataka SbPo u pripremi operacije
+Tabela 8
+		Procesne funkcije										Ukupno
+a) Zadaci saobraćajno-operativne funkcije		> Ш	Obv	й	-3	IPO	eu	D	Org	j5	Kom	
+1.	Planiranie kretanja jedinica (marsa) u dovođenju	6,41	-	-	11,89	18,35	19,18	14,77	16,33	10,44	-	97,37
+2.	Planiranje koriscenja komunikacija	5,24	-	-	9,89	15,33	15,95	13,28	13,21	8,60	-	81,50
+3.	Podnosenje prijava - najava za korišćenie puteva	3,47	4,01	-	6,69	10,31	9,25	7,02	7,48	5,60	-	53,83
+4.	Planiranje, organizovanje i realizovanje RKSb, i usklađivanje sa organima saobraćajne policije	3,73	4,64	7,43	7,28	13,15	12,92	8,95	12,43	7,43	12,86	90,82
+5.	Planiranje, organizacija i realizacija saobraćajnog izviđanja	2,68	4,95	6,01	6,34	8,47	8,56	7,41	8,46	5,92	11,84	70,64
+6.	Izrada dokumenata SbPo	3,54	-	7,64	7,64	12,31	12,88	-	10,80	6,87	13,37	75,05
+7.	Kontrola izvrsenja izdatih naređenja i realizacije planova za saobraćaj	3,60	4,30	7,33	9,14	10,55	13,88	9,50	10,03	7,75	15,44	91,52
+8.	Saradnja sa operativnim organom	4,10	5,63	-	7,49	12,57	12,95	9,27	9,61	6,73	-	68,35
+9.	Saradnja sa organima rodova	2,56	3,01	-	3,78	5,80	6,95	5,03	5,76	3,44	-	36,33
+10.	Saradnja sa organima za saobraćaj na teritoriji	2,71	3,13	-	3,90	6,06	6,45	5,48	5,76	3,55	-	37,04
+11.	Saradnja sa upravnim organom SbSl pretpostavljene komande	2,47	3,80	-	4,78	7,62	8,16	6,22	6,35	4,03	-	43,43
+12.	Saradnja sa upravnim organom SbSl potcinjenih jedinica	3,92	6,12	9,29	8,02	13,58	13,04	9,98	10,28	6,59	15,57	96,39
+13.	Vođenje evidencije	3,22	4,77	5,84	5,88	-	12,13	-	8,37	5,98	-	46,19
+14.	Popuna ljudstvom i MTS organa SbSl	5,52	8,14	9,82	9,35	15,30	16,42	13,84	13,88	7,30	17,03	116,60
+15.	Procena borbenih uslova	3,94	-	-	6,65	-	10,77	10,10	9,82	5,98	-	47,26
+16.	Procena prostornih uslova	3,89	-	-	6,88	-	11,56	10,52	10,35	6,06	-	49,26
+17.	Procena vremenskih uslova	3,70	-	-	6,02	-	10,83	9,95	8,99	5,54	-	45,03
+Ukupno		64,70	52,50	53,36	121,62	149,40	201,88	141,32	167,91	107,81	86,11	1146,61
+b) Zadaci transportno-logisticke funkcije												
+1.	Podnosenje prijava za prevoženje	4,22	5,40	7,72	7,54	12,75	12,02	10,10	10,74	6,94	-	77,43
+2.	Prijem i analiza prijava za prevoženje	4,33	6.54	8,64	8,66	13,67	13,09	11,42	11,67	7,42	-	85,44
+3.	Planiranje prevoženja jedinica (u dovođenju)	6,21	-	-	12,54	19,49	20,63	17,13	16,64	10,48	-	103,12
+4.	Koordiniranje prevoženja materijalnih sredstava od pozadinskih baza do ZTJ	4,74	7,25	8,37	9,29	15,79	15,61	12,24	12,27	7,92	16,56	110,04
+5.	Saradnja sa operativno-logistickim organom	4,39	6,90	-	8,61	13,47	14,07	11,29	11,71	7,18	16,05	93,67
+6.	Saradnja sa organima logistickih službi	4,16	6,52	-	7,85	12,31	13,53	10,40	10,82	7,06	-	72,65
+7.	Procena borbenih uslova	3,84	-	-	7,91	-	12,78	12,09	11,51	7,45	-	55,58
+8.	Procena prostornih uslova	3,76	-	-	7,80	-	12,12	11,45	10,74	6,84	-	52,71
+9.	Procena vremenskih uslova	3,57	-	-	7,00	-	11,28	9,79	10,23	6,31	-	48,18
+Ukupno		39,22	32,61	24,73	77,20	87,48	125,13	105,91	106,33	67,60	32,61	698,82
+VOJNOTEHNICKI GLASNIK 3-4/2005.
+297
+Prosecne ocene zadataka SbPo u pripremi operacije
+Tabela 9
+a) Zadaci saobraćajno-operativne funkcije		Pp	Ps	O
+1.	Planiranje kretanja jedinica (marsa) u dovođenju	118,13	97,37	4,12
+2.	Planiranje korisćenja komunikacija	99,18	81,5	4,11
+3.	Podnosenje prijava - najava za korisćenje puteva	71,60	53,83	3,76
+4.	Planiranje, organizovanje i realizovanje RKSb, i usklađivanje sa organima saobraćajne policije	139,02	90,82	3,27
+5.	Planiranje, organizacija i realizacija saobraćajnog izviđanja	111,43	70,64	3,17
+6.	Izrada dokumenata SbPo	89,65	75,05	4,19
+7.	Kontrola izvrsenja izdatih naređenja i realizacije planova za saobraćaj	128,89	91,52	3,55
+8.	Saradnja sa operativnim organom	119,97	68,35	2,85
+9.	Saradnja sa organima rodova	78,90	36,33	2,30
+10.	Saradnja sa organima za saobraćaj na teritoriji	87,27	37,04	2,12
+11.	Saradnja sa upravnim organom SbSl pretpostavljene komande	67,01	43,43	3,24
+12.	Saradnja sa upravnim organom SbSl potcinjenih jedinica	134,13	96,39	3,59
+13.	Vođenje evidencije	66,09	46,19	3,49
+14.	Popuna ljudstvom i MTS organa SbSl	142,51	116,6	4,09
+15.	Procena borbenih uslova	73,49	47,26	3,22
+16.	Procena prostornih uslova	70,49	49,26	3,49
+17.	Procena vremenskih uslova	70,09	45,03	3,21
+Ukupno		1667,85	1146,61	3,44
+b) Zadaci transportno-logisticke funkcije				
+1.	Podnosenje prijava za prevoženje	92,46	77,43	4,19
+2.	Prijem i analiza prijava za prevoženje	101,47	85,44	4,21
+3.	Planiranje prevoženja jedinica (u dovođenju)	116,41	103,12	4,43
+4.	Koordiniranje prevoženja materijalnih sredstava od pozadinskih baza do ZTJ	127,49	110,04	4,32
+5.	Saradnja sa operativno-logistickim organom	109,84	93,67	4,26
+6.	Saradnja sa organima logistickih službi	94,57	72,65	3,84
+7.	Procena borbenih uslova	79,08	55,58	3,51
+8.	Procena prostornih uslova	71,49	52,71	3,69
+9.	Procena vremenskih uslova	71,49	48,18	3,37
+Ukupno		864,30	698,82	4,04
+Saobraćajno-operativna funkcija u pripremi operacije je sledeća funkcija sa niskom prosecnom ocenom (3,44), mada nesto visom od iste funkcije u izvođenju operacije. U pripremnom periodu ovom funkcijom treba obezbediti uredan sao-braćaj u toku dovođenja, grupisanja i raz-vođenja snaga i sredstava za napad u toku podilaženja i razvoja glavnine ili pri dovođenju snaga iz dubine. Ovako niska ocena ukazuje na to da se zadaci ne oba-vljaju po organizacijskim propisima i uputstvima pretpostavljenih, nego uglav-nom na vlastitu inicijativu. To ne daje
+garanciju uspesnog obezbeđenja navede-nih sadržaja ove funkcije.
+Ovi podaci ukazuju na neadekvatan znacaj i organizacijski nivo koji saobra-ćajno-operativne funkcije imaju u funk-cionisanju saobraćajne podrske korpusa u napadnoj operaciji. Prema konstatova-nom stanju sadržaji saobraćajno-opera-tivne funkcije u pripremi, a narocito u iz-vođenju napadne operacije, neće biti uspesno realizovani. To može imati za posledicu neblagovremeno dovođenje, grupisanje i razvoj snaga za napad, nago-milavanje jedinica na komunikacijama,
+298
+VOJNOTEHNIČKI GLASNIK 3-4/2005.
+koncentraciju velikog broja jedinica na malom prostoru, neblagovremeno uvođe-nje drugog e{elona i rezerve u borbu, ka-{njenja u doturu i evakuaciji, sporo pre-me{tanje jedinica, kao i kretanje gonećih odreda i kolona.
+2.	Transportno-logisticka funkcija u pripremi operacije ima najvi{u pro-secnu ocenu (4,04). S obzirom na to da se u pripremi napadne operacije organi pozadine nalaze na teriroriji pod kon-trolom vlastitih snaga, a kretanja jedini-ca su planska i nisu izložena neposred-nom dejstvu neprijatelja, uslovi za izvr-
+{avanje zadataka transportno-logisticke funkcije su povoljni. Ovom funkcijom u pripremnom periodu treba obezbediti uredan transport i pravilno kori{ćenje transportnih sredstava u toku dovođe-nja, grupisanja i razvođenja snaga i sredstava za napad u toku podilaženja i razvoja glavnine ili pri dovođenju snaga iz dubine i rejona prikupljanja u oceku-juće rejone. Na osnovu dobijene prosec-ne ocene može se zakljuciti da će se iz-vr{enjem zadataka ove funkcije umno-gome doprineti realizaciji SbPo, kao i ukupnoj pripremi operacije.
+Rangiranje funkcija SbPo
+Tabela 10
+Naziv funkcije		Suma potrebnih pondera	Suma stvarnih pondera	Prosecna ocena
+1.	Transportno-logisticka (priprema operacije)	864,30	698,82	4,04
+2.	Transportno-logisticka (izvođenje operacije)	616,09	460,88	3,74
+3.	Saobraćajno-operativna (priprema operacije)	1667,85	1146,61	3,44
+4.	Saobraćajno-operativna (izvođenje operacije)	1369,56	861,23	3,14
+Ukupno		4517,81	3167,54	3,51
+Tabela 11
+Prosecne ocene procesnih funkcija po fUnkcijama SbPo
+		Stapske funkcije										Uku- pno
+Funkcije SbPo		Ev	Obv	Kt	An	Odl	Pl	Us	Org	Izv	Kom	
+1.	Transportno-logisticka (priprema operacije)	3,92	3,97	4,08	3,91	4,33	4,05	3,96	3,91	4,00	4,68	4,04
+2.	Transportno-logisticka (izvođenje operacije)	3,75	3,65	3,49	3,41	3,82	4,02	3,45	3,80	3,83	4,04	3,74
+3.	Saobraćajno-operativna (priprema operacije)	3,53	2,90	3,55	3,36	3,46	3,57	3,22	3,37	3,48	4,00	3,44
+4.	Saobraćajno-operativna (izvođenje operacije)	3,17	2,89	3,10	3,00	3,04	3,33	2,82	3,33	3,13	3,64	3,14
+U k u p n o		3,54	3,16	3,46	3,38	3,52	3,66	3,31	3,53	3,53	3,96	3,51
+VOJNOTEHNIČKI GLASNIK 3-4/2005.
+299
+Rangiranje procesnih funkcija
+Tabela 12
+Naziv funkcije		Ponder	Suma potrebnih pondera	Suma stvarnih pondera	Prosecna ocena
+1.	komandovanje	4,91	279,28	221,44	3,96
+2.	planiranje	4,69	748,10	547,27	3,66
+3.	evidentiranje	1,52	242,46	171,45	3,54
+4.	organizovanje	4,13	658,78	464,57	3,53
+5.	izvođenje	2,57	409,93	289,59	3,53
+6.	odlucivanje	4,64	624,40	439,19	3,52
+7.	kontrolisanje	3,00	210,18	145,59	3,46
+8.	analiziranje	3,00	478,53	323,16	3,38
+9.	usklađivanje	4,06	598,35	396,16	3,31
+10.	obaveštavanje	2,41	267,80	169,12	3,16
+Ukupno		34,93	451781	3167,54	3,51
+Prosecna ocena transportno-logistic-ke funkcije u izvođenju operacije je ne-što niža (3,74) u odnosu na istu funkciju u pripremi operacije. Njome je potrebno omogućiti pravilno korišćenje transport-nih sredstava pri prebacivanju drugog ešelona, gonećih odreda, rezervi i drugih delova borbenog poretka za izvršenje do-tura i evakuacije povređenog i obolelog ljudstva. Izvršenje ove funkcije omogu-ćava prilicno uspešnu realizaciju SbPo u celini kao i izvođenje napadne operacije.
+I	pored toga što omogućavaju rela-tivno uspešno sprovođenje SbPo tran-sportno-logisticke funkcije u pripremi i izvođenju napadne operacije, njihove prosecne ocene nisu visoke. Takvo stanje nameće potrebu za iznalaženje rešenja kojima bi se realizacija zadataka ove funkcije poboljšala.
+3.	Zadaci funkcije sa najnižom pro-secnom ocenom, koji imaju veliku razli-ku između potrebnih i stvarnih pondera i niske prosecne ocene su: saradnja sa or-ganima rodova (2,00), planiranje kretanja neplaniranih kolona (2,24), rukovođenje cetom SbVP (2,32), saradnja sa organom bezbednosti (2,58), razmena informacija i održavanje veze sa organima za saobra-ćaj na teritoriji (2,77) i saradnja sa opera-tivnim organom (2,79).
+Niske prosecne ocene i odnos stvar-nih i potrebnih pondera navedenih zada-taka ukazuje na njihovu zapostavljenost u organizaciji. Uocava se neadekvatna saradnja upravnog organa SbSl sa orga-nima rodova, organom bezbednosti, ope-rativnim organom i organima za saobra-ćaj na teritoriji.
+300
+VOJNOTEHNIČKI GLASNIK 3-4/2005.
+4.	Posmatrajući ocene procesnih funkcija po poslovnim fUnkcijama uocljivo je da su najniže ocene u saobraćajno-ope-rativnoj funkciji u izvođenju operacije. Najniže ocene imaju: usklađivanje - koor-dinacija (2,82), obavestavanje (2,89), ana-liza (3,00), odlucivanje (3,04) itd. Ovakve ocene ukazuju na potrebu izmene i pobolj-sanja navedenih procesnih funkcija.
+5.	Rang procesnih (stapskih) funkcija pokazuje koje su funkcije sa niskim prosecnim ocenama, a kojima treba po-svetiti veću pažnju. Posebno se isticu funkcije obavestavanja, usklađivanja (koordinacije) i analiziranja sa visokim ponderima a niskim prosecnim ocenama.
+6.	Prilicno niska ukupna prosecna ocena (3,51) procesnih i poslovnih funkcija, koja je prema kriterijumu naucne or-ganizacije donja prihvatljiva vrednost, ukazuje na potrebu poboljsanja u sistemu rukovođenja i komandovanja.
+Zaključak
+Rezultati analize mogu se iskoristiti za poboljsanje rada organa SbSl i funkci-onisanja SbPo. Moguća resenja koja bi dovela do poboljsanja mogu biti kratko-rocna i dugorocna.
+Kratkorocna resenja su ona koja bi se mogla primeniti u toku napadne ope-racije, a po njenom zavrsetku se ukidaju, kao i ona koja ne zahtevaju posebne sna-ge i sredstva, niti promene u organizacio-noj strukturi korpusa.
+U napadnoj operaciji se, kao mo-guće resenje, kojim bi se poboljsao rad organa SbSl i funkcionisanja SbPo, upravni organ SbSl deli na dva dela. Podela bi se mogla izvrsiti tako da na-
+celnik bude na komandnom mestu u organu za operativne poslove, a da referent ostane na logistickom komand-nom mestu u organu za logistiku. Ovu podelu uputno je uraditi zato sto na-padnu operaciju karakterisu masovna kretanja, a njihovo planiranje se vrsi u organu za operativne poslove. Radom nacelnika SbSl u tom organu znatno bi se poboljsale sve funkcije, a posebno one sa niskim prosecnim ocenama (obavestavanje, usklađivanje, analizi-ranje i dr.), kao i zadaci sa niskim prosecnim ocenama (saradnja sa organima rodova, planiranje kretanja neplanira-nih kolona, rukovođenje cetom SbVP i dr.). Na ovaj nacin sadržaji saobraćaj-no-operativne funkcije bili bi znatno bolje realizovani.
+S obzirom na to da korpus nema transportnu jedinicu, referent SbSl u or-ganu za pozadinu bi, u domenu planira-nja, mogao uspesno realizovati sadržaje transportno-logisticke funkcije.
+Do dugorocnih resenja, koja bi se trajno koristila, mora se doći istraživanjem. Do tih resenja može se doći preko organi-zacijskog projektovanja, reorganizacijom organa SbSl po broju i kapacitetu, prera-spodelom nadležnosti, primenom logistike, osavremenjavanjem stare i uvođenjem no-ve informaticke tehnologije i dr.
+Metoda procesnih funkcija vrlo je pogodna za ocenjivanje postojećih or-ganizacionih resenja. Ona se može vrlo uspesno primenjivati za ocenjivanje organizacijskog nivoa celokupne orga-nizacije ili samo pojedinih organiza-cijskih jedinica, podrucja delatnosti, funkcija i dr. Analiticki postupak koji daje metoda procesnih funkcija omo-
+VOJNOTEHNIČKI GLASNIK 3-4/2005.
+301
+gućuje kvantitativno ocenjivanje orga-nizacionog nivoa i, polazeći od toga, preciziranje i programiranje mera za dalje organizacijsko delovanje. Kao takva, ona je vrlo zna~ajna u prouča-vanju i dogradnji organizacionih siste-ma, pa time i sistema saobraćajne po-dr{ke i njegovih funkcija.
+Literatura:
+[1]	Marjanović, S.: Primena kibernetike u rukovo|enju radnim
+organizacijama, Informator, Zagreb, 1982.
+[2]	Dozet, S. i dr.: Saobraćajno obezbelenje oružanih snaga, Vojnoizdavački i novinski centar, Beograd, 1988.
+[3]	Operacije oružanih snaga u ONOR-u, CVVŠ, Beograd, 1986.
+[4]	Kapustić, S.: Metodika organizacijskog projektiranja, Orga-
+nizacija za grafičku djelatnost, Samobor, 1984.
+[5]	Tadić, G.: Uticaj organizacione strukture saobraćajne službe na funkcionisanje saobraćajnog obezbe|enja korpusa kopne-ne vojske u napadu, magistarski rad, VA VJ, Beograd, 2000.
+302
+VOJNOTEHNIČKI GLASNIK 3-4/2005.
+Pregledprocesnih funkcija s oznakama i znacenjima
+Tabela 1
+Naziv procesne funkcije		Oznaka	Zna~enje
+1.	evidentiranje	Ev	Obezbe|enje podataka za sve stabne funkcije
+2.	obavestavanje	Ob	Dostavljanje podataka i informacija na radna mesta organa SbSl i organa pozadine
+3.	kontrolisanje	Kt	Upore|ivanje obavljenih aktivnosti s unapred postavljenim merilima, standardima i smernicama
+4.	analiziranje	An	Rastavljanje i upore|ivanje i zaklju~ivanje o uzrocima odstupanja
+5.	odlu~ivanje	Odl	Ponovno intervenisanje na zbivanja u postojećim procesima i oblikovanje budućih procesa operacije korpusa
+6.	planiranje	Pl	Osiguravanje potrebnih mera i elemenata za izvrsavanje odluka
+7.	uskla|ivanje (koordinacija)	Us	Kombinovanje i usmeravanje pojedina~nih napora u ukupan napor
+8.	organizovanje	Org	Traženje i oblikovanje odgovarajućih organizacijskih postupaka i izvrsavanje radnih zadataka
+9.	izvolenje	Izv	Konkretno izvrsenje zadataka na radnim mestima organa SbSl
+10.	komandovanje	Kom	Dodeljivanje zadataka pot~injenim jedinicama i organima. Izdavanjem narelenja ostvaruju se planovi, odnosno odluke
+Tabela 2
+Pregled kriterijuma za izbor pondera uticaja na izvr{enje zadataka
+Ponder	Kriterijum
+5	Izvrsavanje poslova je neophodno, jer se dovodi u pitanje SbPo korpusa u napadu
+4	Izvrsavanje zadataka vrlo uti~e na celokupno odvijanje SbPo operacije
+3	Izvrsavanje zadataka uti~e na ekonomi~nost i racionalnost izvrsenja SbPo operacije
+2	Neizvrsavanje zadataka uzrokuje manjkavost, ali je uprkos tome moguće odvijanje SbPo operacije
+1	Izvrsavanje zadataka ne uti~e bitno na celovitost realizacije SbPo operacije
+0	Izvrsavanje zadataka nije potrebno
+Pregled pondera procesnih funkcija
+Tabela 3
+Procesna funkcija		Ponderi		
+		Prema organizaciji rada	Prema anketi	Usvojeni ponderi
+1.	evidentiranje	1	2,04	1,52
+2.	obavestavanje	2	2,82	2,41
+3.	kontrolisanje	3	3,00	3,00
+4.	analiziranje	3	3,00	3,00
+5.	odlu~ivanje	5	4,28	4,64
+6.	planiranje	5	4,38	4,69
+7.	usklalivanje	4	4,11	4,06
+8.	organizovanje	4	4,25	4,13
+9.	izvolenje	2	3,14	2,57
+10	komandovanje	5	4,82	4,91
+VOJNOTEHNIČKI GLASNIK 3-4/2005.
+303
+Tabela 4
+Povezanost zadataka u pripremi operacije sa procesnim funkcijama
+		Procesne funkcije										
+a) Zadaci saobraćajno-operativne funkcije		Ev	Obv	Kt	An	Odl	Pl	Us	Org	Izv	Kom	F
+1.	Planiranje kretanja jedinica (marsa) u dovođenju	+	-	-	+	+	+	+	+	+	-	7
+2.	Planiranje korišćenia komunikacija	+	-	-	+	+	+	+	+	+	-	7
+3.	Podnosenje prijava - najava za korišćenje puteva	+	+	-	+	+	+	+	+	+	-	8
+4.	Planiranje, organizovanje i realizovanje RKSb, i usklađivanje sa organima saobraćajne policije	+	+	+	+	+	+	+	+	+	+	10
+5.	Planiranje, organizacija i realizacija saobraćajnog izviđanja	+	+	+	+	+	+	+	+	+	+	10
+6.	Izrada dokumenata SbPo	+	-	+	+	+	+	-	+	+	+	8
+7.	Kontrola izvrsenja izdatih naređenja i realizacije planova za saobraćaj	+	+	+	+	+	+	+	+	+	+	10
+8.	Saradnja sa operativnim organom	+	+	-	+	+	+	+	+	+	-	8
+9.	Saradnja sa organima rodova	+	+	-	+	+	+	+	+	+	-	8
+10.	Saradnja sa organima za saobraćaj na teritoriji	+	+	-	+	+	+	+	+	+	-	8
+11.	Saradnja sa upravnim organom SbSl pretpostavljene komande	+	+	-	+	+	+	+	+	+	-	8
+12.	Saradnja sa upravnim organom SbSl potcinjenih jedinica	+	+	+	+	+	+	+	+	+	+	10
+13.	Vođenje evidencije	+	+	+	+	-	+	-	+	+	-	7
+14.	Popuna ljudstvom i MTS organa SbSl	+	+	+	+	+	+	+	+	+	+	10
+15.	Procena borbenih uslova	+	-	-	+	-	+	+	+	+	-	6
+16.	Procena prostornih uslova	+	-	-	+	-	+	+	+	+	-	6
+17.	Procena vremenskih uslova	+	-	-	+	-	+	+	+	+	-	6
+Suma frekvencija		17	11	7	17	13	17	15	17	17	6	137
+b) Zadaci transportno-logisticke funkcije												
+1.	Podnosenje prijava za prevoženje	+	+	+	+	+	+	+	+	+	-	9
+2.	Prijem i analiza prijava za prevoženje	+	+	+	+	+	+	+	+	+	-	9
+3.	Planiranje prevoženja jedinica (u dovođenju)	+	-	-	+	+	+	+	+	+	-	7
+4.	Koordiniranje prevoženja materijalnih sredstava od pozadinskih baza do ZTJ	+	+	+	+	+	+	+	+	+	+	10
+5.	Saradnja sa operativno-logistickim organom	+	+	-	+	+	+	+	+	+	+	9
+6.	Saradnja sa organima logistickih službi	+	+	-	+	+	+	+	+	+	-	8
+7.	Procena borbenih uslova	+	-	-	+	-	+	+	+	+	-	6
+8.	Procena prostornih uslova	+	-	-	+	-	+	+	+	+	-	6
+9.	Procena vremenskih uslova	+	-	-	+	-	+	+	+	+	-	6
+Suma frekvencija		9	5	3	9	6	9	9	9	9	2	70
+304
+VOJNOTEHNIČKI GLASNIK 3-4/2005.
+Ponderi zadataka funkcija SbPo u pripremi operacije
+Tabela 5
+a) Zadaci saobraćajno-operativne funkcije		Usvojeni ponderi dobijeni anketom
+1.	Planiranje kretanja jedinica (marsa) u dovođenju	4,80
+2.	Planiranje korisćenja komunikacija	4,03
+3	Podnosenje prijava — najava za korišćenie puteva	2,65
+4.	Planiranje, organizovanje i realizovanje RKSb, i usklađivanje sa organima saobraćajne policije	3,98
+5.	Planiranje, organizacija i realizacija saobraćajnog izviđanja	3,19
+6.	Izrada dokumenata SbPo	3,15
+7.	Kontrola izvrsenja izdatih naređenja i realizacije planova za saobraćaj	3,69
+8.	Saradnja sa operativnim organom	4,44
+9.	Saradnja sa organima rodova	2,92
+10.	Saradnja sa organima za saobraćaj na teritoriji	3,23
+11.	Saradnja sa upravnim organom SbSl pretpostavljene komande	2,48
+12.	Saradnja sa upravnim organom SbSl potcinjenih jedinica	3,84
+13.	Vođenje evidencije	3,10
+14.	Popuna ljudstvom i MTS organa SbSl	4,08
+15.	Procena borbenih uslova	3,68
+16.	Procena prostornih uslova	3,53
+17.	Procena vremenskih uslova	3,51
+b) Zadaci transportno-logisticke funkcije		
+1.	Podnosenje prijava za prevoženje	3,08
+2.	Prijem i analiza prijava za prevoženje	3,38
+3.	Planiranje prevoženja jedinica (u dovođenju)	4,73
+4.	Koordiniranje prevoženja materijalnih sredstava od pozadinskih baza do ZTJ	3,65
+5.	Saradnja sa operativno-logistickim organom	3,44
+6.	Saradnja sa organima logistickih službi	3,50
+7.	Procena borbenih uslova	3,96
+8.	Procena prostornih uslova	3,58
+9.	Procena vremenskih uslova	3,58
+Teoretski (potrebni — Pp) ponder zadataka u pripremi operacije
+Tabela 6
+	Procesne funkcije		Ev	Obv	Kt	An	Odl	Pl	Us	Org	Izv	Kom	Ukupno
+a) Zadaci saobraćajno-operativne funkcije		Ponderi	1.52	2.41	3.00	3.00	4.64	4.69	4.06	4.13	2.57	4.91	
+1.	Planiranje kretanja jedinica (marsa) u dovođenju	4.80	7.30	-	-	14.40	22.27	22.51	19.49	19.82	12.34	-	118.13
+2.	Planiranje korisćenja komunikacija	4.03	6.13	-	-	12.09	18.70	18.90	16.36	16.64	10.36	-	99.18
+VOJNOTEHNIČKI GLASNIK 3-4/2005.
+305
+3.	Podno{enje prijava - najava za kori{}enje puteva	2.65	4.03	6.39	-	7.95	12.30	12.43	10.76	10.94	6.81	-	71.60
+4.	Planiranje, organizovanje i realizovanje RKSb, i uskla|ivanje sa organima saobraćajne policije	3.98	6.05	9.59	11.94	11.94	18.47	18.67	16.16	16.44	10.23	19.54	139.02
+5.	Planiranje, organizacija i realizacija saobraćainoa izvidania	3.19	4.85	7.69	9.57	9.57	14.80	14.96	12.95	13.17	8.20	15.66	111.43
+6.	Izrada dokumenata SbPo	3.15	4.79	-	9.45	9.45	14.62	14.77	-	13.01	8.10	15.47	89.65
+7.	Kontrola izvr{enja izdatih nare|enja i realizacije planova za saobraćaj	3.69	5.61	8.89	11.07	11.07	17.12	17.31	14.98	15.24	9.48	18.12	128.89
+8.	Saradnja sa operativnim organom	4.44	6.75	10.70	-	13.32	20.60	20.82	18.03	18.34	11.41	-	119.97
+9.	Saradnja sa organima rodova	2.92	4.44	7.04		8.76	13.55	13.69	11.86	12.06	7.50	-	78.90
+10.	Saradnja sa organima za saobra}aj na teritoriji	3.23	4.91	7.78	-	9.69	14.99	15.15	13.11	13.34	8.30	-	87.27
+11.	Saradnja sa upravnim organom SbSl pretpostavliene komande	2.48	3.77	5.98	-	7.44	11.51	11.63	10.07	10.24	6.37	-	67.01
+12.	Saradnja sa upravnim organom SbSl pot~inienih iedinica	3.84	5.84	9.25	11.52	11.52	17.82	18.01	15.59	15.86	9.87	18.85	134.13
+13.	Vo|enje evidencije	3.10	4.71	7.47	9.30	9.30	-	14.54	-	12.80	7.97	-	66.09
+14.	Popuna ljudstvom i MTS organa SbSl	4.08	6.20	9.83	12.24	12.24	18.93	19.14	16.56	16.85	10.49	20.03	142.51
+15.	Procena borbenih uslova	3.68	5.59	-	-	11.04	-	17.26	14.94	15.20	9.46	-	73.49
+16.	Procena prostornih uslova	3.53	5.37	-	-	10.59	-	16.56	14.33	14.58	9.07	-	70.49
+17.	Procena vremenskih uslova	3.51	5.34	-	-	10.53	-	16.46	14.25	14.50	9.02	-	70.09
+Ukupno			91.66	90.62	75.09	180.90	215.67	282.81	219.44	249.04	154.97	107.68	1667.87
+b) Zadaci transportno-logisti~ke funkcije													
+1.	Podno{enje prijava za prevoženje	3,08	4.68	7.42	9.24	9.24	14.29	14.45	12.50	12.72	7.92	-	92.46
+2.	Prijem i analiza prijava za prevoženje	3,38	5.14	8.15	10.14	10.14	15.68	15.85	13.72	13.96	8.69	-	101.47
+3.	Planiranje prevoženja jedinica (u dovodenju)	4,73	7.19	-	-	14.19	21.95	22.18	19.20	19.53	12.16	-	116.41
+4.	Koordiniranje prevoženja materijalnih sredstava od pozadinskih baza do ZTJ	3,65	5.55	8.80	10.95	10.95	16.94	17.12	14.82	15.07	9.38	17.92	127.49
+5.	Saradnja sa operativno-logisti~kim orsanom	3,44	5.23	8.29	-	10.32	15.96	16.13	13.97	14.21	8.84	16.89	109.84
+6.	Saradnja sa organima logisti~kih službi	3,5	5.32	8.44	-	10.50	16.24	16.42	14.21	14.46	9.00	-	94.57
+7.	Procena borbenih uslova	3,96	6.02	-	-	11.88	-	18.57	16.08	16.35	10.18	-	79.08
+8.	Procena prostornih uslova	3,58	5.44	-	-	10.74	-	16.79	14.53	14.79	9.20	-	71.49
+9.	Procena vremenskih uslova	3,58	5.44	-	-	10.74	-	16.79	14.53	14.79	9.20	-	71.49
+Ukupno			50.01	41.09	30.33	98.70	101.06	154.30	133.57	135.88	84.55	34.81	864.30
+Tabela 7
+Ocene stvarnog stanja funkcija SbPo u pripremi operacije
+a) Zadaci saobraćajno-operativne funkcije		Procesne funkcije									
+		> И	Obv		Я <	Odl	eu		00 1-1 О	> N	Kom
+		Ocene zadataka po procesnim funkcijama									
+1.	Planiranje kretanja jedinica (mar{a) u dovodenju	4.39	-	-	4.13	4.12	4.26	3.79	4.12	4.23	-
+2.	Planiranje kori{ćenja komunikacija	4.27	-	-	4.09	4.10	4.22	4.06	3.97	4.15	-
+306
+VOJNOTEHNICKI GLASNIK 3-4/2005.
+3.	Podnošenje prijava - najava za korišćenje puteva	4.31	3.14	-	4.21	4.19	3.72	3.26	3.42	4.11	-
+4.	Planiranje, organizovanje i realizovanje RKSb, i usklađivanje sa organima saobraćajne policije	3.08	2.42	3.11	3.05	3.56	3.46	2.77	3.78	3.63	3.29
+5.	Planiranje, organizacija i realizacija saobraćajnog izviđanja	2.76	3.22	3.14	3.31	2.86	2.86	2.86	3.21	3.61	3.78
+6.	Izrada dokumenata SbPo	3.69	-	4.04	4.04	4.21	4.36	-	4.15	4.24	4.32
+7.	Kontrola izvrsenja izdatih naređenja i realizacije planova za saobraćaj	3.21	2.42	3.31	4.13	3.08	4.01	3.17	3.29	4.09	4.26
+8.	Saradnja sa operativnim organom	3.04	2.63	-	2.81	3.05	3.11	2.57	2.62	2.95	-
+9.	Saradnja sa organima rodova	2.88	2.14	-	2.16	2.14	2.54	2.12	2.39	2.29	-
+10	Saradnja sa organima za saobraćaj na teritoriji	2.76	2.01	-	2.01	2.02	2.13	2.09	2.16	2.14	-
+11.	Saradnja sa upravnim organom SbSl pretpostavljene komande	3.28	3.18	-	3.21	3.31	3.51	3.09	3.10	3.16	-
+12.	Saradnja sa upravnim organom SbSl pot~injenih jedinica	3.36	3.31	4.03	3.48	3.81	3.62	3.20	3.24	3.34	4.13
+13.	Vođenje evidencije	3.42	3.19	3.14	3.16	-	4.17	-	3.27	3.75	-
+14.	Popuna ljudstvom i MTS organa SbSl	4.45	4.14	4.01	3.82	4.04	4.29	4.18	4.12	3.48	4.25
+15.	Procena borbenih uslova	3.52	-	-	3.01	-	3.12	3.38	3.23	3.16	-
+16.	Procena prostornih uslova	3.62	-	-	3.25	-	3.49	3.67	3.55	3.34	-
+17.	Procena vremenskih uslova	3.46	-	-	2.86	-	3.29	3.49	3.10	3.07	-
+b) Zadaci transportno-logisti~ke funkcije											
+1.	Podnosenje prijava za prevoženje	4.51	3.64	4.18	4.08	4.46	4.16	4.04	4.22	4.38	-
+2.	Prijem i analiza prijava za prevoženje	4.21	4.01	4.26	4.27	4.36	4.13	4.16	4.18	4.27	-
+3.	Planiranje prevoženja jedinica (u dovođenju)	4.32	-	-	4.42	4.44	4.65	4.46	4.26	4.31	-
+4.	Koordiniranje prevoženja materijalnih sredstava od pozadinskih baza do ZTJ	4.27	4.12	3.82	4.24	4.66	4.56	4.13	4.07	4.22	4.62
+5.	Saradnja sa operativno-logisti~kim organom	4.20	4.16	-	4.17	4.22	4.36	4.04	4.12	4.06	4.75
+6.	Saradnja sa organima logisti~kih službi	3.91	3.86	-	3.74	3.79	4.12	3.66	3.74	3.92	-
+7.	Procena borbenih uslova	3.19	-	-	3.33	-	3.44	3.76	3.52	3.66	-
+8.	Procena prostornih uslova	3.46	-	-	3.63	-	3.61	3.94	3.63	3.72	-
+9.	Procena vremenskih uslova	3.28	-	-	3.26	-	3.36	3.37	3.46	3.43	-
+Stvarni ponderi (PJ zadataka SbPo u pripremi operacije
+Tabela 8
+		Procesne funkcije										Ukupno
+a) Zadaci saobraćajno-operativne funkcije		> Ш	Obv	&	Й <	IPO	eu	D	Org	> _N	Kom	
+1.	Planiranje kretanja jedinica (marša) u dovođenju	6.41	-	-	11.89	18.35	19.18	14.77	16.33	10.44	-	97.37
+2.	Planiranje korišćenja komunikacija	5.24	-	-	9.89	15.33	15.95	13.28	13.21	8.60	-	81.50
+3.	Podnosenje prijava - najava za korišćenje puteva	3.47	4.01	-	6.69	10.31	9.25	7.02	7.48	5.60	-	53.83
+4.	Planiranje, organizovanje i realizovanje RKSb, i usklađivanje sa orsanima saobraćajne policije	3.73	4.64	7.43	7.28	13.15	12.92	8.95	12.43	7.43	12.86	90.82
+VOJNOTEHNIČKI GLASNIK 3-4/2005.
+307
+5.	Planiranje, organizacija i realizacija saobraćajnog izvilanja	2.68	4.95	6.01	6.34	8.47	8.56	7.41	8.46	5.92	11.84	70.64
+6.	Izrada dokumenata SbPo	3.54	-	7.64	7.64	12.31	12.88	-	10.80	6.87	13.37	75.05
+7.	Kontrola izvrsenja izdatih narelenja i realizacije planova za saobraćaj	3.60	4.30	7.33	9.14	10.55	13.88	9.50	10.03	7.75	15.44	91.52
+8.	Saradnja sa operativnim organom	4.10	5.63	-	7.49	12.57	12.95	9.27	9.61	6.73	-	68.35
+9.	Saradnia sa organima rodova	2.56	3.01	-	3.78	5.80	6.95	5.03	5.76	3.44	-	36.33
+10.	Saradnja sa organima za saobraćaj na teritoriji	2.71	3.13	-	3.90	6.06	6.45	5.48	5.76	3.55	-	37.04
+11.	Saradnja sa upravnim organom SbSl pretpostavljene komande	2.47	3.80	-	4.78	7.62	8.16	6.22	6.35	4.03	-	43.43
+12.	Saradnja sa upravnim organom SbSl pot~injenih jedinica	3.92	6.12	9.29	8.02	13.58	13.04	9.98	10.28	6.59	15.57	96.39
+13.	Volenje evidencije	3.22	4.77	5.84	5.88	-	12.13	-	8.37	5.98	-	46.19
+14.	Popuna ljudstvom i MTS organa SbSl	5.52	8.14	9.82	9.35	15.30	16.42	13.84	13.88	7.30	17.03	116.60
+15.	Procena borbenih uslova	3.94	-	-	6.65	-	10.77	10.10	9.82	5.98	-	47.26
+16.	Procena prostornih uslova	3.89	-	-	6.88	-	11.56	10.52	10.35	6.06	-	49.26
+17.	Procena vremenskih uslova	3.70	-	-	6.02	-	10.83	9.95	8.99	5.54	-	45.03
+Ukupno		64.70	52.50	53.36	121.62	149.40	201.88	141.32	167.91	107.81	86.11	1146.61
+b) Zadaci transportno-logisti~ke funkcije												
+1.	Podnosenje prijava za prevoženje	4.22	5.40	7.72	7.54	12.75	12.02	10.10	10.74	6.94	-	77.43
+2.	Prijem i analiza prijava za prevoženje	4.33	6.54	8.64	8.66	13.67	13.09	11.42	11.67	7.42	-	85.44
+3.	Planiranje prevoženja jedinica (u dovolenju)	6.21	-	-	12.54	19.49	20.63	17.13	16.64	10.48	-	103.12
+4.	Koordiniranje prevoženja materijalnih sredstava od pozadinskih baza do ZTJ	4.74	7.25	8.37	9.29	15.79	15.61	12.24	12.27	7.92	16.56	110.04
+5.	Saradnia sa operativno-lo2isti~kim organom	4.39	6.90	-	8.61	13.47	14.07	11.29	11.71	7.18	16.05	93.67
+6.	Saradnia sa or2anima lo2isti~kih službi	4.16	6.52	-	7.85	12.31	13.53	10.40	10.82	7.06	-	72.65
+7.	Procena borbenih uslova	3.84	-	-	7.91	-	12.78	12.09	11.51	7.45	-	55.58
+8.	Procena prostornih uslova	3.76	-	-	7.80	-	12.12	11.45	10.74	6.84	-	52.71
+9.	Procena vremenskih uslova	3.57	-	-	7.00	-	11.28	9.79	10.23	6.31	-	48.18
+Ukupno		39.22	32.61	24.73	77.20	87.48	125.13	105.91	106.33	67.60	32.61	698.82
+Tabela 9
+Prosecne ocene zadataka SbPo u pripremi operacije
+a) Zadaci saobraćajno-operativne funkcije		Pp	Ps	O
+1.	Planiranje kretanja jedinica (marsa) u dovolenju	118,13	97,37	4,12
+2.	Planiranje korišćenja komunikacija	99,18	81,5	4,11
+3.	Podnosenje prijava - najava za korišćeme puteva	71,60	53,83	3,76
+4.	Planiranje, organizovanje i realizovanje RKSb, i usklalivanje sa organima saobraćajne policije	139,02	90,82	3,27
+5.	Planiranje, organizacija i realizacija saobraćajnog izvilanja	111,43	70,64	3,17
+6.	Izrada dokumenata SbPo	89,65	75,05	4,19
+308
+VOJNOTEHNICKI GLASNIK 3-4/2005.
+7.	Kontrola izvr{enja izdatih nare|enja i realizacije planova za saobra}aj	128,89	91,52	3,55
+8.	Saradnja sa operativnim organom	119,97	68,35	2,85
+9.	Saradnja sa organima rodova	78,90	36,33	2,30
+10.	Saradnja sa organima za saobra}aj na teritorj	87,27	37,04	2,12
+11.	Saradnja sa upravnim organom SbSl pretpostavljene komande	67,01	43,43	3,24
+12.	Saradnja sa upravnim organom SbSl pot~injenih jedinica	134,13	96,39	3,59
+13.	Vo|enje evidencije	66,09	46,19	3,49
+14.	Popuna ljudstvom i MTS organa SbSl	142,51	116,6	4,09
+15.	Procena borbenih uslova	73,49	47,26	3,22
+16.	Procena prostornih uslova	70,49	49,26	3,49
+17.	Procena vremenskih uslova	70,09	45,03	3,21
+Ukupno		1667,85	1146,61	3,44
+b) Zadaci transportno-logisti~ke funkcije				
+1.	Podno{enje prijava za prevoženje	92,46	77,43	4,19
+2.	Prijem i analiza prijava za prevoženje	101,47	85,44	4,21
+3.	Planiranje prevoženja jedinica (u dovolenju)	116,41	103,12	4,43
+4.	Koordiniranje prevoženja materijalnih sredstava od pozadinskih baza do ZTJ	127,49	110,04	4,32
+5.	Saradnja sa operativno-logisti~kim organom	109,84	93,67	4,26
+6.	Saradnja sa organima logisti~kih službi	94,57	72,65	3,84
+7.	Procena borbenih uslova	79,08	55,58	3,51
+8.	Procena prostornih uslova	71,49	52,71	3,69
+9.	Procena vremenskih uslova	71,49	48,18	3,37
+Ukupno		864,30	698,82	4,04
+Tabela 10
+Rangiranje funkcija SbPo
+Naziv funkcije		Suma potrebnih pondera	Suma stvarnih pondera	Prose~na ocena
+1.	Transportno-logisti~ka (priprema operacije)	864,30	698,82	4,04
+2.	Transportno-logisti~ka (izvolenje operacije)	616,09	460,88	3,74
+3.	Saobra}ajno-operativna (priprema operacije)	1667,85	1146,61	3,44
+VOJNOTEHNIČKI GLASNIK 3-4/2005.
+309
+4.	Saobra}ajno-operativna (izvo|enje operacije)	1369,56	861,23	3,14
+Ukupno		4517,81	3167,54	3,51
+Tabela 11
+Prosecne ocene procesnih funkcija po funkcijama SbPo
+		[tapske funkcije										Uku- pno
+Funkcije SbPo		Ev	Obv	Kt	An	Odl	Pl	Us	Org	Izv	Kom	
+1.	Transportno-logisti~ka (priprema operacije)	3,92	3,97	4,08	3,91	4,33	4,05	3,96	3,91	4,00	4,68	4,04
+2.	Transportno-logisti~ka (izvo|enje operacije)	3,75	3,65	3,49	3,41	3,82	4,02	3,45	3,80	3,83	4,04	3,74
+3.	Saobra}ajno-operativna (priprema operacije)	3,53	2,90	3,55	3,36	3,46	3,57	3,22	3,37	3,48	4,00	3,44
+4.	Saobra}ajno-operativna (izvo|enje operacije)	3,17	2,89	3,10	3,00	3,04	3,33	2,82	3,33	3,13	3,64	3,14
+U k u p n o		3,54	3,16	3,46	3,38	3,52	3,66	3,31	3,53	3,53	3,96	3,51
+Rangiranje procesnih funkcija
+Tabela 12
+N a z i v f u n k c i j e		Ponder	Suma potrebnih pondera	Suma stvarnih pondera	Prose~na ocena
+1.	komandovanje	4.91	279.28	221.44	3.96
+2.	planiranje	4.69	748.10	547.27	3.66
+310
+VOJNOTEHNICKI GLASNIK 3-4/2005.
+3.	evidentiranje	1.52	242.46	171.45	3.54
+4.	organizovanje	4.13	658.78	464.57	3.53
+5.	izvođenje	2.57	409.93	289.59	3.53
+6.	odlu~ivanje	4.64	624.40	439.19	3.52
+7.	kontrolisanje	3.00	210.18	145.59	3.46
+8.	analiziranje	3.00	478.53	323.16	3.38
+9.	usklađivanje	4.06	598.35	396.16	3.31
+10.	obavestavanje	2.41	267.80	169.12	3.16
+U k u p n o		34.93	4517.81	3167.54	3.51
+VOJNOTEHNICKI GLASNIK 3-4/2005.
+311

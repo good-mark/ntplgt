@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<document reference="014.txt">
+	<feature name="plagiarism" obfuscation="ADD" source_language="ru" source_length="146" source_offset="70" source_reference="5411116.txt" this_language="ru" this_length="168" this_offset="2204" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="LPR" source_language="ru" source_length="201" source_offset="218" source_reference="5411116.txt" this_language="ru" this_length="180" this_offset="2373" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="DEL" source_language="ru" source_length="268" source_offset="421" source_reference="5411116.txt" this_language="ru" this_length="197" this_offset="2554" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="ADD" source_language="ru" source_length="145" source_offset="691" source_reference="5411116.txt" this_language="ru" this_length="162" this_offset="2752" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="LPR" source_language="ru" source_length="241" source_offset="838" source_reference="5411116.txt" this_language="ru" this_length="197" this_offset="2915" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="ADD" source_language="ru" source_length="95" source_offset="1081" source_reference="5411116.txt" this_language="ru" this_length="109" this_offset="3113" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="DEL" source_language="ru" source_length="301" source_offset="1177" source_reference="5411116.txt" this_language="ru" this_length="245" this_offset="3223" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="CCT" source_language="ru" source_length="66" source_offset="1480" source_reference="5411116.txt" this_language="ru" this_length="140" this_offset="3469" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="CCT" source_language="ru" source_length="73" source_offset="1547" source_reference="5411116.txt" this_language="ru" this_length="140" this_offset="3469" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="ADD" source_language="ru" source_length="206" source_offset="1621" source_reference="5411116.txt" this_language="ru" this_length="227" this_offset="3610" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="LPR" source_language="ru" source_length="178" source_offset="1829" source_reference="5411116.txt" this_language="ru" this_length="203" this_offset="3838" txt_extraction_err="0" type="manual"/>
+</document>

@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<document reference="102.txt">
+	<feature name="plagiarism" obfuscation="LPR" source_language="ru" source_length="195" source_offset="1176" source_reference="5532572.txt" this_language="ru" this_length="86" this_offset="1028" txt_extraction_err="107" type="manual"/>
+	<feature name="plagiarism" obfuscation="CPY" source_language="ru" source_length="93" source_offset="4001" source_reference="5532572.txt" this_language="ru" this_length="143" this_offset="3810" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="CPY" source_language="ru" source_length="48" source_offset="4095" source_reference="5532572.txt" this_language="ru" this_length="143" this_offset="3810" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="LPR" source_language="ru" source_length="72" source_offset="4343" source_reference="5532572.txt" this_language="ru" this_length="89" this_offset="3954" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="LPR" source_language="ru" source_length="49" source_offset="4416" source_reference="5532572.txt" this_language="ru" this_length="57" this_offset="4044" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="LPR" source_language="ru" source_length="105" source_offset="5156" source_reference="5532572.txt" this_language="ru" this_length="93" this_offset="4102" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="SSP" source_language="ru" source_length="218" source_offset="6458" source_reference="5532572.txt" this_language="ru" this_length="104" this_offset="4370" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="SSP" source_language="ru" source_length="218" source_offset="6458" source_reference="5532572.txt" this_language="ru" this_length="108" this_offset="4475" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="DEL" source_language="ru" source_length="233" source_offset="6677" source_reference="5532572.txt" this_language="ru" this_length="178" this_offset="4584" txt_extraction_err="0" type="manual"/>
+</document>

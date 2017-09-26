@@ -1,0 +1,769 @@
+BIO OUTLINE Essay, Research Paper 
+BIOLOGY 220 OUTLINE SECTION II 
+Text: Essential Cell Biology 
+I. Opening Comments (Chapter 3) 
+A. Life creates order out of disorder through a never-ending series of chemical reactions 
+B. This is Metabolism and the ability to Metabolize 
+C. Most of the chemical reactions required by the cell would not occur at physiological conditions 
+D. Control of these reactions is achieved by specialized protein, ENZYMES. 
+II. Basic Principles of Energy 
+A. Energy – Basics Principles 
+1. Define Energy – ability to do work 
+2. Define Work – the ability to change the way matter is arranged 
+3. Define Kinetic Energy 
+4. Define Potential energy – energy of position 
+5. FIRST LAW of THERMODYNAMICS ?Energy can be transferred or transformed by 
+never created or destroyed. 
+6. Explain transferred or transformed ?Different kinds of energy 
+a. Radiant (solar) 
+b. Chemical (e.g. gasoline, carbohydrates, fats) 
+c. Mechanical (involves movement) 
+d. Atomic. 
+7. SECOND LAW of THERMODYNAMICS – In any energy transformation or transfer some energy is lost 
+to the surrounding environment as heat. 
+a. Define Entropy 
+b. 2nd Law says – ENTROPY IS INCREASING 
+c. ADD HEAT LOSS TO ENERGY DIAGRAM ABOVE. 
+B. The Concept of Free Energy 
+1. Free energy – the portion of a systems energy that can perform work given constant T throughout 
+system (e.g., living cell) 
+2. Total free energy of a system (G) is define by this equation G = H – TS 
+a. H = total energy of system = ENTHALPY 
+b. T = absolute temp in K (KELVINS) (? C + 273) 
+c. S = entropy 
+d. Note that T increases value of S since as Heat increases, molecular motion increases, and 
+disorder increases. 
+3. Spontaneous Processes 
+a.Definition – occur w/o outside help (energy) – energy of system is sufficient to carry out 
+reaction or process 
+b.Is not concerned with rate or time, so spontaneous processes will not necessarily occur 
+in a useful time frame 
+4. Determining when a system can undergo spontaneous change 
+a. Stability 
+b. The change in Free Energy is negative for spontaneous systems . 
+G = Gfinal state – Ginitial state or .DG = DH – TDS 
+III. Basics of Chemical Reactions 
+A.All reactions require an input of energy to get them started 
+1. ENERGY OF ACTIVATION or ACTIVATION ENERGY 
+a. Define Activation Energy with overhead 
+b. For some reactions the activation energy can be provided by the reacting molecules themselves. 
+c. For others, the activation is very high since the reacting molecules must be brought together in exactly the right orientation in order for the reaction to take place (?effective collision?).. 
+B.Enzymes reduce activation energy (Chap5. p. 167-69) 
+1. Define Catalyst 
+2. Define Substrate 
+3. Random interactions lead to Enzyme-Substrate Complex formation (effective collision) 
+4. Enzymes reduce activation energy by 
+a. Increasing the number of effective collisions between substrates 
+5. Enzymes are proteins 
+a. review structure of proteins. 
+6. Define Active Site 
+a. Active Site can function by 
+(1) shape similarities 
+(2) chemical attraction 
+(3) both 
+b. Example: Ribonuclease 
+c. Review steps of RNAse active site 
+d.Another example: Lysozyme: pg.170 Figure 5-28 
+7. Discuss how enzymes are named 
+a. See Table 5-2 p.169 for list of common enzyme group names and functions.. 
+IV. Factors effecting Reactions (in general, including enzyme-mediated)(Back to Chapter 3) 
+A. Free energy considerations (as discussed earlier) 
+1. Free energy change must be negative 
+B. Concentration of the molecules in the system also determines whether a reaction will occur. 
+1. As the concentration of one molecule increases the reaction will move toward the production 
+of the other molecule (Le Chatlier’s Principle). 
+C. BIG QUESTION – how much of a concentration difference is required to overcome a .G that 
+might be unfavorable. 
+1. Rewrite .G to reflect concentration component 
+2. .G = .G o + 0.616ln[B]/[A] 
+a. 0.616 is a constant 
+b. .G o is the Standard Free Energy change (1M @ pH=7) in kcal/mole 
+c.@37 o C d. Note that when [A] = [B], concentration effects are negated and .G=.G o (ln 1 = 0). D. 
+For a reversible reaction A ??B (see Figure. 3-20 p.92) 
+1. One direction is energetically favored (-.G) over the other 
+2. For example A to B is favored 
+3. As A converts to B, the concentration effect of greater amounts of B begins to overcome the +??????? G (for B A), to a point where B ??A is equal to A ??B. 
+4. In Table 3-1 some calculations were done to determine when .G=0 (equilibrium), 
+that is when .G o = -0.616ln[B]/[A] (con’t on next page). 
+5. It is important to note that it requires significant excess of the favored product (B) to push the reaction back to unfavored product (A). 
+6. Enzymes do not change the equilibrium point.. 
+V.Factors Affecting Enzyme-Mediated Reactions 
+A. Physical Parameters affecting Enzyme Activity (use graphs) 
+1. Temperature 
+2. pH 
+B. Concentration effects 
+1. Unlimited substrate in the presence of limited enzyme 
+a. Saturation kinetics 
+b. where did we see this before -answer: membrane transporters 
+2. Unlimited enzyme in the presence of unlimited substrate. 
+VI. Regulating Enzyme Reactions 
+A. Competitive inhibition 
+1. Reaction rate is [substrate] dependent 
+B. Non-competitive inhibition 
+1. reaction rate is [substrate concentration] independent 
+2. Inhibitor binds at a site other than active site 
+3. causes conformational change in enzyme – makes active site unavailable 
+C. Allosteric Control 
+1. allo = other steric = structure or state 
+2. Like noncompetitive – Control Molecule 
+binds at alternate site 
+3. alternate site = allosteric site 
+4. Control Molecule called a REGULATORY SUBSTANCE 
+a. may increase or decrease activity. 
+5. Allosteric enzymes exist in 2 different states 
+a. R(elaxed) state = high affinity for substrate 
+b. T(ense) state = low affinity for substrate 
+6. Binding of regulatory substance can induce either state. 
+a. Allosteric Inhibitor – binding causes T state 
+b. Allosteric activator – binding causes R state. 
+7. Allosteric enzymes and Reaction rate a. Regulatory substances may have multiple binding sites. Leads to sigmoidal graph of reaction rate 
+b. For T to R state…enzyme activity is low until sufficient regulator binds to convert enzyme completely to R state 
+c. For R to T state…enzyme activity is high until sufficient regulator binds to convert enzyme completely to T state 
+d. Regulator may be substrate or product. 
+D. Allosteric Feedback Inhibition 
+1. end product acts as regulator of 1st enzyme in pathway 
+2. Discuss Threonine to Isoleucine pathway 
+a. enzyme #1 = threonine deaminase. 
+E. Regulation by Covalent Modification 
+1. additions may include 
+a. Ca 
+2+ 
+b. PO4 – phosphorylation 
+(1) Added by protein kinases 
+(2) Removed by protein phosphotases 
+c. CH3 – methylation 
+d. COCH3 – acetylation 
+3. binding can up or down regulate enzyme. 
+F. GTP-binding Proteins 
+1. Binding of GTP or GDP can cause major conformational changes 
+2. Phosphorylation of bonded GDP and Dephosphorylation of bonded GTP can also cause changes 
+3. Mode of action 
+a. Exchange of GTP and GDP 
+b. Dephosphorylation of bound GTP 
+4. Exchange and phosphorylation can have different rates 
+a. Control achieved by different rates for different reactions 
+b. See Figure 5-37 pg. 176. 
+G. Ribozymes 
+1. RNA based catalysts 
+2. Self splicing RNA molecules 
+c. also show activity with some proteins 
+(1) removal of proteins from ribosomes 
+(2) separation of amino acids from tRNAs. 
+H. Coenzymes 
+1. vitamins 
+2. minerals 
+3. Carriers 
+a. Discuss coupled reaction diagrams 
+b. Electron Carriers 
+(1) NAD (Figure 13-8) , & NADP 
+(2) FAD (Figure 4-12) 
+(3) oxidized and reduced forms 
+(4) show chemistry 
+(5) Dehydrogenase ? oxidizing enzymes 
+(6) Reductase – reducing enzymes 
+c. Function as cofactors in redox reactions 
+d. required by enzymes that are involved in oxidations or reductions ?electron donors or receivers. 
+I. ATP – universal energy currency of the cell 
+1. Describe molecular structure 
+a. nucleoside triphosphate 
+2. Describe cycle ATP ??ADP + P 
+a. .G 0 = -7.3 kcal/mole 
+b. Phosphorylation and its relationship to Redox 
+3. Energy required to make ATP or Energy released from ATP hydrolysis depends on .G 0 and the relative concentrations in the cell 
+a. For some cells the ATP/ADP ratio approaches 1000 
+b. Under these conditions, the .G for the hydrolysis of ATP to ADP can approach 11-13 kcal/mole (remember G equation includes a concentration factor). 
+J. Coupling Reactions to the Hydrolysis of ATP 
+1. The hydrolysis of ATP can be linked to reactions with +??????? G o Overall reaction: Glu +NH3 ??Gln .G 0 = +3.4kcal/mole 
+Step 1: Glu + ATP ??Glu-P + ADP .G 0 = -7.3kcal/mole 
+Step 2: Glu-P + NH3 ??Gln .G 0 = +3.4kcal/mole NET .G 0 = – 3.9 kcal/mole. 
+2. Can also be coupled to Dehydration reactions or almost any synthesis reaction that has a +??????? G 0 
+3. If the desired product has a .G 0 * +7.3 kcal then the reaction is broken down into steps.. 
+K. ATP Production (Some coverage in Chap 13 p.409 – 410) 
+1. Substrate-level phosphorylation 
+a. Direct enzymatic transfer of phosphate group & energy to ADP from a high energy substrate 
+b. low efficiency. 
+2. Chemiosmotic Phosphorylation ?MITCHELL THEORY 
+a. Transfer indirectly through proton gradient 
+(1) electrochemical gradient 
+(2) stored charge = ENERGY 
+(3) high efficiency achieved through step-wise transfer = ELECTRON TRANSPORT CHAIN 
+b. 3 requirements for Chemiosimosis 
+(1) Selectively Permeable membrane 
+(2) H+ pumping Enzymes (Active Transport) 
+(3) ATP Synthase c.Introduce ATP synthase – enzyme that captures energy from proton gradient and transfers it to ATP production – Figure 13-3 & 13-13. 
+c. Discuss charge separation and release of energy 
+(1) separate charges across insulator – Battery Analogy: Figure 13-11 
+(2) Create a charge gradient across an insulator 
+(3) CHARGE SEPARATION REPRESENTS STORED ENERGY 
+(4) Release Energy by allowing gradient to dissipate 
+(5) In living cells, charge separation achieved with different ion concentrations across membranes (ION GRADIENTS) 
+(6) ex. H+ gradient 
+(7) Figure 13-15. 
+3. Jagendorf experiments -a. Knew of existence of pH differences within chloroplast 
+b. Review experiment with overhead 
+c. Experiment shows connection between H+ gradient, H+ flow, and phosphorylation of ADP to ATP. 
+4. Latest information on ATP Synthase 
+a. Still unknowns 
+(1) how it works so fast 
+(2) how it couples proton flow to ATP production 
+b. Background information on structure 
+(1) Figure 13-14 
+(2) 3 parts 
+(3) F0 – subunit – channel for protons 
+(4) F1 – subunit – catalytic subunit ?ATP production 
+(a) called ATPase 
+(b) uses ATP to pump protons 
+(5) Stalk – connects F0 to F1. 
+c. Latest info on structure of F1 
+(1) made of 6 subunits + ? subunit 
+(a) 3 ? subunits 
+(b) 3 ? subunits 
+(c) arranged in alternating fashion 
+(d) ? subunit contains catalytic activity 
+(e) ? subunit extends into stalk region 
+i) knife shaped protein. 
+d. Current theory of how it works 
+(1) H+ moving through F0 causes ? subunit to rotate 
+(2) knife edge contacts ? subunit 
+(3) ? subunit is deformed allowing for ADP & P binding,separately, to active site 
+(4) ? subunit releases contact 
+(5) ? subunit reformation brings ADP + P in contact and reaction takes place. 
+VII. PHOTOSYNTHESIS (Chapter 13 – p.430- 438) 
+A. Overview – Use ?Energy Flow through Living Systems? OH to put things in perspective. 
+B. Overall reaction 
+1. Radiant Energy + H2 O + CO2 ??O2 + Glucose 
+2. Balanced equation: 
+a. 6CO2 + 6H2 O + Radiant Energy ?? C6 H12 O6 + 6O2 
+3. Leaf structure 
+a. Epidermis 
+b. Spongy and Palisade Mesophyll 
+(1) Where photosynthesis takes place 
+c. Stomates. 
+4. Chloroplast structure ? EMPHASIZE ORGANIZATION 
+a. Outer membrane 
+b. Inner membrane 
+c. Stroma – Glucose production enzymes 
+d. Thylakoid membrane 
+(1) Light absorbing molecules or Photosystems 
+(2) Electron transport chain/Proton pumps 
+(3) NADP reductase 
+(4) ATP synthase 
+e. Thylakoid space or lumen ? proton reservoir. 
+C. Photosynthesis as a REDOX 2-step 
+1. REVIEW STRUCTURE 
+2. Energy capturing ? LIGHT DEPENDENT REACTIONS 
+a. Capture energy in the form of ATP and NADPH 
+b. Use electrons from oxidation of water 
+3. Energy storage ? LIGHT INDEPENDENT REACTIONS 
+a. Take energy from ATP and NADPH and use it to reduce carbon dioxide. 
+D. Light Dependent Reactions 
+1. Occur on thylakoid membrane 
+2. Discuss electromagnetic spectrum 
+a. Gamma, X, UV, Visible (380nm-750nm), IR, Micro, Radio 
+b. Violet, Indigo, Blue, Green, Yellow, Orange, Red 
+c. High energy, Short wavelength, High freq — Low, Long, Low. 
+3. Pigments 
+a. Imbedded in the thylakoid membrane 
+b. All have hydrophobic tails anchored in thylakoid membrane 
+c. Chlorophylls (a & b) ? Mg 2+ Center ?Figure 13-30 
+d. Carotenes – pure hydrocarbons ?aromatics rings linked by polyunsat?d chain 
+e. Xanthophylls – as above w/ alcohols on rings 
+f. Draw absorption spectrum on board. 
+4. Light Energy Absorption 
+a. achieved by pigment molecules 
+b. Excitation event & excitation energy (see Figure 13-32) 
+(1)electrons at ground state (inner orbital) ?excited? by photon of light to 
+excited state (outer orbital) 
+(2) can remain in this state for only a billionth of a second 
+c. Possible fates of excitation energy 
+(1) If excited electron returns to ground state ? FLUORESCENCE + heat 
+(2) Excited electron is picked up by stable acceptor molecules. excited electron is transferred to stable orbital of the same energy level (Figure 13-32) 
+(a) Light energy converted to chemical energy. 
+(3) Inductive transference 
+(a) energy is transferred to adjacent pigment molecule 
+i) vibration of excited e – sets up electromagnetic field. 
+ii) adjacent e – in equivalent orbitals begin to vibrate in resonance 
+iii) energy is transferred. 
+(b) little or no loss of energy. 
+5. Capturing and Converting Light Energy to Chemical Energy 
+a. Photosystems (see Figure 13-31 for general diagram) 
+(1) Photosystem I 
+(a) 110 chlorophyll a + 16 – bcarotenes = CORE ANTENNA 
+(b) Reaction Center = special chlorophyll a molecule: P700 (700 refers to light absorbing properties @ 700nm) 
+(c) Energy is absorbed by Core Antenna and passed by inductive resonance to P700 then to 1? acceptor. 
+(2) Photosystem II 
+(a) 40 Chlorophyll a + ** b carotenes = CORE ANTENNA 
+(b) Reaction Center = special chlorophyll a molecule: P680 
+(3) Energy is absorbed by Core Antenna and passed by inductive resonance to P680 then to 1? acceptor 
+b. Light Harvesting Complexes (Not shown in Alberts diagrams) 
+(1) One associated with each PS 
+(2) Designated LHC I and LHC II 
+(3) Collections of pigment molecules imbedded in thylakoid membrane 
+(4) In close physical proximity if not physically attached to PS?s 
+(5) Funnel excitation energy to reaction centers via inductive resonance. 
+USE PHOTO REVIEW HANDOUT W/ EXPLANATION BELOW 
+6. Non-Cyclic electron Photophosphorylation (Figure13-34 = Z Scheme with electron volt ratings) 
+a. The players 
+(1) Mn -center – Water Oxidizing Enzyme 
+(2) LHC II & PS II 
+(3) Plastoquinone ? e- carrier ?aromatic ring w/ long chair hydrocarbon ?not attached to PS II 
+(4) Cytochrome b6 – e- carrier ?Heme (Fe) containing protein Fe2+ ? Fe 3+ 
+(5) Cytochrome f. 
+(6) PROTON PUMPING IN PS II 
+(a) b6+f complex = H+ pump 
+(b) Sets up H+ gradient between Stroma and Thylakoid lumen 
+(c) H+ pumped from stroma into lumen 
+(d) Flow out through CF0CF1 ? ATPase imbedded in thylakoid lumen. 
+(e) Make ATP in Stroma 
+(7) PC = e- carrier – plastocyanin ? 
+(a) Cu containing protein: Cu+ ? Cu2+ 
+(8) electrons are passed to PS I 
+(9) Ferrodoxin – Fe/S center ?mobile – not attached to PS I 
+(10) NADP+ Reductase ? use electrons to reduce NADP+ to NADPH. 
+7. Cyclic Photophosphorylation 
+a. electrons pass from Ferrodoxin to cytochrome b6 
+b. only produces ATP 
+c. may be used to produce the additional ATP needed to drive glucose production (~3:2 ATP:NADPH). 
+E. LIGHT-INDEPENDENT REACTIONS (Calvin Cycle) 
+1. Occur in stroma 
+2. Use ATP and NADPH to reduce CO2 to Glucose 
+3. Review process using an overhead 
+4. Points to Stress 
+a. Reducing enzyme = Ribulose bisphosphate carboxylase (rubisco) 
+b. Ribulose bisphosphate = RuBP 
+c. PGA = Phosphoglycerate 
+d. PGAL = Phosphoglyceraldehyde 
+e. Each turn of the cycle…REFER TO HANDOUT. 
+f. 1 molecule of glucose requires 
+(1) 18 ATP ? 7.3 kcal/mole x 18 = 131.4 kcal 
+(2) 12 NADPH ? 53 kcal/mole x 12 = 636 kcal 
+(a) Note 53 kcal/mole – ref: Campbell pg. 178 for NADH to O2 ?H2 O 
+(3) Takes 767.4 kcal to make 1 molecule of glucose (686 kcal) 
+(a) 686/767.4 = 89% efficiency. 
+F. PHOTORESPIRATION (Use Study Sheet) 
+1. Rubisco prefers O2 to CO2 
+2. If rubisco binds O2 
+a. Process uses 6 additional ATP 
+b. Regenerates RuBP 
+c. Produces a 2-C compound (instead of 3-C) 
+d. This compound is sent to peroxisome and mitochondrion 
+(1) converted to Glycerate (3C) 
+(2) transported back to chloroplast 
+(3) Uses ATP to convert to 3-PGAL 
+3. NET LOSS OF ENERGY 
+4. Some plants waste as much as 50% of the energy they make on this process 
+5. For plants under ideal conditions ?photorespiration poses no problems 
+6. Some plants have evolved structures to reduce photorespiration. 
+G. C4 plants 
+1. Use spatial (C4) isolation of Rubisco to prevent Photorespiration 
+2. Fix Carbon into 4-Carbon organic Acids 
+3. Specifics (Use Study Sheet) 
+a. Rubisco sequestered away from O2 in specialized cells ? BUNDLE SHEATH CELLS 
+b. Capture CO2 using shuttle molecules 
+c. C4 use PEP (phosphoenol pyruvate) and Pepco (PEP carboxylase) to capture CO2 and funnel it into Calvin Cycle. 
+(1) C4 comes from intermediates (oxaloacetate and malate) which are 4-C molecules 
+(2) Other plants called CAM plants. 
+VIII. Oxidative Respiration – Overview 
+A. Review cell organization and where reactions are taking place 
+B. Emphasize role of ATP made in Photosynthesis 
+IX. Glycolysis – Chapter 4: 110-118 
+A. Interested only in the big picture (see Figure 4-3, pg. 111) 
+B. Emphasize 3 major events 
+1. Energy Investment 
+2. Cleavage of Glc into 2 3-carbon sugars 
+3. Energy Generation 
+a. Stored as NADH 
+b. ATP 
+c. FILL OUT ATP SUMMARY TABLE. 
+C. Review Figure 4-3 with students 
+1. If they want to learn the steps, that?s fine. 
+2. Only be responsible for names in Figure. 
+a. Glucose 
+b. Fructose 1,6 bisphosphate 
+c. Glyceraldehyde 3-Phosphate (PGAL) 
+d. Pyruvate 
+D. Other points to emphasize 
+1. No involvement of molecular Oxygen 
+2. Direct dependence on the availability of NAD+ 
+a. Use this as a lead into Fermentation. 
+X. Fermentation – Regeneration of NAD+ in the absence of Oxygen 
+A. Discuss what is needed to keep Glycolysis going 
+1. ADP – no problem since cell is using ATP rapidly 
+2. Glucose 
+3. NAD+ – must find a way to oxidize NADH to get to ATP generating step. 
+B. Review 2 Fermentation pathways with study sheet. 
+XI. Mitochondrial Events – Oxidation of Pyruvate to CO2 
+A. Review structure of Mitochondrion 
+B. Transition Reactions – Review with Study Sheet 
+1. Enzyme – Pyruvate Dehydrogenase Complex 
+a. 3 enzymes 
+b. 60 polypeptide chains 
+2. See Figure 4-8 – p. 118 
+3. FILL OUT ATP SUMMARY TABLE 
+C. Kreb?s Cycle (Citric Acid Cycle) 
+1. Good overview – Figure 4-11 pg. 120 
+2. Review with Study Sheet 
+a. Students responsible for names and events. 
+D. Chemiosmotic Phosphorylation – Chap. 13 – p.410 – 429 
+1. Conversion of stored energy (NADH & FADH2) into ATP 
+2. Stored Energy used to generate an a H+ gradient 
+3. Review with Study Sheets 
+a. Ubiquinone Structure 
+b. Figure 13-20 
+c. Figure 13-10 – Summary 
+d. Figure 13-21 – Shows Redox potentials 
+4. COMPLETE ATP SUMMARY TABLE 
+a. Doesn?t take into account ATP used for transport out of the Mitochondria 
+d.See Problem 13-5 pg. 420 ? Yields are 2.5 and 1.5 (for NADH and FADH2 and NADHcytosol. 
+Uses 6 of 36 for transport. 
+XII. The Metabolic Pool 
+A. Use Study Sheet to cover 
+B. See Figure 4-18 p.127 in text for similar but more detailed treatment. 
+XIII. DNA as the GENETIC MATERIAL ? A History Lesson (ref: Bio 120 Outline) 
+XIV. Characteristics of the Genetic Material and the Central Dogma (ref: Bio 120 Outline) 
+XV. DNA STRUCTURE 
+A. Discovery 
+1. James Watson 
+2. Francis Crick 
+3. Maurice Wilkins 
+4. Rosalind Franklin 
+B. Basic structure 
+1. Sugar phosphate backbone 
+2. Nitrogen bases as rungs 
+3. Double helix 
+4. Basic Unit = Nucleotide 
+a. phosphate 
+b. sugar 
+c. nitrogen base. 
+C. Backbone 
+1. Deoxyribose sugar 
+2. Reason for name 
+3. Review numbering 
+4. Where phosphate bonds 
+5. 5′ to 3′ orientation 
+6. Antiparallel helix 
+D. Nitrogen Bases 
+1. Purines 
+a. Adenine and Guanine 
+2. Pyrimidines 
+a. Thymine and Cytosine 
+3. AT pair and GC pair 
+a. Complementary base pairing. 
+E. Chromosomal organization 
+1. Purpose 
+a. packaging 
+b. organization 
+c. access and control 
+2. Genome size 
+a. E. coli = 4.3 x 106 nucleotide pairs/genome 
+b. Humans = 2 x 108 nucleotide pairs/chromosome (3 x 109 genome) 
+(1)stretched out = 6cm. 
+F. Packaging the Eukaryotic Chromosome (p.250-255) 
+1. Level 1 (Figure 8-9) 
+a. utilizes proteins called HISTONES 
+b. amount of DNA ??amount of histones 
+c. very basic 
+(1) high proportion of positively charged amino acids 
+(a) allows for tight binding to negatively charged DNA 
+(2) lysine and arginine 
+d. DNA + Histone = Chromatin 
+e. Five types of histones 
+(1) very similar from species to species 
+(a) ex. some cow and pea histones differ by 2 aa) 
+(2) highly conserved genes. 
+f. DNA + Histone core form NUCLEOSOMES (Figure 8-9) 
+(1) Beads on a String appearance 
+(2) basic unit of DNA packing 
+(3) Histone core = 8 “nucleosomal” histone molecules 
+(a)nucleosomal histones = H2A, H2B, H3, H4 
+i) 2 molecules each compose core 
+(b)small proteins (102-135 aa) 
+(c) Core = HISTONE OCTAMER. 
+2. Level 2 – 30nm fiber = SOLENOID (Figure 8-10) 
+a. appear to be mediated by 5th histone = histone H1 
+3. Higher levels of packaging 
+a. refer to overhead of Figure 8-10 
+b. not clearly understood. 
+4. Heterochromatin vs. Euchromatin 
+a. hetero = chromosomes in condensed state during interphase 
+b. eu = chromosomes in less condensed state 
+c. only euchromatin is actively transcribed 
+d. may be a coarse form of gene control 
+e. most widely known example 
+(1)Barr Body in females 
+(a) one of two X chromosomes is always in most condensed form (during interphase) 
+(b) Only genes on other chromosome are expressed 
+(c) females are a mosaic since different X-chromosomes can be condensed in different cells.. 
+XVI.DNA REPLICATION 
+A. Replication Models 
+1. Watson-Crick model implied Semi-Conservative 
+2. Conservative – possible model 
+3. Meselsohn & Stahl experiments 
+a. Use 15 N labeled DNA (14 N = normal) 
+B. Basic Steps 
+1. Must take into account double helical structure 
+2. Step 1 – separate strands to access information 
+3. Step 2 – Make copies using old as model 
+4. Step 3 – Reform old and new as double helix. 
+C. Step 1 – Separating Strands 
+1. unwind helix at specific starting point(s) 
+a. ORI = origins of replication 
+b. DNA HELICASE 
+2. stabilize unwound helix so it doesn?t reanneal 
+a. SINGLE STRAND BINDING PROTEINS (SSB) 
+3. prevent supercoiling 
+a. DNA TOPOISOMERASE. 
+D. Step 2 – Making copies 
+1. Use template synthesis 
+2. Complementary base pairing 
+3. Need enzyme that can make new DNA polymer. 
+4. DNA POLYMERASE (Figure 6-21 & 22) 
+a. 5′ to 3′ polymerase 
+b. Sliding clamp protein ? moderates attachment of DNA pol to template. 
+c. uses 5′-nucleotide triphosphates (ATP, GTP, CTP, TTP) 
+(1)provide energy for bond formation 
+d. Review antiparallel structure 
+(1)requires bidirectional synthesis 
+(2)DNA pol can only synthesis unidirectionally (eg. 5′ to 3′) 
+(3)Synthesis occurs continuously on 3′ to 5′ strand = leading strand 
+(4)Synthesis occurs discontinuously on 5′ to 3′ strand = lagging strand 
+(a)DNA LIGASE connects pieces. 
+e. Requires a primer 
+(1)de novo synthesis not possible 
+(2)Primase enzyme lays down RNA primer 
+(3)Primer must be removed 
+(a)see below 
+f. Replicating the ends of lagging strands (p.249-250) 
+(1)requires special enzyme to add tails onto template strand 
+(a)tails are called – TELOMERES 
+(2)Enzyme that duplicates them ?TELOMERASE (Figure 8-6) 
+(a)Contains a short piece of RNA 
+(b)in humans = CCCCAAU 
+(c) Creates tandem repeats on ends of lagging strand (GGGGTTA) 
+(d)allows the end of the chromosome to be replicated 
+(3)leaves a 3′ tail on template strand. 
+g. Accuracy 
+(1)3′ to 5′ exonuclease activity acts as proofreader 
+(2)?senses? mismatch, backs up, removes mismatch, and corrects 
+(3)methylation of parent strand. 
+XVII. DNA REPAIR (pg. 198-205) 
+A. Define Mutation 
+1. Permanent change in DNA code 
+B. Mismatch Repair system catches errors Replication Machinery misses 
+1. Rpn machinery error rate 1 in 10 7 nucleotides copies 
+2. Roughly 10 mistakes/chromosome/rpn cycle 
+3. Mismatch = mispaired nucleotide (Figure 6-25A p.201) 
+4. Mismatch repair enzymes recognize the mismatches 
+a. Excise incorrect nucleotide 
+b. Repair 
+c. Must be able to recognize the newly synthesized strand 
+(1)Nick system – new strands have transient nicks 
+(2)Methylation system – Parent is methylated 
+5. Reduces error rate to 1 in 10 9. 
+C. DNA Damage outside of Rpn 
+1. Types of Damage (Figure 6-27 p.202) 
+a. Depurination – spontaneous loss of A or G 
+(1)Leaves a depurinated sugar 
+b. Deamination – loss of amine group on Cytosine 
+(1)Converted to Uracil 
+c. Thymine Dimer formation due to UV light exposure 
+d. Many other types caused by reactive metabolic by-products 
+2. Effects can cause 
+a. Single base pair changes (deamination) (Figure 6-29A) 
+b. Single-base pair deletions (depurination) (Figure 6-29B) 
+c. Stalled or incomplete rpn (thymine dimers). 
+D. DNA Repair Mechanism (Figure 6-30 p204) 
+1. Excision of Defect 
+a. Requires specialized nucleases for each type of damage 
+2. Repair 
+a. Uses DNA pol other than rpn DNA pol 
+3. Ligation 
+a. Uses DNA Ligase. 
+XVIII. TRANSCRIPTION – ACCESSING THE CODE 
+A. Central Dogma – From DNA to Protein ?Figure 7-1 
+B.Discuss this as the first step in Gene Expression 
+PROCESSES INVOLVED IN GENE EXPRESSION 
+? Using Genetic Information to make the molecules necessary for cellular functions. 
+? Ultimately, every process within a living organism is controlled by theavailability of specific gene products 
+C. Definition of a Gene – Stage #1 
+1. Region of DNA contains some information that needs to be accessed. 
+D. The Players 
+1. The information – DNA 
+a. double helix 
+b. 5′ to 3′ and 3′ to 5′ strands 
+2. The enzyme – RNA Polymerase 
+a. 5′ to 3′ polymerase activity 
+b. substrate 
+(1)ribonucleoside triphosphates 
+c. local unwinding capabilities 
+d. DNA binding properties 
+e. 3 in Eukaryotes 
+(1)I – rRNA 
+(2)II – mRNA + others 
+(3)III – tRNA + rRNA. 
+3. The messenger – mRNA 
+a. Structure – Use Figure 7-3 to compare and contrast with DNA 
+(1)single strand 
+(2)uracil for thymine 
+(3)ribose for deoxyribose 
+E. The Basic Steps (Figure 7-9) 
+1. Find the region to be copied 
+a. which strand 
+b. where to begin 
+2. Attach enzyme 
+3. Copy 
+4. Stop. 
+F. Finding the region to be copied 
+1. Which strand 
+a. Discuss sense vs. non-sense 
+(1)gene is always read 5′ to 3′ regardless of which strand its on 
+(2)template is always 3′ to 5′ regardless of which strand its on 
+(3)Genes on different strands: Fig 7-10 
+b. upstream vs. downstream 
+(1)up = toward 5′ 
+(2)down – toward 3′ 
+2. Where to Begin 
+a. Promoters – consensus sequences 
+(1) TATA box: @ ~ -25 
+(a) RNA pol binding site 
+(2)CAAT box: @ ~ -80 
+(a)bind regulatory proteins 
+(b)effect rate of initiation 
+b. More on this when we cover gene regulation. 
+G. Attaching the enzyme 
+1. Transcription factors & RNA Pol bind at promoter region 
+a. More details when we cover gene regulation 
+2. Transcription begins 
+H. Elongation 
+1. Uses anti-sense as template 
+2. copies in 3′ to 5′ direction producing 5′ to 
+3′ transcript (mRNA) 
+I. Termination 
+1. Probably requires termination factors 
+2. Specific DNA sequence signals termination 
+a. in eukaryotes – most common = AATAAA. 
+J. Compare Eukaryotic and Prokaryotic Transcripts 
+1. Use Figure 7-13. 
+K. The Eukayotic mRNA – use Study Sheet 
+1. Structure 
+a. Use Figure 7-12 
+b. 5′ cap 
+(1) 5′ to 5′ linkage to… 
+(2)..GTP 
+(3) fxn - 
+(a) in translation (later) 
+(b) transport out of nucleus 
+i) pores recognize cap 
+(c) prevent RNAse degradation 
+c. 5′ UTR (10-200 nucleotides) 
+d. coding sequence 
+e. 3′ UTR 
+(1) highly conserved 
+(2) fixes length of UTR and site for 3′tail attachment 
+f. 3′ poly A (30-200+) 
+(1) probable fxn – stability 
+(2) mRNA w/o poly A degraded quickly. 
+2. Processing – Use Study Sheet 
+a. Intron/Exon structure 
+b. mediated by a group of snRNA?s and proteins 
+c. snRNA + Proteins = snRNP’s 
+d. Several snRNP’s take part in each splicing event 
+e. A complex of functioning snRNP;’s is sometimes referred to as a Spliceosome 
+f. Can be cis or trans 
+(1) cis = connecting exons in same mRNA 
+(2) trans = connectiong exons from different mRNA?s 
+g. Same mRNA can be spliced into different genes = ALTERNATIVE SPLICING 
+L. Summarize – Use Figure 7-19. 
+M. Revision of Gene Definition 
+1. Includes promoter and termination regions 
+2. Possibly other control sequences 
+XIX.TRANSLATION 
+A. Machinery 
+1. The code 
+a. minimum number to cover all AA = 64 
+b. degeneracy 
+c. Advantage – can absorb some amount of mutation 
+2. Ribosomes – Use Figure 7-25 
+a.rRNA – serves to align ribosome with message and *new evidence* showsit carries out the 
+enzymatic reactionneeded for peptide bond formation (ref: Science, 11Aug00, p.878). 
+b. Protein – Structural (Figure 7-26) 
+c. Small and large subunits 
+(1)small – recognition and alignment 
+(a)A & P binding sites 
+i) lower portion of these sites 
+ii) involved in binding tRNAs to Codon (mRNA) 
+(2)large – binding tRNA and making peptide bond 
+(a)peptidyl-transferase activity (rRNA) 
+(b)GTP hydrolysis activity (proofreading) 
+(c) A & P binding sites 
+i) Major portion of these sites 
+ii) binds majority of tRNA with AA attached 
+(d)E (Exit) Site. 
+3. tRNA 
+a. transfer RNA 
+b. structure 
+(1)anticodon region 
+c. Amino Acyl-tRNA synthetase 
+(1)one for each amino acid (20) 
+(2)attach AA to correct tRNA in 2 step process 
+(a)AA + ATP AA-AMP + PP 
+(b)AA-AMP + tRNA AA-tRNA + AMP 
+(3)proofreading step 
+(a)accuracy 1,2 per 40,000 
+(b)done at 2nd step 
+(4)only process that ensures the correct codon/a.a. pairing. 
+(5)Active site of enzyme screens Amino Acids based on size. 
+(a)Coarse sieve removes AA too large for active site. 
+(b)Fine sieve removes those small enough to fit but not correct 
+(c)See article: Sieves in Sequence 
+d. Joins 3′-OH of tRNA to carboxyl group of Amino Acid. 
+B. Basic steps 
+1. Start – connect message with ribosome 
+a. INTIATION 
+2. Build protein 
+a. ELONGATION 
+3. TERMINATION 
+C. INITIATION – refer to Figure 7-28 
+1.Binding of small ribosomal subunit + initiator tRNA ( tRNA met ) + initiation factors (not shown in 
+diagram) 
+a. Initiator tRNA is only tRNA that can bind to small subunit alone 
+b. Binds at P site 
+2. Complex binds to 5′ end of mRNA 
+a. 5′ cap is critical 
+3. Complex ?scans? mRNA 5′ to 3′ for start codon 
+a. When found, some IFs dissociate to allow for subsequent steps. 
+4. Large Ribosomal subuint binds ?Translation begins 
+D. Elongation 
+1. assisted by elongation factors 
+2. EF-tRNANEXT-GTP binds at A site ? Use overhead in binder 
+a. Proofreading step 
+b. involves GTP hydrolysis 
+c. delays peptide bond formation 
+d. permits incorrect tRNA to diffuse out of ribosome 
+3. Peptide Bond Formation – use overhead in binder 
+a. Catalyzed by peptidyl transferase 
+b. Aminoacyl (3′-OH–carboxyl) bond between tRNAP-AAP 
+c. AAP-Carboxyl attaches to AAA-NH2 
+(1)transfers chain from tRNAP to tRNAA 
+(2)PEPTIDE BOND FORMATION 
+d. empty tRNAP is released. 
+4. Small Ribosomal Subunit shifts down one codon (use Figure 7-27) 
+a. TRANSLOCATION 
+b. Shifts tRNA attached to nascent chain to from A to P site 
+c. Empty tRNA shifts to E site -dissociated 
+d. Small subunit shifts back 1 codon to realign with Large subunit 
+e. Next tRNA binds at A site ? process continues 
+f. Specific elongation factors (EF) have been identified for this process 
+5. A -site is now empty – next tRNA binds ?cycle repeats. 
+E. Termination (refer to Figure 7-30) 
+1. A-site is occupied by on of the termination codons 
+2. Release factor protein binds at A-site 
+3. Peptidyl transferase hydrolyses last amino-acyl bond 
+4. New protein is released -Ribosome/ mRNA complex dissociates 
+F. Final Gene Definition 
+1. A region of DNA containing the code for 
+a specific protein or RNA (e.g. tRNA & rRNA, snRNA) plus all the adjoining DNA sequences that act as controllers. 
+G. Final Review of Process (use Figure 7- 33) 
+H. READING ASSIGNMENT – PG. 234-240 ?RNA AND THE ORIGINS OF LIFE
+
+

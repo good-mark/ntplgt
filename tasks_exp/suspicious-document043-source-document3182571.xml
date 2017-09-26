@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<document reference="043.txt">
+	<feature name="plagiarism" obfuscation="DEL" source_language="ru" source_length="102" source_offset="1112" source_reference="3182571.txt" this_language="ru" this_length="74" this_offset="2469" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="HPR" source_language="ru" source_length="125" source_offset="1478" source_reference="3182571.txt" this_language="ru" this_length="266" this_offset="2669" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="HPR" source_language="ru" source_length="183" source_offset="1604" source_reference="3182571.txt" this_language="ru" this_length="266" this_offset="2936" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="CCT" source_language="ru" source_length="113" source_offset="1788" source_reference="3182571.txt" this_language="ru" this_length="242" this_offset="3203" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="CCT" source_language="ru" source_length="148" source_offset="1902" source_reference="3182571.txt" this_language="ru" this_length="242" this_offset="3203" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="CCT" source_language="ru" source_length="47" source_offset="2958" source_reference="3182571.txt" this_language="ru" this_length="292" this_offset="3446" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="CCT" source_language="ru" source_length="111" source_offset="3006" source_reference="3182571.txt" this_language="ru" this_length="292" this_offset="3446" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="CCT" source_language="ru" source_length="148" source_offset="2802" source_reference="3182571.txt" this_language="ru" this_length="292" this_offset="3446" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="LPR" source_language="ru" source_length="41" source_offset="3742" source_reference="3182571.txt" this_language="ru" this_length="47" this_offset="3739" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="CCT" source_language="ru" source_length="141" source_offset="3784" source_reference="3182571.txt" this_language="ru" this_length="336" this_offset="3787" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="CCT" source_language="ru" source_length="192" source_offset="3926" source_reference="3182571.txt" this_language="ru" this_length="336" this_offset="3787" txt_extraction_err="0" type="manual"/>
+</document>

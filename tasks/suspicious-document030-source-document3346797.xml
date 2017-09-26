@@ -1,0 +1,5 @@
+<?xml version="1.0" ?>
+<document reference="030.txt">
+	<feature name="plagiarism" obfuscation="ADD" source_language="ru" source_length="87" source_offset="2655" source_reference="3346797.txt" this_language="ru" this_length="134" this_offset="0" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="DEL" source_language="ru" source_length="554" source_offset="2744" source_reference="3346797.txt" this_language="ru" this_length="444" this_offset="135" txt_extraction_err="0" type="manual"/>
+</document>

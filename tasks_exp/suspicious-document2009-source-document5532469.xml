@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<document reference="2009.txt">
+	<feature name="plagiarism" obfuscation="SHF,SYN" source_language="ru" source_length="49" source_offset="1881" source_reference="5532469.txt" this_language="ru" this_length="50" this_offset="5096" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="ADD" source_language="ru" source_length="66" source_offset="1978" source_reference="5532469.txt" this_language="ru" this_length="105" this_offset="5147" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="CCT,DEL,SYN" source_language="ru" source_length="94" source_offset="2045" source_reference="5532469.txt" this_language="ru" this_length="184" this_offset="5253" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="CCT,DEL,SYN" source_language="ru" source_length="58" source_offset="2140" source_reference="5532469.txt" this_language="ru" this_length="184" this_offset="5253" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="CCT,DEL,SYN" source_language="ru" source_length="87" source_offset="2199" source_reference="5532469.txt" this_language="ru" this_length="184" this_offset="5253" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="ADD,SYN" source_language="ru" source_length="124" source_offset="2287" source_reference="5532469.txt" this_language="ru" this_length="128" this_offset="5438" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="CCT,DEL" source_language="ru" source_length="110" source_offset="2412" source_reference="5532469.txt" this_language="ru" this_length="149" this_offset="5567" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="CCT,DEL" source_language="ru" source_length="70" source_offset="2523" source_reference="5532469.txt" this_language="ru" this_length="149" this_offset="5567" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="SYN" source_language="ru" source_length="118" source_offset="2594" source_reference="5532469.txt" this_language="ru" this_length="93" this_offset="5717" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="HPR" source_language="ru" source_length="106" source_offset="2713" source_reference="5532469.txt" this_language="ru" this_length="104" this_offset="5811" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="SYN" source_language="ru" source_length="84" source_offset="4448" source_reference="5532469.txt" this_language="ru" this_length="83" this_offset="10303" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="LPR,DEL" source_language="ru" source_length="124" source_offset="4533" source_reference="5532469.txt" this_language="ru" this_length="102" this_offset="10387" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="SYN" source_language="ru" source_length="68" source_offset="8763" source_reference="5532469.txt" this_language="ru" this_length="79" this_offset="10835" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="HPR" source_language="ru" source_length="90" source_offset="5393" source_reference="5532469.txt" this_language="ru" this_length="123" this_offset="10915" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="SYN" source_language="ru" source_length="129" source_offset="5484" source_reference="5532469.txt" this_language="ru" this_length="159" this_offset="11039" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="ADD" source_language="ru" source_length="34" source_offset="9142" source_reference="5532469.txt" this_language="ru" this_length="63" this_offset="11199" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="SYN,LPR" source_language="ru" source_length="88" source_offset="9177" source_reference="5532469.txt" this_language="ru" this_length="124" this_offset="11263" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="ADD,SYN" source_language="ru" source_length="96" source_offset="9266" source_reference="5532469.txt" this_language="ru" this_length="140" this_offset="11388" txt_extraction_err="0" type="manual"/>
+</document>

@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<document reference="067.txt">
+	<feature name="plagiarism" obfuscation="CPY" source_language="ru" source_length="55" source_offset="243" source_reference="3968538.txt" this_language="ru" this_length="56" this_offset="10084" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="DEL" source_language="ru" source_length="71" source_offset="959" source_reference="3968538.txt" this_language="ru" this_length="42" this_offset="10529" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="HPR" source_language="ru" source_length="137" source_offset="1194" source_reference="3968538.txt" this_language="ru" this_length="104" this_offset="10669" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="DEL" source_language="ru" source_length="97" source_offset="1332" source_reference="3968538.txt" this_language="ru" this_length="92" this_offset="10774" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="CCT" source_language="ru" source_length="111" source_offset="1669" source_reference="3968538.txt" this_language="ru" this_length="182" this_offset="12111" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="CCT" source_language="ru" source_length="93" source_offset="1781" source_reference="3968538.txt" this_language="ru" this_length="182" this_offset="12111" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="SSP" source_language="ru" source_length="100" source_offset="1876" source_reference="3968538.txt" this_language="ru" this_length="61" this_offset="12294" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="SSP" source_language="ru" source_length="100" source_offset="1876" source_reference="3968538.txt" this_language="ru" this_length="76" this_offset="12356" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="CPY" source_language="ru" source_length="130" source_offset="1977" source_reference="3968538.txt" this_language="ru" this_length="132" this_offset="12433" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="ADD" source_language="ru" source_length="86" source_offset="2108" source_reference="3968538.txt" this_language="ru" this_length="130" this_offset="12566" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="CPY" source_language="ru" source_length="154" source_offset="2225" source_reference="3968538.txt" this_language="ru" this_length="155" this_offset="13090" txt_extraction_err="0" type="manual"/>
+</document>

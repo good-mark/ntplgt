@@ -1,0 +1,50 @@
+
+          ﻿Reactions of 1-allyl-4-propargiloxybenzene
+Section 5. 4). It has been shown that the synthesized acetylene ether easily interacts according to the reactions of Iosich, Mannich and Kucherov affording respective industrially valuable products. The detailed procedure of syntheses has given to be introduced in the manual practical organic chemistry.
+Keywords: allylbenzene, allylphenol, reactivity, propargyl bromine, Grignard reagent, acetylene ether.
+Годжаев Гасан Ходжа оглы, Азербайджанская Государственная Нефтяная Академия,
+ведущий научный сотрудник Е-mail: iradam@rambler.ru
+Синтез 1-аллил-4-пропаргилоксибензол
+Аннотация: Показаны, значимые синтеза 1-аллил-4-пропаргилоксибензол и его производных. Показано, что синтезированный ацетиленовый эфир легко вступает в реакции Иоцига, Манниха и Кучерова с получением практически важных продуктов. Дана подробная методика синтеза, которая может быть использована в практических пособиях по органической химии.
+Ключевые слова: аллилбензол, аллилфенол.
+Poly functional substituted derivatives of allylbenzene are widely used as precursors for valuable synthesis of membrane type polymer materials and production of ionic functional extraction agents needed for effective isolation of transition metals from complex dispersed systems [1; 2].
+This work is devoted to synthesis and determination of reactivity and extraction ability of
+1-allyl-4-propargiloxybenzene chemically denoted as CH =CH-CH C H OCH -C=CH.
+2	2	6	4	2
+The compound was obtained due to reaction between 1-allyl-4-propargiloxybenzene and BrCH2-C=CH with yield 55-80 %.
+The reaction scheme may be represented as follows:
+31
+Section 5. Organic chemistry
+A boiling temperature of the obtained 1-al-lyl-4-propargloxybenzene is 98-100 °C. Temperature dependence and pH of environment influence on a selectivity of the product 1 formation have been studied.
+1-allyl-4-propargiloxybenzene structure was confirmed by the refraction and IR spectroscopy analyses. There was observed the absorption bands 2130 and 3310 cm-1 characterizing ethynyl groups, 1600, 3085, 1620, 1135 cm-1 responsible
+for vibrations of double allylic bond, di-substityted benzene ring and ether group, respectively.
+The subsequent transformation ways of 1-al-lyl-4-propargiloxybenzene has been found: reaction of transmethylation with AlkMgBr leads to formation of the reactive Grignard's derivative CH2=CH-CH2C6H4OCH2C=CMgBr (II). Which in turn interacts with CH3CHO affording 5- (p-ally-phenoxy)-3-pentine-2-ol with yield 74 %, according to the reaction:
+IR spectrum of compound III demonstrate wide absorption bands 3400-3500 cm-1 related to -OH group and very weak band 2235 cm-1 ascribed to di-substituted -C=C group.
+Study of reactivity of ethyl-, butyl and oxyaikyl derivatives of the compound I has shown that these reactions produce the three ether group containing compounds — 1-allyl-4-{[4-etoxymetoxy)-penta-2-inil] oxy} benzene (IV) and 1-al-lyl-4-{[4-butoxymetoxy)-penta-2-inil]oxy} benzene (V).
+СН2=СН-СН2СбН4ОСН2-С =C-CH-CH4
+I
+och2or
+(IV-V)
+where R = -C2H5, -C4H9.
+IR-spectra of compounds IV and V are differed from the initial etheralcohol spectra by absence of absorption bands in the field 3400-3500 cm-1 and the presence of intensive bands 1250-1160 cm-1 proper to vibrations of ether bonds of a acetal skeleton. When the reactions are conducted in the strongly polar sovent like dimethyl sulfoxide, dimethyl formamide or tetralu droluran, they are going nonselective and lead to a series of unidentified by products.
+Products of inter-actions of compound I with substituted amines are of a great interest due to chelating ability properties, for instance, the scheme given below represents chemical reaction of the compound I with diethyl amine in the presence of CH2O which afford I -diethylamine-4- (n-allylphenoxy)-2-butine:
+In the vibration spectra of the synthesized	another one of a weak intensity is appeared at the
+nitrogen containing compound (VI) the bands	region 2250 cm-1 characterizing di-substituted
+of ethynyl groups are disappearing but instead, acetylene group. 32
+32
+Reactions of 1-allyl-4-propargiloxybenzene
+Experimental (procedure) part
+1-allyl-4-propargyloxybenzene (I). 13 g. ofallyl-phenol is gradually added to the heated up to 50-60 °C and stirred solution of5.6 g. KOH in acetone. The stirring is continued until lull dissolution ofKOH and then 12 g. of propargyl bromide is gradually added to the reaction mixture for 3 hours. The resulting reaction mixture is kept for 12 h., then sediment is isolated and filtrate is subjected to the vacuum distillation. 10 g. (55 %) of the compound I was obtained with Tbp = 98-100 °C (at 2 mm Hg), = 0.9900 g/cm3, = 1.5530, MRD = 53.90 (calculated 53.20).
+5- (p-allyl-plienoxy)-3-pentine-2-ol (III). 40 g.
+of the compound 1 and 15 ml. of the ether are added for 30 min. "Калина красная"
+ 11. 23 g. of solution of acehaldehyde in 10 ml. of ether is added to the cooled reaction mixture, it is kept for 12 h. treated by the concentrated aqueous solution of NH4Cl and extracted by the ether. The extract is washed off and dried over Na2SO4 After the vacuum distillation 12 g. of the compound III with Tbp = 122-124 °C (at 2 mm Hg). = 1.070 g/cm3, =1.5440?. MRD = 63.71 (calculaied 63.95) was eventually obtained.
+(in Russian)
+7. Vetrile S.T., Kuleshov A.A., Shvets V.V., Kisel A.A., Vetrile M.S., Guseynov V.G. The concept of surgical treatment of various forms of scoliosis using modern technologies. Khirurgiya pozvonochnika. 2009; 4: 21—30. 7 g. of diethylamine is added to the stirred mix consisting of 86 g. of compound I. 2 g. of paraformaldehyde and 0.5 g. of CuCl in 100 g. of waterless dioxane. The reaction mixture is boiled at 80-90 °C for 6 h., then it is cooled to the indoor temperature, followed by dilution with equal volume of water and extracted with the ether. After drying over Na2SO4 and subsequent solvents removal, 4 g. (82 %) ofthe targeted product with Tbp = 144-146 °C (at 2 mm Hg). = 0.9740g/cm3, = 1.5190, MRD = 80.00 (calculated 80.22) was finally obtained.
+Conclusions
+1.	2 на вклейке), зияние устьев мочеточников с двух сторон, трабекулярность стенки мочевого пузыря. Спиральная компьютерная томография (СКТ) органов брюшной полости и забрюшинного пространства: обнаружена резко выраженная гипоплазия правой почки, викарная гипертрофия левой почки (рис. 3). Биохимические показатели крови, общий анализ крови и мочи в пределах возрастной нормы. Бактериологическое исследование: моча стерильна. Операция: трансуретрально на границе мембра-нозного и бульбозного отдела уретры визуализирован клапан передней уретры, клапан рассечен на 6 часах условного циферблата (рис. 4). Под устья мочеточников с использованием технологии STING введен объ-емобразующий препарат (полиакриламидный гель) до смыкания стенок устьев (0,6 мл справа, 0,7 мл слева).
+2.	It has been established that o-propargylation of p-allylphenol by propargyl- bromide in the alkali medium leads to formation of l-allyl-4-propargy-loxybenzene.
+3.	The synthesized acetylene ether easily interacts according to the reactions of losich, Mannich and Kucherox entailing respective derivatives of a great importance as reagents in the line organic synthesis.
+References:
+1.	Протодьяконов И. О., Люблинская И. Е., Рыжков А. Е. Гидродинамика и массообмен в дисперсных системах жидкость-твердое тело. - Л.: Химия, 1987. - 333 с.
+2. Rao X. X., Singh J. R., Misra R., Nandy T. Liquid-liquid extraction of phenol from simulated sebacic acid wastewater.//J. Sci. Ind. Res. - 2009. - V. 68. - Р. 823-828. 33
+33

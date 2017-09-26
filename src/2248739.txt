@@ -1,0 +1,548 @@
+
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+
+ Главная Услуги Разработка программного обеспечения ИТ-аутсорсинг Интеграция систем Внедрение решений AlfaSolutions
+
+
+ Внедрение 1С SAAS для автоматизации бизнеса AlfaSolution
+
+
+ Продукты О нас Портфолио Клиенты Отзывы
+
+
+ Статьи Контакты Поиск...
+ Поиск Категории Опыт внедрения Управление производством Автоматизация Управление финансами Архитектура, высоконагруженные системы, программирование Подпишитесь на наш блог: ИТ-технологии для специалистов Твиты пользователя @AlfaLaVista1
+
+
+
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Главная/ Архитектура, высоконагруженные системы, программирование /Java Hibernate Java Hibernate Hibernate — библиотека для языка программирования Java, предназначенная для решения задач объектно-реляционного отображения (object-relational mapping — ORM).
+Данная библиотека предоставляет лёгкий в использовании каркас (фреймворк) для отображения объектно-ориентированной модели данных в традиционные реляционные базы данных.
+
+В двух словах ORM — это отображение объектов какого-либо объектно-ориентированного языка в структуры реляционных баз данных.
+Именно объектов, таких, какие они есть, со всеми полями, значениями, отношениями и так далее.
+
+ 
+Java Hibernate.
+Часть 1 — Введение
+
+Hibernate значительно уменьшает время разработки приложений, работающих с базами данных, заботится о связи Java классов с таблицами базы данных (и типов данных Java в типы данных SQL), предоставляет средства для автоматического построения запросов и извлечения данных.
+
+Давайте напишем небольшое приложение, использующее библиотеку Hibernate для хранения и обработки таблицы СУБД Oracle.
+Для начала нам нужно скачать Hibernate.
+На момент написания статьи последняя версия была Hibernate 4.1 и работать мы будем именно с ней.
+Не пугайтесь, если библиотека будет весить много, скорей всего в нее вставили помимо прочего документацию и различные примеры использования.
+
+Также нам понадобиться скачать и установить СУБД Oracle.
+В данном примере я буду использовать Oracle 10.2, но вы можете установить более новую версию, особой разницы не будет.
+После установки Oracle создайте пользователя и базу данных с каким-нибудь именем, например, MyDB.
+
+В базе данных создадим простенькую табличку Student с тремя полями:
+
+1) id — идентификатор
+
+2) name — имя студента
+
+3) age — его возраст
+
+Для тех, кто еще не знает как в Oracle создавать таблицы:
+
+
+CREATE TABLE Student(id NUMBER(10) NOT NULL,name varchar2(100) NOT NULL, age NUMBER(3) NOT NULL, CONSTRAINT pk_Student PRIMARY KEY(id));
+
+
+
+Работа с Oracle закончена, перейдем в Eclipse.
+Создайте новый java project, дайте ему имя, скажем, HibernateSimpleExample.
+Добавляем в него нашу библиотеку с помощью Build Path -> Configure Build Path -> Add External JARs.
+Выбираем все jar файлы из папки lib нашей библиотеки.
+Также Hibernate для работы с Oracle конкретной версии требует специальный jdbc драйвер, который можно найти здесь.
+Скачивайте и добавляйте его в проект тем же способом.
+
+Ближе к коду!
+Для начала создайте пакет logic.
+В нем мы опишем наш класс-сущность, который будем хранить в БД:
+
+
+package logic; import javax.persistence.Column; import javax.persistence.Entity; import javax.persistence.GeneratedValue; import javax.persistence.Id; import javax.persistence.Table; import org.hibernate.annotations.GenericGenerator; @Entity @Table(name="Student") public class Student { private Long id; private String name; private Long age; public Student(){ name = null; } public Student(Student s){ name = s.getName(); } @Id @GeneratedValue(generator="increment") @GenericGenerator(name="increment", strategy = "increment") @Column(name="id") public Long getId() { return id; } @Column(name="name") public String getName(){ return name; } @Column(name="age") public Long getAge(){ return age; } public void setId(Long i){ id = i; } public void setName(String s){ name = s; } public void setAge(Long l){ age = l; } }
+
+
+
+Аннотации здесь используются для Mapping (сопоставление) Java классов с таблицами базы данных.
+Проще говоря для того, чтобы Hibernate знал, что данный класс является сущностью, то есть объекты данного класса мы будем хранить в базе данных.
+Использованные здесь аннотации имеют следующий смысл:
+
+@Entity — указывает на то, что данный класс является сущностью.
+
+@Table — задает имя таблицы, в которой будут храниться объекты класса
+
+@Id — обозначает поле id
+
+@GeneratedValue и @GenericGenerator — указывает на то, как будет генерироваться id (у нас — по возрастанию)
+
+@Column — обозначает имя колонки, соответствующей данному полю.
+
+Стоит отметить также, что все классы-сущности должны обязательно иметь геттеры, сеттеры и конструктор по умолчанию.
+
+Теперь создадим главный конфигурационный файл hibernate.cfg.xml и помести его в папку bin нашего проекта.
+Из этого файла Hibernate будет брать всю необходимую ему информацию:
+
+
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd"> <hibernate-configuration> <session-factory> <property name="connection.driver_class">oracle.jdbc.driver.OracleDriver</property> <property name="connection.url">jdbc:oracle:thin:@localhost:1521:MyDB</property> <property name="connection.username">Your_Login</property> <property name="connection.password">Your_Password</property> <property name="connection.pool_size">10</property> <property name="dialect">org.hibernate.dialect.OracleDialect</property> <property name="show_sql">true</property> <property name="hbm2ddl.auto">update</property> <property name="hibernate.connection.autocommit">false</property> <property name="current_session_context_class">thread</property> <mapping class="logic.Student" /> </session-factory> </hibernate-configuration>
+
+
+
+В принципе тут все понятно.
+Отмечу только то, что такие поля, как имя драйвера, формат url, диалект берутся с официального сайта разработчиков базы данных.
+Логин и пароль указываются того пользователя, которого вы создали в вашей СУБД.
+Остальные поля — это некоторые дополнительные настройки, которые включают/выключают некоторые не особо важные опции.
+
+Теперь создадим пакет util, а в нем класс HibernateUtil, который будет отвечать за обработку данного xml файла и установление соединения с нашей базой данных:
+
+
+package util; import org.hibernate.SessionFactory; import org.hibernate.cfg.Configuration; public class HibernateUtil { private static SessionFactory sessionFactory = null; static { try { //creates the session factory from hibernate.cfg.xml sessionFactory = new Configuration().configure().buildSessionFactory(); } catch (Exception e) { e.printStackTrace(); } } public static SessionFactory getSessionFactory() { return sessionFactory; } }
+
+
+
+Теперь нам осталось разобраться со взаимодействием нашего приложения с базой данных.
+Тогда для класса-сущности, определим интерфейс StudentDAO из пакета DAO, содержащий набор необходимых методов:
+
+
+package DAO; import java.sql.SQLException; import java.util.List; import logic.Student; public interface StudentDAO { public void addStudent(Student student) throws SQLException; //добавить студента public void updateStudent(Student student) throws SQLException;//обновить студента public Student getStudentById(Long id) throws SQLException; //получить стедента по id public List getAllStudents() throws SQLException; //получить всех студентов public void deleteStudent(Student student) throws SQLException;//удалить студента }
+
+
+
+Теперь определим реализацию этого интерфейса в классе SudentDAOImpl в пакете DAO.Impl:
+
+
+package DAO.Impl; import java.sql.SQLException; import java.util.ArrayList; import java.util.List; import javax.swing.JOptionPane; import org.hibernate.Session; import util.HibernateUtil; import DAO.StudentDAO; import logic.Student; public class StudentDAOImpl implements StudentDAO { public void addStudent(Student stud) throws SQLException { Session session = null; try { session = HibernateUtil.getSessionFactory().openSession(); session.beginTransaction(); session.save(stud); session.getTransaction().commit(); } catch (Exception e) { JOptionPane.showMessageDialog(null, e.getMessage(), "Ошибка I/O", JOptionPane.OK_OPTION); } finally { if (session != null && session.isOpen()) { session.close(); } } } public void updateStudent(Student stud) throws SQLException { Session session = null; try { session = HibernateUtil.getSessionFactory().openSession(); session.beginTransaction(); session.update(stud); session.getTransaction().commit(); } catch (Exception e) { JOptionPane.showMessageDialog(null, e.getMessage(), "Ошибка I/O", JOptionPane.OK_OPTION); } finally { if (session != null && session.isOpen()) { session.close(); } } } public Student getStudentById(Long id) throws SQLException { Session session = null; Student stud = null; try { session = HibernateUtil.getSessionFactory().openSession(); stud = (Student) session.load(Student.class, id); } catch (Exception e) { JOptionPane.showMessageDialog(null, e.getMessage(), "Ошибка I/O", JOptionPane.OK_OPTION); } finally { if (session != null && session.isOpen()) { session.close(); } } return stud; } public List<Student> getAllStudents() throws SQLException { Session session = null; List<Student> studs = new ArrayList<Student>(); try { session = HibernateUtil.getSessionFactory().openSession(); studs = session.createCriteria(Student.class).list(); } catch (Exception e) { JOptionPane.showMessageDialog(null, e.getMessage(), "Ошибка I/O", JOptionPane.OK_OPTION); } finally { if (session != null && session.isOpen()) { session.close(); } } return studs; } public void deleteStudent(Student stud) throws SQLException { Session session = null; try { session = HibernateUtil.getSessionFactory().openSession(); session.beginTransaction(); session.delete(stud); session.getTransaction().commit(); } catch (Exception e) { JOptionPane.showMessageDialog(null, e.getMessage(), "Ошибка I/O", JOptionPane.OK_OPTION); } finally { if (session != null && session.isOpen()) { session.close(); } } } }
+
+
+
+В принципе, интуитивно тут все понятно.
+Давайте создадим класс Factory в пакете DAO, к которому будем обращаться за нашими реализациями DAO, от которых и будем вызывать необходимые нам методы:
+
+
+package DAO; import DAO.Impl.StudentDAOImpl; public class Factory { private static StudentDAO studentDAO = null; private static Factory instance = null; public static synchronized Factory getInstance(){ if (instance == null){ instance = new Factory(); } return instance; } public StudentDAO getStudentDAO(){ if (studentDAO == null){ studentDAO = new StudentDAOImpl(); } return studentDAO; } }
+
+
+
+ Ну вот и все!
+Осталось только посмотреть как это работает:
+
+
+package main; import java.sql.SQLException; import java.util.List; import logic.Student; import DAO.Factory; public class Main { public static void main(String[] args) throws SQLException { //Создадим двух студентов Student s1 = new Student(); Student s2 = new Student(); //Проинициализируем их s1.setName("Ivanov Ivan"); s1.setAge(21l); s2.setName("Petrova Alisa"); s2.setAge(24l); //Сохраним их в бд, id будут сгенерированы автоматически Factory.getInstance().getStudentDAO().addStudent(s1); Factory.getInstance().getStudentDAO().addStudent(s2); //Выведем всех студентов из бд List<Student> studs = Factory.getInstance().getStudentDAO().getAllStudents(); System.out.println("========Все студенты========="); for(int i = 0; i < studs.size(); ++i) { System.out.println("Имя студента : " + studs.get(i).getName() + ", Возраст : " + studs.get(i).getAge() +", id : " + studs.get(i).getId()); System.out.println("============================="); } } }
+
+
+
+Java Hibernate.
+Часть 2 — Запросы
+
+В предыдущей части мы рассмотрели простейший пример использования Hibernate.
+В второй части мы рассмотрим виды запросов к базе данных.
+ 
+
+Запросы возвращают набор данных из базы данных, удовлетворяющих заданному условию.
+Библиотека Hibernate предлагает три вида запросов к БД:
+
+1) Criteria 2) SQL 3) HQL
+
+Начнем по порядку.
+
+Запросы с использованием Criteria
+
+Объект Criteria создается с помощью метода createCriteria экземпляра класса Session:
+
+
+Criteria crit = session.createCriteria(Student.class); //создаем критерий запроса crit.setMaxResults(50);//ограничиваем число результатов List studs = crit.list();//помещаем результаты в список
+
+
+
+В данном примере был создан критерий запроса на основе класса Student из статьи Java Hibernate.
+Части 1 — Введение.
+
+Сужение выборки осуществляется следующим образом:
+
+
+List studs = session.createCriteria(Student.class) .add( Expression.like("name", "Ivanov%") ) .add( Expression.between("age", 18, 25) ) .list(); List studs = session.createCriteria(Student.class) .add( Expression.like("name", "_van%") ) .add( Expression.or( Expression.eq( "age", new Integer(20) ), Expression.isNull("age") ) ) .list(); List studs = session.createCriteria(Student.class) .add( Expression.in( "name", new String[] { "Ivanov Ivan", "Petrov Petia", "Zubin Egor" } ) ) .add( Expression.disjunction() .add( Expression.isNull("age") ) .add( Expression.eq("age", new Integer(20) ) ) .add( Expression.eq("age", new Integer(21) ) ) .add( Expression.eq("age", new Integer(22) ) ) ) ) .list();
+
+
+
+Expression.like — указывает шаблон, где ‘_’ — любой один символ, ‘%’ — любое количество символов Expression.isNull — значение поля равно NULL.
+ Expression.between — ‘age’ — имя поля, 18 — минимальное значение указанного поля, 25 — его максимальное значение Expression.in — указывает диапазон значений конкретного поля Expression.disjunction, Expression.or — дизъюнкция (OR) — объединяет в себе несколько других выражений оператором ИЛИ.
+ Expression.eq — определяет равенство поля какому-то значению.
+
+Результаты также можно отсортировать:
+
+
+List studs = sess.createCriteria(Student.class) .add( Expression.like("name", "Iv%") .addOrder( Order.asc("name") )//по возрастанию .addOrder( Order.desc("age") )//по убыванию .list();
+
+
+
+Также есть возможность запроса по данным экземпляра класса:
+
+
+Student s = new Student(); s.setName("Ivanov Ivan"); s.setAge(20l); List results = session.createCriteria(Student.class) .add( Example.create(s) ) .list();
+
+
+
+Поля объекта, имеющие значение null или являющиеся идентификаторами, будут игнорироваться.
+Example также можно настраивать:
+
+
+Example example = Example.create(s) .excludeZeroes() //исключает поля с нулевыми значениями .excludeProperty("name") //исключает поле "name" .ignoreCase() //задает независимое от регистра сравнение строк .enableLike(); //использует like для сравнения строк List results = session.createCriteria(Student.class) .add(example) .list();
+
+
+
+Запросы с использованием SQL
+
+SQL — это универсальный язык, применяемый для создания, модификации и управления данными в реляционных базах данных.
+Hibernate позволяет выражать запросы на родном для вашей базы данных диалекте SQL.
+Выглядеть это будет, примерно, следующим образом:
+
+
+sess.createSQLQuery("select * from Student").addEntity(Student.class).list(); sess.createSQLQuery("select id, name, age from Student").addEntity(Student.class).list();
+
+
+
+В createSQLQuery вы задаете сам SQL запрос, а с помощью addEntity вы указываете, какая сущность ожидается в результате.
+
+В запросах также можно указывать параметры:
+
+
+Query query = session.createSQLQuery("select * from Student where name like ?").addEntity(Student.class); List result = query.setString(0, "Ivan%").list(); query = session.createSQLQuery("select * from Student where name like :name").addEntity(Student.class); List result = query.setString("name", "Ivan%").list();
+
+
+
+В первом случае с помощью query.setString мы указываем порядковый номер параметра (?) и значение типа String, которое вместо него подставится.
+Если значение типа Long, то будет setLong, если Date, то setDate и так далее.
+Во втором случае имя параметра задано явно, поэтому значение задается параметру по имени.
+
+Запросы с использованием HQL
+
+Hibernate позволяет производить запросы на HQL(The Hibernate Query Language — Язык запросов Hibernate), который во многом похож на язык SQL, с той разницей, что является полностью объектно-ориентированным.
+
+Если запрос с помощью SQL производился методом createSQLQuery, то в HQL будет просто createQuery.
+Простой пример:
+
+
+List<Student> studs = (List<Student>)session.createQuery("from Student order by name").list();
+
+
+
+Как видите select в начале запроса можно не указывать.
+Поскольку HQL — объектно-ориентированный язык, то значение полей можно выбрать и так:
+
+
+List<String> names = (List<String>)session.createQuery("select stud.name from Student stud order by name").list();
+
+
+
+А еще можно и так:
+
+
+List result = session.createQuery("select new list(stud, name, stud.age) from Student as stud").list();
+
+
+
+В общем говоря, язык HQL относительно сложен, но зато богат и дает очень много возможностей.
+
+Java Hibernate.
+Часть 3 — Отношения
+
+В Части 1 и Части 2 мы рассматривали создание простейшей таблицы Student, используя Hibernate, а также рассмотрели возможности запросов к данной таблице.
+В этой статье мы узнаем как связать между собой несколько таблиц с помощью аннотаций.
+ 
+
+Для начала, помимо таблицы Student, давайте создадим еще две таблицы Test и Statistics.
+Они будут связаны следующим образом:
+
+
+
+Таблица Statistics служит для связи таблиц Student и Test, чтобы избежать отношения многие ко многим.
+
+Создадим эти две таблицы в Oracle:
+
+
+CREATE TABLE Test(tid NUMBER(10) NOT NULL,tname varchar2(100) NOT NULL, CONSTRAINT pk_Test PRIMARY KEY(tid)); CREATE TABLE Statistics(stid NUMBER(10) NOT NULL, id NUMBER(10) NOT NULL, tid NUMBER(10) NOT NULL, CONSTRAINT pk_Statistics PRIMARY KEY(stid), CONSTRAINT fk_Student FOREIGN KEY(id) REFERENCES Student(id), CONSTRAINT fk_Test FOREIGN KEY(tid) REFERENCES Test(tid));
+
+
+
+Также не забудем в файл hibernate.cfg.xml добавить маппинги наших новых классов:
+
+
+<mapping class="logic.Test" /> <mapping class="logic.Statistics" />
+
+
+
+Перейдем к коду.
+Подобно тому как и в Части 1 создаем в пакете logic классы-сущности:
+
+Test
+
+
+package logic; import javax.persistence.Column; import javax.persistence.Entity; import javax.persistence.GeneratedValue; import javax.persistence.Id; import javax.persistence.JoinTable; import javax.persistence.Table; import javax.persistence.JoinColumn; import org.hibernate.annotations.GenericGenerator; @Entity @Table(name="Test") public class Test { private Long tid; private String tname; public Test(){ tname = null; } public Test(Test s){ tname = s.getTName(); } @Id @GeneratedValue(generator="increment") @GenericGenerator(name="increment", strategy = "increment") @Column(name="tid") public Long getTid() { return tid; } @Column(name="tname") public String getTName(){ return tname; } public void setId(Long i){ tid = i; } public void setTName(String s){ tname = s; } }
+
+
+
+Statistics
+
+
+package logic; import javax.persistence.Column; import javax.persistence.Entity; import javax.persistence.GeneratedValue; import javax.persistence.Id; import javax.persistence.Table; import org.hibernate.annotations.GenericGenerator; @Entity @Table(name="Statistics") public class Statistics { private Long stid; private Long id; private Long tid; public Statistics(){ } @Id @GeneratedValue(generator="increment") @GenericGenerator(name="increment", strategy = "increment") @Column(name="stid") public Long getStid(){ return stid; } @Column(name="id") public Long getId(){ return id; } @Column(name="tid") public Long getTid(){ return tid; } }
+
+
+
+Классы TestDAO и TestDAOImpl создаются аналогично как для сущности Student.
+Осталось только показать Hibernate, как эти таблицы между собой связаны.
+Как это делается?
+Опять же с помощью аннотаций.
+В Hibernate для этого предусмотрены следующие виды аннотаций: @OneToOne, @OneToMany, @ManyToOne, @ManyToMany.
+Например, чтобы связать таблицы Student и Statistics связью многие к одному, следует добавить в класс Student следующей код:
+
+
+private Statistics stat; @ManyToOne @JoinTable(name = "id") public Statistics getStat(){ return stat; }
+
+
+
+В классе Statistics аннотируем связь один ко многим с классом Student:
+
+
+private Set<Student> studs = new HashSet<Student>(0); @OneToMany @JoinTable(name = "id") public Set<Student> getStuds() { return studs; }
+
+
+
+Как видите, в классе Student мы объявили атрибут типа Statistics и обозначили, что данная таблица связана отношением многие к одному с таблицей, представленной классом-сущностью Statistics.
+А в классе Statistics указали связь один ко многим с классом Student.
+С помощью аннотации @JoinTable мы указываем, какое поле является внешним ключом к текущей таблице.
+Так же само мы обозначаем отношение таблицы Test и Statistics, просто добавив в класс Test код:
+
+
+private Statistics stat; @ManyToOne @JoinTable(name = "id") public Statistics getStat(){ return stat; }
+
+
+
+В классе Statistics аннотируем связь один ко многим с классом Test:
+
+
+private Set<Test> tests = new HashSet<Test>(0); @OneToMany @JoinTable(name = "id") public Set<Test> getTests() { return tests; }
+
+
+
+Поскольку таблица Statistics является не просто таблицей, связанной со Student и Test, а она разбивает нежелательную связь многие ко многим, мы также можем показать это Hibernate.
+Просто вместо того, чтобы отдельно обозначать связь в каждой таблице, мы обозначим всю связь в одной, к примеру, в таблице Test добавив код:
+
+
+private Student stud; @ManyToOne @JoinTable(name = "Statistics", joinColumns = @JoinColumn(name = "tid"), inverseJoinColumns = @JoinColumn(name = "id")) public Student getStud(){ return stud; }
+
+
+
+ C помощью параметра name аннотации @JoinTable мы обозначаем связующую таблицу, joinColumns = @JoinColumn — указываем через какой ключ связаны таблицы Test и Statistics, inverseJoinColumns = @JoinColumn — указываем, через какие ключи связаны уже Statistics и Student.
+Если бы мы обозначали эту связь в классе Student:
+
+
+private Test test; @ManyToOne @JoinTable(name = "Statistics", joinColumns = @JoinColumn(name = "id"), inverseJoinColumns = @JoinColumn(name = "tid")) public Test getTest(){ return test; }
+
+
+
+Java Hibernate.
+Часть 4 — Spring
+
+В предыдущих статьях мы рассмотрели как можно создать таблицы для хранения в базе данных с помощью Hibernate Framework.
+Узнали как можно связать эти таблицы между собой, а также познакомились с различными видами запросов к данным таблицам средствами Hibernate.
+В данной статье мы изучим управление и конфигурацию Hibernate с помощью библиотеки Spring Framework.
+С помощью библиотеки Spring мы настроим подключение к базе данных, установим с ней соединение, а также научимся управлять транзакциями.
+
+ 
+
+Создадим в Eclipse проект типа Maven Project и назовем его HibernateSpringExample.
+В главной директории будет находится файл конфигурации pom.xml:
+
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"> <modelVersion>4.0.0</modelVersion> <groupId>ru.javaxblog</groupId> <artifactId>HibernateSpringExample</artifactId> <version>0.0.1-SNAPSHOT</version> <build> <testResources> <testResource> <directory>src/main/webapp</directory> </testResource> <testResource> <directory>src/main/resources</directory> </testResource> </testResources> </build> <dependencies> <dependency> <groupId>org.springframework</groupId> <artifactId>spring-context</artifactId> <version>3.1.1.RELEASE</version> </dependency> <dependency> <groupId>org.springframework</groupId> <artifactId>spring-aop</artifactId> <version>3.1.1.RELEASE</version> </dependency> <dependency> <groupId>org.springframework</groupId> <artifactId>spring-tx</artifactId> <version>3.1.1.RELEASE</version> </dependency> <dependency> <groupId>org.springframework</groupId> <artifactId>spring-orm</artifactId> <version>3.1.1.RELEASE</version> </dependency> <dependency> <groupId>org.springframework</groupId> <artifactId>spring-jdbc</artifactId> <version>3.1.1.RELEASE</version> </dependency> <dependency> <groupId>org.hibernate</groupId> <artifactId>hibernate-entitymanager</artifactId> <version>3.6.0.Final</version> </dependency> <dependency> <groupId>org.hibernate</groupId> <artifactId>hibernate-commons-annotations </artifactId> <version>3.2.0.Final</version> </dependency> <dependency> <groupId>org.hibernate</groupId> <artifactId>hibernate-core </artifactId> <version>3.6.0.Final</version> </dependency> <dependency> <groupId>org.aspectj</groupId> <artifactId>aspectjweaver</artifactId> <version>1.6.2</version> </dependency> <dependency> <groupId>antlr</groupId> <artifactId>antlr</artifactId> <version>2.7.7</version> </dependency> <dependency> <groupId>aopalliance</groupId> <artifactId>aopalliance</artifactId> <version>1.0</version> </dependency> <dependency> <groupId>c3p0</groupId> <artifactId>c3p0</artifactId> <version>0.9.1.2</version> </dependency> <dependency> <groupId>commons-collections</groupId> <artifactId>commons-collections</artifactId> <version>3.2.1</version> </dependency> <dependency> <groupId>commons-dbcp</groupId> <artifactId>commons-dbcp</artifactId> <version>1.4</version> </dependency> <dependency> <groupId>commons-logging</groupId> <artifactId>commons-logging</artifactId> <version>1.1.1</version> </dependency> <dependency> <groupId>commons-pool</groupId> <artifactId>commons-pool</artifactId> <version>1.6</version> </dependency> <dependency> <groupId>dom4j</groupId> <artifactId>dom4j</artifactId> <version>1.6.1</version> </dependency> <dependency> <groupId>javassist</groupId> <artifactId>javassist</artifactId> <version>3.3</version> </dependency> <dependency> <groupId>javax.transaction</groupId> <artifactId>jta</artifactId> <version>1.1</version> </dependency> <dependency> <groupId>org.slf4j</groupId> <artifactId>slf4j-api</artifactId> <version>1.6.6</version> </dependency> <dependency> <groupId>org.hibernate.javax.persistence</groupId> <artifactId>hibernate-jpa-2.0-api</artifactId> <version>1.0.1.Final</version> </dependency> <dependency> <groupId>org.hibernate</groupId> <artifactId>hibernate-annotations</artifactId> <version>3.3.0.ga</version> </dependency> <!-- ORACLE database driver --> <dependency> <groupId>com.oracle</groupId> <artifactId>oracle</artifactId> <version>10.2.0.1</version> </dependency> </dependencies> </project>
+
+
+
+Как видите, зависимостей очень много, но Maven без труда их скачает и добавит к нашему проекту, тем самым облегчив нам сей нелегкий труд.
+Особое внимание хочу обратить на последнюю зависимость.
+Это jdbc драйвер для подключения к базе данных.
+В репозиториях его скачать нельзя, поэтому, чтобы использовать его в нашем проекте, мы его сперва зарегистрируем.
+Для этого скачиваем необходимый jdbc драйвер вручную.
+Через командную строку заходим в директорию, где находится наш драйвер, и выполняем команду:
+
+
+mvn install:install-file -Dfile=ojdbc14.jar -DgroupId=com.oracle -DartifactId=oracle -Dversion=10.2.0.1 -Dpackaging=jar -DgeneratePom=true
+
+
+
+Вместо ojdbc14.jar вы впишите название вашего файла.
+После этого Maven добавит его в ваш локальный репозиторий и его можно будет использовать в файле pom.xml под зарегистрированными groupId, artifactId и version.
+
+Теперь в пакете ru.javaxblog.hibernateSpringExample директории main.java создадим наш класс-сущность Student, объекты которого мы будем хранить в базе данных:
+
+
+package ru.javaxblog.hibernateSpringExample; import javax.persistence.Column; import javax.persistence.Entity; import javax.persistence.GeneratedValue; import javax.persistence.Id; import org.hibernate.annotations.GenericGenerator; @Entity public class Student { private Long id; private String name; private Long age; public Student(){ name = null; } public Student(String n, Long a){ name = n; age = a; } public Student(Student s){ name = s.getName(); } @Id @GeneratedValue(generator="increment") @GenericGenerator(name="increment", strategy = "increment") @Column(name="id") public Long getId() { return id; } @Column(name="name") public String getName(){ return name; } @Column(name="age") public Long getAge(){ return age; } public void setId(Long i){ id = i; } public void setName(String s){ name = s; } public void setAge(Long l){ age = l; } }
+
+
+
+В директории main.resources создадим файл hibernate.cfg.xml с маппингом нашей сущности:
+
+
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd"> <hibernate-configuration> <session-factory> <mapping class="ru.javaxblog.hibernateSpringExample.Student"/> </session-factory> </hibernate-configuration>
+
+
+
+Теперь в пакете ru.javaxblog.hibernateSpringExample директории main.java создадим интерфейс StudentDAO, в котором опишем основные методы работы с нашей БД:
+
+
+package ru.javaxblog.hibernateSpringExample; import java.util.Collection; public interface StudentDAO { Student get(Long id); Student save(Student stud); Collection<Student> find(String text); }
+
+
+
+В этом же пакете создадим реализацию данного интерфейса StudentHibernateDao:
+
+
+package ru.javaxblog.hibernateSpringExample; import java.util.Collection; import org.hibernate.SessionFactory; import org.springframework.orm.hibernate3.HibernateTemplate; import org.springframework.orm.hibernate3.support.HibernateDaoSupport; public class StudentHibernateDao extends HibernateDaoSupport implements StudentDAO { public Student get(Long id) { return (Student) getSession().get(Student.class, id); } @Override protected HibernateTemplate createHibernateTemplate(SessionFactory sessionFactory) { HibernateTemplate result = super.createHibernateTemplate(sessionFactory); result.setAllowCreate(false); return result; } public StudentHibernateDao() { } public Student save(Student objectToSave) { getSession().saveOrUpdate(objectToSave); return objectToSave; } @SuppressWarnings("unchecked") public Collection<Student> find(String name) { return getSession().createQuery("from Student s where s.name like :name").setString("name", name).list(); } }
+
+
+
+Стоит также отметить, что данный класс наследуется от класса org.springframework.orm.hibernate3.support.HibernateDaoSupport, который является частью библиотеки SpringDao и в нем уже реализованы методы для удобной работы с БД.
+
+Осталось только для конфигурирования Hibernate в директории main.resources создать файл applicationContext.xml:
+
+
+<?xml version="1.0" encoding="UTF-8"?> <beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context" xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.5.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.5.xsd"> <context:annotation-config /> <aop:config> <aop:pointcut id="myPointcut" expression="execution(* ru.javaxblog.hibernateSpringExample.*.*(..))" /> <aop:advisor advice-ref="txAdvice" pointcut-ref="myPointcut" /> </aop:config> <tx:advice id="txAdvice" transaction-manager="transactionManager"> <tx:attributes> <tx:method name="get*" propagation="REQUIRED" read-only="true" /> <tx:method name="find*" propagation="REQUIRED" read-only="true" /> <tx:method name="save*" propagation="REQUIRED" /> </tx:attributes> </tx:advice> <bean id="transactionManager" class="org.springframework.orm.hibernate3.HibernateTransactionManager"> <property name="sessionFactory" ref="sessionFactory" /> </bean> <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource"> <property name="driverClassName"> <value>oracle.jdbc.driver.OracleDriver</value> </property> <property name="url"> <value>jdbc:oracle:thin:@localhost:1521:MoCoDB</value> </property> <property name="username"> <value>system</value> </property> <property name="password"> <value>orcl</value> </property> </bean> <bean id="sessionFactory" class="org.springframework.orm.hibernate3.LocalSessionFactoryBean"> <property name="dataSource" ref="dataSource" /> <property name="configLocation" value="classpath:/hibernate.cfg.xml" /> <property name="hibernateProperties"> <props> <prop key="hibernate.dialect">org.hibernate.dialect.OracleDialect</prop> <prop key="hibernate.show_sql">true</prop> <prop key="hibernate.hbm2ddl.auto">create</prop> </props> </property> </bean> <bean id="dataDao" class="ru.javaxblog.hibernateSpringExample.StudentHibernateDao"> <property name="sessionFactory" ref="sessionFactory" /> </bean> </beans>
+
+
+
+В нем мы описываем: dataSource — параметры подключения к нашей базе данных, sessionFactory — фабрику для работы с подключениями к базе данных и для отображения нашей модели в БД, dataDao — разработанный нами сервис, при конфигурировании которого мы укажем ссылку на sessionFactory, transactionManager — менеджер транзакций, при конфигурировании которого мы укажем ссылку на sessionFactory и также укажем при каких методах следует начинать новую транзакцию.
+
+Напишем в пакете ru.javaxblog.hibernateSpringExample директории main.java небольшой класс Main для того, чтобы опробовать созданное:
+
+
+package ru.javaxblog.hibernateSpringExample; import org.springframework.context.support.ClassPathXmlApplicationContext; public class Main { public static void main(String[] args) { ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext( new String[] { "applicationContext.xml" }, true); StudentDAO studDao = (StudentDAO) context.getBean("dataDao"); Student data1 = new Student("Alex",20l); studDao.save(data1); Student data2 = new Student("Bob",22l); studDao.save(data2); Student data3 = new Student("Alice", 19l); studDao.save(data3); System.out.println(studDao.find("A%").size()); } }
+
+
+
+Скачать исходники проекта: HibernateSpringExample.zip http://javaxblog.ru/article/java-hibernate-4/
+
+ 
+ 
+
+
+
+
+Добавить комментарий
+
+
+
+
+ 
+
+ 
+
+
+
+ 
+ 
+
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ Телефон +7 351 235 00 10 Понедельник - Пятница С 9:00 до 18:00 © 2005-2014 ИТ-Компания АльфаЛаВиста.Разработка программного обеспечения в Челябинске.
+Центр разработки программного обеспечения Alfalavista.
+Професиональная разработка программного обеспечения и архитектурных решений, ИТ аутсорсинг, автоматизация, web-разработка, mobile разработка, Android, SEO, AlfaSolutions, 1С
+
+
+
+
+ Twitter
+
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+
+
+ 
+ Вверх
+ 
+
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+

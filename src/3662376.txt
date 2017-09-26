@@ -1,0 +1,149 @@
+
+          ﻿Intellectual Technologies on Transport. 2015. №1
+Методика обнаружения и разрешения конфликтов программных средств защиты от кибератак на железнодорожном транспорте
+Корниенко А.А., Поляничко М.А. Петербургский государственный университет путей сообщения Императора Александра I Санкт-Петербург, Россия <mark.polyanichko@gmail.com>
+Аннотация. В работе приводится методика автоматизированного обнаружения и разрешения конфликтов в комплексе программных средств защиты от кибератак на железнодорожном транспорте, основанный на использовании обобщенного показателя производительности.
+Ключевые слова:	программные средства защиты
+информации, обнаружение и разрешение конфликтов программного обеспечения.
+Литература
+1.	Zaitsev, O. V. Adaptive configuration of conflicting applications. US Patent 7925874 B1, November 30, 2010.
+2.	Ding, Y., Guo, X., Su, H., Wang, Z., Zhao, S. Method and system for avoidance of software conflict. US Patent 20070180441 A1, December 22, 2006.
+3.	Mcmillan, J. J., Chirhart, G. D. Method and system of managing software conflicts in computer system that receive, processing change information to determine which files and shared resources conflict with one another. US Patent 7028019 B2, November 11, 1998.
+4.	Introduction to Monitoring Performance Thresholds,
+available at:	http://msdn.microsoft.com/ru-ru/library/
+bd20x32d(v=vs.90).aspx.
+Methodology of conflict detection and resolution in cyber attacks protection software on railway
+transport
+Kornienko A. A., Polyanichko M. A.
+Petersburg State Transport University Sankt-Petersburg, Russia <mark.polyanichko@gmail.com>
+Abstract. This paper describes a method for automated detection and resolution method of conflicts in complex of information security software, based on the analysis of system performance.
+Keywords: information security software, software conflict detection and resolution.
+Introduction
+Wide application of information technology and implementation of information management automated systems (IMAS) in various spheres of Russian Railways activity and integration of information security (ISS) software and hardware to ensure protection against cyber-attacks requires a solu-
+tion to the problem of detecting and resolving software conflict interaction on railway transport.
+CONFLICT DETECTION AND RESOLUTION This problem is related to contradiction between the need to ensure conflict-free interaction between ISS and IMAS and failure of existing methods and tools to detect and analyze conflicts specific to ISS. It is also due to the minimal information about the detected conflicts embedded in operating systems events logging, high complexity of manual search and analysis of conflicts between different instances of ISS.
+To solve this problem, the authors propose an original methodology to detect and resolve the conflict interaction be-
+Интеллектуальные технологии на транспорте. 2015. №1
+18
+Intellectual Technologies on Transport. 2015. №1
+tween ISS and software objects of IMAS, which is based on the paradigm of defining their "potential" (logic) conflicts related to the "predisposition" of ISS to "aggression" in relation to other tools and systems, and recognition of a real conflict with regard to the undesirable effects (the decrease in performance of a software system, the failure of ISS, violation of dynamic correctness working and a loss of functionality, the appearance of vulnerabilities) [1].
+The methodology is also based:
+-	on the choice of composite index of performance IMAS - integral characteristics which reflects the influence of ISS on the functioning of IMAS and sensitive to conflict interaction;
+-	on the formation of a set of rules and criteria - logical rules determine the degree of "potential" conflicts of ISS, fuzzy rules to identify adverse effects (reducing performance) and conflict detection (determine the state of conflict), the criterion for the recognition of the conflict (the classification of types of conflict - definition security software and a software object of conflict, the rules and criteria for conflict resolution, and formalizing procedures for maximum possible automation of processes;
+-	on the creation of a unified methodological support for discovery processes, pattern recognition (classification), resolution, and conflict prevention at the operation stage in the event and information security incidents management.
+Note that the IMAS is formed by any software, including ISS, functioning as an integrated set of interrelated and interacting software components in a software environment comprising software components that are not directly included in the system, but influencing on the properties or change properties of the system components.
+For detection and identification of conflicts between ISS and selected objects of IMAS a method of conflict detection ISS and IMAS is developed. The technique consists of creating a set-theoretic models of conflict interaction and the formation of logical rules that determine the degree of "potential" conflicts of ISS, in the choice of indicators and the common ratio, creating linguistic variables, forming the base of fuzzy rules and the decision of classification problem based on discriminant analysis.
+Table 1
+Models of conflicting object
+Set	Description
+SZI = [func1,funcn}	funci - function called from security program
+DLL = [func1,funcn, size, dest}	funci - storedfunctioncalled from security program
+	size - library size
+	dest - library destination
+func = [name, param1,..., paramn,r	parami - parameters, passed to function
+	name - function name
+	rettype - return type.
+Param = [name, type}	name - parameter name
+	type - parameter type
+Type = [type-i	typen}	typei - type name
+SZIDLL = [dll1,..., dlln}	SZIREG. - registry keys used by security program
+	dll- library description
+dll = {path, name, size, date}	path - library path
+	name - library name
+	size - library size
+	date - library creation date
+OSreg = [5ZIreg1 , ■■■,5ZIREGn}	SZIREG. - reg key stored in os 1
+	OSREC - security programs that uses registry
+SZIreg = [regkey1,..., regkeyn}	SZIREC. - registry keys used by security program
+	regkey- registry key
+regkey = {path, name, type, data}	path - key path
+	name - key name
+	type - key type
+	data - key data
+0SINI = [SZIINh,...,SZIINIJ	SZIINI. - configuration files, used by security program
+	OSINI - all security programs, that use configuration files
+SZl!N! = [section1,..., sectionn}	SZIINI. - configuration file, used by security program
+	sectioni - section of configuration file
+section = [name, varu..., var„}	vart - variable in section
+var = [name, key}	name - variable name
+	key - variable describing key
+key = [value, type}	value - variable value
+	type - variable type
+type e [int,float, string,path, boolt	int - integer variable
+	float - float variable
+	string - string variable
+	path - destination variable
+	boolean - logical variable
+Determination of "potential" conflicts degree in ISS complex is possible only when adequate model that describes a software system and elements with potentially conflicting interaction. For this purpose, a set-theoretic model of conflict interaction of ISS and the following software objects (objects of conflict interaction) IMAS - dynamic DLLs; registry keys of operating systems; configuration files of ISS and logical rules for determining the extent of their "potential" conflicts. Under the degree of potential conflict refers to the numerical value returned by one of the generated logical rules.
+System performance decrease is detected using analysis of ratio set, which is most sensitive for changes of measured resource state. In this paper processor, RAM and hard drive are analyzed. The second step of this procedure forms logical rules, describing potential conditions for a conflict. Logical function describes potential conflict of configuration files. Configuration files are used for storing software parameters. Program paths are often stored in these files. For several programs, working with the same directories, a conflict may occur because of simultaneous interaction with resources or it can affect data integrity.
+Интеллектуальные технологии на транспорте. 2015. №1
+19
+Intellectual Technologies on Transport. 2015. №1
+'’ф1, Vi, j, k$ l, n, m\ (SZIINI. c 0SINI Л sectionj c SZIINI. Л vark c
+c sectionj) = (SZIINIl c 0SINI ЛБесИопп c SZIINIl Л varm c sectionn);
+IniConflict == <
+2,	Vi, j, k, z31, n, m, q\
+(SZIINI. c 0SINI Л sectionj c SZIINI. Л vark c sectionj Л keyz c vark = = SZIINIl c 0SINI Л sectionn c SZIINIl Л varm c sectionn Л „ Л keyq c varm) Л {keyz c vark = path V keyq c varm = path).
+Logical function for dynamic libraries conflicts describes situations, when the function exists in a program, but is missing in a library, or when parameters or return value of called function are differ from those in a library.
+'V'i!, Vilj:/um'j i= SZt,-unc = titnij <= DLL;
+I;	, ■“ Slu л:.:: > c f irnc, ■ '	DLL л
+л ret type € func,) л (June, <= SZi!unc л name e /ime, = =	< DLLAname € / " ’ >
+DLLCimflict =	,
+pk1. (/c SZЛ puriunk i t .’.'mi .
+/	<= DLLApur(iJnk £ ; e:e.,) A • /	; c	Л
+A mime 6 /unc,- = nurnc £ /кие,- A /imt; t DLL);
+, '/'lz. Э!, /:/11НС( t= SZ/,-„„c Л f tmCj DLL.
+where:	TL{yL1, yL2, yL3, yL4} - a set of values that de-
+scribes the degree of potential conflict; yL1 - no conflict;
+yL2 - function exists, return value does not match; yL3 - function exits, parameter set does not match; yL4 - function does not exist.
+Model of conflict interaction
+Three models of conflict interaction in information security software are introduced in this paper:
+1.	Dynamic Link Library (DLL);
+2.	Registry keys of operation system;
+3.	Configuration files.
+System performance decrease is detected using analysis of ratio set, which is most sensitive for changes of measured resource state. In this paper processor, RAM and hard drive are analyzed [3]. The second step of this procedure forms logical rules, describing potential conditions for a conflict. First logical function (1) describes potential conflict of configuration files. Configuration files are used for storing software parameters. Program paths are often stored in these files [4]. For several programs, working with the same directories, a conflict may occur because of simultaneous interaction with resources or it can affect data integrity.
+During the last step of the procedure the classification of the state vector is performed. It is a good practice to use the discriminant analysis for determination of the type of conflict interaction. Discriminant analysis step is divided into two stages. At the first stage it is necessary to identify and formally describe the differences between the observed objects, on the second stage the new objects are classified and assigned to one of the several groups. Signs, used to distinguish one subset from another, are called discriminant variables.
+For calculation of the composite indicator value of performance decreasing, fuzzy sets and linguistic variables are used, following the applying of linguistic rules:
+(/3, T, X, G, M),	(1)
+where p = «proct»-linguistic variable name,
+Т = {«Low», «Normal», «High», «Critical»} -
+basic terms,
+X = [0,100],
+G = {0}- procedure for generating new terms,
+M = {"Low" = L(x, 25,37.5); "Normal" = n(x, 25,50); "High" = n(x, 50,75); "Critical" = S(x, 75,87.5,100)}.
+Logical function for dynamic libraries conflicts describes situations, when the function exists in a program, but is missing in a library, or when parameters or return value of called function are differ from those in a library.
+Developed methodology and algorithms allowed us to create a prototype of an automated system for detection and recognition of conflicts in the stages of implementation and operation of complex software protection against cyber attacks in IMAS, and also gave the possibility to develop efficient algorithms for automating resolution processes and conflict prevention.
+Thus, further development of unified methodology and methodological support of the processes of conflict detection, resolution and prevention should be carried out in the system of information security incidents management. It involves the use of organizational measures and technical solutions in terms of automation conflict resolution processes associated with migration, disconnection, replacement, change of ISS environment, and virtualization.
+Number of formal rules of conflict resolution for automated addressing the causes and consequences of conflicts are developed.
+Resolution of identified conflict is automated, for example, upon dynamic libraries conflict detection (conflict resolution module can automatically perform the loading or moving the required libraries or issue an informational message in case of failure). To prevent a conflicts while modifying dynamic libraries associated with ISS, the conflict resolution module blocks potentially dangerous actions and notifies the operator. Performance decrease in one of the components of IMAS or reduction in its productivity is used to stop one of the conflicting ISS. Disabling one of ISS can leave the system unprotected, and therefore to resolve the conflict and preserve at least partial protection, you should consider disabling individual modules or introduct priority queues to disable ISS.
+Conflict resolution mechanism included in the automated system monitors in the background mode the shared system resource usage and/or system resources use of separate ISS. Directly the function of conflict resolution is activated on the exceedance of critical levels of utilization of system resources and working system. It performs detailed analysis of information about software configuration, the results of which settings are changed to remove interference in the work of the conflicting applications. To adjust the settings of ISS information about known conflicting applications and rules of con-
+Интеллектуальные технологии на транспорте. 2015. №1
+20
+Intellectual Technologies on Transport. 2015. №1
+flict resolution from the corresponding database is used as templates.
+In this methodology IMAS is considered as a set, that includes ISS, system status information, performance rates and rates of potential conflict between system objects, which are gathered by program agent. It is possible to adjust detection by changing sensitivity threshold.
+IMAS = [IMASiss, status, log, perfconflict,
+dllconflict, iniconflict, regconflict, threshold},
+IMASiss - ISS complex in IMAS; status - system status; log - event log;
+perfconflict - performance rate; dllconflict - dynamic library conflict rate; iniconflict - configuration conflict rate; regconflict - registry conflict rate.
+Conflict resolution can be introduced as a function, which takes a conflict description as input parameter:
+resolve (conflict)
+restart(pszif), conftype = halt A priority 1 < priority2 restart(pszi2), conftype = halt A priority 1 > priority2 stop(pszif), conftype = halt A priority 1 = priority2 update(pszi1,pszi2), conftype = outofdate
+If the system halts, it will restart an ISS with the lowest priority. In case the priority values are equal, one of the ISS will be stopped. If ISS are out of date, it will be updated.
+Resolution methodology also includes pre-installation check. During the installation process, it is checked that the program meets all prerequisites. Automated resolution software tries to find any entries in conflict configuration database, it searches for similar or like configurations and their problems.
+In general, the conflict is resolved in this order:
+1.	Program agent collects information and sends data on the input of conflict detection mechanism
+2.	In case, if a conflict is detected, it passes control to conflict prevention mechanism, which searches the conflict database and sends results to conflict resolution mechanism
+3.	Conflict prevention mechanism exchanges data with conflict database and adds data about the discovered conflict?, if nothing is found
+4.	Conflict resolution mechanism searches for solution, resolves conflict if possible and informs the administrator
+CONCLUSION
+Application of conflict detection method will improve the efficiency of system administration and will reduce the time, required for detection of conflict interaction existence. A rough estimate of the time, required to find the conflict ,shows that the application of the proposed method can save up to 30% of the time, by providing a clear indication of the conflict.
+References
+1.	Zaitsev, O. V. Adaptive configuration of conflicting applications. US Patent 7925874 B1, November 30, 2010.
+2.	Ding, Y., Guo, X.. Su, H., Wang, Z., Zhao, S. Method and system for avoidance of software conflict. US Patent 20070180441 A1, December 22, 2006.
+3.	Mcmillan, J. J., Chirhart, G. D. Method and system of managing software conflicts in computer system that receive, processing change information to determine which files and shared resources conflict with one another. US Patent 7028019 B2, November 11, 1998.
+4.	Introduction to Monitoring Performance Thresholds,
+available at:	http://msdn.microsoft.com/ru-ru/library
+/bd20x32d(v=vs.90). aspx.
+Интеллектуальные технологии на транспорте. 2015. №1
+21

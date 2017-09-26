@@ -1,0 +1,270 @@
+
+Tulku mācību centrs
+
+
+
+
+
+
+
+
+
+Diploma paper: Some Difficulties of Translating English Phrasal Verbs into Russian
+
+
+
+
+
+
+
+
+
+ХХХХХХХХХХ ХХХХХ
+The 3rd year of education
+Personal code: 211178-10916
+
+
+
+
+
+
+
+
+Riga
+2001
+
+
+
+ANNOTATION
+
+
+
+
+
+
+Diploma paper is devoted to a very current theme about the translating of English phrasal verbs to Russian. Translating of English phrasal verbs is very important part of the science of translation because it couldn’t be a real good correct translation without correct translating of the phrasal verbs.
+The paper consists of four parts which touch upon questions of the history of translation in Russia and its development, some points of tranlsating theory, the consideration of some ways of the translation of English phrasal verbs, and the practical translation and its comments. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introduction
+
+
+Translation is a very ancient kind of human activity. As soon as groups of people with different languages were born in human history, bilinguals appeared and they helped to communicate between collectives of different languages. With the development of the written language, written translators join oral ones. They translated different texts of official, religious and business character. Translation had the main social function at first. It made possible inter-linguistic communication of people. The spreading of the written translation opened to people the wide access to cultural achievements of other nations; it made possible interaction and inter-enrichment of literature and culture. The knowledge of foreign languages let to read original books, but not everybody can earn at least one foreign language. 
+
+My work is devoted to the basic points of theory of translation and the difficulties of translation of English phrasal verbs to Russian. 
+
+Russian is a part of the East Slavonic family of languages and one of the six official languages of the United Nations. Russian tradition of translation has a long history. Writing, literature and translations were introduced in Kievan Rus in a relatively mature form. The Greek priest Cyril and his brother Methodius who created new alphabet (now known as Cyrillic) were the first translators. Among their first translations from Greek were the New Testament, the Psalter and the Prayer Book. After Rus embraced Christianity in 988, numerous translations were made to give the converts access to the philosophical and ethical doctrines of the new religion and to the church’s rituals and customs. In the 17th century, a great number of translations of predominantly nonreligious material began to appear. Scholarly translations included topics in astronomy and astrology, arithmetic and geometry, anatomy and medicine, as well as description of various animals. The 18th century proved decisive in the development of translation in Russia. Peter the Great’s political reforms greatly expanded Russia’s economic and cultural contacts with European countries, and this created a demand for numerous translations of scientific and technical texts, as well as works of fiction. The 19th century can be described as the golden age of Russian translation. If the previous age hade made translation a professional activity, the nineteenth century raised this activity to the level of high art. The main figures of translation of this period are Nikolai Karamzin and Vasily Zhukovsky. Alezander Pushkin and Mikhail Lermontov, the two great Russian poets, also played a major role in the history of translation in Russia. Although translations occupied a relatively modest place in their poetry, they made a significant contribution to the improvement of literary translation in Russia. The years following the 1917 Revolution saw a new upsurge in translation activity. The fact that the Soviet Union was a multinational state contributed to the growing demand fro translation. The scale of translation among national literatures was particularly impressive. The years of perestroika radically changed the nature of translation practice in general and the market for translations in particular. The abolition of censorship has made it possible to translate many books, which had been regarded as inadmissible on ideological or moral grounds. There has been a greater demand of English translators and interpreters, and many of them earn good money working for national or foreign firms, or joint ventures. English language comes to all spheres of life and translation from English to Russian and back is very important part of successful business and its development. 
+
+
+
+
+
+
+Translation is the transformation of the message of the source language to the message of the translating language. The exact translation is impossible because of a great number of languages differences in the grammar and the number of words, besides, the distinction of the cultures can influence the way of translating and its results. Translation is the art of revelation. It makes the unknown known. The translator has the fever and craft to recognize, recreate and reveal the works of the other artist. Translation is an art between tongues. 
+
+Some translators tried to define the row of demands of which the good translators should be. The French humanist E. Dolet (1509 – 1546) considered that a translator should keep the following five basic principles of translation:
+Ti understand the content of the translating text and the intention of the author perfectly;
+To know the language he translates from and the language he translates on perfectly;
+To avoid the tendency to translate word for word, because it misrepresents the original content and spoils the beauty of its form;
+To use the translation the speech forms in general use;
+To reproduce the general impression in corresponding key, produced by the original, by choosing and placing words correctly.
+
+In 1790 the Englishman A. Tayler formed the following requests to the translation in his book “The principles of the translation”:
+The translation should transfer the ideas of the original completely;
+The style and way of the exposition should be the same as in the original;
+The translation should be read with the same easiness as the original works. 
+
+The translation is the multifaceted phenomenon and some aspects of it can be the subjects of the research of different sciences. In the frames of the science of translation psychological, literature critical, ethnographical and other points of translation as well as the history of translation in one or other country are being studied. According to the subject of research we use the knowledge of the psychology of translation, the theory of art and literary translation, ethnographical science of translation, historical science of translation and so on. The main place in the modern translation belongs to linguistic translation, which studies the translation as linguistic phenomenon. The different kinds of translation complement each other and strive to detailed description of the activity of the translation. 
+
+The theory of translation puts forward the following tasks:
+To open and describe the common linguistic basis of translation, that is to show which peculiarities of linguistic systems and regularities of the language operation are the basis of the translating process, make this process possible and determine its character and borders;
+To determine the translation as the subject of the linguistic research, to show its difference from the other kinds of linguistic mediation;
+To work out the basis of classification of kinds of the translating activity;
+To open the essence of the translating equivalence as the basis of the communicative identity of the original texts and the translation;
+To work out the common principles and the peculiarities of construction of the peculiar and special translation theories for the different combinations of languages;
+To work out the common principles of the scientific description of the translation process as actions of a translator of transforming the original text to the translating text;
+To open the influence on the translating process of pragmatic and social linguistic factors;
+To determine the idea “the translating norm” and to work out the principles. 
+
+   It is common knowledge that in order to provide an adequate translation, the translator must be able to sense nuances in the semantics of both the source-language and target-language texts. English phrasal verbs (e.g. give up, break in, fall out) are of great interest to me in this respect because they possess quite a number of semantic, grammatical and stylistic peculiarities, sometimes making their accurate translation into Russian difficult. Of course, in dealing with the translation of such lexical units into his or her native language, the translator can consult the appropriate bilingual dictionary, but what about the profound comprehension of why this or that phrasal verb is translated only this and not any other way? 
+
+    To get a good idea of English phrasal verbs' semantic nuances, let us first look at their conceptual features. In theory, phrasal verbs are generally considered to be idiomatic combinations of a verb and an adverbial particle. The exact status of the latter is still being debated, scholars being divided on whether it is an adverb, prepositional adverb, postpositional prefix, special part of speech, etc. However, here we are interested only in the features of adverbial particles. 
+
+   In general, the main function of phrasal verbs is conceptual categorization of reality in the speaker's mind. They denote not only actions or states as "ordinary" verbs do, but also specify their spatial, temporal or other characteristics. This ability to describe actions or states more precisely, vividly and emotionally is determined by the adverbial components of phrasal verbs. By combining with these elements, verbs of broader meaning are subjected to a regular and systematic multiplication of their semantic functions. While the English verb has no consistent structural representation of aspect, adverbial particles either impart an additional aspective meaning to the base verb (e.g. the durative verb sit merges with the particle down into the terminative phrasal verb sit down) or introduce a lexical modification to its fundamental semantics. In most cases adverbial elements denote the general spatial direction of the action or express its qualitative or quantitative characteristics, like beginning (set out), duration (bum along), completion (think out), intensity (hurry up), and so on. 
+
+   Obviously, such semantic peculiarities of English phrasal verbs must influence the process of their translation into the Russian language, which has a highly developed system of verbal prefixes. In addition to their function that is analogous to that of English prefixes, Russian verbal prefixes resemble English adverbial particles in their semantic functions, also indicating various qualities of actions and states. Like adverbial particles in English, Russian prefixes are lexically strong. For example, the Russian prefix "раз-" denotes 1) division into parts (раскрошить); 2) distribution, direction of action in different directions (разъехаться); 3) action in reverse (разминировать); 4) termination of action or state (разлюбить); 5) intensification of action (расплясаться) [The Oxford Russian Dictionary]. Thus, in translation from English into Russian, the meaning of the English adverbial component of the phrasal verb is mostly conveyed by using the Russian prefix that reflects the character of the described action or state most accurately. To a greater degree, this refers rather to nuances of semantics than grammar. 
+
+   When dealing with translation of English phrasal verbs or pre-analysis of their adverbial elements' meaning, one should always keep in mind their astounding polysemy, which sometimes borders on homonymy. Compare the following: take in 4 (to receive sb in one's home with welcome, as a guest) and take in 12 (to deceive sb) (Longman Dictionary of Phrasal Verbs). It holds true for Russian prefixes as well, the same ones rendering different shades of meaning in different uses (see examples above). That is why it seems almost impossible to create a consistent rigid system of lexical correspondences between English adverbial particles and Russian prefixes, without encountering numerous debatable problems. 
+
+   Strictly speaking, proper translation of English phrasal verbs to a high degree depends on the context in which they are used, which suggests the appropriate interpretation of the described action. Having stated the specific characteristics of the action denoted by a certain phrasal verb, one can seek a Russian counterpart prefix, which is the closest in rendering the same idea and meets the lexical and grammatical requirements of translation into the target language. 
+
+    For example, the sentence "The attack had gone across the field, been held up by machine-gun fire from sunken road, encountered no resistance in the town, and reached the bank of the river" [E. Hemingway, A Way You'll Never Be] should be translated as «Атака развертывалась на лугу и была приостановлена пулеметным огнем с дорожной выемки, не встретила отпора в городе и закончилась на берегу реки». According to the Longman Dictionary of Phrasal Verbs, in the above context the phrasal verb hold up has the following meaning: 2. to delay (sth or sb). The Russian prefix "при-" adequately renders the idea that the attack was delayed just for a while. 
+
+   The sentences "There was a little fire there. Nancy built it up, when it was already hot inside" [W. Faulkner, That Evening Sun] have the following translation: «В очаге еще были горячие угли, она их раздула, и пламя вспыхнуло". The adverbial particle up in the phrasal verb build up imparts the idea of increasing the size of the fire and shows the intensification of the action. According to the definition given in the Oxford Russian Dictionary, the most appropriate Russian prefix should be "раз-", indicating the intensification of action. 
+
+   For the sentence "Three or four times while I was going through their envelopes, I was tempted to get up and make a formal protest to M.Yoshoto" [J. D. Salinger, De Daumier-Smith's Blue Period] the best translation would be "И когда я просматривал их работы, меня не раз так и подмывало вскочить и обратиться с официальным протестом к мосье Йошото", as there is a proper semantic correspondence between the adverbial element through in the phrasal verb going through and the Russian prefix "про-" in the verb "просматривал", both denoting exhaustive action. 
+
+  English phrasal verbs can be highly idiomatic, their meanings being unpredictable from the sum of their constituents' meanings (e.g. take in (to deceive), lay down (to build), let on (to tell a secret). In such cases, where the context or professional experience fail to reveal the sense of a phrasal verb, a good explanatory or bilingual dictionary can be of great help to the translator. For example, for a person who is not a native speaker of English, in the sentence "He liked to break in his assistants slowly" neither the context, nor the adverbial element of the phrasal verb hint at the real meaning of the combination break in. According to the Longman Dictionary of Phrasal Verbs, the phrasal verb break in has the following "unexpected" meaning: 4. to help (smb) to become accustomed (to work, etc.) . The Russian edition of this very dictionary (Английские фразовые глаголы. Англо-русский словарь, Russkiy Yazyk Publishers, Moscow, 1997) treats this meaning in the same way: 4. вводить (кого-л.) в курс (новой работы и т.п.). 
+
+    I think that a thorough study and consequent understanding of semantic correspondences in the English and Russian verbal systems can be quite a powerful tool in the translator's arsenal. 
+
+
+
+
+
+    
+
+Practical translation 
+
+The Porsche crept along the street like a sleek black panther. Hugging the curb, its engine purred so deep and low it sounded like a predator’s growl. 
+
+Marnie Hibbs was kneeling in the fertile soil of her bed, digging among the impatiens under the ligustrum bushes and cursing the little bugs that made three meals a day of them, when the sound of the car’s motor attracted her attention, she glanced at it over her shoulder, then panicked as it came to stop on front of her house. 
+
+“Lord, is it that late?” she muttered. Dropping her trowel, she stood up and brushed the clinging damp earth of her bare knees. 
+
+She reached up to push her dark bangs off her forehead before she realized that she still had on her heavy gardening gloves. Quickly she peeled them off and dropped them beside the trowel, all the while watching the driver get out of the sport car and start up her front walk. 
+
+Glancing at her wristwatch, she saw that she hadn’t lost track of time. He was just very early for their appointment, and as a result, she wasn’t going to make a very good first impression. Being hot, sweaty, and dirty was no way to meet a client. And she needed this commission badly. 
+
+Forcing a smile, she moved down the sidewalk to greet him, nervously trying to remember if she had left the house and studio reasonably neat when she decided to do an hour’s worth of yard work. She had planned to tidy up before he arrived. 
+
+She might look like the devil, but she didn’t want to appear intimated. Self-confident friendliness was the only way to combat the disadvantage of having been caught looking her worst.
+
+He was still several yards away from her when she greeted him. “Hello”, she said with a bright smile. 
+
+“Obviously we got our signals switched. I thought you weren’t coming until later.”
+“I decided this diabolical game of yours had gone on long enough.”
+
+Marnie’s sneakers skidded on the old concrete walk as she came to an abrupt halt. She titled her head in stunned surprise. “I’m sorry, I –“
+
+“Who the hell are you, lady?”
+“Miss Hibbs. Who do you think?”
+“Never heard of you. Just what the devil are you up to?”
+“Up to?” She glanced around helplessly, as though the giant sycamores in her front yard might provide an answer to this bizarre interrogation. 
+“Why’ve you been sending me those letters?”
+“Letters?”
+
+He was clearly furious, and her lack of comprehension only seemed to make him angrier. He bored down on her like a hawk on a field mouse, until she had to bow her back to look up at him. The summer sun was behind him, casting him in silhouette. 
+
+He was blond, tall, trim, and dressed in casual slacks and a sport shirt – all stylish, impeccably so. He was wearing opaque aviator glasses, so she couldn’t see his eyes, but if they were as belligerent as his expression and stance, she was better off not seeing them. 
+
+“I don’t know what you are talking about.”
+“The letters, lady, the letters.” He strained the words through a set of strong white teeth. 
+“What letters?”
+“Don’t plat dumb.”
+“Are you sure you have got the right house?”
+
+He took another step forward. “I have got the right house”, he said in a voice that was little more than a snarl. 
+
+“Obviously you don’t.” She didn’t like being put on the defensive, especially by someone she’d never met over something of which she was totally ignorant. “You are either crazy or drunk, but in any case, you’re wrong. I’m not the person you are looking for and I demand that you leave my property. Now.”
+
+“You were expecting me. I could tell by the way you spoke you me.”
+“I thought you were the man from the advertising agency.”
+“Well, I’m not.”
+“Thanks God.” She would hate having to do business with someone this irrational and ill-tempered.
+“You know damn well who I am”, he said, peeling off the sunglasses. 
+
+Marnie sucked in a quick, sharp breath and fell back a step because she did indeed know who he was. She raised a hand to her chest in an attempt at keeping her jumping heart in place. “Law”, she gasped… 
+
+Sandra Brown “Long Time Coming”
+
+
+Порше медленно крался вдоль улицы, как будто черная лоснящаяся пантера. Обнимая обочину, его двигатель урчал подобно рычанию  хищника. 
+
+Марни Хиббс стояла на коленях на плодородной почве своей клумбы, копаясь под кустами и проклиная маленьких жучков, которые едят их трижды за день, когда звук мотора машины привлек ее внимание. Она взглянула на нее через плечо и занервничала, так как машина остановилась перед ее домом. 
+
+Боже, неужели я опоздала? – пробормотала она. Бросив лопатку, она встала и стряхнула прилипшую к ее голым коленям сырую землю. 
+
+Она подняла руки, чтобы поправить свою темную челке на лбу, как поняла, что на ней до сих пор одеты тяжелые садовые перчатки. Она быстро стянула их и кинула к ллопатке, все продолжая смотреть на водителя, который вышел из спортивной машины и появился на дорожке. 
+
+Взглянув на свои наручные часы, она поняла, что не виновата. Он просто приехал на встречу слишком рано и, как результат, она не подготовилась как следует, чтобы произвести хорошее впечатдение. Она была разгоряченной, встпотевшей и грязной, и это был не самый лучший вид, в котором можно встречать клиента. А эта встреча была ей очень нужна.
+
+С натянутой улыбкой она вышла на тротуар поприветсвовать его, нервно вспоминая оставила ли она дом и студию в порядке, когда решила часик поработать во дворе. Она планировала навести порядок до того, как он приедет. 
+
+Она могла выглядеть как чертенок, но ей совсем не хотелось выглядеть испуганной. Самоуверенное дружелюбие было единственным способом скрасить то состояние, в котором она была застигнута. 
+
+Он был в несколькоих ярдах от нее когда она сказала:
+
+Привет!
+Очевидно наши сигналы выключены., я думал, вы не подойдете. 
+Я решила, что эта ваша чертовская игра продолжается уже достаточно долго. 
+
+Полукеды Марни спотыкались на старой дорожке, как будто она хромала. Она наклонила голову в ошеломляющем удивлении. 
+
+Извините, я...
+Кто вы?
+Мисс Хиббс. А кто вы думали?
+Никогда не слышал о вас. Просто какого черта вы это делаете?
+Что делаю? – она беспомощно оглянулась вокруг, как будто гигантские платаны в ее переднем дворе могли предложить ей ответ на этот странный вопрос.
+Почему вы посылали мне те письма?
+Письма?
+
+Он был взбешен и ее недопонимание, казалось,только делало его еще более злым. Он сверлил ее глазами как ястреб полевую мышь пока она не выпрямилась и не посмотрела на него. Летнее солнце было за его спиной, обрамляя его силуэт. 
+
+Он был блондин, высокий, стройный и был одет в обычные брюки и спортивню рубашку – все стильно и так безупречно. На нем были темные пилотские очки, так что она не видела его глаз, но если бы они были такие же воинственные, как и его выражение лица и стойка, она предпочла бы не видеть их. 
+
+Я не знаю о чем вы говорите.
+О письмах, леди, о письмах, - он выговаривал слова, показывая ряд крепких белых зубов. 
+Каких письмах?
+Не валяйте дурака.
+Вы уверены, что обратились по адресу?
+
+Он сделал шаг вперед.
+
+Я уверен,что обратился по адресу, - сказал он голосом, немного похожим на рычание.
+Очевидно нет, - ей не нравилось защищаться, особенно от того, кого она раньше никогда не видела и кто был полностью невежественен к ней. – Вы или ненормальный, или пьяный, но в любом случае, вы ошибаетесь. Я не тот человек, кого вы ищете и я прошу вас покинуть мой дом. Сейчас. 
+Вы ждали меня. Я могу судить об этом по той манере, как вы разговаривали со мной. 
+Я думала,что вы человек из рекламного агенства.
+Нет.
+Слава Богу! – ей бы не понравилось иметь дело с таким неразумным человеком с ужасным характером.
+Вы отлично знаете кто я, - сказал он, снимая очки. 
+Быстрый, острый вздох засосал Марни и она отступила на шаг, потому что она на самом деле знала, кто он. Она подняла руки к груди в попытке удержать выпрыгивающее сердце.
+
+Луи! – задыхаясь произнесла она... 
+
+Сандра Браун «Настанут лучшие времена»
+
+As we can see, phrasal verbs are widely spread in English literature. Translating phrasal verbs of this passage I had some difficulties because of difference in the meaning given in a dictionary and the contextual meaning. For example, the verb “to reach up” is translated like “протянуть руку ввeрх”, but this meaning isn’t suitable for the context. The sentence would sound like “Она протянула руку вверх, чтобы поправить челку” and it isn’t correct for the Russian language, because she didn’t stretch her arms. 
+The next phrasal verb is “to push off”. It is translated in the dictionary like “отталкивать, смываться” and this meaning isn’t suitable for the word “челка” in Russian completely. 
+The phrasal verb “to peel off” is translated in the dictionary like “слезать, облезать”. We can meet this verb twice in the passage: “to peel off gloves” and “to peel off glasses”. Both in the first and second cases the dictionary’s meaning isn’t suitable for the translation. It’s impossible “слезать перчатки” and “облезать очки”. Therefore I translated them like “стягивать” in the first case and “снимать” in the second. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Conclusion
+
+
+Discerned translating problems and difficulties don’t exhaust the all variety of complications in translation. They reflect only the fundamental, the most typical situations. Translating of English phrasal verbs is very important part of the science of translation because it couldn’t be a real good correct translation without correct translating of the phrasal verbs. Every translator should pay attention to the translation of the phrasal verbs and work hard with each phrasal verb. English and Russian lexical systems are so different that they demand the special approach to translating of each verb according to its contextual meaning. 
+
+
+
+
+

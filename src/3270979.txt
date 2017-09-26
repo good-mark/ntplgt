@@ -1,0 +1,187 @@
+
+          ﻿
+УДК.539.3
+Синтез микроактюатора дискретного действия по заданным функциональным параметрам
+С.С. Гаврюшин, A. Макмиллан, А.С. Подкопаева
+В настоящее время широкое распространение в технике получили микроэлектромеханические системы. Важнейшим компонентом данных систем является микроактюатор, позволяющий преобразовать внешнее воздействие в механическое перемещение. Определение рациональных параметров микроактюаторов представляет собой актуальную задачу, для решения которой требуется разработать методику проектирования микро-актюаторов. В статье предложена методика определения параметров мик-роактюатора дискретного действия, преобразующего давление в перемещение заданной величины. Описана математическая модель и численный алгоритм, предназначенный для анализа больших перемещений гибких тонкостенных оболочечных элементов. Алгоритм реализован в авторской программе, а также в среде конечно-элементного программного комплекса ANSYS с использованием оптимизационной программы PSE/MACROS. Приведены результаты численного синтеза реальной конструкции. Предложенная методика проектирования показала свою эффективность и может быть рекомендована для создания широкого круга микроэлектромеханических устройств.
+Ключевые слова: микроактюатор, тонкостенная оболочка, большие перемещения, нелинейное деформирование, оптимизация, синтез конструкции.
+Synthesis of discrete microactuators from specified functional parameters
+S.S. Gavryushin, A. McMillan, A.S. Podkopaeva
+Currently, microelectromechanical systems are widely used in technology. An important component of these systems is a microactuator converting an external action into mechanical motion. To determine the parameters of microactuators, a new design technique needs to be developed. The paper proposes a method of determining the parameters of discrete microactuators converting pressure into a prescribed displacement. A mathematical model as well as a numerical algorithm for the analysis of large displacements of flexible thin-walled structural elements is described. The algorithm was implemented in the software package developed by the authors and incorporated into theANSYS software using the optimization PSE/MACROS code. The results of numerical synthesis of an actual structure are presented. The proposed design technique has proven its efficiency and can be recommended for designing a wide range of microelectromechanical devices.
+Keywords: microactuator, thin-walled shell, large displacements, nonlinear deformation, optimization, synthesis of structures.
+ГАВРЮШИН Сергей Сергеевич (МГТУ им. Н.Э. Баумана)
+GAVRYUSHIN Sergey Sergeevich
+(Moscow, Russian Federation, Bauman Moscow State Technical University)
+МАКМИЛЛАН Алисон
+(Университет Глиндор)
+MCMILLAN Alison
+(Wales, Great Britain, Glyndwr University)
+ПОДКОПАЕВА Анна Сергеевна (МГТУ им. Н.Э. Баумана)
+PODKOPAEVA Anna Sergeevna
+(Moscow, Russian Federation, Bauman Moscow State Technical University)
+ТЭ рамках решения задачи модернизации и технологического переоснащения производства важное место занимает создание инновационной элементной базы микроэлектромеханических систем (МЭМС). Проектирование новых конструкций МЭМС подразумевает разработку методики анализа и синтеза элементов конструкций с заданными эксплуатационными характеристиками. К настоящему времени создан фундаментальный теоретический задел в области анализа нелинейных задач деформирования тонкостенных конструкций [1—6]. Широкое внедрение в практику инженерных расчетов современных численных алгоритмов и вычислительной техники [7—9] позволило решить широкий класс практических задач. Вместе с тем, развитие техники ставит перед исследователями новые задачи, к числу которых относится синтез актюаторных компонент МЭМС дискретного действия.
+Представляется перспективным использовать в качестве актюаторной компоненты гибкий тонкостенный оболочечный элемент, изготовленный современными методами [10, 11] из новых перспективных материалов, например, из кремния.
+Для создания численной модели используются разрешающие уравнения геометрически нелинейной лагранжевой теории тонких упругих стержней и оболочек. К особенностям записи определяющих соотношений следует отнести целенаправленное введение в уравнения двух и более независимых параметров, определяющих нелинейный процесс деформирования. Фактически уже на этапе построения численных моделей предопределяется, что каждая отдельная задача будет погружена в многопараметрическое семейство задач, описываемое системами дифференциальных уравнений в обыкновенных или частных производных [12]:
+Е(Х(1), Х(2)) = 0.	(1)
+Предполагается, что в общем случае, система (1), имеющая порядок m, содержит m неизвестных x((у = 1,2,...,т), являющихся внутренними параметрами, характеризующими состояние системы, и зависит от переменных х(2)(у = 1,2,...,«), которые трактуются, как
+внешние параметры, или параметры управления. Параметры управления для частного слу-
+чая (1) могут входить в описание геометрии элемента, свойств материала, условий закрепления, внешних термомеханических воздействий и т. д. Разделение параметров на две группы в определенной степени условно. В случае однопараметрического семейства вектор Х(2) определяется через одну независимую скалярную величину или один параметр — #:
+Х(2) = Х(2)(2).	(2)
+Совокупность всех решений (1) для заданного числа т+п внешних и внутренних параметров интерпретируется как некоторая поверхность (гиперповерхность) равновесных состояний, построенная в эвклидовом пространстве параметров Кт+п, а каждый однопа-раметрический процесс — как некоторая траектория на этой поверхности. В пространстве состояний всех систем можно описать последовательные равновесные состояния системы при монотонном изменении только одного из параметров х(2) (у £ [1,2,...,«]) при фиксированных значениях остальных п — 1 компонент. Такие процессы можно трактовать как однопара-метрические задачи. При этом единственный управляющий параметр удобно считать равноправным с остальными параметрами задачи, рассматривая его как (т+1)-ю неизвестную расширенного вектора Х и записывать систему уравнений, описывающих однопараметриче-ский процесс, в форме
+г(Х) = 0.	(3)
+Если порядок системы (3) равен т, то ее решение проводят с использованием дополнительного соотношения, содержащего независимую величину X, называемую параметром продолжения [13]:
+/ (Х, X ) = 0.	(4)
+Проекция поверхности равновесных состояний в подпространство управляющих параметров наряду с регулярными точками может иметь и особые точки, в которых малое изменение управляющих параметров может вызвать резкий переход системы в новое состояние — бифуркацию или катастрофу. В современной математике эта проблематика изучается в рамках направления, получившего название теория катастроф [14].
+При численном исследовании нелинейных задач важнейшим инструментом исследователя являются методы продолжения [13, 15]. В процессе счета значительные трудности возникают в окрестностях особых точек в силу нарушения условия единственности решений. Процедура реализации счета при прохождении окрестности предельных точек предложена Н.В. Вали-швили (1968) и известна как прием смены параметра [13]. Особенности коразмерности два и выше можно устранить посредством шевеления параметров системы, что принципиально позволяет выбрать траекторию процесса, проходящую мимо окрестностей таких особых точек. Обход производится с помощью приема смены подпространства управляющих параметров [12]. Суть приема заключается в следующем: при подходе к окрестности особой точки следует перейти к другой однопараметрической системе (3), для которой проекция равновесной поверхности на ось параметра управления в рассматриваемом диапазоне его изменений не имеет особенностей коразмерности выше первой. Стратегия численного исследования представляет собой кусочно-гладкий процесс продолжения решения по параметру в пространстве состояний всех систем, причем на каждом гладком участке процесса численный анализ сводится к решению однопараметрической задачи.
+Для описания нелинейного деформирования использовался вариант теории тонких упругих оболочек типа Рейсснера [6, 12, 13]:
+йп
+о
+йу йЯ о
+й9
+йЯ о
+йи
+= (1 + е т о) ео!3 9 - ео!3 9 о;
+= (1 + ето)^9 - 9
+о
+= (1 + е т о)кт о +
+йЯ,
+= -(1 + е т о )
+о
+ео8 9
+йУ
+йЯ о
+М
+йЯ о
+X о + п
+и-
+N
+X о + п
++ 4п
+(5)
+= -(1 + е т о) = -(1 + е т о)
+ео89 ^ X о + п
+ео8 9 X о + п
+(Мт - И, )-
+и 8т 9 + У ео8 9],
+где
+то
+=1 (и ео8 9 + У 8т 9)- цп; В	Xп
+к = Мт,
+кт о	^
+Ц-
+X о + п
+X.
+9
+9 о ^
+X о + п
+X,
+о
+N1 = ц(и ео8 9 + У 8т 9) + ЕН —;
+X п
+ЕН
+М( = ЦМт + —
+X о + п
+X.
+9
+9 о ^
+В =
+ЕН
+Б =
+X о + п
+ЕН3
+X
+о /
+(6)
+1-ц"" 12(1-Ц 2 )■
+Здесь X — координата текущей точки срединной поверхности; — координата, отсчитываемая вдоль дуги недеформированного меридиана оболочки; п, V, и, У — горизонтальные и вертикальные компоненты перемещений и интенсивности внутренних усилий, соответственно; 9 — угол наклона касательной к меридиану; ет и кт — линейные деформации и кривизны; Мт и М — интенсивности внутренних сил и моментов; qп и qv — компоненты внешнего давления; Е — модуль упругости; ц — коэффициент Пуассона; Н — толщина оболочки. Величины, соответствующие меридиональному направлению, помечены индексом т, а окружному — Нижним индексом «о» помечены величины, относящиеся к исходному состоянию оболочки.
+Приведенные выше соотношения и изложенный алгоритм использованы для решения задачи выбора рациональных параметров мик-роактюатора дискретного действия, изготовленного из кремния. Микроактюатор в форме сферического тонкостенного элемента предназначен для механического переключения. При заданном значении внешнего давления Р* он должен обеспечить заданную величину перемещения контакта — V*. Упругая характеристика микроактюатора представлена на рис. 1.
+Исходные данные для проведения исследований приведены ниже: Ят = 2,8...3,2 мм; Н = 2...5 мкм; критерий Р* = о,о5 МПа; критерий V* = 24 мкм; материал оболочки — кремний; модуль упругости Е = 1,5 • Ю11 Па; коэффициент Пуассона ц = о,23.
+Давление Р
+							Г	1рох!поттЬгвание								
+														Л		
+														it		
+	eve foii'iptnasj ветвь															
+О
+v * Прогиб v
+Рис. 1. Упругая характеристика микроактюатора
+В задаче оптимизации варьируемыми параметрами являются радиус кривизны меридиана оболочки Rm и ее толщина h. Радиус опорного контура вследствие особенностей конструкции остается неизменным. Требуется подобрать такие геометрические параметры, чтобы значения критического давления P* и соответствующего прогиба оболочки v * совпали с требованиями заказчика.
+Функциональные зависимости между критериями и параметрами не заданы в явной форме, а вычисляются по известному алгоритму методом конечных элементов [16—18]. Вариант решения задачи в среде конечно-элементного комплекса ANSYS приведен ниже.
+Задача решается в осесимметричной постановке. Оболочка моделируется с помощью конечных элементов PLANE182. Оболочка шар-нирно закреплена по внешнему контуру и нагружена равномерным давлением. Анализ проводится методом продолжения по параметру согласно алгоритму дуговых засечек (the arc-length method) [19].
+Для решения задачи оптимизации используется программный комплекс PSE/MACROS [20]. Блок-схема процедуры решения представлена на рис. 2.
+Блок «Оптимизатор» содержит информацию о параметрах, ограничениях и целевых функциях и осуществляет управление процессом решения задачи. В данной задаче целевая функция не формулировалась, были поставлены функциональные ограничения. Решение в программе PSE/MACROS проводилось методом
+Рис. 2. Блок-схема процедуры решения в PSE/MACROS
+робастной многокритериальной оптимизации (Robust multi-objective optimization).
+Исходный файл на языке ANSYS Parametric Design Language (APDL) для расчета в конечно-элементном комплексе ANSYS подготавливается заранее. В ходе оптимизации этот файл корректируется: в него подставляются новые значения варьируемых параметров (значения радиуса кривизны меридиана оболочки Rm и ее толщины h). По результатам расчета определяется упругая характеристика (v;(P;)}, i = 1,...,n, представляемая в дискретной форме. Значение критического давления P* и соответствующее ему после прохлопывания перемещение центральной точки оболочки v* определяются в подпрограмме, написанной на языке Python [21]. Если полученное решение не удовлетворяет требованию точности, «Оптимизатор» варьирует параметры и процедура решения выполняется снова. В ходе решения оптимизационной задачи было рассмотрено 80 реализаций (80 различных комбинаций геометрических параметров). Характер изменения варьируемого параметра (радиуса Rm) в процессе оптимизации показан на рис. 3.
+Проекция четырехмерного пространства на критериальную плоскость P—v позволяет вы-
+Номер реализации
+Рис. 3. Изменение параметра Rm
+брать требуемое решение (рис. 4) [22]. Для обеспечения требуемого контактного усилия необходимо, чтобы перемещение центральной точки микроактюатора было не меньше заданного. Рациональное решение соответствует следующим значениям геометрических параметров: Яш = 3,09 мм, h = 2,23 мкм.
+0,1495
+0,1268 С 0,1041
+5
+0,0815
+0,0588 Р
+								••		•				mm\	
+							•								
+					С o.os s 0,0499				•					•	
+	m			■											
+------	M	F*.	•	■Mi	23	9965 23,997 23,9975 23,99823,9985 23,999 23,9995 24 24,0005 24,00 V , MKM									
+0,0361
+23 23,5 V* = 24 24,5 25 25,5 26 26,5 27 27,5 28 V, мкм
+Рис. 4. Критериальная плоскость P—v
+Предложенная методика проектирования актюаторов дискретного действия по заданным функциональным параметрам доказала свою эффективность и может быть рекомендована для создания широкого круга исполнительных, предохранительных и коммутационных микроэлектромеханических устройств.
+Литература
+[1]	Тимошенко С.П. Устойчивость стержней, пластин и оболочек. Москва, Наука, 1971. 808 с.
+[2]	Ворович И.И. Математические проблемы нелинейной теории пологих оболочек. Москва, Наука, 1989. 376 с.
+[3]	Феодосьев В.И. Осесимметричная эластика сферической оболочки. Прикладная математика и механика, 1969, т. 33, № 2, с. 280—286.
+[4]	Григолюк Э.И. Тонкие биметаллические оболочки и пластины. Инженерный сборник, 1953, т. 17, с. 69—120.
+[5]	Новожилов В.В. Теория тонких оболочек. Санкт-Петербург, Издательство Санкт-Петербургского университета, 2010. 380 с.
+[6]	Reissner E. On axisymmetrical deformations of thin shells of revolution. Proc.Symp.Appl.Math, 1950, vol. 3, pp. 27—52.
+[7]	McMillan A.J., Keane A.J. Vibration isolation in a thin rectangular plate using a large number of optimally positioned. Journal of Sound and Vibration, 1997, vol. 202, no. 2, pp. 219—234.
+[8]	Bich D.H., Tung H.V. Non-linear axisymmetric response of functionally graded shallow spherical shells under uniform external pressure including temperature effects. International Journal of Nonlinear Mechanics, 2011, vol. 46, no. 9, pp. 1195—1204.
+[9]	Li Q.S., Liu J., Tang J. Buckling of shallow spherical shells including the effects of transverse shear deformation. International Journal of Mechanical Sciences, 2003, vol. 45, no. 9, pp. 1519—1529.
+[10]	Petersen K.E. Silicon as a mechanical material. Proceedings of the IEEE, 1982, vol. 70, no. 5, pp. 420—457.
+[11]	§tefanescu D.M. Handbook of force transducers: principles and components. Berlin, Springer-Verlag, 2011. 612 p.
+[12]	Гаврюшин С.С. Чиcлeннoe мoдeлиpoвaниe и анализ процессов нелинейного деформирования гибких оболочек. Известия Академии наук СССР. Механика твердого тела, 1994, № 1, с. 109—119.
+[13]	Валишвили Н.В. Методы расчета оболочек вращения на ЭЦВМ. Москва, Машиностроение, 1976. 278 с.
+[14]	Арнольд В.И. Теория катастроф. Москва, Наука, 1990. 128 с.
+[15]	Григолюк Э.И., Шалашилин В.И. Проблемы нелинейного деформирования: Метод продолжения по параметру в нелинейных задачах механики твердого деформируемого тела. Москва, Наука, 1988. 232 с.
+[16]	Bathe K.-J. Finite element procedures in engineering analysis. New Jersey, Prentice-Hall, 1996. 1050 p.
+[17]	Zienkiewicz O.C. The Finite Element Method. New York, MacGrow-Hill, 1977. 737 p.
+[18]	Lee J.J., Oh I.-K., Lee I., Rhiu J.J. Non-linear static and dynamic instability of complete spherical shells using mixed finite element formulation. International Journal of Nonlinear Mechanics, 2003, vol. 38, no. 6, pp. 923—934.
+[19]	Crisfield M.A. A Fast Incremental/Iterative Solution Procedure that Handles «Snap Through». Computer & Structures, 1981, vol. 13, pp. 55-62.
+[20]	Generic Tool for Optimization. Available at: http://www. datadvance. net/products/ technology/ generic-tool-for-optimization. html (accessed 11 November 2013).
+[21]	The Python Tutorial. Available at: http://docs.python.org /3/tutorial/index.html (accessed 11 November 2013).
+[22]	Соболь И.М., Статников Р.Б. Выбор оптимальных параметров в задачах со многими критериями. Москва, Дрофа, 2006. 175 с.
+References
+[1]	Timoshenko S.P. Ustoichivost' sterzhnei, plastin i obolochek [Stability of rods, plates and shells]. Moscow, Nauka publ., 1971. 808 p.
+[2]	Vorovich I.I. Matematicheskie problemy nelineinoi teorii pologikh obolochek [Mathematical problems of the nonlinear theory of shallow shells]. Moscow, Nauka publ., 1989. 376 p.
+[3]	Feodos'ev V.I. Osesimmetrichnaia elastika sfericheskoi obolochki [Axisymmetric elastic spherical shell]. Prikladnaia matematika i mekhanika [Journal of Applied Mathematics and Mechanics]. 1969, vol. 33, no. 2, pp. 280—286.
+[4]	Grigoliuk E.I. Tonkie bimetallicheskie obolochki i plastiny [Bimetallic thin shell and plate]. Inzhenernyi sbornik [Engineering collection]. 1953, vol. 17, pp. 69—120.
+[5]	Novozhilov V.V. Teoriia tonkikh obolochek [The theory of thin shells]. St. Petersburg, St. Petersburg University publ., 2010. 380 p.
+[6]	Reissner E. On axisymmetrical deformation of thin shells of revolution. Proc. Sympos. Appl. Math., 1950, vol. 3, 27-52.
+[7]	McMillan A.J., Keane A.J. Vibration isolation in a thin rectangular plate using a large number of optimally positioned. Journal of Sound and Vibration, 1997, vol. 202, no. 2, pp. 219—234.
+[8]	Bich, D.H., Tung, H.V. Non-linear axisymmetric response of functionally graded shallow spherical shells under uniform external pressure including temperature effects. International Journal of Nonlinear Mechanics, 2011, vol. 46, no. 9, pp. 1195—1204.
+[9]	Li Q.S., Liu J., Tang J. Buckling of shallow spherical shells including the effects of transverse shear deformation. International Journal of Mechanical Sciences, 2003, vol. 45, no. 9, pp. 1519—1529.
+[10]	Petersen K.E. Silicon as a mechanical material. Proceedings of the IEEE, 1982, vol. 70, no.5, pp. 420—457.
+[11]	§tefanescu D.M. Handbook of force transducers: principles and components. Berlin, Springer-Verlag, 2011. 612 p.
+[12]	Gavriushin S.S. Chiclennoe modelipovanie i analiz protsessov nelineinogo deformirovaniia gibkikh obolochek [Chiclennoe modelipovanie and analysis of the processes of nonlinear deformation of flexible shells]. Izvestiia Akademii nauk SSSR. Mekhanika tverdogo tela [Proceedings of the Academy ofSciences of the USSR. Mechanics of rigid body]. 1994, no. 1, pp. 109—119.
+[13]	Valishvili N.V. Metody rascheta obolochek vrashcheniia na ETsVM [Methods for calculating the shells of revolution on a computer]. Moscow, Mashinostroenie publ., 1976. 278 p.
+[14]	Arnol'd V.I. Teoriia katastrof [Catastrophe Theory]. Moscow, Nauka publ., 1990. 128 p.
+[15]	Grigoliuk E.I., Shalashilin V.I. Problemy nelineinogo deformirovaniia: Metod prodolzheniia po parametru v nelineinykh zadachakh mekhaniki tverdogo deformiruemogo tela [Problems of nonlinear deformation: continuation method in nonlinear problems of mechanics of deformable bodies]. Moscow, Nauka publ., 1988. 232 p.
+[16]	Bathe K.-J. Finite element procedures in engineering analysis. New Jersey, Prentice-Hall, 1996. 1050 p.
+[17]	Zienkiewicz O.C. The Finite Element Method. New York, MacGrow-Hill, 1977. 737 p.
+[18]	Lee J.J., Oh I.-K., Lee I., Rhiu J.J. Non-linear static and dynamic instability of complete spherical shells using mixed finite element formulation. International Journal of Nonlinear Mechanics, 2003, vol. 38, no. 6, pp. 923-934.
+[19]	Crisfield M.A. A Fast Incremental/Iterative Solution Procedure that Handles «Snap Through». Computer & Structures, 1981, vol. 13, pp. 55-62.
+[20]	Generic Tool for Optimization. Available at: http://www. datadvance. net/products/ technology/ generic-tool-for-optimization. html (accessed 11 November 2013).
+[21]	The Python Tutorial. Available at: http://docs.python.org /3/tutorial/index.html (accessed 11 November 2013).
+[22]	Sobol' I.M., Statnikov R.B. Vybor optimal'nykh parametrov v zadachakh so mnogimi kriteriiami [Choice of optimal parameters in problems with many criteria]. Moscow, Drofa publ., 2006. 175 p.
+Статья поступила в редакцию 04.12.2013
+Информация об авторах
+ГАВРЮШИН Сергей Сергеевич (Москва) — доктор технических наук, профессор, зав. кафедрой «Компьютерные системы автоматизации производства». МГТУ им. Н.Э. Баумана (105005, Москва, Российская Федерация, 2-я Бауманская ул., д. 5, стр. 1, e-mail: gss@bmstu.ru).
+МАКМИЛЛАН Алисон (Великобритания) — доктор технических наук, профессор. Университет Глиндор (Рэксем, Великобритания, Молд ул., e-mail: a.mcmillan@glyndwr.ac.uk).
+ПОДКОПАЕВА Анна Сергеевна (Москва) — аспирант кафедры «Динамика и прочность машин». МГТУ им. Н.Э. Баумана (105005, Москва, Российская Федерация, 2-я Бауманская ул., д. 5, стр. 1, e-mail: podkopaeva.anna@gmail.com).
+Information about the authors
+GAVRYUSHIN Sergey Sergeevich (Moscow) — Dr. Sc. (Eng.), Head of «Computer Systems of Automated Production» Department. Bauman Moscow State Technical University (BMSTU, building 1, 2-nd Baumanskaya str., 5, 105005, Moscow, Russian Federation, e-mail: gss@bmstu.ru).
+MCMILLAN Alison (Great Britain) — Dr. Sc. (Eng.), Professor. Glyndwr University (Glyndwr University, LL11 2AW, Mold Road, Wrexham, Great Britain, e-mail: a.mcmillan@glyndwr.ac.uk).
+PODKOPAEVA Anna Sergeevna (Moscow) — Post-Graduate of «Dynamics and Strength of Machines» Department. Bauman Moscow State Technical University (BMSTU, building 1, 2-nd Baumanskaya str., 5, 105005, Moscow, Russian Federation, e-mail: podkopaeva.anna@gmail.com).

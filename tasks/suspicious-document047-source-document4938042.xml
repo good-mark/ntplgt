@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<document reference="047.txt">
+	<feature name="plagiarism" obfuscation="LPR" source_language="ru" source_length="266" source_offset="6092" source_reference="4938042.txt" this_language="ru" this_length="242" this_offset="9896" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="LPR" source_language="ru" source_length="167" source_offset="6360" source_reference="4938042.txt" this_language="ru" this_length="147" this_offset="10139" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="LPR" source_language="ru" source_length="126" source_offset="6528" source_reference="4938042.txt" this_language="ru" this_length="141" this_offset="10287" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="SSP" source_language="ru" source_length="137" source_offset="6655" source_reference="4938042.txt" this_language="ru" this_length="35" this_offset="10429" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="SSP" source_language="ru" source_length="137" source_offset="6655" source_reference="4938042.txt" this_language="ru" this_length="102" this_offset="10465" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="HPR" source_language="ru" source_length="60" source_offset="6794" source_reference="4938042.txt" this_language="ru" this_length="44" this_offset="10568" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="DEL" source_language="ru" source_length="341" source_offset="6855" source_reference="4938042.txt" this_language="ru" this_length="291" this_offset="10613" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="DEL" source_language="ru" source_length="121" source_offset="7197" source_reference="4938042.txt" this_language="ru" this_length="101" this_offset="10905" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="CPY" source_language="ru" source_length="102" source_offset="7320" source_reference="4938042.txt" this_language="ru" this_length="103" this_offset="11007" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="SSP" source_language="ru" source_length="162" source_offset="7423" source_reference="4938042.txt" this_language="ru" this_length="61" this_offset="11645" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="SSP" source_language="ru" source_length="162" source_offset="7423" source_reference="4938042.txt" this_language="ru" this_length="100" this_offset="11707" txt_extraction_err="0" type="manual"/>
+</document>

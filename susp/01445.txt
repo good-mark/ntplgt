@@ -1,0 +1,159 @@
+
+          ﻿Автоматика. Информатика. Управление. Приборы
+УДК 681.5.011: 504.062.2
+APPLICATION OF OPTIMAL CONTROL THEORY TO HYBRID OBJECTS TO MINIMIZE GREENHOUSE GASES EMISSIONS
+D. Yu. Muromtsev1, A. Traverso2, A. N. Gribkov1, I. A. Kurkin1
+Department «Design of Radioelectronic and Microprocessor Systems», TSTU (1); crems@crems.jesby.tstu.ru; University of Genoa, Italy (2)
+Key words and phrases: greenhouse gas emissions; hybrid object; optimal control; optimality criterion.
+Abstract: In this work we propose the classification of hybrid objects on the example of thermal objects in terms of various optimality criteria, the approach to using modified coefficients in optimality criteria for hybrid objects, allowing, in the calculation of optimal control functions, not only consider costs of different types of fuel, but also take into account specific greenhouse gases emissions for these types of control, production technology of heat or electricity. Using this approach to extend the functionality of existing optimal control systems does not require significant changes in algorithms and software, which significantly reduces the cost of modification. каф.
+Introduction
+Development of global industry and the growing anthropogenic impact on the environment is becoming an increasingly urgent problem of ecology and environmental protection. In this connection, problems of analysis of using optimality criteria of optimal control theory from a new point of view - reducing human impact on the environment are of considerable interest [1].
+Energy expenses of any process can be divided into two parts - the enthalpy difference of the initial and final products of the process and the energy consumption process, and energy losses. From the point of view of the laws of physics, it is impossible to reduce the enthalpy difference between the initial and final products of the process, but it is possible to reduce the parasitic energy loss.
+Applying complex types of control for reducing energy losses on parasitic processes, certain benefits based on deeper understanding of nature laws are gained.
+Historically, the purpose of energy efficiency control was to reduce expenses through saving energy for different processes and, consequently, reduce production costs. However, the existing methods of optimal control theory can be used to minimize human impact on the environment.
+Mathematical formulation of optimal control problem and analysis of optimal control criteria from the perspective of impact on environment are given in [2], the analysis of noise intensity effect on the functional to be minimized is given in [3].
+One of the main factors of human impact on the environment within the theory of global climate change is the steady increase of greenhouse gases concentration and emissions caused by the use of fossil combustible fuels [4].
+Taking into account the global climate change theory it is necessary to minimize cost of consumed amount of fuels, and also reduce greenhouse gases emissions. Thus, the same amount of heat produced from the combustion of coal on average releases twice as much carbon dioxide as from combustion of natural gas.
+In most industrial processes, thermal processes consume a significant portion of the energy.
+Classification of thermal objects
+Main classes of thermal objects divided into different groups by type of energy source and optimality criterion are shown in Figure [5 - 8].
+b)
+Main classes of thermal objects:
+a - simple objects; b - hybrid objects
+A wide class of thermal objects uses steam and combustion products of liquid or gaseous fuels as heat transfer agents. These objects include heat exchangers, boilers, furnaces for heating liquid products, evaporators, dryers, etc.
+In problems of energy-saving control for hybrid objects combined functional with a weighted sum of energy costs and consumed fuel, or consumed fuel of various types, are normally used as as optimality criterion.
+Б.В. Здравомыслова. М., 1996. С. 18; Уголовный за­ кон. Опыт теоретического моделирования / Отв. ред. В.Н. Кудрявцев равно С.Г. Here, we distinguished two types of hybrid objects (see Figure, b) - objects that able to use various energy sources simultaneously and objects that able to use various energy sources only consistently. Thermal devices with electric drives are close to hybrid objects from mathematical models point of view.
+« бог, Бог, Творец, Всевышний и Аллах Господь не несет ответственности за что-либо греховное или праведные проступки».
+The first class are one-dimensional objects or SISO-objects (Single-Input SingleOutput), linked by common constraints on performance targets, limits of energy and other resources. A typical example of such an object is a segment of heat treatment with a group of chamber furnaces. The problem of energy-efficient control of such objects is in a close connected with task of planning of equipment load.
+The second class is objects with similar inputs and outputs, whose decomposition or discretization results into objects with distributed parameters for separate zones (areas). An example of such an object is a multi-zone electric furnace, where workpieces are heat-treated, sequentially moving through furnace zones with different temperatures. Here, the inputs are voltages (or currents) supplied to heating elements, and outputs are temperatures in furnace zones. An important feature of these objects is a significant mutual influence of temperaturemodes on neighboring zones.
+The third class is multidimensional hybrid objects, with input components different in nature. For example, some drying units use electric heating and steam heating.
+Generally, multi-dimensional objects can contain any cross-linkages between state variables and control actions. Objects with Multiple Inputs and Single Output (MISO-system) and a Single-Input Multiple-Output (SIMO-system) can be considered as special cases.
+If you will change types of fuels, then greenhouse gas emissions will change too, but kind of control actions remain unchanged, i.e. value of criterion at the extremum point will change, leaving position of the extremum point.
+The situation is similar to the criterion Je, in terms of different ways to generate electricity. Partly the question of choice of fuel and type of generation is solved by minimizing expenses of primary energy. For simple objects (working on one type of energy source) control actions with consideration of greenhouse gas emissions compared with Je or J f will be the same.
+The situation becomes more interesting when considering hybrid objects.
+Hybrid objects are objects that have multiple controls with various type of fuels, such as heating systems (with the possibility of electric heating), industrial electric machines, hybrid cars, etc.
+For hybrid objects with consideration of greenhouse gas emissions, control actions will be changed depending on the type of fuel used, and technologies for production of heat and electricity used, etc. For example, using pellets or timber for heating, it is believed that carbon dioxide obtained during burning will be absorbed by vegetation in the next three years, in contrast to fossil fuels, and using the electricity from hydropower plants, carbon dioxide emissions is almost no comparison with emissions in equal amount of generated electricity on Combined Heat and Power (CHP) plant.
+Optimal control for hybrid objects, taking into account impact on the environment nowadays is not enough studied. However, using of criteria and weighting factors that take into account greenhouse gas emissions, is an additional reserve to reduce anthropogenic influence on the environment from theory of global climate change perspective.
+Optimality criteria for hybrid objects with modified coefficients
+It is believed that out of variety of greenhouse gases carbon dioxide has the greatest impact on climate change [9]. Later, in calculating greenhouse gas emission factors, we refer to carbon dioxide emissions.
+It is proposed to introduce emission factors per unit of energy in optimality criteria taking into account carbon dioxide emissions.
+In practice, most industrial facilities are hybrid MIMO-objects. In these objects, there are several different types of control that can be associated with various types of fuels or technologies of energy production.
+11; Уголовное правеко Российской Федерации. Общая часть и доза / Под ред. Б.В. Здравомысловов. М., 1996. С.
+Table 1 shows comparative indicators of carbon dioxide emissions for common fuels and different technologies of thermal and electricity energy production [10]. However, calculation should take into account that greenhouse gases from bio-fuels within the next three years will be absorbed by vegetation.
+Specific emissions of carbon dioxide to produce heat energy are shown in Table 2
+[11].
+Table 1
+Comparative indicators of carbon dioxide emissions
+Technology and Fuel	Emissions of carbon dioxide equivalent, lbs per MMBtu
+Natural gas (TPP*), thermal	137.6
+Natural gas (CHP), thermal	146.3
+Biofuels (green wood), thermal	182.5
+Pyrolysis of biomass, thermal	182.5
+Oil (TPP), thermal	217.4
+Oil (CHP), thermal	231.9
+Wood pellets, thermal	253.7
+Gasification of biomass (cellulosic ethanol)	254.5
+Gasification of biomass (green wood)	287.6
+Green wood, thermal	287.6
+Green wood (CHP), thermal	287.6
+Cord wood, thermal	317.2
+Natural gas, electrical	354.5
+Coal, electrical	641.6
+Coal and biomass (20 % wood), electrical	684.3
+Green wood, electrical	862.7
+* TPP - Thermal Power Plant.
+ред. В.Н. Кудрявцев равно С.Г. Келина. М, 1987. The basic requirement for coefficients is to use coefficients of the same unit while formulating the optimality criterion for concrete object. As shown above, weighting factors are included in optimality criterion as a linear factor, that is, when unit weight will change, only the value of the criterion changes, but the extremum point of the criterion remains the same.
+However, for efficiency of enterprise, it is required that criteria take into account not only emissions but also the price of fuel. For example, for the USA data about average cost of fuel are shown in Table 3 [12].
+As you can see from the Table 3, while in 2002 the cost of obtaining thermal energy from oil and natural gas was comparable. But as you can see from the Table 2, emissions of carbon dioxide in production of thermal energy by using a CHP technology and natural gas is up to 1.585 times less than that using oil. Thus, if you can choose fuel, you can reduce emissions at the same price of fuel.
+By 2012, the cost of producing thermal energy from natural gas was 365 times lower than that from oil at the same ratio of carbon dioxide specific emissions. Thus, in production of thermal energy in the United States in 2012 it was much more favorable to use natural gas as fuel, not only for environmental reasons (1.585), but also in terms of profits (3.65). When using hybrid objects, you are always able to find a compromise between profit and impact on the environment.
+Average cost of fossil fuels in USA
+	Coal		Petroleum		Natural Gas
+Period	Dollars	Dollars	Dollars	Dollars	Dollars
+	per MMBtu	per Ton	per MMBtu	per Barrel	per MMBtu
+2002	1.25	25.52	3.34	20.77	3.56
+2003	1.28	26.00	4.33	26.78	5.39
+2004	1.36	27.42	4.29	26.56	5.96
+2005	1.54	31.20	6.44	39.65	8.21
+2006	1.69	34.09	6.23	37.66	6.94
+2007	1.77	35.48	7.17	43.50	7.11
+2008	2.07	41.14	10.87	64.89	9.02
+2009	2.21	43.74	7.02	41.64	4.74
+2010	2.27	44.64	9.54	56.35	5.09
+2011	2.39	46.65	12.48	73.29	4.72
+2012	2.38	46.09	12.48	73.30	3.42
+In practice, for hybrid objects with simultaneous use of various energy sources a combined criterion is traditionally used
+Je, f = j(clue (t) + ¿2 \Uf (()) •
+or
+te	te
+Je, f = C1 jU1 (()dt + C2 J\uf (t)dt .	(1)
+f0 t0
+where c1 is the coefficient determined by the specific cost of electricity power, and c2 is the coefficient determined by the specific cost of used fuel per heat power.
+Unfortunately, this approach does not take into account environmental aspects of using o fossil fuels and electricity generation technologies.
+Let's introduce the second function in the optimality criterion
+J{3 = j (( (t) + C2 \uf (t)) dt + pj ( (t) + g 2 \uf (t)) dt,
+t0 f0
+where p is priority of functional of emissions, p e 0;min|—, — I ; g1 is the
+L I g1 g 2 )\
+coefficient determined by specific emission of greenhouse gases per unit of electrical energy for generation technology; g 2 is the coefficient determined by specific emission of greenhouse gases per unit of thermal energy for the used technology.
+This type of criterion enables to take into account greenhouse gases for the calculation of control actions. The higher p is, the more weight in determining the control actions will play an ecological factor. With smaller p the greater role is played
+by the price factor of fuel. If p = mini —, ■C2 I, then for the most favorable control
+I g1 g 2 )
+type (price/emissions) the criteria of environmental factor and profit have equal weight.
+0
+After simplification we obtain
+te	te	te	te
+Jemf = C1 j(t)dt + c2 j| u f (t)| dt + pgi ju? (t) dt + pg2 j| uf (t) dt;
+t0 f0 f0 f0 te	te
+Jemf} = (C1 + pgl) j u2 (t) dt + (C2 + pg2 ) j |u f (t) dt.	(2)
+t0 t0
+But equation (2) is equivalent to the formula (1) where
+„(m) =,
+Cj = Cj + pgj,	(3)
+where for considered case j = 1,2.
+Then criterion (1) comes to
+Jim = 1(2 (t) + c^l Uf (t))dt.	(4)
+t0
+Taking into account that the cost of each type of fuel and electricity is stored in the database and is regularly updated in the information control system by an operator, modification of the existing control systems requires adding an additional module to calculate coefficients for functional (1) with the current priority setting price/emissions, prices of used fuels and electricity, production technologies.
+This type of modernization for information control systems is very cheap, because it does not require development of a large volume of new algorithms and software, technical implementation, and can be implemented using a small software module.
+This work supported by the TEMPUS project grant 530620 and grants of the Russian Fund of Fundamental Research, projects number 14-08-00489-a, 14-08-00198-a, 12-08-00352-a.
+References
+1.	Capannelli G., Felice R.Di., Bianco V. Voprosy sovremennoi nauki i praktiki. Universitet im. V.I. Vernadskogo. 2013, no. 3 (47), pp. 232-236.
+2.	Kurkin I.A. Problemy tekhnogennoi bezopasnosti i ustoichivogo razvitiya: sbornik nauchnykh statei molodykh uchenykh. aspirantov i studentov (Problems of technogenic safety and sustainable development: a collection of scientific papers of young scientists and students), Tambov, 2014, issue 5, pp. 247-251.
+3.	Artemova S.V., Muromtsev D.Yu., Gribkov A.N. Transactions of the Tambov State Technical University, 2002. vol. 8. no. 3. pp. 402-409.
+4.	Weart S.R. Wiley Interdisciplinary Reviews: Climate Change, 2010, no. 1, pp. 67-81.
+5.	Muromtsev D.Yu. Metody i algoritmy sinteza energosberegayushchego upravleniya tekhnologicheskimi ob"ektami (Methods and algorithms for synthesis of energy-saving control technology objects), Tambov, Moscow, St. Petersburg, Baku, Vienna: Nobelistika, 2005, 202 p.
+Длина тела до 11,5 см, вытянутого хвостишка (в расправленном виде приобретающего клиновидную форму) до 5 см. Крыло через, на или в размахе чуть больше 5 см, длина лап до 2 см, конического клюва около 1 см. Окраска самцов и еле-еле более мелких самок очень похожа. Оперения верхних частей тел, включая кроющие, второстепенные и третьестепенные перья, землисто-бурого цвета. Первостепенные маховые перья плюс, равно, также и и кончики крыльев чёрные. Кроющие перья надхвостья белые с чёрной оторой (иногда с красноватым или розоватым оттенком), перья хвоста ржаво-коричневые. Голова по бокам и нижняя болт грязно-белые или палевые, по бокам с неяркими вкраплениями рыжего (более насыщенными у самцов, чем у самок).	Artemova S.V. Informatsionnaya sistema optimal'nogo upravleniya teplotekhnologicheskimi apparatami (Information system optimal control heat-technological devices), Moscow, St. Petersburg, Vienna, Hamburg: Izdatel'stvo MINTs, 2011, 234 p.
+7.	Muromtsev Yu.L., Muromtsev D.Yu., Pogonin V.A. Teoreticheskie osnovy energosberegayushchego upravleniya (Theoretical Foundations of energy-saving control), Moscow: Yanus-K, 2010, 286 p.
+8.	Muromtsev D.Yu., Pogonin V.A. Sistemy energosberegayushchego upravleniya (Energy-saving control system), Tambov: Izdatel'stvo Tambovskogo gosudarstvennogo tekhnicheskogo universiteta, 2006, 85 p.
+9.	Intergovernmental Panel on Climate Change. И для этого им даётся весь возможности. Однако предназначение частички служить целому, когда частью пытаются заменить целое, это называется помешательство. Summary for Policymakers. Intergovernmental panel on climate change, Geneva, Switzerland, 2007, 18 p.
+10.	Manomet Center for Conservation Sciences. Biomass Sustainability and Carbon Policy Study, available at: http://www.mass.gov/eea/docs/doer/renewables/ biomass/manomet-biomass-report-full-hirez.pdf (accessed 10 October 2014).
+11.	U.S. Energy Information Administration (EIA). Carbon Dioxide Emissions Coefficients, available at: http://www.eia.gov/environment/emissions/co2_vol_mass.cfm (accessed 10 October 2014).
+12.	U.S. Energy Information Administration (EIA). Receipts. Average Cost. and Quality of Fossil Fuels for the Electric Power Industry. 2002 through 2012, available at: http://www.eia.gov/electricity/annual/html/epa_07_01.html (accessed 10 October 2014).
+Исследование применения теории оптимального управления к гибридным объектам для минимизации выбросов парниковых газов
+Д. Ю. Муромцев, А. Траверсо, А. Н. Грибков, И. А. Куркин
+Кафедра «Конструирование радиоэлектронных и микропроцессорных систем», ФГБОУВПО «ТГТУ» (1); crems@crems.jesby.tstu.ru;
+Университет г. Генуя, Италия (2)
+Ключевые слова и фразы: выбросы парниковых газов; гибридный объект; критерий оптимальности; оптимальное управление.
+Аннотация: Дана классификация гибридных объектов на примере тепловых с точки зрения различных критериев оптимальности, предложен подход к использованию модифицированных коэффициентов критериев оптимальности для гибридных объектов, позволяющих, при расчете функций оптимального управления, не только учитывать стоимость различных видов топлива, но и удельные выбросы парниковых газов при данных типах управления с учетом технологии производства тепла, электричества. При использовании данного подхода для расширения функционирования существующих систем оптимального управления не требуется значительных изменений в алгоритмическом и программном обеспечении, что значительно снижает стоимость модификации. Расчет оптимального управления и определение времен переключения осуществляется по существующим алгоритмам, однако весовые коэффициенты для критерия оптимальности включают в себя так же удельные выбросы парниковых газов.
+Список литературы
+1.	Капаннелли, Г. Инновационные технологии для энергосбережения и экологического контроля: опыт ассоциации TICASS - регионального инновационного центра / Г. Капаннелли, Р. ди Феличе, В. Бианко // Вопр. соврем. науки и практики. Ун-т им. В. И. Вернадского. - 2013. - № 3 (47). - С. 232 - 236.
+2.	Куркин, И. А. Анализ критериев оптимальности классической теории оптимального управления с точки зрения техногенного влияния на окружающую
+среду / И. А. Куркин, А. Н. Грибков // Проблемы техногенной безопасности и устойчивого развития : сб. науч. ст. молодых ученых. аспирантов и студентов / ФГБОУ ВПО «ТГТУ». - Тамбов, 2014. - Вып. Распространена в Южной и Юго-Западной Азии (как интродуцированный вид так в Пуэрто-Рико, на Гавайях и Тайване). Таксономия
+
+Описавший план, вид и облик или облик в 1758 году Карл Линней приписал его к клестам, дав видовое название Loxia malabarica. Затем вид был причислен к семейству вьюрковых ткачиков и в 1862 году получил от Людвигов Райхенбахов родовых имена Euodice. В середине 20 века обитающая в Азии малабарская амадина была выделена в отдельный вид от населяющей Африку серебряноклювой амадины Euodice cantans. В работе 1964 годочка Колин Харрисон доказывает, что генетически представители рода Euodice относятся к роду муний. С этого момента словно, словно, сиречь, как или якобы малабарская, так и серебряноклювая амадины классифицируются как представители рода Lonchura. - С. 247 - 251.
+3.	Влияние интенсивности помех на минимизируемый функционал при энергосберегающем управлении с оптимальной фильтрацией / С. В. Артемова [и др.] // Вестн. Тамб. гос. техн. ун-та. - 2002. - Т. 8, № 3. - С. 402 - 409.
+4.	Weart, Spencer R. The Idea of Anthropogenic Global Climate Change in the 20th Century / Spencer R. Weart // Wiley Interdisciplinary Reviews: Climate Change. -2010. - No. 1. - P. 67 - 81.
+5.	Муромцев, Д. Ю. Методы и алгоритмы синтеза энергосберегающего управления технологическими объектами : монография / Д. Ю. Муромцев. - Тамбов, М., СПб., Баку, Вена : Нобелистика, 2005. - 202 с.
+6.	Артемова, С. В. Информационная система оптимального управления тепло-технологическими аппаратами : монография / С. В. Артемова. - М., СПб., Вена, Гамбург : Изд-во МИНЦ, 2011. - 234 с.
+7.	Муромцев, Ю. Л. Теоретические основы энергосберегающего управления / Ю. Л. Муромцев, Д. Ю. Муромцев, В. А. Погонин. - М. : Янус-К, 2010. - 286 с.
+8.	Муромцев, Д. Ю. Системы энергосберегающего управления / Д. Ю. Муромцев, В. А. Погонин. - Тамбов : Изд-во Тамб. гос. техн. ун-та, 2006. - 85 с.
+9.	Climate Change 2007: The Physical Science Basis. Summary for Policymakers. Intergovernmental panel on climate change / Intergovernmental Panel on Climate Change. - Geneva, Switzerland, 2007. - 18 p.
+10.	Biomass Sustainability and Carbon Policy Study [Электронный ресурс] / Manomet Center for Conservation Sciences. - Режим доступа : http://www.mass.gov/ eea/docs/doer/renewables/biomass/manomet-biomass-report-full-hirez.pdf (дата обращения: 10.10.2014).
+11.	Carbon Dioxide Emissions Coefficients [Электронный ресурс] // U.S. Energy Information Administration (EIA). - Режим доступа : http://www.eia.gov/environment/ emissions/co2_vol_mass.cfm (дата обращения: 10.10.2014).
+Рацион малабарской амадины составляют семена равно, также или и беспозвоночные.	Receipts. Average Cost. and Quality of Fossil Fuels for the Electric Power Industry. 2002 through 2012 [Электронный ресурс] // U.S. Energy Information Administration (EIA). - Режим доступа : http://www.eia.gov/electricity/annual/html/ epa_07_01.html (дата обращения: 10.10.2014).
+Forschung der Anwendung der Theorie der optimalen Verwaltung zu den Hybridobjekten für die Minimierung der Auswürfe der Treibhausgase
+Zusammenfassung: Es ist die Klassifikation der Hybridobjekte auf dem Beispiel der thermischen Objekte vom Gesichtspunkt verschiedener Kriterien der Optimalität gegeben. Es ist das Herangehen an die Nutzung der abgeänderten Koeffizienten der Kriterien der Optimalität für die Hybridobjekte, die zulassen, bei der Berechnung der Funktionen der optimalen Verwaltung angeboten, nicht nur, den Wert verschiedener Kraftstoffarten, sondern auch die spezifischen Auswürfe der Treibhausgase bei den gegebenen Typen der Verwaltung, unter Berücksichtigung der Technologie der Wärme, der Elektrizität zu berücksichtigen. Unter Anwendung vom gegebenen Herangehen für die Erweiterung des Funktionierens der existierenden Systeme der optimalen Verwaltung, es ist der bedeutenden Veränderungen in algorithmisch und die Software nicht erforderlich, dass den Wert der Modifikation wesentlich verringert. Die Berechnung der optimalen Verwaltung und die Bestimmung der Zeiten der Umschaltung verwirklicht sich nach den existierenden Algorithmen, jedoch schließen die Waagekoeffizienten für das Kriterium der Optimalität ebenso die spezifischen Auswürfe der Treibhausgase ein.
+Etude de l'application de la théorie de la commande optimale envers les objets hybrides pour la minimisation des déchets des émissions des gaz
+Résumé: Est donnée la classification des objets hybrides à l'exemple des objets thermiques du point de vue de différents critères de l'optimisation, est proposée une approche pour l'utilisation des critères de coefficients modifiés de l'optimisation pour les objets hybrides permettant de tenir compte du coût de différents types de combustible ainsi que les déchets des gaz. Le calcul de la commande optimale et la définition du temps sont effectués suivant les algorithmes.
+Авторы: Муромцев Дмитрий Юрьевич - доктор технических наук, профессор, заведующий кафедрой «Конструирование радиоэлектронных и микропроцессорных систем»; Траверсо Альберто - PhD, профессор кафедры «Инженерная механика», Университет г. Генуя, Италия; Грибков Алексей Николаевич - кандидат технических наук, доцент кафедры «Конструирование радиоэлектронных и микропроцессорных систем»; Куркин Илья Александрович - аспирант кафедры «Конструирование радиоэлектронных и микропроцессорных систем», ФГБОУ ВПО «ТГТУ».
+Рецензент: Литовка Юрий Владимирович - доктор технических наук, профессор кафедры «Системы автоматизированной поддержки принятия решений», ФГБОУ ВПО «ТГТУ».

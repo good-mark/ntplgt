@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<document reference="043.txt">
+	<feature name="plagiarism" obfuscation="SSP" source_language="ru" source_length="196" source_offset="1903" source_reference="5082239.txt" this_language="ru" this_length="114" this_offset="4175" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="SSP" source_language="ru" source_length="26" source_offset="2100" source_reference="5082239.txt" this_language="ru" this_length="114" this_offset="4175" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="SSP" source_language="ru" source_length="196" source_offset="1903" source_reference="5082239.txt" this_language="ru" this_length="114" this_offset="4290" txt_extraction_err="0" type="manual"/>
+	<feature name="plagiarism" obfuscation="SSP" source_language="ru" source_length="26" source_offset="2100" source_reference="5082239.txt" this_language="ru" this_length="114" this_offset="4290" txt_extraction_err="0" type="manual"/>
+</document>

@@ -1,0 +1,1305 @@
+
+38
+
+Размещено на http://www.allbest.ru/
+
+Размещено на http://www.allbest.ru/
+
+КУРСОВАЯ РАБОТА
+
+на тему: «Проектирование и реализация базы данных и прикладного приложения для автоматизации учета движения студентов на факультете и начисления стипендии»
+
+Введение
+
+
+
+База данных - это организованная структура, предназначенная для хранения информации. В современных базах данных хранятся не только данные, но и информация.
+
+Например, база данных банка. Информация хранит сведения о клиентах, об их адресах, кредитной истории, состояние расчетных счетов, финансовых операциях и т.д. Доступ к этой базе данных имеется у достаточно большого количества сотрудников банка, но среди них вряд ли найдется такое лицо, которое имеет доступ ко всей базе полностью и при этом способно единолично вносить в нее произвольные изменения. Кроме данных, база содержит методы и средства, позволяющие каждому из сотрудников оперировать только с теми данными, которые входят в его компетенцию. В результате взаимодействия данных, содержащихся в базе, с методами, доступными конкретным сотрудникам, образуется информация, которую они потребляют и на основании которой в пределах собственной компетенции производят ввод и редактирование данных.
+
+С понятием базы данных тесно связано понятие системы управления базой данных. Это комплекс программных средств, предназначенных для создания структуры новой базы, наполнение ее содержимым, редактирование содержимого и визуализации информации. Под визуализацией информации базы понимается отбор отображаемых данных в соответствии с заданным критерием, их упорядочение, оформление и последующая выдача на устройства вывода или передачи по каналам связи.
+
+В мире существует множество систем управления базами данных. Несмотря на то что они могут по-разному работать с разными объектами и предоставляют пользователю различные функции и средства, большинство СУБД опираются на единый устоявшийся комплекс основных понятий. Это дает нам возможность рассмотреть одну систему и обобщить ее понятия, приемы и методы на весь класс СУБД. В качестве такого учебного объекта мы выберем СУБД InterBase.
+
+Целью данной курсовой работы является написание базы данных для автоматизации учета движения студентов на факультете и начисления стипендии.
+
+1. Описание предметной области
+
+
+
+Предметной областью, выбранной в качестве объекта для создания информационной системы, является движение студентов по факультету. Направление в этой деятельности сопровождается оформлением значительного количества разнообразных документов, отличающихся своею разнородностью. Это влечет за собой большие затраты времени, труда, других ресурсов. При этом накапливание большого объема различных документов затрудняет поиск нужной информации, что, в свою очередь, способствует ее потере, дублированию, дроблению с потерей смысла и другими проблемами. Современные информационные технологии позволяет оптимизировать процесс сбора, хранения и обработки необходимой информации и решить многие вышеуказанные проблемы.
+
+В данной системе используется модель, содержащая данные о студенте, группе, специальности, договоре, заключенным со студентом, дисциплине, преподавателе. Основной целью является начисление стипендии по итогам учебы студента.
+
+Для этого необходимо учитывать информацию о самом студенте: шифр студента, Ф.И.О., номер паспорта, шифр группы, шифр специальности, номер договора, который заключил студент с институтом, адрес, по которому проживает студент, пол и день рождения. По мимо этого мы должны иметь доступ к информации о договоре, заключенным студентом: номер договора, тип, компания, с которой также заключен договор, сумма.
+
+С информацией о студенте тесно связаны данные о группе, в которой он учиться: шифр группы, название, курс, семестр. Для каждого студента учитывается и информация о специальности, по которой он будит выпускаться: шифр специальности и название. Также, имеется норматив, по которому студент должен выполнить определенный учебный план, запланированный для каждой специальности. Между специальностью и дисциплиной существует переходящая сущность - предмет. Т.е. она характеризуется своим шифром и семестром, в котором определенный предмет читается. Для каждой дисциплины и для определенной специальности имеется свой предмет. Даже если дисциплина в разных группах будит одна и та же, номер предмета будит различен.
+
+2. Модель процессов предметной области
+
+
+
+Семантическое описание предметной области произведено посредством построения SADT-модели в системе BРwin, а также по средствам инфологической модели, которая показана на рисунке 1.
+
+Основное назначение построенной SADT-модели состоит в представлении информации для обоснования выбора модели и структуры данных, используемых в созданной информационной системе.
+
+На данном этапе проектирования выбирается основная точка зрения, в соответствии с которой ведется проектировка системы, т.е. рассматривать систему с позиции того человека, который её будет эксплуатировать и сопровождать. Основной выберем точку зрения студента, так как он будет являться основным объектом для которого и строится база, а в качестве альтернативной выберем точку зрения администратора, как человека, который будет сопровождать базу данных. Основная точка зрения будет удовлетворять альтернативным, так как реализованная система будет содержать механизмы поддержки корректности и целостности вводимых и изменяемых данных.
+
+Следующим этапом проектирования является постановка ряда вопросов, на которые должна отвечать модель с поставленной точностью. Основным вопросом здесь является: «Как и в соответствии с чем осуществляется продвижение студентов по факультету?»
+
+Функциональная модель представляет собой систему активностей (функций), которые взаимодействуют через потоки данных. В модели процессов предметной области было выделено три уровня диаграмм: контекстная диаграмма, её декомпозиция и декомпозиции активности «Обучение» и «Сессия».
+
+Функциональная модель представляет собой систему активностей (функций), которые взаимодействуют через потоки данных.
+
+На рисунке представлена контекстная диаграмма. Она отображает основной процесс предметной области - переход студентов в следующий семестр (активность «движение студентов по факультету»).
+
+Контекстная диаграмма
+
+Входной информационный поток содержит данные о договоре и студенте. Выходной поток характеризуется информацией о сдаче сессии, переводе студента, если он осуществлялся, начисление стипендии по итогам сессии и отчислении, если сессия не сдана.
+
+Более детальное описание процессов предметной области приведено на рисунке 3-декомпозиционной диаграмме «движение студентов по факультету».
+
+Диаграмма «движение студентов по факультету» описывает следующие процессы:
+
+«группа» - процесс активизируется в соответствии с данными о группе. Выходом данного процесса является «сведения о группе».
+
+«обучение» - этот процесс более детально описан на рисунке 4.
+
+«сессия» - этот процесс описан на рисунке.
+
+Декомпозиционная диаграмма «движение студентов по факультету»
+
+На следующих уровнях производятся дальнейшая декомпозиция так как не получены ответы на все поставленные вопросы с заданной точностью.
+
+Декомпозиционная диаграмма второго уровня (рис. 4) состоит из следующих активностей:
+
+«посещение лекций» - данный процесс осуществляется студентом, при этом учитываются количество пропусков и количество часов, отведенных на предмет.
+
+«посещение практик» - на этом этапе студент применяет материалы лекций для работы на практическом занятии.
+
+«посещение лабораторных» - преподавателем учитывается количество сданных лабораторных.
+
+Декомпозиционная диаграмма «Обучение»
+
+На данном этапе дальнейшей декомпозиции не требуется, так как уже получены тривиальные функции, декомпозиция далее требуется для раскрытия диаграммы «сессия».
+
+Эта декомпозиционная диаграмма второго уровня (рис. 5) состоит из следующих активностей:
+
+«курсовая работа» - данный процесс характеризуется написанием курсовой работы или проекта студентом.
+
+«зачет» - на этом этапе студент по итогам курсовой работы может сдать зачет, что в свою очередь даст возможность выйти на сессию.
+
+«экзамен» - данная активность позволяет студенту по итогам сдачи экзаменов получить стипендию (не получить), быть отчисленным или перевестись.
+
+На данном этапе более подробная декомпозиция не требуется, так как мы получили ответ на ранее заданный вопрос: «Как и в соответствии с чем осуществляется продвижение студентов по факультету?»
+
+Декомпозиционная диаграмма «Сессия»
+
+3. Концептуальное проектирование
+
+На этом этапе проектирования была разработана концептуальная модель базы данных. Построение системы производилось в системе Erwin. Для построения базы данных была выбрана реляционная модель данных. Был выбран нисходящий подход к проектированию концептуальной модели. Т.е. были выделены несколько высокоуровневых сущностей и связей между ними, после чего модель уточнялась, и появились новые сущности, атрибуты и связи.
+
+При анализе информационных потоков процессов предметной области были выделены сущности, представленные на рисунках 5 и 6.
+
+Физическая концептуальная схема
+
+Логическая концептуальная схема
+
+Рассмотрим более подробно каждую сущность
+
+Сущность «Dogovor» - «Договор».
+
+Поля:
+
+«dog_number» - номер договора,
+
+«company» - компания, с которой заключили договор,
+
+«summa» - сумма, положенная по договору,
+
+«dog_type» - тип договора.
+
+Сущность «Student» - «Студент».
+
+Поля:
+
+«shifr» - шифр студента (студенческого билета),
+
+«spec_shifr» - шифр специальности,
+
+«dog_number» - номер договора,
+
+«shifr_gr» - шифр группы,
+
+«FIO» - Ф.И.О. студента,
+
+«nomer_pasporta» - номер паспорта,
+
+«adres» - адрес, по которому проживает,
+
+«pol» - пол,
+
+«birthday» - дата рождения.
+
+Сущность «Gruppa» - «Группа».
+
+Поля:
+
+«shifr_gr» - шифр группы,
+
+«name_gr» - название группы,
+
+«kurs» - курс,
+
+«semestr» - семестр,
+
+Сущность «Specialnost» - «Специальность».
+
+«spec_shifr» - шифр специальности,
+
+«name» - название специальности.
+
+Сущность «Normativ» - «Норматив». Это ассоциативная сущность для реализации связи «многие ко многим» между сущностями «student» и «Predmet». Кроме наследуемых атрибутов первичного ключа содержит также три поля.
+
+Поля:
+
+«shifr_predmeta» - шифр предмета,
+
+«shifr» - шифр студента (студенческого билета),
+
+«exam» - экзамен,
+
+«zachet» - зачет,
+
+«kursovic» - курсовая работа (проект).
+
+Сущность «Predmet» - «Предмет».
+
+Поля:
+
+«shifr_predmeta» - шифр предмета,
+
+«shifr_disc» - шифр дисциплины,
+
+«spec_shifr» - шифр специальности,
+
+«semestr» - семестр.
+
+Сущность «Disciplina» - «Дисциплина».
+
+Поля:
+
+«shifr_disc» - шифр дисциплины,
+
+«name_disc» - название дисциплины.
+
+Неидентифицирующая связь «один ко многим» между сущностями «Группа» и «Студент» необходима, потому что студент может учиться в нескольких группах. Связь неидентифицирующая, так как номер группы не не входит в состав первичного ключа сущности «Студент».
+
+Неидентифицирующая связь «один ко многим» между сущностями «Договор» и «Студент» необходима, потому что студент может учиться по нескольким договорам. Связь неидентифицирующая, так как номер договора не входит в состав первичного ключа сущности «Студент».
+
+Неидентифицирующая связь «один ко многим» между сущностями «Специальность» и «Студент» необходима, потому что студент может учиться на нескольких специальностях. Связь неидентифицирующая, так как шифр специальности не входит в состав первичного ключа сущности «Студент».
+
+Неидентифицирующая связь «один ко многим» между сущностями «Специальность» и «Предмет» необходима, потому что у одной специальности несколько предметов. Связь неидентифицирующая, так как шифр специальности не входит в состав первичного ключа сущности «Предмет».
+
+Неидентифицирующая связь «один ко многим» между сущностями «Дисциплина» и «Предмет» необходима, потому что у одной дисциплины может быть несколько предметов. Связь неидентифицирующая, так как шифр дисциплины не входит в состав первичного ключа сущности «Предмет».
+
+В сущности «Договор» в полях компания и сумма договора возможны нулевые значения, т. к. если студент на бюджетной основе, то компании, заключившей договор на определенную сумму нет.
+
+В сущности «Норматив» в полях экзамен, зачет и курсовая работа (проект) возможны нулевые значения, т. к. по одному предмету может проводиться только экзамен, а зачет с курсовой работой отсутствовать или экзамен с курсовой работой будит, а зачета не и т.д.
+
+Все остальные связи исключают null-значения.
+
+база учет данные целостность
+
+4. Целостность данных
+
+В системе присутствуют как идентифицирующие, так и неидентифицирующие связи. Между ними могут применяются следующие стратегии ограничения целостности: запрещающая(restrict), каскадная(cascade) и set null - стратегия. Запрещающая стратегия на удаление и модификацию родителя, а также на вставку и модификацию потомка поддерживается автоматически при указании конструкции Foreign key. Однако в системе присутствует не только запрещающая стратегия, но также производится поддержание целостности данных с помощью триггеров. Коды триггеров, реализующих стратегии ограничения целостности базы данных приведены в приложении В.
+
+На вставку, удаление, модификацию и выборку во всех таблицах никаких ограничений нет.
+
+Для таблицы «студент» написан триггер, который после удаления студента, удаляет данные о нем из других связанных таблиц.
+
+Для таблицы «норматив» создан триггер, при помощи которого можно вставлять новый норматив для уже существующего студента, но если такого студента в базе нет, то выдается сообщение об ошибке.
+
+B таблице «договор», созданный триггер позволяет изменять значения из таблицы и автоматически вносить изменения в другие таблицы, содержащие данные из этой.
+
+5. Описание приложения
+
+После запуска приложения открывается форма, на которой осуществляется подключение к основной базе данных при помощи пароля. Если соединение было установлено, то выдается сообщение о правильном вводе пароля, что в свою очередь позволяет выбрать какое-то действие для конкретной таблицы. Если действие выбрано, то открывается новая форма.
+
+Форма для просмотра содержимого таблицы состоит из визуального компонента отображения данных и навигатора для выполнения операций с данными в базе: добавление новой записи, модификации старых, удаления записи и других операций.
+
+Переход на внешнюю форму производится при нажатии на кнопку ЗАКРЫТЬ.
+
+Выход из приложения осуществляется при нажатии на кнопку ВЫХОД.
+
+Форма действий базы данных
+
+Форма работы с таблицей
+
+Заключение
+
+В ходе выполнения данной курсовой работы были освещены основные этапы проектирования базы данных: описание предметной области, описание бизнес процессов, описание концептуальной схемы и целостности данных.
+
+В результате выполнения данной работы была создана база данных и реализована программа, работающая с ней.
+
+С развитием глобальных информационных сетей и ростом объемов информации, хранящихся в корпоративных и разделяемых базах данных, все большую актуальность приобретают средства автоматизации аналитической обработки больших массивов данных, то есть создание баз данных и разработка приложений, работающих с ней.
+
+В данной курсовой работе реализовывался учет движения студентов по факультету.
+
+Список литературы
+
+
+
+1. Селко Дж. Программирование на SQL для профессионалов [Текст]/ Селко Дж. - М.: «Лори», 2004 - 442 с. - ISBN 5-85829-219-2.
+
+2. Грофф Дж., Вайнберг П. Энциклопедия SQL [Текст] 3-е изд. (+ CD)/ Грофф Дж., Вайнберг П. - СПб.: «Питер», 2003 - 896 с. - ISBN 5-88782-077-2, ISBN 966-552-103-9.
+
+3. Клайв К. SQL. Справочник [Текст]/ Клайв К., Клайв Д., Хант Б. - М.: «Кудиц-Образ», 2006 - 832 с. - ISBN 5-9579-0114-8, ISBN 5-596-00481-8.
+
+4. Дарахвелидзе П.Г. Программирование в Delphi 7 [Текст]/ Дарахвелидзе П.Г., Марков Е.П. - СПб.: «БХВ - Петербург», 2005 - 784 с. - ISBN 5-94157-116-Х.
+
+Приложение А
+
+
+
+Триггеры к базе данных
+
+
+
+1. При удалении студента из таблицы «студент», все данные автоматически удаляются и из других таблиц тоже.
+
+set term!!;
+
+CREATE TRIGGER «T1» FOR «STUDENT»
+
+ACTIVE AFTER DELETE
+
+as begin
+
+delete from normativ
+
+where normativ.shifr = old. shifr;
+
+end!!
+
+set term!!;
+
+2. При вставке какого-либо студента в таблицу «норматив», осуществляется проверка на наличие такого студента в базе, иначе при помощи функции exception not_st выдается сообщение об ошибке.
+
+create exception not_st 'Такого студента нет!!!'
+
+set term!!;
+
+CREATE TRIGGER «T2» FOR «NORMATIV»
+
+ACTIVE BEFORE INSERT
+
+as
+
+declare variable kolvo int;
+
+begin
+
+select count (student.shifr) from student, normativ
+
+where new.shifr = student.shifr into: kolvo;
+
+if (:kolvo = 0)
+
+then exception not_st;
+
+end!!
+
+set term!!;
+
+3. При изменении данных таблицы «договор», изменяются эти данные из других таблиц.
+
+set term!!;
+
+CREATE TRIGGER T3 FOR dogovor
+
+ACTIVE AFTER update
+
+as begin
+
+update student
+
+set student.dog_number = new.dog_num
+
+where student.dog_num= old.dog_num;
+
+end!!
+
+set term!!;
+
+Приложение Б
+
+
+
+Листинг программы на Delphi
+
+unit main_unit;
+
+interface
+
+uses
+
+Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+
+Dialogs, DB, IBCustomDataSet, IBTable, IBDatabase, ExtCtrls, DBCtrls, Grids,
+
+DBGrids, IBQuery, StdCtrls;
+
+type
+
+TForm1 = class(TForm)
+
+IBDatabase1: TIBDatabase;
+
+IBTransaction1: TIBTransaction;
+
+Button1: TButton;
+
+Button2: TButton;
+
+Button3: TButton;
+
+Button4: TButton;
+
+Button5: TButton;
+
+Button10: TButton;
+
+Button11: TButton;
+
+Panel1: TPanel;
+
+Label1: TLabel;
+
+Button6: TButton;
+
+Button7: TButton;
+
+Button8: TButton;
+
+Button9: TButton;
+
+procedure Button1Click (Sender: TObject);
+
+procedure IBDatabase1AfterConnect (Sender: TObject);
+
+procedure Button2Click (Sender: TObject);
+
+procedure Button3Click (Sender: TObject);
+
+procedure Button4Click (Sender: TObject);
+
+procedure Button11Click (Sender: TObject);
+
+procedure Button5Click (Sender: TObject);
+
+procedure Button6Click (Sender: TObject);
+
+procedure Button10Click (Sender: TObject);
+
+procedure Button7Click (Sender: TObject);
+
+procedure Button8Click (Sender: TObject);
+
+procedure Button9Click (Sender: TObject);
+
+private
+
+{Private declarations}
+
+public
+
+{Public declarations}
+
+end;
+
+var
+
+Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+uses spec, disc, gruppa, predmet, students, vedomost, n_st, sp_gr, st_disc;
+
+procedure TForm1. Button10Click (Sender: TObject);
+
+begin
+
+form1. Hide;
+
+form7. Show;
+
+end;
+
+procedure TForm1. Button11Click (Sender: TObject);
+
+begin
+
+form1. Hide;
+
+form5. Show;
+
+end;
+
+procedure TForm1. Button1Click (Sender: TObject);
+
+begin
+
+IBDatabase1. Connected:=true;
+
+end;
+
+procedure TForm1. Button2Click (Sender: TObject);
+
+begin
+
+form1. Hide;
+
+form2.show;
+
+end;
+
+procedure TForm1. Button3Click (Sender: TObject);
+
+begin
+
+form1.hide;
+
+form3.show;
+
+end;
+
+procedure TForm1. Button4Click (Sender: TObject);
+
+begin
+
+form1. Hide;
+
+form4. Show;
+
+end;
+
+procedure TForm1. Button5Click (Sender: TObject);
+
+begin
+
+form1. Hide;
+
+form6. Show;
+
+end;
+
+procedure TForm1. Button6Click (Sender: TObject);
+
+begin
+
+Application. Terminate;
+
+end;
+
+procedure TForm1. Button7Click (Sender: TObject);
+
+begin
+
+form1. Hide;
+
+form8. Show;
+
+end;
+
+procedure TForm1. Button8Click (Sender: TObject);
+
+begin
+
+form1. Hide;
+
+form9. Show;
+
+end;
+
+procedure TForm1. Button9Click (Sender: TObject);
+
+begin
+
+form1. Hide;
+
+form10. Show;
+
+end;
+
+procedure TForm1.IBDatabase1AfterConnect (Sender: TObject);
+
+begin
+
+showmessage('OK');
+
+end;
+
+end.
+
+unit vedomost;
+
+interface
+
+uses
+
+Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+
+Dialogs, StdCtrls, main_unit, DB, IBCustomDataSet, IBTable, ExtCtrls, DBCtrls,
+
+Grids, DBGrids;
+
+type
+
+TForm7 = class(TForm)
+
+Button1: TButton;
+
+DataSource1: TDataSource;
+
+DataSource2: TDataSource;
+
+DataSource3: TDataSource;
+
+DBGrid1: TDBGrid;
+
+DBNavigator1: TDBNavigator;
+
+DBGrid2: TDBGrid;
+
+DBGrid3: TDBGrid;
+
+IBTable1: TIBTable;
+
+IBTable2: TIBTable;
+
+IBTable3: TIBTable;
+
+DBNavigator2: TDBNavigator;
+
+DBNavigator3: TDBNavigator;
+
+procedure Button1Click (Sender: TObject);
+
+procedure FormShow (Sender: TObject);
+
+private
+
+{Private declarations}
+
+public
+
+{Public declarations}
+
+end;
+
+var
+
+Form7: TForm7;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm7. Button1Click (Sender: TObject);
+
+begin
+
+form7. Hide;
+
+form1. Show;
+
+end;
+
+procedure TForm7. FormShow (Sender: TObject);
+
+begin
+
+IBTable1. Active:=true;
+
+IBTable2. Active:=true;
+
+IBTable3. Active:=true;
+
+end;
+
+end.
+
+unit gruppa;
+
+interface
+
+uses
+
+Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+
+Dialogs, main_unit, StdCtrls, DB, IBCustomDataSet, IBTable, ExtCtrls, DBCtrls,
+
+Grids, DBGrids;
+
+type
+
+TForm4 = class(TForm)
+
+Button1: TButton;
+
+DataSource1: TDataSource;
+
+DBGrid1: TDBGrid;
+
+DBNavigator1: TDBNavigator;
+
+IBTable1: TIBTable;
+
+procedure Button1Click (Sender: TObject);
+
+procedure FormShow (Sender: TObject);
+
+private
+
+{Private declarations}
+
+public
+
+{Public declarations}
+
+end;
+
+var
+
+Form4: TForm4;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm4. Button1Click (Sender: TObject);
+
+begin
+
+form4.hide;
+
+form1.show;
+
+end;
+
+procedure TForm4. FormShow (Sender: TObject);
+
+begin
+
+IBTable1. Active:=true;
+
+end;
+
+end.
+
+unit predmet; 
+
+interface
+
+uses
+
+Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+
+Dialogs, main_unit, StdCtrls, DB, IBCustomDataSet, IBTable, ExtCtrls, DBCtrls,
+
+Grids, DBGrids;
+
+type
+
+TForm5 = class(TForm)
+
+Button1: TButton;
+
+DataSource1: TDataSource;
+
+DBGrid1: TDBGrid;
+
+DBNavigator1: TDBNavigator;
+
+DataSource2: TDataSource;
+
+DataSource3: TDataSource;
+
+IBTable1: TIBTable;
+
+IBTable2: TIBTable;
+
+DBGrid2: TDBGrid;
+
+DBNavigator2: TDBNavigator;
+
+DBGrid3: TDBGrid;
+
+DBNavigator3: TDBNavigator;
+
+IBTable3: TIBTable;
+
+Label1: TLabel;
+
+Label2: TLabel;
+
+procedure Button1Click (Sender: TObject);
+
+procedure FormShow (Sender: TObject);
+
+private
+
+{Private declarations}
+
+public
+
+{Public declarations}
+
+end;
+
+var
+
+Form5: TForm5;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm5. Button1Click (Sender: TObject);
+
+begin
+
+form5. Hide;
+
+form1. Show;
+
+end;
+
+procedure TForm5. FormShow (Sender: TObject);
+
+begin
+
+IBTable1. Active:=true;
+
+IBTable2. Active:=true;
+
+IBTable3. Active:=true;
+
+end;
+
+end.
+
+unit students;
+
+interface
+
+uses
+
+Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+
+Dialogs, StdCtrls, ExtCtrls, DBCtrls, Grids, DBGrids, main_unit, DB,
+
+IBCustomDataSet, IBTable, IBQuery;
+
+type
+
+TForm6 = class(TForm)
+
+DBGrid1: TDBGrid;
+
+DBNavigator1: TDBNavigator;
+
+DataSource1: TDataSource;
+
+IBTable1: TIBTable;
+
+Button1: TButton;
+
+DataSource2: TDataSource;
+
+DataSource3: TDataSource;
+
+DataSource4: TDataSource;
+
+DBGrid2: TDBGrid;
+
+DBGrid3: TDBGrid;
+
+DBGrid4: TDBGrid;
+
+DBNavigator2: TDBNavigator;
+
+DBNavigator3: TDBNavigator;
+
+DBNavigator4: TDBNavigator;
+
+IBTable2: TIBTable;
+
+IBTable3: TIBTable;
+
+IBTable4: TIBTable;
+
+procedure Button1Click (Sender: TObject);
+
+procedure FormShow (Sender: TObject);
+
+private
+
+{Private declarations}
+
+public
+
+{Public declarations}
+
+end;
+
+var
+
+Form6: TForm6;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm6. Button1Click (Sender: TObject);
+
+begin
+
+form6. Hide;
+
+form1. Show;
+
+end;
+
+procedure TForm6. FormShow (Sender: TObject);
+
+begin
+
+IBTable1. Active:=true;
+
+IBTable2. Active:=true;
+
+IBTable3. Active:=true;
+
+IBTable4. Active:=true;
+
+end;
+
+end.
+
+unit disc;
+
+interface
+
+uses
+
+Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+
+Dialogs, main_unit, ExtCtrls, DBCtrls, DB, IBCustomDataSet, IBTable, Grids,
+
+DBGrids, StdCtrls;
+
+type
+
+TForm3 = class(TForm)
+
+DataSource1: TDataSource;
+
+DBGrid1: TDBGrid;
+
+IBTable1: TIBTable;
+
+DBNavigator1: TDBNavigator;
+
+Button1: TButton;
+
+procedure Button1Click (Sender: TObject);
+
+procedure FormShow (Sender: TObject);
+
+private
+
+{Private declarations}
+
+public
+
+{Public declarations}
+
+end;
+
+var
+
+Form3: TForm3;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm3. Button1Click (Sender: TObject);
+
+begin
+
+form3. Hide;
+
+form1. Show;
+
+end;
+
+procedure TForm3. FormShow (Sender: TObject);
+
+begin
+
+IBTable1. Active:=true;
+
+end;
+
+end.
+
+unit spec;
+
+interface
+
+uses
+
+Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+
+Dialogs, main_unit, ExtCtrls, DBCtrls, Grids, DBGrids, DB, IBCustomDataSet,
+
+IBTable, StdCtrls;
+
+type
+
+TForm2 = class(TForm)
+
+DataSource1: TDataSource;
+
+Label1: TLabel;
+
+IBTable1: TIBTable;
+
+DBGrid1: TDBGrid;
+
+DBNavigator1: TDBNavigator;
+
+Button1: TButton;
+
+procedure FormShow (Sender: TObject);
+
+procedure Button1Click (Sender: TObject);
+
+private
+
+{Private declarations}
+
+public
+
+{Public declarations}
+
+end;
+
+var
+
+Form2: TForm2;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm2. Button1Click (Sender: TObject);
+
+begin
+
+form2. Hide;
+
+form1. Show;
+
+end;
+
+procedure TForm2. FormShow (Sender: TObject);
+
+begin
+
+IBTable1. Active:=true;
+
+end;
+
+end.
+
+unit n_st;
+
+interface
+
+uses
+
+Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+
+Dialogs, DB, IBCustomDataSet, IBQuery, StdCtrls, ExtCtrls, Grids, DBGrids;
+
+type
+
+TForm8 = class(TForm)
+
+DBGrid1: TDBGrid;
+
+DataSource1: TDataSource;
+
+LabeledEdit1: TLabeledEdit;
+
+Button1: TButton;
+
+Button2: TButton;
+
+IBQuery1: TIBQuery;
+
+procedure Button2Click (Sender: TObject);
+
+procedure Button1Click (Sender: TObject);
+
+private
+
+{Private declarations}
+
+public
+
+{Public declarations}
+
+end;
+
+var
+
+Form8: TForm8;
+
+implementation
+
+uses main_unit;
+
+{$R *.dfm}
+
+procedure TForm8. Button1Click (Sender: TObject);
+
+begin
+
+if LabeledEdit1. Text='' then showmessage ('Aaaaeoa oaieee? nooaaioa!')
+
+else
+
+begin
+
+IBQuery1. Close;
+
+ibQuery1.SQl.clear;
+
+IBQuery1.SQL. Add ('Select shifr, fio');
+
+IBQuery1.SQL. Add ('From student, normativ');
+
+IBQuery1.SQL. Add ('Where student.fio =:p1 And student.shifr = normativ.shifr and (normativ.exam = 5 or normativ.exam = 4 or normativ.exam is null) and (normativ.zachet = 1 or normativ.zachet is null) ');
+
+IBQuery1.SQL. Add ('and (normativ.kursovik = 5 or normativ.kursovik = 4 or normativ.kursovik is null)');
+
+IBQuery1. ParamByName('p1').AsString:=LabeledEdit1. Text;
+
+IBQuery1. Open;
+
+end;
+
+end;
+
+procedure TForm8. Button2Click (Sender: TObject);
+
+begin
+
+form8. Hide;
+
+form1. Show;
+
+end;
+
+end.
+
+unit sp_gr;
+
+interface
+
+uses
+
+Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+
+Dialogs, Grids, DBGrids, DB, StdCtrls, ExtCtrls, IBCustomDataSet, IBQuery;
+
+type
+
+TForm9 = class(TForm)
+
+IBQuery1: TIBQuery;
+
+Button1: TButton;
+
+Button2: TButton;
+
+LabeledEdit1: TLabeledEdit;
+
+DataSource1: TDataSource;
+
+DBGrid1: TDBGrid;
+
+procedure Button1Click (Sender: TObject);
+
+procedure Button2Click (Sender: TObject);
+
+private
+
+{Private declarations}
+
+public
+
+{Public declarations}
+
+end;
+
+var
+
+Form9: TForm9;
+
+implementation
+
+uses main_unit;
+
+{$R *.dfm}
+
+procedure TForm9. Button1Click (Sender: TObject);
+
+begin
+
+form9. Hide;
+
+form1. Show;
+
+end;
+
+procedure TForm9. Button2Click (Sender: TObject);
+
+begin
+
+if LabeledEdit1. Text='' then showmessage ('Aaaaeoa iiia? a?oiiu!')
+
+else
+
+begin
+
+IBQuery1. Close;
+
+ibQuery1.SQl.clear;
+
+IBQuery1.SQL. Add ('select shifr, fio');
+
+IBQuery1.SQL. Add ('from student, gruppa');
+
+IBQuery1.SQL. Add ('where gruppa.shifr_gr =:g1 and gruppa.shifr_gr = student.shifr_gr');
+
+IBQuery1.SQL. Add ('order by fio');
+
+IBQuery1. ParamByName('g1').AsString:=LabeledEdit1. Text;
+
+IBQuery1. Open;
+
+end;
+
+end;
+
+end.
+
+unit st_disc;
+
+interface
+
+uses
+
+Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+
+Dialogs, StdCtrls, ExtCtrls, DB, Grids, DBGrids, IBCustomDataSet, IBQuery;
+
+type
+
+TForm10 = class(TForm)
+
+DBGrid1: TDBGrid;
+
+DataSource1: TDataSource;
+
+Button1: TButton;
+
+Button2: TButton;
+
+LabeledEdit1: TLabeledEdit;
+
+IBQuery1: TIBQuery;
+
+procedure Button1Click (Sender: TObject);
+
+procedure Button2Click (Sender: TObject);
+
+private
+
+{Private declarations}
+
+public
+
+{Public declarations}
+
+end;
+
+var
+
+Form10: TForm10;
+
+implementation
+
+uses main_unit;
+
+{$R *.dfm}
+
+procedure TForm10. Button1Click (Sender: TObject);
+
+begin
+
+form10. Hide;
+
+form1. Show;
+
+end;
+
+procedure TForm9. Button2Click (Sender: TObject);
+
+begin
+
+if LabeledEdit1. Text='' then showmessage ('Aaaaeoa iiia? a?oiiu!')
+
+else
+
+begin
+
+IBQuery1. Close;
+
+ibQuery1.SQl.clear;
+
+IBQuery1.SQL. Add (' select fio, name_disc');
+
+IBQuery1.SQL. Add (' from student, normativ, predmet, disciplina');
+
+IBQuery1.SQL. Add (' where student.fio =:g1 student.shifr = normativ.shifr and normativ.shifr_predmeta = predmet.shifr_predmeta and predmet.shifr_disc =disciplina.shifr_disc');
+
+IBQuery1. ParamByName('g1').AsString:=LabeledEdit1. Text;
+
+IBQuery1. Open;
+
+end;
+
+end.
+
+Размещено на Allbest.ru
+								

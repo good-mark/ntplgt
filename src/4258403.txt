@@ -1,0 +1,778 @@
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+
+
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ Go to ...
+
+ Go to ...
+
+ 
+ 
+ 
+ Начало Java Проект “Отдел кадров”
+
+
+
+ 
+
+ Книга 1 Книга 2
+
+
+
+
+ Курсы
+
+
+
+ 
+
+ Начальный курс Java Профессиональный курс Java Бесплатные вебинары Почему именно наши курсы
+
+
+
+
+ Статьи Контакты/Вопросы
+
+
+
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+ 
+ 
+ Схема построения Enterprise-приложения Новая структура данных Hibernate.
+Начало пути Hibernate.
+Запись в виде XML-файлов Hibernate.
+Аннотации вместо XML Spring.
+Бизнес-уровень в действии Spring.
+Переходим на Web Struts 1.x.
+Первое знакомство
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ Hibernate – пакет для DAO
+
+Самая главная задача Hibernate – сделать так, чтобы разработчик думал в терминах объектов.
+Причем не просто на уровне таблиц – на уровне отношений между таблицами.
+Т.е. если тот же студент учится в группе, то связь должна быть на уровне объектов, а не на уровне поля groupID у студента.
+Иными словами – загруженный объект “Студент” должен иметь ссылку на объект “Группа”.
+Мало того – для получения данных о группе объект “Студент” не надо делать явный запрос к базе данных.
+Эту функцию должен взять на себя Hibernate – в коде на Java мы просто должны вызывать метод student.getGroup()
+
+В принципе все пакеты, подобные Hibernate, предназначены именно для такой цели – дать возможность разработчику думать в терминах объектов и отношений между ними.
+Причем эти отношения могут быть разными – один-к-одному, один-ко-многим, многие-к-одному, многие-ко-многим.
+
+Что еще важно отметить – вы можете создавать иерархиии классов.
+Да-да, именно наследование, которое так вдохновляет поборников объекто-ориентированного программирования.
+Конечно, не все абсолютно шикарно и гладко, но в общем и целом достаточно прилично.
+
+Но учтите – Hibernate не должен являться заменой DAO.
+Да в общем-то и не очень это получится.
+Он просто позволяет вам удобно общаться с базой данных.
+Но как мы уже рассматривали раньше, база данных не является единственным вариантом хранилища.
+Разработку с использованием шаблона DAO мы отложим на некоторое время.
+Но обязательно к нему вернемся, как только будет подходящий случай.
+
+Для решения своих задач Hibernate должен получить от разработчика следующую информацию:
+
+ Параметры соединения с базой данных.
+В общем-то от этого никуда нам не уйти.
+Пакет пакетом, но соединение с базой надо как-то указывать Описание отображения классов на таблицы.
+Данное описание включает в себя связь между колонкой в таблице и полем в классе.
+Если вспомнить тех же студентов, то для каждого поля в классе Student у нас было поле в таблице.
+Вот это нам и надо будет сделать.
+ Описание отношений между классами
+
+
+Поначалу все эти сложности покажутся излишними – ну в конце концов, что нам стоит написать несколько SQL-запросов на получение данных – добавление, запрос, исправление и удаление.
+Но если у вас таблиц не 3-4, а 500-600 ? И если вам потребуется добавить какое-то поле и связь между таблицами ? Такого рода исправления становятся не тривиальной задачей, которая требует много времени и последующего тестирования.
+
+С другой стороны обольщаться не стоит – Hibernate не так уж и здорово решает абсолютно все задачи.
+Например, сложные запросы, которые часто требуются для создания головоломных отчетов, часто проще и эффективнее сделать на SQL.
+Hibernate позволяет это сделать – в нем можно создать обычный SQL-запрос.
+Также массовые изменения в нем делаются не очень эффективно.
+И еще я бы выделил не всегда удачную реализацию отношений – особенно это касается отношения многие-ко-многим – при редактировани такого списка Hibernate просто удаляет все старые отношения и заменяет их на новые.
+В общем смотрите, сравнивайте, оптимизируйте.
+
+Но все-таки Hibernate существенно облегчает работу с базой данных и значительно упрощает код Вашего приложения.
+
+ 
+
+Ну что же – приступим.
+Для начала вам необходимо скачать сам пакет.
+Зайдите на страницу Hibernate.
+Слева будет в меню, в котором мы выбираем пункт Download.
+В списке реализаций выбираем “Hibernate Core”.
+Я буду использовать версию 3.3.1.GA.
+Само собой, что со временем она устареет, но будем надеятся, что совместимость поможет разобраться и с более новой версией.
+
+Чтобы сразу снять все вопросы по поводу остальных средств разработки:
+
+ Версия JDK – 1.6.
+По поводу подверсий – думаю, что для нас это не будет существенно.
+Но на всякий случай укажу версию, под которой я работал – 1.6.0_03.
+ NetBean 6.5.
+В принципе можно использовать и версию 6.1.
+Не думаю, что это будет принципиально Tomcat 6.0.16.
+Но в общем-то подойдет любая подверсия Tomcat 6 MySQL 5.0 – мы даже его устанавливали и настраивали.
+Кто не помнит, что и как – обращайтес к Часть 3 – База данных
+
+
+По поводу остальных пакетов – каждый раз при изучении я буду писать версию, с которой я писал примеры.
+Все пакеты я обычно устанавливаю в отдельную папку – JAVA.
+Там и Tomcat, и NetBeans, и JDK, и Hibernate и т.д.
+Вы можете себе выбрать какое-то другое имя.
+Это просто привычка
+
+ 
+
+Предварительная настройка окружения
+
+Данный раздел предназначен для тех, кто никогда не работал с NetBeans.
+Т.к. часто можно видеть вопросы “Как подключить библиотеку ?”, “Как запустить программы ?” – постараюсь снять некоторые из них.
+
+Для начала вам придется поставить JDK.
+Это вы можете сделать запустив инсталлятор.
+Во время установки вам потребуется выбрать директорию, куда будет установлена JDK – потом вам надо будет создать переменную окружения JAVA_HOME.
+Это все можно посмотреть в Часть 7 – что такое Servlet.
+Там есть раздел “Запускаем WEB-сервер Tomcat”.
+Вот и используйте эту информацию.
+Кстати Tomcat можно установить сразу же за JDK.
+Несмотря на то, что там описана установка более ранней версии – в общем-то ничего особо не поменялось.
+
+Теперь приступим к установке и настройке NetBeans.
+В общем-то ничего сложного в установке нет – единственное, что может вызвать какие-то раздумья – это настройка JDK.
+Но обычно NetBeans находит его сам (очень подозреваю, что он используется переменную JAVA-HOME).
+
+Также кое-какие вопросы настройки NetBeans можно посмотреть в Часть 11 – Application Server и Enterprise Java Beans
+
+Единственное, что нам точно потребуется – настроить пакет библиотек.
+Чтобы не подключать каждый раз отдельно все JAR-файлы, мы создадим библиотеку, в которую будем класть все необходимые JAR по мере необходимости.
+Для создания нашей библиотеки запустите NetBeans.
+Потом выберите меню – Tools->Libraries.
+Появится форма для настройки библиотек.
+
+
+
+Нажмите кнопку “New library…” и введите в форме название нашей библиотеки – StudentLibrary.
+После этого нажмите OK.
+
+
+
+Теперь у нас есть библиотека, в которую мы можем добавлять наши JAR-файлы.
+Что очень удобно.
+Теперь в проекте нам будет достаточно установит ссылку на нашу библиотеку и проект получит доступ ко всем JAR-файлам, которые в ней есть.
+Думаю, что вы догадались, как пользоваться кнопками редактирования содержимого библиотеки.
+они находятся с правой стороны формы.
+
+Замечание: Обязательно положите хоть какой-нибудь JAR в нашу библиотеку перед закрытием формы.
+Пустые библиотеки не сохраняются !!!
+
+
+
+Заключительное действие – подключение библиотеки к проекту.
+В общем-то ничего сложного тут тоже нет.
+Щелкните правой кнопкой мыши на разделе Libraries с окне со структурой проекта и выберите в нем пункт “Add Library…”.
+Дальше выбираете нашу замечательную библиотеку.
+В общем-то и все.
+
+Что еще важно отметить – система автоматически отслеживает изменения в нашей библиотеке.
+Если мы добавим новый JAR-файл – тут же этот файл будет отображен на структуре используемых файлов.
+
+
+
+Как видно на рисунке – теперь в библиотеке два файла.
+Я просто добавил новый JAR.
+
+Необходимые библиотеки
+
+Все библиотеки, необходимяе для проекта “Студенческий отдел кадров” находятся ЗДЕСЬ
+
+Для текущего проекта нам будет достаточно этих библиотек.
+Можно прямо тут и качать
+
+antlr-2.7.6.jar
+
+commons-collections-3.1.jar
+
+dom4j-1.6.1.jar
+
+hibernate3.jar
+
+javassist-3.4.GA.jar
+
+jta-1.1.jar
+
+log4j-1.2.15.jar
+
+mysqlJDBC-3.1.13.jar
+
+slf4j-api-1.5.3.jar
+
+slf4j-log4j12-1.5.3.jar
+
+Так что содержимое библиотеки StudentsLibrary должно выглядеть приблизительно вот так:
+
+
+
+В дальнейшем я не буду столь подробно останавливаться на библиотеках – буду просто приводить их список и вы должны будете сами все устанавливать.
+Думаю, что справитесь.
+
+Hibernate – первое приложение
+
+Т.к. наша база данных включает в себя несколько таблиц и к тому же в ней есть сложные отношения, первые шаги мы сделаем с одной таблицей – думаю, что так будет проще и понятнее.
+После того, как мы увидим и попробуем простые вещи, нам будет проще построит полное приложение.
+
+Как я уже говорил, Hibernate включает в себя как минимум две важные вещи – параметры соединения с базой данных и описание (отображение) классов относительно таблиц.
+
+Эти данные Hibernate хранит в конфигурационных файлах, которые мы рассмотрим на примере всего лишь одной таблицы – PROFESSION.
+Она у нас не сложная и для ее создания не требуется каких-либо еще таблиц.
+Она у нас справочная.
+Так что запускайте MySQL, запускайте SQL-скрипт.
+Кто не знает как это сделать – смотрите предыдущую часть – Часть 15 – Новая структура данных
+
+Итак, давайте создадим новый проект.
+Меню File->New Project.
+В форме выберите проект Java -> Java Application.
+На следующем экране выберите директорию, в которой будет расположен наш проект.
+Обратите внимание на чекбоксы в нижней части – поставьте их в соответствии с рисунком.
+
+
+
+
+
+Теперь я приведу структуру файлов, которые мы будем использовать в нашем маленьком проекте.
+Все они расположены в папке scr нашего проекта.
+
+ hibernate.cfg.xml – файл конфигурации Hibernate Main.java – хоть он и носит такое гордое название, он нам нужен всего лишь для запуска нашего приложения Profession.java – класс, который хранит в себе данные из таблицы.
+Точнее будет сказать – данные одной строки таблицы.
+ Profession.hbm.xml – файл, который содержит описание того, как класс Profession отображается на таблицу PROFESSION HibernateUtil.java – вспомогательный класс для инициализации системы Hibernate.
+Его название уже настолько устоялось (оно приводилось в самых ранних версиях документации), что уже почти стандартно.
+Хотя может быт и другим.
+Но не будем в данном случае выделяться
+
+
+Обратите внимание на файл hibernate.cfg.xml.
+Он расположен прямо в корне директории scr.
+Положение остальных вы можете разобрать самостоятельно.
+
+ 
+
+
+
+А теперь мы постепенно разберем все файлы, которые у нас здесь представлены.
+Начнем с файла hibernate.cfg.xml.
+
+hibernate.cfg.xml
+
+
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+<?xml version='1.0' encoding='utf-8'?> <!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+
+ <session-factory>
+
+ <!-- Database connection settings --> <property name="connection.driver_class">com.mysql.jdbc.Driver</property> <property name="connection.url">jdbc:mysql://127.0.0.1:3306/db_applicant</property> <property name="connection.username">root</property> <property name="connection.password">root</property>
+
+ <!-- SQL dialect --> <property name="dialect">org.hibernate.dialect.MySQLInnoDBDialect</property>
+
+ <!-- JDBC connection pool (use the built-in) --> <property name="connection.pool_size">1</property>
+
+ <!-- Enable Hibernate's automatic session context management --> <property name="current_session_context_class">thread</property>
+
+ <!-- Disable the second-level cache --> <property name="cache.provider_class">org.hibernate.cache.NoCacheProvider</property>
+
+ <!-- Echo all executed SQL to stdout --> <property name="show_sql">true</property>
+
+ <!-- Mapping files --> <mapping resource="students/entity/Profession.hbm.xml"/>
+
+ </session-factory>
+
+</hibernate-configuration>
+
+ 
+ 
+ 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36
+
+
+ <?xml version='1.0' encoding='utf-8'?> <!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd"> <hibernate-configuration> <session-factory> <!-- Database connection settings --> <property name="connection.driver_class">com.mysql.jdbc.Driver</property> <property name="connection.url">jdbc:mysql://127.0.0.1:3306/db_applicant</property> <property name="connection.username">root</property> <property name="connection.password">root</property> <!-- SQL dialect --> <property name="dialect">org.hibernate.dialect.MySQLInnoDBDialect</property> <!-- JDBC connection pool (use the built-in) --> <property name="connection.pool_size">1</property> <!-- Enable Hibernate's automatic session context management --> <property name="current_session_context_class">thread</property> <!-- Disable the second-level cache --> <property name="cache.provider_class">org.hibernate.cache.NoCacheProvider</property> <!-- Echo all executed SQL to stdout --> <property name="show_sql">true</property> <!-- Mapping files --> <mapping resource="students/entity/Profession.hbm.xml"/> </session-factory> </hibernate-configuration>
+
+
+
+
+ 
+
+ 
+
+
+В приципе здесь представлены достаточно очевидные вещи.
+При небольшом усилии вы сами сможете разобрать что и зачем.
+Но я все-таки пробегусь по именам.
+
+ connection.driver_class – достаточно понятное свойство.
+Оно показывает класс драйвера, который используется для соединения с базой данных.
+Это наш старый знакомый (конечно если вы читали предыдущие части) – драйвер для MySQL connection.url – тоже очевидно.
+Это URL для коннекта к базе данных connection.username – логин к базе данных connection.password – пароль к базе данных
+
+
+Теперь мы переходим к более сложным свойствам, хотя сложность их наверно несколько преувеличена.
+
+ dialect – т.к.
+Hibernate может работать с разными базами данных, и каждая имеет какие-то особенности (генерация первичного ключа, страничный вывод, функции), нам надо указать, с какой базой мы работаем.
+В данном случае у нас MySQL, что мы и указываем connection.pool_size – данное свойство показывает, сколько коннектов к базе данных будет одновременно открыто.
+Как вы наверно уже слышали, это достаточно распространенный прием – иметь несколько соединений.
+Таким образом увеличивается скорость работы current_session_context_class – это свойство указывает, каким образом происходит управление.
+Думаю, что пока вам не надо сильно углубляться в данный вопрос cache.provider_class – кэширование позволяет существенно ускорить работу.
+Часто запрашиваемые данные можно хранить в памяти и не считывать их каждый раз.
+Такой способ имеет свои достоинства – скорость, но и свои недостатки.
+Если кто-то изменит данные в обход Hibernate, то он об этом может и не узнать.
+В нашем случае мы не используем кэш.
+ show_sql – данное свойство указывает, будут ли выводится SQL-запросы, которые генерит Hibrante на консоль.
+В процессе отладки это бывает очень удобно
+
+
+Ну и наконец последнее свойство, или точнее тэг – mapping.
+Он используется для перечисления всех классов, которые имеют связь с базой данных.
+Т.е. если вы хотите использовать какой-то класс для связи с какой-то таблицей, вы должны его здесь указать.
+В данном случае у нас он всего один.
+Зато мы все можем подробно разобрать, не отвлекаясь на сложные взаимосвязи.
+
+ 
+
+Следующий интересный файл – это Profession.hbm.xml.
+Он описывает как наш класс Profession связан с таблицей PROFESSION.
+Давайте сначала приведем файл Profession.java
+
+Profession.java
+
+
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+package students.entity;
+
+public class Profession {
+
+ private Long professionId; private String professionName;
+
+ public Long getProfessionId() { return professionId; }
+
+ public void setProfessionId(Long professionId) { this.professionId = professionId; }
+
+ public String getProfessionName() { return professionName; }
+
+ public void setProfessionName(String professionName) { this.professionName = professionName; } }
+
+ 
+ 
+ 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23
+
+
+ package students.entity; public class Profession { private Long professionId; private String professionName; public Long getProfessionId() { return professionId; } public void setProfessionId(Long professionId) { this.professionId = professionId; } public String getProfessionName() { return professionName; } public void setProfessionName(String professionName) { this.professionName = professionName; } }
+
+
+
+
+ 
+
+ 
+
+
+Здесь в общем-то все очень просто – есть класс с полями, где можно хранить данные.
+Конечно же вам надо использовать средства IDE, которые позволяют по набранным полям сразу сгенерировать set/get методы.
+
+Замечание: Привыкайте к правильному именованию полей и методов set/get.
+Думаю, что вы уже в курсе, но все-таки повторюсь А теперь давайте рассмотрим файл Profession.hbm.xml
+
+
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="students.entity"> <class name="Profession" table="profession"> <id name="professionId" column="profession_id"> <generator class="native"/> </id> <property name="professionName" column="profession_name"/> </class> </hibernate-mapping>
+
+ 
+ 
+ 1 2 3 4 5 6 7 8 9 10 11 12
+
+
+ <?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd"> <hibernate-mapping package="students.entity"> <class name="Profession" table="profession"> <id name="professionId" column="profession_id"> <generator class="native"/> </id> <property name="professionName" column="profession_name"/> </class> </hibernate-mapping>
+
+
+
+
+ 
+
+ 
+
+
+Здесь мы видим достаточно простое описание связи между таблицей и классом.
+Давайте остановимся на некоторых атрибутах и тэгах
+
+ package=”students.entity” – этот параметр указывает, в каком пакете находится класс class name=”Profession” table=”profession” – в этом куске указывается, с какой таблицей какой класс связан id name=”professionId” column=”profession_id” – данный тег специально предназначен для описания идентификатора записи.
+Без него просто не обойтись.
+Сам ID может быть не одним полем, а составным, но в нашем случае мы не будем так далеко углубляться generator – здесь указыватеся способ генерации уникального значения для ID.
+Cлово native указывает на то, что значение будет генериться средствами самого SQL-сервера.
+Здесь мы можем опять посмотреть на параметр dialect в файлеhibernate.cfg.xml.
+Именно он дает понимание, как создавать ID.
+например для Oracle этот механизм отличается от MySQL.
+В Oracle надо использовать специальный механизм последовательностей, который создает уникальные значения.
+ property name=”professionName” column=”profession_name” – думаю, что данный тэг не вызывает у вас сложностей.
+Он описывает связь между полем в таблице и полем в классе.
+Здесь приводится очень простая форма записи, где не указывается тип (в этом случае он определяется автоматически), не указываются какие-либо ограничения и т.д.
+
+
+Как вы наверно уже догадались, данный файл не включает все возможности описания полей.
+Для более подробного понимания обращайтесь к документации.
+
+ 
+
+Нам осталось немного.
+Теперь на очереди файл HibernateUtil.java
+
+
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+package students.utils;
+
+import org.hibernate.SessionFactory; import org.hibernate.cfg.Configuration;
+
+public class HibernateUtil {
+
+ private static final SessionFactory sessionFactory;
+
+ static { try { // Create the SessionFactory from hibernate.cfg.xml sessionFactory = new Configuration().configure().buildSessionFactory(); } catch (Throwable ex) { // Make sure you log the exception, as it might be swallowed System.err.println("Initial SessionFactory creation failed."
++ ex); throw new ExceptionInInitializerError(ex); } }
+
+ public static SessionFactory getSessionFactory() { return sessionFactory; } }
+
+ 
+ 
+ 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24
+
+
+ package students.utils; import org.hibernate.SessionFactory; import org.hibernate.cfg.Configuration; public class HibernateUtil { private static final SessionFactory sessionFactory; static { try { // Create the SessionFactory from hibernate.cfg.xml sessionFactory = new Configuration().configure().buildSessionFactory(); } catch (Throwable ex) { // Make sure you log the exception, as it might be swallowed System.err.println("Initial SessionFactory creation failed."
++ ex); throw new ExceptionInInitializerError(ex); } } public static SessionFactory getSessionFactory() { return sessionFactory; } }
+
+
+
+
+ 
+
+ 
+
+
+Я не стал даже комментарии убирать – у меня этот файл существует уже несколько лет.
+И я его просто иногда копирую.
+В итоге здесь тоже ничего особо сложного нет.
+Я выделю два момента:
+
+ Объект sessionFactory – он является по сути фабрикой (создателем) сессий (коннектов) к базе данных.
+Мы указали в файлеhibernate.cfg.xml все необходимые параметры, которые наш объект sessionFactory использует при создании Класс Configuration – этот класс используется для загрузки конфигурации Hibernate
+
+
+Думаю, что по коду должно быть достаточно понятно, как это все работает.
+При загрузке класса происходит считывание конфигурации Hibernate и все необходимые параметры позволяют создать объект sessionFactory.
+Он объявлен как static – т.е. существует в одном экземпляре.
+И теперь к нему можно обращаться для получения сессии Hibernate, которая позволяет делать запросы к базе данных.
+
+ 
+
+Ну и наконец наш главный файл для запуска и демонстрации Main.java
+
+
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+package students;
+
+import students.entity.Profession; import java.sql.Connection; import java.sql.DriverManager; import java.sql.ResultSet; import java.sql.SQLException; import java.sql.Statement; import java.util.ArrayList; import java.util.List; import org.hibernate.Session; import students.utils.HibernateUtil;
+
+public class Main {
+
+ // Данный метод просто показывает, как делается запрос при работе на уровне JDBC private void oldJDBC() { Connection connection = null; Statement statement = null; ResultSet rs = null; try { Class.forName("com.mysql.jdbc.Driver"); connection = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/db_applicant", "root", "root"); statement = connection.createStatement(); List<Profession> list = new ArrayList<Profession>(); rs = statement.executeQuery("select profession_id, profession_name from profession " + "order by profession_name"); while (rs.next()) { Profession r = new Profession(); r.setProfessionId(rs.getLong("profession_id")); r.setProfessionName(rs.getString("profession_name")); list.add(r); System.out.println(r.getProfessionId() + ":" + r.getProfessionName()); } } catch (SQLException ex) { ex.printStackTrace(); System.err.println("Error SQL execution: " + ex.getMessage()); } catch (ClassNotFoundException ex) { ex.printStackTrace(); System.err.println("Error SQL execution: " + ex.getMessage()); } finally { try { if (rs != null) { rs.close(); } if (statement != null) { statement.close(); } if (connection != null) { connection.close(); } } catch (SQLException ex) { ex.printStackTrace(); System.err.println("Error: " + ex.getMessage()); } } }
+
+ // Метод добавляет новую запись в таблицу PROFESSION private void addProfession(String name) { Session session = HibernateUtil.getSessionFactory().getCurrentSession(); session.beginTransaction(); Profession r= new Profession(); r.setProfessionName(name); session.save(r); session.getTransaction().commit(); }
+
+ // Метод возвращает список профессий private List<Profession> listProfession() { Session session = HibernateUtil.getSessionFactory().getCurrentSession(); session.beginTransaction(); List<Profession> result = session.createQuery("from Profession order by professionName").list(); session.getTransaction().commit(); return result; }
+
+ // Метод удаляет по очереди все записи, которые ему переданы в виде списка private void deleteProfessions(List<Profession> result) { Session session = HibernateUtil.getSessionFactory().getCurrentSession(); session.beginTransaction(); for(Profession p : result) { System.out.println("Delete:"+p.getProfessionId()+":"+p.getProfessionName()); session.delete(p); //session.flush(); } session.getTransaction().commit(); }
+
+ // Методу удаляет одну запись private void deleteEntity(Object o) { Session session = HibernateUtil.getSessionFactory().getCurrentSession(); session.beginTransaction(); session.delete(o); session.flush(); session.getTransaction().commit(); }
+
+ public static void main(String[] args) { Main main = new Main();
+
+ // Вызов "старого стиля" main.oldJDBC();
+
+ // Добавление новых профессий main.addProfession("Profession_1"); main.addProfession("Profession_2"); main.addProfession("Profession_3"); main.addProfession("Profession_4"); main.addProfession("Profession_5");
+
+ // Вариант вызова списка List<Profession> result = main.listProfession();
+
+ // Вариант вызова удаления одной записи result = main.listProfession(); main.deleteEntity(result.get(0));
+
+ // Вариант вызова списка и последующее удаление result = main.listProfession(); main.deleteProfessions(result); } }
+
+ 
+ 
+ 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123
+
+
+ package students; import students.entity.Profession; import java.sql.Connection; import java.sql.DriverManager; import java.sql.ResultSet; import java.sql.SQLException; import java.sql.Statement; import java.util.ArrayList; import java.util.List; import org.hibernate.Session; import students.utils.HibernateUtil; public class Main { // Данный метод просто показывает, как делается запрос при работе на уровне JDBC private void oldJDBC() { Connection connection = null; Statement statement = null; ResultSet rs = null; try { Class.forName("com.mysql.jdbc.Driver"); connection = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/db_applicant", "root", "root"); statement = connection.createStatement(); List<Profession> list = new ArrayList<Profession>(); rs = statement.executeQuery("select profession_id, profession_name from profession " + "order by profession_name"); while (rs.next()) { Profession r = new Profession(); r.setProfessionId(rs.getLong("profession_id")); r.setProfessionName(rs.getString("profession_name")); list.add(r); System.out.println(r.getProfessionId() + ":" + r.getProfessionName()); } } catch (SQLException ex) { ex.printStackTrace(); System.err.println("Error SQL execution: " + ex.getMessage()); } catch (ClassNotFoundException ex) { ex.printStackTrace(); System.err.println("Error SQL execution: " + ex.getMessage()); } finally { try { if (rs != null) { rs.close(); } if (statement != null) { statement.close(); } if (connection != null) { connection.close(); } } catch (SQLException ex) { ex.printStackTrace(); System.err.println("Error: " + ex.getMessage()); } } } // Метод добавляет новую запись в таблицу PROFESSION private void addProfession(String name) { Session session = HibernateUtil.getSessionFactory().getCurrentSession(); session.beginTransaction(); Profession r= new Profession(); r.setProfessionName(name); session.save(r); session.getTransaction().commit(); } // Метод возвращает список профессий private List<Profession> listProfession() { Session session = HibernateUtil.getSessionFactory().getCurrentSession(); session.beginTransaction(); List<Profession> result = session.createQuery("from Profession order by professionName").list(); session.getTransaction().commit(); return result; } // Метод удаляет по очереди все записи, которые ему переданы в виде списка private void deleteProfessions(List<Profession> result) { Session session = HibernateUtil.getSessionFactory().getCurrentSession(); session.beginTransaction(); for(Profession p : result) { System.out.println("Delete:"+p.getProfessionId()+":"+p.getProfessionName()); session.delete(p); //session.flush(); } session.getTransaction().commit(); } // Методу удаляет одну запись private void deleteEntity(Object o) { Session session = HibernateUtil.getSessionFactory().getCurrentSession(); session.beginTransaction(); session.delete(o); session.flush(); session.getTransaction().commit(); } public static void main(String[] args) { Main main = new Main(); // Вызов "старого стиля" main.oldJDBC(); // Добавление новых профессий main.addProfession("Profession_1"); main.addProfession("Profession_2"); main.addProfession("Profession_3"); main.addProfession("Profession_4"); main.addProfession("Profession_5"); // Вариант вызова списка List<Profession> result = main.listProfession(); // Вариант вызова удаления одной записи result = main.listProfession(); main.deleteEntity(result.get(0)); // Вариант вызова списка и последующее удаление result = main.listProfession(); main.deleteProfessions(result); } }
+
+
+
+
+ 
+
+ 
+
+
+Вся суть методов для редактирования сводится к одному – создание сессии (коннекта) к базе (это объект класса Session) с помощью уже описанных классов HibernateUtil и SessionFactory.
+Объект session в общем-то не является непосредственным коннектом – более правильно обозначит его функцию как “ответственный за работу с базой данных”.
+
+Практически все методы выглядят одинаково – создается объект типа Session, после чего запускается транзакция, делается нужное действие (сохранение, удаление или получение данных), после чего коннект закрывается.
+
+Как вы можете догадаться теперь вам не надо создавать каждый раз 4 SQL-запроса для каждой таблицы.
+Я уже не говорю о ситуациях, когда вы должны получать связанные данные.
+Вы просто вызываете метод, который делает то, что вам надо.
+
+На что я бы еще обратил ваше внимание – Hibernate на самом деле не выполняет SQL-команды после каждого вашего действия.
+Он копит их, пока не сочтет нужным их выполнить.
+Посмотрите на порядок выполнения операторов в методе deleteProfessions.
+Тем я вставил печать информации.
+Так вот операторы удаления будут выполняться не в перемешку с этими строчками.
+Это можно увидеть на консоли.
+Но есть специальный метод flush, который заставляет Hibernate выполнить операторы в принудительном порядке.
+Советую раскомментировать строкуsession.flush() и посмотреть на вывод.
+
+В общем это все, что я хотел бы рассказать для начального шага в занимательный мир Hibernate.
+А теперь мы можем посмотреть более подробный рассказ – Часть 17 – Hibernate.
+Запись в виде XML-файлов..
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 2 comments to Hibernate.
+Начало пути
+
+ 
+ 
+ 
+ 
+ 
+ Август 30, 2014 at 11:26 Ruslan says: Здравствуйте, Антон, при запуске выдаёт вот такое:
+
+log4j:WARN No appenders could be found for logger (org.hibernate.cfg.Environment).
+
+log4j:WARN Please initialize the log4j system properly.
+
+Подскажите, пожалуйста, в чём может быть проблема?
+
+
+ Reply Август 31, 2014 at 06:36 admin says: Hibertae использует систему логирования log4j – это очень популярная система.
+Но настройки логов Hibernate берет из проекта, который его использует.
+Так что либо не обращайте внимания – это не смертельно.
+Либо настройте логирование для своего приложения.
+
+
+ Reply Leave a reply Cancel reply Comment You may use these HTML tags and attributes: <a href="" title=""> <abbr title=""> <acronym title=""> <b> <blockquote cite=""> <cite> <code class="" title="" data-url=""> <del datetime=""> <em> <i> <q cite=""> <s> <strike> <strong> <pre class="" title="" data-url=""> <span class="" title="" data-url=""> Имя * E-mail * Сайт 9 × = тридцать шесть Copyright © 2015 Java Course Designed by Blog templates, thanks to: Free WordPress themes for photographers, LizardThemes.com and Free WordPress real estate themes
+
+ 
+
+
+
+ 
+ 
+
+
+
+ 
+ Отправить запрос
+
+ CLOSE Your question has been sent!
+
+ 
+ 
+ Заполните поля
+
+ 
+ Name * Email * URL (include http://) Subject * Question * Notify Me On Answer: * Required Field Send
+ 
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

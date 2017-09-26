@@ -1,0 +1,406 @@
+javatalks - Форум Java программистовФорум Java программистовjavatalks.ru / 2006 - {current_year} © javatalks.ru javatalks.ru Ссылки Статьи javatalks Конференция javatalks Наш Open Source проект Регистрация Войти Английский Русский Украинский
+
+
+
+×
+
+
+
+
+Статьи javatalksКонференция javatalksНаш Open Source проект Hibernate Tutorial
+
+
+ Форум/ Базы данных и Java/
+
+ Персистентность в Java (JPA, ORM, ODB)
+
+
+ 
+ 1 2 3 anchor 08 июл 2009 22:31 Староверъ
+
+ 
+Сообщения:9282
+
+ Понятие ORM
+
+ Hibernate.
+Общие сведения и рекомандуемая литература
+
+ Downloads
+
+ Главный конфигурационный файл (hibernate.cfg.xml) Простейший класс HibernateUtil Запускаем первый пример Hibernate и его кеш.
+
+ get() vs. load()
+
+ Logging In Hibernate
+
+
+
+JTalks Open Source | Test Data Management | Karma - Evaluate Risks in JIRA
+
+ Изменен:18 дек 2012 12:02
+
+
+anchor 08 июл 2009 22:32 Староверъ
+
+ 
+Сообщения:9282
+
+ 1.
+Понятие ORM
+
+ORM(Object/Relational Mapping) - это способ сохранения объектов в реляционную базу данных.
+Другими словами ORM освобождает нас от работы с SQL и позволяет сосредоточиться на ООП.
+Основой ORM есть конфигурационный файл, в котором описывается как объект будет записываться в БД.
+Если с примитивными полями все так же примитивно: строковое поле записывается в колонку с типом varchar, целочисленное - в int, то со связями между объектами все интересней.
+Например, у существуют классы Книга и Автор, для обоих созданы конфигурационные файлы, в которых описаны их поля.
+Но Книга, кроме всего прочего, имеет ссылку на Автора.
+В таком случае таблицы в БД будут связаны по внешнему ключу, что так же описывается в одном из конфигурационных файлов. 
+Примечание: ORM может описываться не только в конфигурационных файлах, так же применяются аннотации, но для простоты понимания пока о них речь идти не будет.
+
+JTalks Open Source | Test Data Management | Karma - Evaluate Risks in JIRA
+
+ Изменен:08 июл 2009 23:10
+
+
+anchor 08 июл 2009 23:04 Староверъ
+
+ 
+Сообщения:9282
+
+ 2.
+Hibernate.
+Общие сведения
+
+Hibernate - это один из самых популярных на сегодняшний день ORM-фреймворков.
+Конечно, то, что мы избавились от SQL - это плюс, но не нужно забывать и об отрицательных сторонах, главная из которых - производительность.
+Само собой, что работа с БД посредством грамотно написанного SQL-кода будет более производительной, нежели с использованием Hibernate.
+Однако SQL нужно еще уметь грамотно написать, в то время, как Hibernate создает запросы оптимизированные.
+Так же у разработчиков уходит уйма времени на написание запросов и хранимых процедур, работа же с Hibernate ускоряет процесс разработки.
+Одной из привлекательных сторон Hibernate есть то, что он поддерживает диалекты ко всем популярным СУБД.
+Наши приложения становятся еще и СУБД-независимыми, т.к. единственное, что придется поменять если мы хотим перейти на другую СУБД, - это диалект в конфигурации Hibernate.
+Для функционирования Hibernate нужны: 1.
+Главный конфигурационный файл, в котором описываются параметры соединения к БД.
+2. Описание связи между классом и таблицей.
+Включает в себя связь между полем класса и колонкой таблицы.
+Также здесь описывается связь классов друг с другом.
+
+Hibernate - это очень сложный фреймворк, о нем написано очень много информации, если интересно его изучать основательно, можно поступить так: Начать Hibernate In Action - книга посредственная, но будет полезна именно для новичков.
+
+ POJOs In Action - отличная книга для понимания того как работать с ORM'ами типа Hibernate, JPA, JDO.
+
+ Hibernate Reference даст более полную картину о Hibernate
+
+ Java Persistence with Hibernate - более детальная книга о Hibernate, обязательна для прочтения для настоящего понимания Hibernate.
+
+
+
+JTalks Open Source | Test Data Management | Karma - Evaluate Risks in JIRA
+
+ Изменен:05 июн 2012 10:38
+
+
+anchor 09 июл 2009 13:36 Староверъ
+
+ 
+Сообщения:9282
+
+ 3.
+Downloads
+
+Давайте приступим к закачке Hibernate 3.2.6.ga.
+В будущем можно будет конечно качать более новую версию, но пока эта самая актуальная.
+Многие(и я в том числе) обожглись на том, что качали укомплектованный пакет Hibernate c оф. сайта.
+Но, как оказалось, библиотеки, которые идут в этом комплекте, имеют несовместимые версии, что приводит обычно к ClassNotFoundException при запуске приложения.
+Так вот, здесь собраны нужные библиотеки, которые можно скачать с центрального maven-репозитория: hibernate-3.2.6.ga.jar mysql-connector-java-5.1.6.jar log4j-1.2.9.jar dom4j-1.6.1.jar slf4j-api-1.5.2.jar slf4j-simple-1.5.2.jar jta-1.1.jar icu4j-2.6.1.jar commons-logging-1.0.4.jar commons-collections-3.1.jar cglib-nodep-2.1_3.jar
+
+Все их нужно будет подключать к будущим Hibernate-проектам.
+
+JTalks Open Source | Test Data Management | Karma - Evaluate Risks in JIRA
+
+ Изменен:11 июл 2009 19:12
+
+
+anchor 10 июл 2009 12:35 Староверъ
+
+ 
+Сообщения:9282
+
+ 4.
+Главный конфигурационный файл(hibernate.cfg.xml)
+
+Как было выше сказано, для функционирования Hibernate требует главного конфигурационного файла.
+Вот и он (здесь указана база library, поэтому чтоб после этого воспользоваться этим конфигом, создайте базу с таким именем): <?xml version='1.0' encoding='utf-8'?> <!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd"> <hibernate-configuration> <session-factory> <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property> <property name="hibernate.connection.url"> jdbc:mysql://localhost/library </property> <property name="hibernate.connection.username">root</property> <property name="hibernate.connection.password">root</property> <property name="hibernate.connection.autocommit">true</property> <property name="show_sql">true</property> <property name="dialect">org.hibernate.dialect.MySQLDialect</property> <property name="hibernate.hbm2ddl.auto">update</property> <!-- Mapping files --> <mapping resource="Book.hbm.xml"/> </session-factory> </hibernate-configuration>
+
+hibernate.connection.driver_class - указываем класс драйвера show_sql - если установим в true, в консоль будут выводиться SQL-запросы, которые скрыты за Hibernate-кодом dialect - диалект общения с БД hibernate.hbm2ddl.auto - свойство, которое указывается что нужно сделать со схемой БД при инициализации.
+Может принимать такие значения: update - сверяет схему БД с имеющимися конфигурациями классов, если мы внесли какие-то изменения, они автоматически занесуться в БД.
+При этом данные, которые были занесены в базу не изменятся - даже, если мы решили удалить некоторые поля из таблицы, они все одно останутся create - каждый раз при запуске приложения, схема БД будет создаваться наново.
+Все данные, которые были занесены раньше, будут удалены create-drop - каждый раз при запуске приложения, схема БД будет создаваться наново, а при завершении - удаляться.
+Все данные, которые были занесены во время работы приложения, будут удалены по завершению приложения validate - при инициализации будет совершена проверка соответствуют ли конфигурации классов и схема БД.
+Если мы внесли изменение в конфигурацию какого-то класса, а схема в БД не была изменена, выбросится исключение
+
+Далее идет раздел описания классов.
+Тут мы указываем файлы, которые отвечают за конфигурирование каждого из классов.
+
+JTalks Open Source | Test Data Management | Karma - Evaluate Risks in JIRA
+
+ Изменен:05 июн 2012 10:28
+
+
+anchor 11 июл 2009 19:29 Староверъ
+
+ 
+Сообщения:9282
+
+ 5.
+Простейший класс
+
+Напишем простейший класс с тремя полями: идентификатор типа Long, строковое поле - название книги и количество страниц, представленное целочисленным типом.
+Обращаю внимание, что у класса обязан быть конструктор по умолчанию.
+Т.к. мы не объявили ни одного, то он и так будет.
+package ru.javatalks.faq.persistence.hibernate.bookstore;
+
+/** * 10.07.2009 23:43:14 * * @author ctapobep */ public class Book { private Long id; private String title; private int pageCount;
+
+ public Long getId() { return id; }
+
+ public void setId(Long id) { this.id = id; }
+
+ public String getTitle() { return title; }
+
+ public void setTitle(String title) { this.title = title; }
+
+ public int getPageCount() { return pageCount; }
+
+ public void setPageCount(int pageCount) { this.pageCount = pageCount; } }
+
+Теперь опишем его конфигурационный файл.
+Все эти файлы должны иметь имя ClassName.hbm.xml.
+То есть в нашем случае это Book.hbm.xml:<?xml version="1.0"?> <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd"> <hibernate-mapping package="ru.javatalks.faq.persistence.hibernate.bookstore"> <class name="Book" table="books"> <id name="id" column="id" unsaved-value="null"> <generator class="native"/> </id> <property name="title" type="string" column="title" length="255"/> <property name="pageCount"/> </class> </hibernate-mapping> По пунктам:<property name="title" type="string" column="title" length="255"/> Здесь мы установили, что в таблице создастся поле title с типом varchar(или varchar2 в Oracle), с длинной 255.
+Если б мы не утсановили длину, Hibernate определил бы ее сам, и составляла бы она максимальную допустимую длину данного типа для данной БД.
+Т.к. у нас MySQL, то длина поля и была бы 255.
+Что касается типа поля, то если его не указывать, Hibernate его определит сам, но только для примитивов и классов-оберток(Integer, Double etc.).
+<property name="pageCount"/> Как видите, здесь мы не указывали ни тип, ни название колонки - Hibernate все установит самостоятельно.
+ <id name="id" column="id" unsaved-value="null"> <generator class="native"/> </id> Поле идентификатора обязательное условие для работы Hibernate.
+Его тип может быть и строкой, и числом, главное условие - уникальность.
+Атрибут unsaved-value определяет как Hibernate будет отличать уже сохраненный объект(persistent) от еще нетронутого(unsaved).
+В данном случае, если идентификатор объекта окажется null, значит он еще не был сохранен в базу.
+Кстати, здесь можем наблюдать выигрышь типа Long перед long: последний не может быть null, unsaved-value у него будет 0, что не так бросается в очи. 
+generator - это генератор идентификаторов.
+Его класс будет отвечать за то, как будет генерироваться уникальный идентификатор.
+В данном случае установлен класс native, что позволяет использовать генератор самой БД. 
+Подробней об идентификаторах и генераторах можно прочитать здесь.
+<class name="Book" table="books"> Тег, в котором описывается класс.
+Здесь мы указали имя класса и таблицу, которая будет ему соответствовать.
+Подробней.
+<hibernate-mapping package="ru.javatalks.faq.persistence.hibernate.bookstore"> Главный тег данного конфигурационного файла.
+Здесь мы указали лишь пакет, в котором хранится наш класс.
+Если бы мы здесь упоминали больше классов, не указывая их пакеты, то использовался именно этот.
+Хотелось бы заметить, что если б у нас был класс в дочернем пакете относительно описанного выше, то к этому классу пришлось бы обращаться, указывая абсолютное имя пакета, а не относительное.
+То бишь, допустим у нас есть пакет ru.javatalks.faq.persistence.hibernate.bookstore.derived, тогда к классу в нем мы бы обращались ru.javatalks.faq.persistence.hibernate.bookstore.DerivedClass.
+
+JTalks Open Source | Test Data Management | Karma - Evaluate Risks in JIRA
+
+ Изменен:20 ноя 2009 16:46
+
+
+anchor 26 июл 2009 21:46 Староверъ
+
+ 
+Сообщения:9282
+
+ 6.
+HibernateUtil
+
+Допишем класс-утилиту, которая будет загружать Hibernate и предоставлять к нему доступ: HibernateUtil.java package ru.javatalks.faq.persistence.hibernate.util;
+
+import org.hibernate.SessionFactory; import org.hibernate.cfg.Configuration;
+
+/** * 26.07.2009 20:27:43 * * @author ctapobep */ public class HibernateUtil { private static final SessionFactory sessionFactory;
+
+ static { try { //creates the session factory from hibernate.cfg.xml sessionFactory = new Configuration().configure().buildSessionFactory(); } catch (ExceptionInInitializerError ex) { System.err.println("Initial SessionFactory creation failed: " + ex); throw new ExceptionInInitializerError(ex); } }
+
+ /** * Gets hiberante session factory that was initialized at application startup.
+ * * @return hibernate session factory */ public static SessionFactory getSessionFactory() { return sessionFactory; } }
+
+Этот код создает объект SessionFactory - фабрика, с помощью которой создаются Hibernate-сессии, с которыми мы собственно и будем работать.
+Фабрика сессий - это потокобезопасный глобальный объект, который нужно инициализировать лишь один раз. 
+Очень важное место здесь играет объект Configuration и его метод configure().
+Если инициализировать фабрику сессий таким образом, который описан выше, то файл hibernate.cfg.xml будет искаться в classpath.
+Мы также можем явно указать место нахождения этого файла, использовав перегруженный вариант метода configure(String).
+
+JTalks Open Source | Test Data Management | Karma - Evaluate Risks in JIRA
+
+ Изменен:18 окт 2009 22:28
+
+
+anchor 02 сен 2009 18:53 Староверъ
+
+ 
+Сообщения:9282
+
+ 7.
+Запускаем первый пример
+
+Ну что, теории, наверное, достаточно.
+Нужно наконец-то запустить что-то :) Давайте сохраним, извлечем, изменим и удалим запись из БД.
+Это типическая CRUD-операция(create, read, update, delete).
+import org.hibernate.Session; import ru.javatalks.faq.persistence.hibernate.bookstore.Book; import ru.javatalks.faq.persistence.hibernate.util.HibernateUtil;
+
+public class Main { public static void main(String[] args) { Session session = HibernateUtil.getSessionFactory().openSession(); Book book = new Book(); book.setPageCount(520); book.setTitle("Tales of Round Table"); session.save(book);//сохранили книгу, наш id сгенерировался и сразу заполнился book = (Book) session.get(Book.class, book.getId()); book.setPageCount(430); session.save(book); session.delete(book); session.flush(); session.close(); } } Можете расставить точки остановок и следить как изменяется содержание таблицы books с каждой строчкой.
+
+JTalks Open Source | Test Data Management | Karma - Evaluate Risks in JIRA
+
+ Изменен:02 сен 2009 19:27
+
+
+anchor 28 фев 2011 14:39 Староверъ
+
+ 
+Сообщения:9282
+
+ Hibernate и его кеши
+
+В Hibernate есть следующие уровни кеша: Session level (1 level cache) - работает только между открытием и закрытием сессии.
+Например, если вы выбрали объект, а затем хотите его еще раз выбрать - он будет браться из кеша.
+После закрытия сессии весь кеш очистится.
+Именно при закрытии сессии, т.к. сессия может быть использована на протяжении нескольких транзакций, то эти несколько транзакций могут использовать session level cache совместно.
+Однако как правило при работе с Hibernate - сессия живет одну транзакцию.
+
+ Process level (2 level cache, SessionFactory cache) - здесь кешируются данные всех сессий.
+Нужно заметить однако, что если мы говорим про fetch="join", то Hibernate никогда не будет искать дочерние объекты в кеше.
+Например, from Authors a join a.books Автора выберутся из кеша, а книги - из БД.
+Если Книги загружаются дополнительным запросом (то бишь fetch="select"), тогда объекты возьмуться из кеша (если они там есть конечно же).
+В общем случае этот кеш работает используя некие cache regions(=spaces), когда каждая сущность закрепляется за некоторым блоком кеша.
+Например, так: books space будет включать сущность Book. 
+
+ authors space будет включать как книги, так и их авторов, т.к. например при обновлении авторов, нужно обновлять и книги.
+Это достаточно абстрактный пример, просто чтоб объяснить что это такое
+
+Эти регионы нужны для того, чтоб определить какие операции дожны обновлять/убивать кеш.
+Конфигурирование этих регионов производится в hbm.xml файле, а также в конфигурации самого провайдера кеша.
+
+ Query cache - это расширение кеша 2го уровня.
+Если его активировать, то при выполнении запроса, все ID выбранных объектов будут сохраняться в кеше.
+При повторном выполнении запроса, он не буден выполнен в БД, просто возьмуться все ID и соответствующие объекты выберуться из кеша 2го уровня.
+Полезен такой кеш только для read-only данных или данных, которые очень редко изменяются, т.к. этот кеш очищается полностью если произойдет хоть одно изменение в затронутой запросом таблице.
+Можно сделать так, чтоб по умолчанию кеш запросов был включен, для этого нужно установить в конфигурации Hibernate: hibernate.cache.use_query_cache в true
+
+
+Hibernate cache & Native SQL Queries: Хиб позволяет исполнять обычные SQL запросы, куда можно писать запрос любой гибкости.
+Проблема здесь в том, что т.к. мы сами заведуем какие таблицы и колонки изменять, Хиб не может проследить к какому региону кеша это относится, и, потому как, самое важное для нас - это целостность данных, Хиб чистит весь кеш второго уровня во время каждого такого запроса.
+Происходит это потому что наш запрос может изменить какую-то строку в таблице, но в кеше эта "строка" останется с прежним значением и при работе с этим кешом мы получим устаревшие данные.
+Однако т.к. мы сами во время написания запроса знаем какие регионы это может зацепить, мы можем указать Хибу какие же регионы все-таки чистить, чтоб он не убивал все под чистую.
+Делается это следующим образом: SQLQuery sql = session.createSQLQuery("update author ..."); sql.addSynchronizedEntityClass(Author.class); sqlQuery.executeUpdate(); В данном случае регионы закрепленные за Author будут очищаться, но только они.
+Так же можно указать другие параметры: sql.addSynchronizedEntityName("ru.javatalks.bookstore.Author"); sqlQuery.addSynchronizedQuerySpace("author"); Ну и последний способ, если вы описываете запрос в hbm.xml файле, то это будет выглядеть так: <sql-query name="updateAuthor"> <synchronize table="author" /> update author set...
+ </sql-query> Если вы знаете, что никаких обновлений данных не произойдет или что это никак не повлияет на качество кешей, то можете указать: sql.addSynchronizedQuerySpace(""); Пустая строка будет означать в данном случае, что никакие кеши не будут очищаться.
+
+JTalks Open Source | Test Data Management | Karma - Evaluate Risks in JIRA
+
+ Изменен:17 май 2014 00:48
+
+
+anchor 13 апр 2012 16:16 Староверъ
+
+ 
+Сообщения:9282
+
+ Разница между get() & load()
+
+Оба метода возвращают объект по ID, но делают это совсем по-разному.
+В данном случае рассматриваем обычную ситуацию, когда у нас не установлено lazy="false" для класса и не используется bytecode enhancement. 
+Для начала стоит упомянуть, что Hibernate может вернуть как прокси (обертка над объектом, создаваемая в runtime), так и сам объект.
+Если вернулся прокси, то он может быть в инициализированном состоянии, когда все примитивные и non-lazy поля закружены, а также в состоянии, когда у него есть только ID.
+Итого: session.get(Book.class, bookId) - будет обращаться к БД (ну или найдет объект в кеше) и вернет инициализированный прокси.
+Если объект не будет найден, вернется null.
+Когда мы обращаемся к ленивым полям, они загружаются.
+
+ session.load(Book.class, bookId) - вернется неинициализированный прокси, обращения к базе вообще не будет.
+Это будет просто прокси, который получил информацию только ту, что мы передали в метод.
+Инициализируется же прокси только тогда, когда мы обратимся к его полям, вот тогда и будет произведен select.
+И в таком случае, если объекта нет в БД или кеше, выбросится исключение. 
+Данная опция может быть намного эффективней, однако нам нужно точно знать, что объекты с такими ID существуют.
+Например, в следующем коде не будет ниодного select'a: Book book = session.load(Book.class, 24L); Author author = session.load(Author.class, 12L); book.setAuthor(author); session.save(book); Будет произведен только insert.
+
+
+Так же вы должны понимать, что когда вы дергаете связь объекта с другим объектом (book.getUser()) - возвращается прокси.
+И даже когда вы дерните getId() вернется прокси и не будет произведен select (если вы не отключили прокси или не используете bytecode enhancement, в противном случае как минимум загрузится объект с примитивами).
+
+JTalks Open Source | Test Data Management | Karma - Evaluate Risks in JIRA
+
+ 
+
+
+anchor 25 май 2012 16:01 Староверъ
+
+ 
+Сообщения:9282
+
+ Логирование в Hibernate Статья переехала на: JavaTalks Articles
+
+JTalks Open Source | Test Data Management | Karma - Evaluate Risks in JIRA
+
+ Изменен:18 дек 2012 12:02
+
+
+anchor 03 июн 2012 13:25 pashalost
+
+ 
+Сообщения:34
+
+ 1) Не ясно, как нужно настраивать log4j ("А это добавьте в log4j:" не сильно приносит ясности) 2) Не лишним было бы пояснить какой именно classpath имеется ввиду, при сохранении hibernate.cfg.xml (можно было просто сказать - папка src, и тут же куча людей перестала бы постить свои нелепые ошибки.)
+3) mysql - не самое удачное название для тестовой базы данных примера для новичков, попробуйте догадаться почему ? anchor 05 июн 2012 10:33 Староверъ
+
+ 
+Сообщения:9282
+
+ 1.
+Это не tutorial по log4j, не хотел бы перегружать посты информацией.
+К тому же это достаточно глубокое и далеко не обязательное конфигурирование Хиба.
+2. Что такое src?
+Последние пару лет практически не видел проектов, где src является корнем classpath.
+Если интересно узнать что это, здесь описано что это, можно также поискать в сети более детальную информацию если этого будет мало.
+3. Поменял, спасибо.
+PS: Хиб - это оч сложный фреймворк, имеет смысл для начала ознакомиться поплотней с core java, здесь указаны книги для начинающих.
+
+JTalks Open Source | Test Data Management | Karma - Evaluate Risks in JIRA
+
+ 
+
+
+anchor 05 июн 2012 10:54 usik
+
+ 
+Сообщения:190
+
+ Староверъ сделали бы вы еще нечто подобное по EntityManager.
+(Желательно подход с анотациями), то все бы ваще радовались.
+
+ 
+
+
+anchor 05 июн 2012 11:58 Староверъ
+
+ 
+Сообщения:9282
+
+ Я предпочитаю не работать с JPA, но это отдельная история :)
+
+JTalks Open Source | Test Data Management | Karma - Evaluate Risks in JIRA
+
+ 
+
+
+
+ 
+ 1 2 3 Модераторы:Нет Сейчас эту тему просматривают:Нет
+
+
+
+2006 - 2015 © javatalks.ru Powered by JCommune 3.3.3000.ac531c0 byjtalks.org Design withTwitter Bootstrap
+
+
+
+
+
+

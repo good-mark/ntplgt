@@ -1,0 +1,97 @@
+
+            ﻿Original article	Reprint
+Vascular endothelial growth factor as a marker of development of relapses in the postoperative
+period in kidney and bladder tumors
+D. A. Durnov, Vasiliy Yu. Mikhailov, N.B. Zakharova, A.N. Ponukalin
+Saratov State Medical University n.a. V. I. Razumovsky, Saratov, Russia
+Accepted 20 September 2012
+Original Text in Russian © Durnov DA, Mikhailov VYu, Zakharova NB, Ponukalin AN, 2011, published in Saratov Journal of Medical Scientific Research 2011; 7(3): 711-714.
+Abstract: Aim - The article considers the results of research of the vascular endothelial growth factor (VEGF) in blood serum in patients with kidney and bladder tumors after surgical intervention. Materials and methods - The total of investigated patients consisted of 75
+primary patients with kidney cancer (stages pT1-pT3N0M0), 75 patients with non-muscle-invasive bladder cancer (NMIBC), stages pTa-
+1NxMoG1-3, 25 patients with cysts of kidneys and 30 healthy patients. Results of research of content of VEGF in patients with kidney cancer and NMIBC in the postoperative period confirmed the role of angiogenesis processes both in the development of tumoral tissue and relapses of disease. Conclusion - Investigations of VEGF in blood serum may be additional method of revealing kidney cancer and NMIBC after surgical treatment of relapses of disease and may influence on the duration of recurrence-free period.
+Keywords: vascular endothelial growth factor, angiogenesis, kidney cancer, non-muscle-invasive bladder cancer.
+Cite as Durnov DA, Mikhailov VYu, Zakharova NB, Ponukalin AN. Vascular endothelial growth factor as a marker of development of relapses in the postoperative period in kidney and bladder tumors. Russian Open Medical Journal 2012; 1: 0311.
+Correspondence to Dr Vasiliy Yu. Mikhailov. Address: Department of Urology,Saratov State Medical University n.a. V. I. Razumovsky, Bolshaya Kazachya str., Saratov, 410012, Russia. Phone: +7 917 201 12 27. E-mail: vasylek777@rambler.ru
+Introduction
+The results of recent years surveys in proteomics area and biosystematic approach in molecular biology allowed to establish a significant purpose of cytokines and factors of growth in the transmission of intercellular signals [1-3]. The most well-known and examined is the vascular endothelial growth factor (VEGF) [4]. VEGF is a dimer, heparin binding protein with molecular mass 3442 kDa— is currently studied as one of the the major biomarkers of recurrence and metastasis development [5, 6]. It is established that the proliferation and migration of endothelial cells increase is related to the reduction factors secretion, which are inhibiting angiogenesis (trombospondin, etc), as well as to production of stimulators of angiogenesis increase (and primarily VEGF) [7]. These processes lead to activation of proteolysis of extracellular matrix and endothelial vermination to tissue neoplasms [8].
+It is claimed that modern methods of detecting and timely removing primary tumor single transformed cells could include the angiogenesis index and medications — its inhibitors [8, 9]. The research of angiogenesis and natural anti-angiogenic factors could find a wide application in clinical practice [10]. Angiogenesis is considered to be one the major factors contributing to the kidney and bladder cancer development [6, 11]. The research concerning the content of angiogenic factors in blood, first of all VEGF could be considered as one the approaches in predicting the results of the treatment of all types of urinary tract cancer [6]. This serum biomarker has a number of significant advantages, as it allows to get forward-looking information, that could not be obtained when using standard clinically-morphological research [4, 6, 8].
+The purpose of this work: The research of clinical meaning of VEGF level growth in kidney and bladder cancer patients' blood serum after operative treatment.
+Material and Methods
+The research included the results of survey of 180 individuals, 75 of them are suffering kidney cancer (KC) of pT1-pT3N0M0 stage, 75 are suffering from non-muscle invasive bladder cancer (NMIBC) of pTa-1NxMoG1-3 stage and 30 almost healthy individuals. The approximate age of patients was 56.0±9.5 years, among them there were 61.3% of males and 38.7% of female. The research of VEGF content in serum was carried out within 75 primary patients suffering KC before and after the operative therapy: after 2 weeks, 6 months, 12 months.
+The patients suffering NMIBC had their content of VEGF checked before and after 6-12 months after the transurethral resection of bladder (TRB). In order to estimate the quantitive content of VEGF in blood serum the ELISA method and the reagents of Bender Medsistems firm (Austria) and "Vektor-Best" closed JSC (Novosibirsk) were used.
+For statistical analysis of the obtained results the following computer software was used: Statistica 6.0 (StatSoft Inc.), SPSS 13.0 for Windows (SPSS Inc.), Microsoft Office Excel 2007. The change in VEGF level in blood serum were monitored the following methods: descriptive statistic, nonparametric statistic with the calculation of the median, interquartile span (Q1 and Q3), mean (M), standart deviation (SD), authorisation levels differences between groups by Mann-Whitney criteria. The diagnostic value of
+VEGF change was measured with the help of studying the sensitivity and specificity, which are calculated as characteristic curves are built (ROC-analysis).
+Table 1. VEGF content (ng/ml) in blood serum of KC patients
+Patients' group	Median	Ql-QB	Min-Max	M±SD
+Control group	63.S	BB.9-112.4	11.0-17S.0	73.9±SS.3
+T1NoMo	446.S	BS4.1-710.1	17B.0-1273.6	S46.4±B24.9
+T2NoMo	б12.0	442.0-66S.0	20б.0-1192.б	S9B.6±269.2
+T3NoMo	З12.0	491.0-904.б	440.0-16B0.2	310.3±B34.7
+Q1 is quartile 1, QB is quartile B.
+Table 2. Diagnostic threshold of VEGF sensitivity and specificity in blood serum within KC patients_________________________________________________________________
+KC stage	VEGF, ng/ml		Specificity, % Sensitivity, %		
+T1-2	from 207.S to 6BB.0		8S.7		9б.2
+TB	>6BB.0		70.B		71.4
+Table 3. Dynamics of VEGF content (ng/ml) in blood serum within KC T1-3 patients after 2 weeks, 6 and 12 months after operative treatment					
+Patients'	Parameters		Time after operative treatment		
+group		Initial	2 week	б months	12 months
+KC T1-2	Min	17B.0	B78.S	6B.B	BB.6
+	Max	127З.б	147B.2	206.S	221.S
+	Median	482.0*	80S.1*	98.1	91.2
+	M	S6S.S	777.4	112.4	111.б
+	SD	289.9	313.3	50.5	54.5
+KC T3	Min	436.0	614.8	22.1	33.6
+	Max	16B0.2	1S70.2	B9S.4	769.B
+	Median	812.0*	1008.7*	8B.8	104.9
+	M	810.8*	1029.1*	107.2	21S.8
+	SD	B84.1	B66.0	90.S	146.S
+* - p<0.05 compared with initial level.
+Table 4. VEGF level of blood serum within NMIBC patients and control group________________________________________________________________________________
+Patients' group	M±SD	Median Ql-QB	Min-Max
+Control group	78.9±SS.8	68.S BB.8-112.4	11.0-17S.0
+NMIBC patients	BS4.B±168.4*	294.7* 204.S-479.8	4S.4-948.6
+* - P<0.01 compared with control group.			
+Table 5. Dynamics of VEGF content in blood serum of NMIBC patients in			
+6-12 months after TBR			
+Patients' group	M±o	Median Ql-QB	Min-Max
+Control group 1	78.9±55.8	68.5 33.8-112.4	11.0-175.0
+NMIBC patients:			
+- before operative 2 treatment	BS4.B±168.4	294.7 204.S-479.8	4S.4-948.6
+- who had no			
+relapse in postoperative	166.2±99.S	1B4.4 6B.0-19S.9	28.7-S12.B
+period 3			
+- who had the			
+relapse detected in postoperative	420.1±271.B	B29.4 199.7-б7б.8	47.4-10BS.8
+period 4			
+Statistically significant (P-level) of differences between groups: P0-1<0.001, Pq-2<0.001, Pu=0.002, P2-3=0.01, Pt3=0.71.
+Results
+Results of the research of VEGF content in blood serum of KC patients and NMIBC patients presented in Tables 1-5. As it is presented in Table 1, KC patients has a significantly higher content of VEGF in blood serum than norm, with it there is an increase in this index at T1-stage already. The most significant increase in VEGF content, which is 11.85 times more that norm has been detected within T3-stage patients (P<0.05).
+ROC-analysis of VEGF level in case of KC T1 and T2 patients did not detect sufficient diagnostic compliance of this index: sensitivity 74.7%, specificity 56.3%. The diagnostic efficiency of the VEGF content research was noticed within KC patients of T3 -stage against T1-2 -stage patients: sensitivity 71.4%, specificity 72.7%. This suggests that the VEGF content increase in blood serum with a high possibility correlates with the degree of tumor invasion in case of KC.
+The diagnostic threshold was chosen according to the most current clinical demands. In this case the marker level with a maximum amount of sensitivity and specificity was taken as a criteria of threshold chose (Table 2).
+The obtained results indicate that in case of KC of T1 and T2-stages the VEFG sensitivity and specificity is high (over 70%). The definition of this biomarker may be suggested for identifying the stage of disease within KC patients. In a postoperative period almost all KC patients have an significant increase in their VEGF content compared to preoperative level (Table 3). But after six months operative treatment had been radically completed the level of index despite a significant decrease remained 67% higher than norm (P<=0.05). This confirms the possibility of exponentially growing tumor development among KC patients at any time, which in the end will lead to the appearance of metastasises and return to the acute stage of disease. This is confirmed by the results of studying 3 patients, who had the an increase in VEGF content both in pre- and postoperative periods during the year.
+Despite the fact that NMIBC patients have the most favorable prognosis, the research of VEGF level before carrying out TRB showed that almost all patients had an increase of this index. According to ROC-analysis, VEGF level is diagnostically significant for NMIBC diagnostics. During a diagnostic level higher than 153.2 pg/ml sensitivity was 82.7%, and specificity was 87.5% (Table 4).
+In identifying the diagnostics meaning of quantitive definition of VEGF level after TRB the NMIBC patients in postoperative period are divided into 2 groups. Those who did not have a relapse of disease at the moment of check-up (after 6-12 months) went to the first group, those with the BC relapse. The obtained results of VEGF content are presented in Table 5.
+As seen, the VEGF content in blood serum of NMIBC patients in six months after operative treatment is related to the relapse of the disease. In case of relapse absence within the check-up a more than twofold (p=0.002) decrease in its level after 6 months has been noticed. At the same time VEGF level within those patients with relapse increases in 2.5 times comparatively to its level within patients without the relapse. The usage of ROC-analysis showed that the research of VEFG level may be efficient while identifying the group of patient with the BC relapse after TRB relatively to those patients without the relapse. The calculated level of discriminatory during the check-up of patients in 6 months was higher than 198.2 pg/ml (sensitivity was 76.9%, specificity was 80.0%).
+Discussion
+It is known that one of the major markers of angiogenesis, VEGF, does not appear to be strictly specific indicator for malignant growth. Its level may very as a result of inflammation processes activation [1, 3]. Along with it results provided confirm that the estimation of quantitate content of this index in blood may be enough accurate approach in recurrence kidney and bladder cancer prediction. Apparently, the high level of VEGF preservation in 12 months after surgery of KC patients shows that nearly all patients in postoperative period maintained a high level of angiogenesis activity. This confirms the possibility of exponentially growing tumor development at any time in relation to KC patients, which eventually will lead to appearance of micrometastases and return to acute stage of disease [8]. This point has been confirmed by the results of research of 3 patients, who both in pre- and postoperative period during the year had an increase in VEGF content. In case of NMIBC patients the quantitive VEGF level estimation also could be recommended in integrated diagnostics of BC relapse development after TRB. After an insignificant increase, there is a approximately twofold decrease of VEGF level on 6-12 months of postoperative period in case of relapse absence. With TRB completed inadequately, or the relapse development the VEGF level remains the same or starts to increase.
+Conclusion
+The results of the VEGF content in cases of KC and NMIBC patients in postoperative period confirm the ideas about the angiogenesis processes role both in development of tumor tissue itself and in the manifestation of recurrent. With this, in case of KC patients in seems like all treatments used were unable to detect and eliminate the tumor transformed cells. Chronic usage of angiogenesis inhibitors after removal of the kidney tumor tissue may prevent the growth of micrometastasises and increase the efficiency of the treatment used for this decease. It is obvious that the VAGF research can be economically feasible additional method of detecting KC and NMIBC among those patients, who had been through surgery to cure the relapse or to significantly influence on the duration of the disease-free survival.
+Conflict of interest: none declard.
+Reference
+1.	Sezer O, Jakob C, Niemoller K, et al. Angiogenesis in cancer. J Clin Oncol 2001; 19: 3299-3301.
+2.	Folkman J. The role of angiogenesis in tumor growth. Semin Cancer Biol 1992; 3: 65-71 (PMID: 1378311).
+3.	Carmeliet P, Jain RK. Angiogenesis in cancer and other diseases. Nature 2000; 407: 249-257 (PMID: 11001068) (doi:10.1038/35025220).
+4.	Holzer G, Obermair A, Koschat M, Preyer O, Kotz R, Trieb K. Concentration of vascular endothelial growth factor (VEGF) in the serum of patients with malignant bone tumors. Med Pediatr Oncol 2001; 36: 601-604 (PMID: 11344490).
+5.	Choueiri TK, Garcia JA, Elson P, Khasawneh M, Usman S, Golshayan AR, et al. Clinical factors associated with outcome in patients with metastatic clear-cell renal cell carcinoma treated with vascular endothelial growth factor-targeted therapy. Cancer 2007; 110: 543550 (PMID: 17577222) (doi: 10.1002/cncr.22827).
+6.	Bernardini S, Fauconnet S, Chabannes E, Henry PC, Adessi G, Bittard H. Serum levels of vascular endothelial growth factor as a prognostic
+factor in bladder cancer. J Urol 2001; 166: 1275-1279 (PMID: 11547057).
+7.	Charlesworth PJ, Harris AL. Harris mechanisms of disease: angiogenesis iurologic malignancies. Nature Clinical Practice Urology 2006; 3: 157169 (PMID: 16528288) (doi: 10.1038/ncpuro0434).
+8.	Deprimo SE, Bello CL, Smeraglia J, Baum CM, Spinella D, Rini BI, et al. Circulating protein biomarkers of pharmacodynamic activity of sunitinib in patients with metastatic renal cell carcinoma: modulation of VEGF and VEGF-related proteins. J Transl Med 2007; 5: 32-33 (PMID: 17605814) (doi: 10.1186/1479-5876-5-32).
+9.	Fechner G, Classen K, Schmidt D, Hauser S, Muller SC. Rapamycin inhibits in vitro growth and release of angiogenetic factors in human bladder cancer. Urology 2009; 73: 665-668 (PMID: 19081609) (doi: 10.1016/j.urology.2008.09.070).
+10.	Trapeznikova MF, Glybin PV, Tumanyan VG, Gerstein ES, Dutov VV, Kushlinsky NE. Vascular endothelial growth factor and vascular endothelial growth factor receptor 2 in the blood serum, tumor and renal parenchyma of patients with renal cell carcinoma. Urology 2010; (4): 3-7 [Article in Russian].
+11.	Motzer RJ, Michaelson MD, Redman BG, Hudes GR, Wilding G, Figlin RA, et al. Activity of SU11248, a multitargeted inhibitor of vascular endothelial growth factor receptor and platelet-derived growth factor receptor, in patients with metastatic renal cell carcinoma. J Clin Oncol 2006; 24: 16-24 (PMID: 16330672) (doi: 10.1200/JCO.2005.02.2574).
+Authors:
+D.A. Durnov — MD, Post-graduate, Department of Urology, Saratov State Medical University n.a. V.I. Razumovsky, Saratov, Russia;
+Vasiliy Yu. Mikhailov — MD, Post-graduate, Department of Urology, Saratov State Medical University n.a. V.I. Razumovsky, Saratov, Russia;
+N.B. Zakharova — MD, D.Sc., Professor, Head of Central Scientific Research Laboratory, Saratov State Medical University n.a. V. I. Razumovsky, Saratov, Russia;
+A.N. Ponukalin — MD, PhD, Assistant Professor, Department of Urology, Saratov State Medical University n.a. V. I. Razumovsky, Saratov, Russia.

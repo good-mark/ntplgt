@@ -1,0 +1,97 @@
+
+          ﻿DOI: 10.12731/2218-7405-2013-7-1
+ASSESSMENT OF PROFESSIONAL SKILLS OF STUDENTS IN IT-BASED CONTROLLED EDUCATIONAL ENVIRONMENT
+OF A UNIVERSITY
+Boyarov E.N.
+The article looks at the problem of estimating professional skills of students, the process of their building and assessing their level in IT-based controlled educational environment of a university. The author presents research findings of professional skills level of future educational professionals in the field of Life Safety1 based on their academic results.
+Goal: to develop and show by experiments efficiency of building professional skills of students in IT-based controlled educational environment of a university.
+Results: increasing the level of professional skills in IT-based controlled educational environment of a university.
+Scope of application of results: field of higher professional education Keywords: professional skills; life safety; IT-based controlled educational environment of a university; competency building approach.
+1 Life Safety or Fundamentals of Health and Safety is a secondary school subject, which involves teaching basic rules of how to act in dangerous situations in everyday life (natural disasters, fires, terrorist attacks, etc.), provide first aid, etc.
+ОЦЕНКА СФОРМИРОВАННОСТИ ПРОФЕССИОНАЛЬНЫХ КОМПЕТЕНЦИЙ У СТУДЕНТОВ В УСЛОВИЯХ БЕЗОПАСНОЙ ИНФОРМАЦИОННОЙ ОБРАЗОВАТЕЛЬНОЙ СРЕДЫ ВУЗА
+Бояров Е.Н.
+В статье рассмотрены проблемы определения профессиональных компетенций, формирования и оценки уровня их сформированности у студентов в условиях безопасной информационной образовательной среды вуза. Приведены результаты исследования уровня сформированности профессиональных компетенций у будущих специалистов образования в области безопасности жизнедеятельности по результатам обучения.
+Цель: разработать и экспериментально доказать эффективность формирования профессиональных компетенций у студентов в условиях безопасной информационной образовательной среды вуза
+Результаты: повышение уровня сформированности профессиональных компетенций в информационной образовательной среде вуза.
+Область применения результатов: сфера высшего профессионального образования
+Ключевые слова: профессиональные компетенции; безопасность жизнедеятельности; безопасная информационная образовательная среда вуза; компе-тентностный подход.
+Nowadays, the primary task of pedagogical community is to train specialists who would not only possess subject knowledge, but have a number of skills necessary to apply their knowledge when conducting teaching in a school.
+Psychological and pedagogical literature describes various qualitative and quantitative techniques to analyze the results of education, assess knowledge, skills,
+abilities and competence of students, which comprise specific competence. (A.P. Belyaeva, V.P. Bespalko, O.V. Rogovaya, A. P. Tryapitsina, etc.) However, the system to assess and measure abilities and personality characteristics that are the part of professional competence of future professionals in Life Safety is in the making. Thus, modern pedagogy has faced a controversy between the necessity to train highly professional specialists in Life Safety and the lack of properly elaborated scientific grounding of assessment of qualification of such specialists.
+One of the solutions to the problem of training Life Safety specialists is closely connected with creating information and educational environment at the educational institution that would foster building competence of students. At the end of the XXth century owing to the influence of external factors there became acute the idea of using means of information and communication technology in academic process. In didactical and organizational aspects the resources of educational environment foster the improvement of the quality of education, personality development and gaining professional experience.
+As such, training of Life Safety teachers in IT-based controlled educational environment of a university is aimed at creating the kind of pedagogical conditions that would ensure proper protection of a student from the negative influence at every stage of the educational process. IT-based controlled educational environment should embrace a complex of technologies and methods and enable the educational process to absorb new information technologies which can aggregate, store and process information while at the same time providing direct support and teaching technologies to the student and teacher. Critical to its function is management of data and network security.
+Informative potential of IT-based controlled educational environment can ensure proper training and development of an advanced Life Safety specialist, foster intellectual and spiritual development of a graduate, prepare them for professional life presupposing specific knowledge, skills, competence and mastership.
+In competency building approach building professional competence of future
+educational specialists in life safety is a goal of their highest professional education. Thus, it is practical to look at the stages of the process of development of basic skills of Life Safety educational specialist to uncover the contents of education in the subject field of life safety.
+Presently, in modern level-based educational system professional skills are generalized and need to be specified. Our task is to determine the scope of subject matters, subject contents, as well as skills and types of activities, which certain competencies embrace. (I.A. Zimnyaya, A.V. Khutorskoy, O.E. Lebedev, A.L. Andreeva, etc.)
+Thus, there arise the following tasks of the research:
+-	to define professional skills of future educational specialists in Life Safety;
+-	to develop diagnostic instruments for assessing the level of development of professional skills in future educational specialists in Life Safety;
+-	to detect the level of development of professional skills of future educational specialists in the field of Life Safety in conditions of IT-based controlled educational environment of a university.
+Analysis of Federal State Educational Standards of Higher Professional
+rd
+Education of the 3 generation and experimental research conducted by the teachers of Life Safety and Civil Defense Department of Sakhalin State University (Yuzhno-Sakhalinsk) and some other educational institutions of the Sakhalin Region helped to define the main components of the notion of professional competence of a Life Safety educational specialist [1], which are:
+-	ability to make use of basic theories of Life Safety for solving professional tasks (professional skill-1);
+-	notion of present-day interaction system between the human and the environment and its components (professional skill-2);
+-	ability to detect typical threats and uncover new threats of the environment (professional skill-3);
+-	ability to prototype ongoing processes in the habitat and disclose their interrelations (professional skill-4);
+-	ability to analyze the situation status for undertaking the necessary actions to ensure life safety;
+-	ability to excerpt potentially hazardous situations in everyday life in order to define the risk of occurrence of a hazardous situation (professional skill-6);
+-	ability to estimate the dynamics of the development of a hazardous situation and forecast potential dangerous outcomes (professional skill-7);
+-	knowledge of ways to ensure safe everyday life activities (professional skill-
+8);
+-	ability to take emergency decisions in a dangerous situation (professional skill-9);
+-	ability to assess conditions and consequences of decisions on providing first aid to injured or aggrieved persons in an emergency situation (professional skill-10);
+-	ability to take measures to ensure help to injured or aggrieved persons in an emergency situation (professional skill-11);
+-	ability to use techniques of first aid provision in different types of emergency situations (professional skill-12);
+-	ability to use individual and collective protection means (professional skill-
+13);
+-	ability to use various technical means of safety assurance (professional skill-
+14).
+The following range of research techniques was used for obtaining objective evidence while conducting the experiment: observing student activity, discussions, testing, studying documents (student reports, contents of teaching materials on the subjects, shared information educational resources of safe educational environment of a university); expert assessment of professional skills of the students, performed by teachers and materials developers; qualitative and quantitative analysis of data. Sampling of the research included 54 students.
+Experimental research was conducted during 2011-2013 at Life Safety and Civil Defense Department of Sakhalin State University. 2 groups of students, 'experimental' and 'control' groups took part in the experiment. Following the goal of the experiment, in experimental group (26 students) educational process was conducted in safe information environment of the university, while in control group (28 students) traditional approach was used.
+To assess the competence of future specialists in life safety students were tested before resources of safe information environment were introduced to their education (stage 1, 2011), after mid-sessionals (stage 2, 2012) and after completion of the course (stage 3, 2013) in compliance with competence evaluation method of A.P. Tryapitsina [3, pp. 57- 63].
+During the test students were supposed to answer 42 questions, nominally grouped into categories of 3 questions each to test reproductive and creative skills of digestion of instruction material, which were meant to assess each professional skill [3, p.57]. Students got an 'excellent'(5) grade if they gave three correct answers in the group of questions, a 'good'(4) grade if they gave 1 wrong answer, 'satisfactory'(3) for two incorrect answers and 'bad' (2) - for three incorrect answers.
+You can see aggregated test results in pic.1 and 2.
+Pic. 1. Aggregated test results of students from experimental group
+Pic. 2. Aggregated test results of students from control group
+Comparative analysis of professional skills of students of experimental and control groups shows higher results among students, who used safe information resources of the university in their training.
+We have used mathematical statistics methods to measure the degree of credibility of the results of digestion of knowledge among students. You can see statistical data in table 1.
+Table 1
+Results of Statistical Data Processing
+Stages of experiment	a	a2	Xav	v, в %
+Stage 1	1,09	0,08	3,54	30,78
+Stage 2	0,25	0,02	4,12	6,14
+Stage 3	0,08	0,01	4,45	1,80
+Comparative analysis of obtained statistical data on each stage of the experimental research shows that students displayed the highest level of professional skills at the last stage of the experiment (Xcp.(3) > Xcp.(2) > X^)}.
+Comparing the coefficients of the variation shows that the research results,
+which were obtained at the end of student teaching practicum, were more stable
+222
+(V(3) < V(2) < V(1)). Besides, comparison of dispersion (a (3) < a (2) < a (1)) and mean-
+square deviation (ст(3) < Ст(2) < Ст(1)) shows that professional skills of future educational specialists in Life Safety are efficiently developed in IT-based controlled educational environment of a university.
+We can draw the following conclusions from the research results:
+1.	Conducted analysis of psychological, pedagogical literature and Federal State Educational Standards of Higher Professional Education made it possible to make a list of professional skills necessary for training of future educational specialists in Life Safety.
+2.	To measure the level of professional skills of students in IT-based controlled educational environment of a university conducting testing to assess each of the professional skills of students appears to be the most efficient diagnostic instrument.
+3.	Teaching academic subjects in IT-based controlled educational environment of a university ensures efficient development of professional skills of future educational specialists in Life Safety. Thus, we can draw the conclusion that IT-based controlled educational environment is an essential component in the process of developing professional skills of university students.
+References
+1.	Abramova S.V., Boyarov E.N. Otsenka sformirovannosti professionalnykh kompetentsiy u studentov [Assessment of Professional Skills of Students]. Psikhologiya obucheniya, no. 3 (2001): 68-78.
+2.	Kozyrev V.A., Radionova N.F., Tryapitsyna A.P. Kompetentnostnyy podkhod v pedagogicheskom obrazovanii [Competency Building Approach in Teacher Training]. SPb., 2005.
+3.	Tryapitsyna A.P. Otsenka professionalnoy kompetentnosti bakalavrov i magistrov obrazovaniya: metodicheskie rekomendatsii [Assessment of Professional
+Competence of Bachelors of Education and Masters of Education: Best Practices]. SPb., 2008.
+4.	Putilov G.P., Kechiev L.N., Stepanov P.V. Informatsionn-obrazovatelnaya sreda tekhnicheskogo vuza na baze obrazovatelnogo internet servera. Materialy nauchno-prakticheskoy konf. «Professionalnoe inzhenerno-tekhnich. i voennoe obrazovanie v XXI veke» [Information Educational Environment of a Technical University Based on Educational Internet Server. Materials of research and training conference 'Professional Engineering, Technical and Military Education in XXI Century']. Part 2. M., 2001. pp. 157-158.
+5.	Khutorskoy A.V. Klyuchevye kompetentsii kak komponent lichnostno-orientirovannogo obrazovaniya [Key Competencies as a Component of Personality-Oriented Education]. Narodnoe obrazovanie, no. 2 (2003).
+Список литературы
+1.	Абрамова С.В., Бояров Е.Н. Оценка сформированности профессиональных компетенций у студентов // Психология обучения. № 3. 2001. С. 68-78
+2.	Компетентностный подход в педагогическом образовании / Под ред. В.А. Козырева, Н.Ф. Радионовой, А.П. Тряпицыной. СПб.: изд-во РГПУ им. А. И. Герцена, 2005.
+3.	Оценка профессиональной компетентности бакалавров и магистров образования: методические рекомендации / Под ред. А.П. Тряпицыной; СПб.: изд-во РГПУ им. А.И. Герцена, 2008.
+4.	Путилов Г.П., Кечиев Л.Н., Степанов П.В. Информационн-образовательная среда технического вуза на базе образовательного интернет сервера. Материалы научно-практической конф. «Профессиональное инженер-но-технич. и военное образование в XXI веке», Часть 2. Москва 2001. С. 157158.
+5.	Хуторской А.В. Ключевые компетенции как компонент личностно-ориентированного образования // Народное образование. 2003. № 2.
+DATA ABOUT THE AUTHOR
+Boyarov Evgeiy Nikolaevich, Associate Professor of Life Safety, Ph.D. in Pedagogical Science
+Sakhalin State University
+288, Lenina street, Yuzhno-Sakhalinsk, Sakhalin Region, 693008, Russia e-mail: e.boyarov@mail.ru
+ДАННЫЕ ОБ АВТОРЕ
+Бояров Евгений Николаевич, доцент кафедры безопасности жизнедеятельности и гражданской обороны, кандидат педагогических наук, доцент Сахалинский государственный университет
+ул. Ленина, д.288, г. Южно-Сахалинск, Сахалинская область, 693008, Россия
+e-mail: e. boyarov@mail. ru
+SPIN-код в системе Science Index: 5413-4504
